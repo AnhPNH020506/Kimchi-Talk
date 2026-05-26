@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KimChiTalk.Api", "KimChiTalk.Api\KimChiTalk.Api.csproj", "{D07717C0-F342-41BD-B567-D5A1B8C3B7C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KimChiTalk.Service", "KimChiTalk.Service\KimChiTalk.Service.csproj", "{62CEA230-8279-4812-8381-3E6FDBF8B3F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KimChiTalk.Repository", "KimChiTalk.Repository\KimChiTalk.Repository.csproj", "{7EDDABEE-3C7E-4C64-BBB1-3BEFCD3942DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D07717C0-F342-41BD-B567-D5A1B8C3B7C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D07717C0-F342-41BD-B567-D5A1B8C3B7C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D07717C0-F342-41BD-B567-D5A1B8C3B7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D07717C0-F342-41BD-B567-D5A1B8C3B7C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62CEA230-8279-4812-8381-3E6FDBF8B3F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62CEA230-8279-4812-8381-3E6FDBF8B3F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62CEA230-8279-4812-8381-3E6FDBF8B3F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62CEA230-8279-4812-8381-3E6FDBF8B3F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EDDABEE-3C7E-4C64-BBB1-3BEFCD3942DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EDDABEE-3C7E-4C64-BBB1-3BEFCD3942DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EDDABEE-3C7E-4C64-BBB1-3BEFCD3942DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EDDABEE-3C7E-4C64-BBB1-3BEFCD3942DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

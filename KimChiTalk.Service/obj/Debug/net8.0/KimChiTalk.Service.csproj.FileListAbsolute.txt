@@ -1,0 +1,12 @@
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Service\bin\Debug\net8.0\KimChiTalk.Service.deps.json
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Service\bin\Debug\net8.0\KimChiTalk.Service.dll
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Service\bin\Debug\net8.0\KimChiTalk.Service.pdb
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Service\obj\Debug\net8.0\KimChiTalk.Service.csproj.AssemblyReference.cache
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Service\obj\Debug\net8.0\KimChiTalk.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Service\obj\Debug\net8.0\KimChiTalk.Service.AssemblyInfoInputs.cache
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Service\obj\Debug\net8.0\KimChiTalk.Service.AssemblyInfo.cs
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Service\obj\Debug\net8.0\KimChiTalk.Service.csproj.CoreCompileInputs.cache
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Service\obj\Debug\net8.0\KimChiTalk.Service.dll
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Service\obj\Debug\net8.0\refint\KimChiTalk.Service.dll
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Service\obj\Debug\net8.0\KimChiTalk.Service.pdb
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Service\obj\Debug\net8.0\ref\KimChiTalk.Service.dll

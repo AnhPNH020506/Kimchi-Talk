@@ -1,0 +1,14 @@
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Repository\bin\Debug\net8.0\KimChiTalk.Repository.deps.json
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Repository\bin\Debug\net8.0\KimChiTalk.Repository.runtimeconfig.json
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Repository\bin\Debug\net8.0\KimChiTalk.Repository.dll
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Repository\bin\Debug\net8.0\KimChiTalk.Repository.pdb
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Repository\obj\Debug\net8.0\KimChiTalk.Repository.csproj.AssemblyReference.cache
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Repository\obj\Debug\net8.0\KimChiTalk.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Repository\obj\Debug\net8.0\KimChiTalk.Repository.AssemblyInfoInputs.cache
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Repository\obj\Debug\net8.0\KimChiTalk.Repository.AssemblyInfo.cs
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Repository\obj\Debug\net8.0\KimChiTalk.Repository.csproj.CoreCompileInputs.cache
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Repository\obj\Debug\net8.0\KimChiTalk.Repository.dll
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Repository\obj\Debug\net8.0\refint\KimChiTalk.Repository.dll
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Repository\obj\Debug\net8.0\KimChiTalk.Repository.pdb
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Repository\obj\Debug\net8.0\KimChiTalk.Repository.genruntimeconfig.cache
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Repository\obj\Debug\net8.0\ref\KimChiTalk.Repository.dll
