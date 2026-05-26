@@ -1,0 +1,62 @@
+# Build artifacts
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+publish/
+artifacts/
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+project.assets.json
+project.nuget.cache
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+
+# JetBrains Rider / ReSharper
+.idea/
+*.iml
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Logs and local environment files
+*.log
+.env
+.env.*
+!.env.example
+!.env.template
+!.env.sample
+*.env.local
+.envrc
+
+# Local app settings and launch profiles
+**/appsettings.Development.json
+**/appsettings.Local.json
+**/appsettings.*.local.json
+**/appsettings.Secrets.json
+**/Properties/launchSettings.json
+
+# Local Docker Compose overrides
+docker-compose.override.yml
+docker-compose.override.yaml
+compose.override.yml
+compose.override.yaml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+.fake
+.gemini/
+gha-creds-*.json
