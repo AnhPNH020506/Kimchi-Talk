@@ -146,7 +146,23 @@ public class AppDbContext : DbContext
             };
             builder.HasData(lesson);
         });
-        modelBuilder.Entity<UserCourse>(builder => { });
+        modelBuilder.Entity<Grammar>(builder =>
+        {
+            builder.Property(g => g.Title).HasMaxLength(128).IsRequired();
+            builder.Property(g => g.Explanation).HasMaxLength(128).IsRequired();
+            builder.Property(g => g.Example).HasMaxLength(128).IsRequired();
+
+        });
+        
+        modelBuilder.Entity<UserCourse>(builder =>
+        {
+            
+        });
+        modelBuilder.Entity<UserCourse>(builder =>
+        {
+            
+        });
+        
         modelBuilder.ApplyConfigurationsFromAssembly(typeof(AppDbContext).Assembly);
     }
 }
