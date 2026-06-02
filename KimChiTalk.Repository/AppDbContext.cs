@@ -158,7 +158,7 @@ public class AppDbContext : DbContext
         {
             
         });
-        modelBuilder.Entity<UserCourse>(builder =>
+        modelBuilder.Entity<UserVocabulary >(builder =>
         {
             
         });
