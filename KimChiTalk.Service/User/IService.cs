@@ -1,6 +1,6 @@
-namespace KimChiTalk.Service.UserService;
+namespace KimChiTalk.Service.User;
 
-public class IService
+public interface IService
 {
     
 }

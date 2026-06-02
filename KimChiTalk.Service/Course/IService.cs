@@ -1,6 +1,6 @@
 namespace KimChiTalk.Service.Course;
 
-public class IService
+public interface IService
 {
     
 }
