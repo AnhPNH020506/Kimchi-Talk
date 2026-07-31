@@ -130,3 +130,63 @@
 | **Cập nhật entity thật trong code** | ⏳ Bước tiếp theo (sau Use Case) |
 
 > Toàn bộ Business Rules đã chốt xong. Bước tiếp theo: viết Use Case chi tiết (Customer / Admin) rồi mới bắt đầu sửa entity + migration.
+
+
+Use Case chi tiết — KimChiTalk
+
+Dựa trên toàn bộ Business Rules đã chốt, mình liệt kê Use Case theo từng Actor. Mỗi use case gồm: Mô tả, Điều kiện tiên quyết (Precondition), Luồng chính (Main Flow), Luồng phụ/ngoại lệ (Alternative Flow) — đây là format chuẩn BA dùng để dev đọc vào là implement được ngay, không cần hỏi lại.
+
+ACTOR: CUSTOMER
+UC-01: Đăng ký tài khoản
+Precondition: Chưa có tài khoản
+Main flow: Nhập Name, Email, Password → hệ thống hash password (HashshedPassword) → tạo User mới → chuyển sang màn hình chọn Course
+Alternative: Email đã tồn tại → báo lỗi, yêu cầu đăng nhập thay vì đăng ký
+UC-02: Đăng nhập
+Main flow: Nhập Email + Password → xác thực → vào màn hình chính (danh sách khóa học / tiến độ đang học)
+Alternative: Sai thông tin → báo lỗi
+UC-03: Xem danh sách Course (không cần đăng nhập)
+Main flow: Khách vãng lai xem danh sách Course, phân theo Level, thấy Course nào đã mở/khóa (dựa theo Order) — nhưng không đăng ký học được nếu chưa đăng nhập
+Business rule áp dụng: BR-01, BR-02
+UC-04: Đăng ký học 1 Course
+Precondition: Đã đăng nhập
+Main flow: Chọn Course có Order hợp lệ (Course trước đó cùng Level đã Completed) → tạo record UserCourse (EnrollAt = true)
+Alternative: Chọn Course chưa mở khóa (Order chưa tới lượt) → hệ thống chặn, hiển thị thông báo "cần hoàn thành Course trước"
+Business rule áp dụng: BR-03
+UC-05: Học 1 Lesson — giai đoạn Practice
+Precondition: Đã đăng ký Course chứa Lesson này
+Main flow: Xem Vocabulary → đọc Grammar → làm Question (QuestionStage = Practice) → sai không bị chặn, có thể làm lại tự do → xem giải thích khi sai (đáp ứng yêu cầu "giải thích chi tiết câu sai")
+Business rule áp dụng: BR-06, BR-08, BR-13, BR-20
+UC-06: Làm bài Final Test của Lesson
+Precondition: Đã hoàn thành giai đoạn Practice
+Main flow: Làm hết Question (QuestionStage = FinalTest) → nếu đúng 100% → UserProgress.Completed = true, Lesson tiếp theo được mở
+Alternative flow (câu sai): Câu nào sai → hệ thống hiển thị lại kiến thức liên quan (Vocabulary/Grammar) → Customer làm lại chỉ câu đã sai → lặp lại đến khi đúng hết
+Business rule áp dụng: BR-20, BR-21
+UC-07: Xem lại câu sai đã lưu để luyện tập
+Main flow: Sau khi hoàn thành 1 bài (Practice hoặc Final Test), hệ thống hiển thị danh sách câu đã từng sai trong phiên đó để Customer luyện lại thêm (không bắt buộc)
+UC-08: Nhận thông báo động viên trong lúc học
+Trigger: Customer hoàn thành 1/2 số Lesson trong Course, hoặc hoàn thành hết Course
+Main flow: Hiển thị câu động viên (random từ 1 danh sách seed sẵn)
+UC-09: Nhận Reward khi đạt mốc Level
+Trigger: Hoàn thành 1/2 số Course trong 1 Level, hoặc hoàn thành 100% Course trong Level
+Main flow: Kiểm tra UserReward xem đã nhận Reward này chưa → nếu chưa: tạo record UserReward, hiển thị popup (ảnh + lời chúc) → nếu đã nhận rồi: không hiển thị lại
+Business rule áp dụng: BR-04, BR-05, BR-10, BR-22
+UC-10: Xem mục "Sưu tầm" (Collection)
+Main flow: Customer vào mục riêng, xem lại toàn bộ Reward đã nhận được từ trước tới giờ (dựa theo UserReward)
+Business rule áp dụng: BR-23
+UC-11: Xem tiến độ học tập của bản thân
+Main flow: Vào lại app lần 2 trở đi → hệ thống hiển thị Course/Lesson đang học dở, % hoàn thành
+UC-12: Đánh dấu từ vựng yêu thích (cần xác nhận — xem câu hỏi cuối)
+Main flow: Customer đánh dấu 1 Vocabulary là IsFavorite = true để xem lại sau
+ACTOR: ADMIN
+UC-13: CRUD Course / Level / Order
+Main flow: Admin thêm/sửa/xóa Course, gán Level + Order → hệ thống validate không trùng Order trong cùng 1 Level
+UC-14: CRUD Lesson (gồm Vocabulary, Grammar, Question, Answer)
+Main flow: Admin quản lý nội dung từng Lesson, bao gồm gán QuestionType và QuestionStage cho từng Question khi tạo
+UC-15: Xem tiến độ học tập của Customer
+Main flow: Admin xem danh sách Customer, chọn 1 người → xem Course/Lesson đang học, % hoàn thành, lịch sử làm bài
+UC-16: Gửi thư động viên/chúc mừng riêng cho Customer (Could-have, không bắt buộc v1)
+Main flow: Admin soạn nội dung → gửi tới 1 Customer cụ thể → Customer nhận được trong app (không phải email, vì Notification/Email đã loại khỏi scope — BR-11)
+Vấn đề phát sinh khi viết Use Case — cần bạn xác nhận trước khi chốt hoàn toàn
+UC-12 (đánh dấu từ vựng yêu thích): Field IsFavorite đã có sẵn trong code (UserVocabulary) nhưng chưa từng được nhắc đến trong toàn bộ phân tích trước đó. Bạn có muốn giữ tính năng này trong scope v1 không, hay đây là phần code thừa cần bỏ qua (không cần Use Case, không cần UI)?
+UC-16 (Admin gửi thư riêng): Đã xác định là Could-have — bạn có muốn viết Use Case chi tiết cho tính năng này luôn (để sẵn), hay để trống, chỉ làm khi thật sự cần ở version sau?
+Trình tự Lesson trong Course: Mình thấy BR-02/BR-03 nói về Order của Course trong Level, nhưng chưa có rule về thứ tự Lesson trong Course — Lesson học tự do trong 1 Course hay cũng phải tuần tự? (Đây là gap mình vừa phát hiện khi viết UC-05/UC-06, cần chốt vì ảnh hưởng đến việc có cần thêm field Order cho Lesson không)
