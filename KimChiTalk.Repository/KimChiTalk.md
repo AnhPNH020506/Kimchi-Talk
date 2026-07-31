@@ -1,8 +1,8 @@
 # KimChiTalk — Business Rules Document (BRD rút gọn)
 
-> Phiên bản: v1 (MVP)
+> Phiên bản: v2 (MVP — bản chốt cuối trước khi sửa entity)
 > Ngày cập nhật: 31/07/2026
-> Trạng thái: Đã thống nhất qua phân tích BA, sẵn sàng để viết Use Case & cập nhật Entity
+> Trạng thái: Đã thống nhất toàn bộ qua phân tích BA, sẵn sàng để viết Use Case & cập nhật Entity
 
 ---
 
@@ -43,6 +43,8 @@
 |---|---|
 | BR-06 | Lesson được coi là `Completed` khi: đã xem hết Vocabulary + đọc hết Grammar + làm xong Question đạt điểm tối thiểu |
 | BR-07 | Course % hoàn thành = (Số Lesson đã Completed / Tổng số Lesson trong Course) × 100% |
+| BR-20 | Mỗi Lesson có 2 giai đoạn, phân biệt bằng field `Question.QuestionStage` (enum: `Practice`, `FinalTest`) — không tách bảng riêng: <br>• **Practice**: làm tự do, sai không sao, có thể làm lại nhiều lần <br>• **FinalTest**: phải trả lời **đúng 100%** thì Lesson mới được tính `Completed` |
+| BR-21 | Trong `FinalTest`, nếu trả lời sai: hệ thống nhắc lại kiến thức liên quan (Vocabulary/Grammar của câu đó) → Customer chỉ làm lại **các câu đã sai** (không làm lại toàn bộ) → lặp lại quy trình này đến khi trả lời đúng hết toàn bộ mới được qua Lesson tiếp theo |
 
 ### 3.3. Nội dung học mở rộng (Grammar, Question đa dạng)
 
@@ -63,6 +65,8 @@
 | BR-05 | Hoàn thành 100% Course trong 1 Level → mở thưởng + mở Level tiếp theo |
 | BR-10 | Cần bảng `UserReward` để lưu Customer đã nhận thưởng nào — tránh hiện popup thưởng trùng lặp |
 | BR-12 | Reward (avatar, lời chúc) **seed cứng sẵn trong DB** ở v1, chưa cần Admin CRUD — để dành version sau |
+| BR-22 | Reward dùng **ảnh cá nhân** (do chủ dự án chọn, không phải ảnh generate). DB chỉ lưu `ImageUrl` (string, path/URL) — **không lưu binary ảnh trong DB**. File ảnh thật lưu tĩnh trong project (`wwwroot/images/rewards/`), seed sẵn đường dẫn |
+| BR-23 | Có mục **"Sưu tầm"** (Collection) riêng để Customer xem lại toàn bộ Reward đã nhận được, không chỉ hiện popup 1 lần rồi mất |
 
 ### 3.5. Ngoài phạm vi v1 (Won't have)
 
@@ -101,17 +105,28 @@
 
 | Entity | Thay đổi |
 |---|---|
-| `Course` | + `Level` (enum), + `Order` (int) |
-| `Question` | + `QuestionType` (enum: VocabularyMeaning / Grammar / SentenceTranslation) |
+| `Course` | + `Level` (enum: Beginner/Intermediate/Advanced), + `Order` (int, thứ tự trong Level) |
+| `Question` | + `QuestionType` (enum: VocabularyMeaning / Grammar / SentenceTranslation), + `QuestionStage` (enum: Practice / FinalTest) |
 | `Grammar` | + quan hệ với `Question` (Question có thể thuộc Grammar thay vì chỉ Vocabulary) |
 | *(mới)* `UserGrammar` | UserId, GrammarId, IsLearned |
-| *(mới)* `UserReward` | UserId, RewardId (hoặc LevelId), ReceivedAt |
-| *(mới)* `Reward` | Title, Description, ImageUrl (avatar), Message (lời chúc), Level, MilestoneType (HalfLevel / FullLevel) |
+| *(mới)* `UserReward` | UserId, RewardId, ReceivedAt |
+| *(mới)* `Reward` | Title, Description, ImageUrl (path/URL, KHÔNG lưu binary), Message (lời chúc), Level, MilestoneType (HalfLevel / FullLevel) |
+| `UserCourse` | Rename `CoursesId` → `CourseId` (đúng convention) |
+| `Lesson` | Rename property `Courses` → `Course` (quan hệ là 1-1/nhiều-1, không phải số nhiều) |
+
+**Ghi chú lưu trữ ảnh:** File ảnh Reward đặt tại `wwwroot/images/rewards/`, seed sẵn đường dẫn tương đối vào field `ImageUrl`. Không dùng cloud storage ở v1 — tránh phát sinh dependency ngoài (đúng BR-19).
 
 ---
 
-## 6. Câu hỏi còn mở (theo dõi tiếp)
+## 6. Trạng thái tồn đọng
 
-- [ ] Chưa viết Use Case chi tiết theo từng Actor
-- [ ] Chưa xác nhận cách tính điểm tối thiểu để Lesson được coi là "đạt" (bao nhiêu % đúng?)
-- [ ] Chưa xác nhận nội dung/quy tắc cụ thể cho từng mốc thưởng theo Level
+| Vấn đề | Trạng thái |
+|---|---|
+| Ngưỡng hoàn thành Lesson | ✅ Đã chốt — BR-20, BR-21 (đúng 100% FinalTest, sai thì luyện lại đến khi đúng hết) |
+| Nội dung/quy tắc thưởng theo Level | ✅ Đã chốt — BR-22, BR-23 (ảnh cá nhân, mục Sưu tầm) |
+| Nơi lưu ảnh Reward | ✅ Đã chốt — lưu tĩnh trong project, DB chỉ lưu path |
+| Rename field kỹ thuật | ✅ Đã chốt — đổi tên cho đúng convention |
+| **Use Case chi tiết theo Actor** | ⏳ Bước tiếp theo |
+| **Cập nhật entity thật trong code** | ⏳ Bước tiếp theo (sau Use Case) |
+
+> Toàn bộ Business Rules đã chốt xong. Bước tiếp theo: viết Use Case chi tiết (Customer / Admin) rồi mới bắt đầu sửa entity + migration.
