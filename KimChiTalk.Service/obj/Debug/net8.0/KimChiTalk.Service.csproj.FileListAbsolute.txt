@@ -10,3 +10,4 @@ C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Service\obj\Debug\net8.0\Kim
 C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Service\obj\Debug\net8.0\refint\KimChiTalk.Service.dll
 C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Service\obj\Debug\net8.0\KimChiTalk.Service.pdb
 C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Service\obj\Debug\net8.0\ref\KimChiTalk.Service.dll
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Service\obj\Debug\net8.0\KimChiTalk.Service.sourcelink.json

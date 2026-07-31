@@ -19,6 +19,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\KimChiTalk.Repository\KimChiTalk.Repository.csproj" />
+      <ProjectReference Include="..\KimChiTalk.Service\KimChiTalk.Service.csproj" />
     </ItemGroup>
 
 </Project>
