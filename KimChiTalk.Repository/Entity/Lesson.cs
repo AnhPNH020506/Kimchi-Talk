@@ -5,7 +5,8 @@ namespace KimChiTalk.Repository.Entity;
 public class Lesson:BaseEntity<Guid>, IAuditableEntity
 {
     public required string Title { get; set; }
-    public Course? Courses { get; set; }
+    public int Order { get; set; }
+    public Course? Course { get; set; }
     public Guid CourseId { get; set; }
     
     public ICollection<Vocabulary> Vocabulary { get; set; } = new List<Vocabulary>();

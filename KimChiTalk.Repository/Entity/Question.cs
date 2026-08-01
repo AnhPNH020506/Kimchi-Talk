@@ -5,10 +5,11 @@ namespace KimChiTalk.Repository.Entity;
 public class Question:BaseEntity<Guid>, IAuditableEntity
 {
     public required string Content { get; set; }
-    public required string Type { get; set; }
     public QuestionType QuestionType { get; set; }
     public QuestionStage QuestionStage { get; set; }
     
+    public Guid GrammarId { get; set; }
+    public Grammar? Grammar { get; set; }
     public Guid LessonId { get; set; }
     public Lesson? Lesson { get; set; }
     public ICollection<Answer> Answers { get; set; } = new List<Answer>();

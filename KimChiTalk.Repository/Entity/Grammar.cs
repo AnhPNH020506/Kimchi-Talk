@@ -10,7 +10,8 @@ public class Grammar:BaseEntity<Guid>, IAuditableEntity
     
     public Guid LessonId { get; set; }
     public Lesson? Lesson { get; set; }
-    
+    public ICollection<Question> Questions { get; set; } = new List<Question>();
+    public ICollection<UserGrammar>  UserGrammars { get; set; } = new List<UserGrammar>();
     public DateTimeOffset CreatedAt { get; set; }
     public DateTimeOffset UpdatedAt { get; set; }
 }
