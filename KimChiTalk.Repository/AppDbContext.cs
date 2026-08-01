@@ -166,6 +166,25 @@ public class AppDbContext : DbContext
         {
             
         });
+        modelBuilder.Entity<AdminMessage>(builder =>
+        {
+            builder.Property(a => a.Content).HasMaxLength(128).IsRequired();
+            builder.HasOne(a => a.Admin)
+                .WithMany()
+                .HasForeignKey(a => a.AdminId)
+                .OnDelete(DeleteBehavior.Restrict);
+            builder.HasOne(a => a.User)
+                .WithMany()
+                .HasForeignKey(a => a.UserId)
+                .OnDelete(DeleteBehavior.Restrict);
+        });
+        modelBuilder.Entity<Reward>(builder =>
+        {
+            builder.Property(r => r.Title).HasMaxLength(128).IsRequired();
+            builder.Property(r => r.ImageUrl).HasMaxLength(128).IsRequired();
+            builder.Property(r => r.Message).HasMaxLength(128).IsRequired();
+
+        });
         
         modelBuilder.ApplyConfigurationsFromAssembly(typeof(AppDbContext).Assembly);
     }
