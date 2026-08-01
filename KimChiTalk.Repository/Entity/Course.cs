@@ -6,6 +6,8 @@ public class Course: BaseEntity<Guid>, IAuditableEntity
 {
     public required string Title { get; set; }
     public required string Description { get; set; }
+    public int Order { get; set; }
+    public CourseLevel Level { get; set; }
     
     public ICollection<UserCourse> UserCourses { get; set; } = new List<UserCourse>();
     public ICollection<Lesson> Lessons { get; set; } = new List<Lesson>();

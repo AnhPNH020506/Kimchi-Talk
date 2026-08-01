@@ -6,6 +6,8 @@ public class Question:BaseEntity<Guid>, IAuditableEntity
 {
     public required string Content { get; set; }
     public required string Type { get; set; }
+    public QuestionType QuestionType { get; set; }
+    public QuestionStage QuestionStage { get; set; }
     
     public Guid LessonId { get; set; }
     public Lesson? Lesson { get; set; }
