@@ -8,7 +8,7 @@ public class Question:BaseEntity<Guid>, IAuditableEntity
     public QuestionType QuestionType { get; set; }
     public QuestionStage QuestionStage { get; set; }
     
-    public Guid GrammarId { get; set; }
+    public Guid? GrammarId { get; set; }
     public Grammar? Grammar { get; set; }
     public Guid LessonId { get; set; }
     public Lesson? Lesson { get; set; }

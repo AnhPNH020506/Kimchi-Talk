@@ -30,6 +30,10 @@ public class AppDbContext : DbContext
     public DbSet<UserProgress> UserProgresses { get; set; }
     public DbSet<UserVocabulary> UserVocabulary { get; set; }
     public DbSet<Vocabulary> Vocabulary { get; set; }
+    public DbSet<UserReward> UserRewards { get; set; }
+    public DbSet<Reward> Rewards { get; set; }
+    public DbSet<UserGrammar>  UserGrammars { get; set; }
+    public DbSet<AdminMessage> AdminMessages { get; set; }
 
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -82,10 +86,10 @@ public class AppDbContext : DbContext
 
             builder.HasMany<UserCourse>(c => c.UserCourses)
                 .WithOne(c => c.Course)
-                .HasForeignKey(u => u.CoursesId)
+                .HasForeignKey(u => u.CourseId)
                 .OnDelete(DeleteBehavior.Cascade);
             builder.HasMany<Lesson>(u => u.Lessons)
-                .WithOne(u => u.Courses)
+                .WithOne(u => u.Course)
                 .HasForeignKey(u => u.CourseId)
                 .OnDelete(DeleteBehavior.Cascade);
             var courses = new List<Course>()
