@@ -35,7 +35,9 @@
 |---|---|
 | BR-01 | `Course` có field `Level` dạng **enum** (`Beginner`, `Intermediate`, `Advanced`) — độc lập với `Vocabulary.Level` (field Level ở Vocabulary chỉ dùng để phân loại độ khó từng từ, không đại diện cho cả Course) |
 | BR-02 | `Course` có field `Order` (số nguyên) — xác định thứ tự học bắt buộc trong cùng 1 Level |
-| BR-03 | Customer chỉ được học Course có `Order = N+1` khi Course có `Order = N` (cùng Level) đã hoàn thành 100% |
+| BR-03 | Customer chỉ được học Course có `Order = N+1` khi Course có `Order = N` (cùng Level) đã hoàn thành 100% (áp dụng nếu 1 Level có nhiều Course — xem BR-27b) |
+| BR-27 | Customer luôn được truy cập Course ở Level thấp hơn hoặc bằng Level đã mở khóa (không giới hạn quay lại ôn tập). Để **mở khóa Level cao hơn**, phải hoàn thành 100% Lesson thuộc Course của Level hiện tại (xem BR-05). So sánh thứ tự Level dựa theo giá trị `CourseLevel` enum (Beginner < Intermediate < Advanced), không dùng `Course.Order` |
+| BR-27b | **Cấu trúc thực tế hiện tại:** Chỉ có đúng **3 Course**, tương ứng 1-1 với 3 Level (Beginner, Intermediate, Advanced) — không có nhiều Course con trong 1 Level. Đơn vị "bậc thang" hiển thị trên UI chính là **Lesson**, không phải Course. Field `Course.Order` vẫn giữ để mở rộng sau này, nhưng hiện luôn bằng `1` cho cả 3 Course |
 
 ### 3.2. Hoàn thành bài học (Lesson / Course completion)
 
@@ -61,8 +63,8 @@
 
 | ID | Rule |
 |---|---|
-| BR-04 | Đạt 1/2 số Course trong 1 Level → mở thưởng (avatar / lời chúc) |
-| BR-05 | Hoàn thành 100% Course trong 1 Level → mở thưởng + mở Level tiếp theo |
+| BR-04 | Đạt mốc **1/2** số Lesson đã `Completed` trong Course (Level) → mở thưởng (avatar / lời chúc). Công thức: `(Số Lesson Completed / Tổng số Lesson trong Course) ≥ 50%` |
+| BR-05 | Đạt **100%** Lesson đã `Completed` trong Course (Level) → mở thưởng + mở Level tiếp theo |
 | BR-10 | Cần bảng `UserReward` để lưu Customer đã nhận thưởng nào — tránh hiện popup thưởng trùng lặp |
 | BR-12 | Reward (avatar, lời chúc) **seed cứng sẵn trong DB** ở v1, chưa cần Admin CRUD — để dành version sau |
 | BR-22 | Reward dùng **ảnh cá nhân** (do chủ dự án chọn, không phải ảnh generate). DB chỉ lưu `ImageUrl` (string, path/URL) — **không lưu binary ảnh trong DB**. File ảnh thật lưu tĩnh trong project (`wwwroot/images/rewards/`), seed sẵn đường dẫn |
@@ -140,3 +142,5 @@
 | Chi tiết Admin gửi thư (UC-16) | ✅ Đã chốt — gửi riêng lẻ, không broadcast (BR-24) |
 | Thứ tự Lesson trong Course | ✅ Đã chốt — dùng field `Order` (BR-25) |
 | **Cập nhật entity thật trong code** | ⏳ Bước tiếp theo — sẵn sàng bắt đầu |
+
+> Toàn bộ Business Rules và Use Case đã chốt xong. Bước tiếp theo: cập nhật entity + tạo migration.

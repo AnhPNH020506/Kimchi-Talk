@@ -99,18 +99,24 @@ public class AppDbContext : DbContext
                     Id = CourseId1,
                     Title = "Beginner",
                     Description = "Introductory Korean Language Course",
+                    Level = CourseLevel.Beginner,
+                    Order = 1
                 },
                 new()
                 {
                     Id = CourseId2,
                     Title = "Intermediate",
                     Description = "Introductory Korean Language Course",
+                    Level = CourseLevel.Intermediate,
+                    Order = 1
                 },
                 new()
                 {
                     Id = CourseId3,
                     Title = "Advanced",
                     Description = "Introductory Korean Language Course",
+                    Level = CourseLevel.Advanced,
+                    Order = 1
                 },
             };
             builder.HasData(courses);
@@ -136,16 +142,22 @@ public class AppDbContext : DbContext
                 {
                     Id = LessonId1,
                     Title = "Beginner",
+                    CourseId = CourseId1,
+                    Order = 1
                 },
                 new()
                 {
                     Id = LessonId2,
                     Title = "Beginner",
+                    CourseId = CourseId2,
+                    Order = 2
                 },
                 new()
                 {
                     Id = LessonId3,
                     Title = "Beginner",
+                    CourseId = CourseId3,
+                    Order = 3
                 }
             };
             builder.HasData(lesson);
