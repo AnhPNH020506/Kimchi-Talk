@@ -1,5 +1,4 @@
 using KimChiTalk.Repository;
-using KimChiTalk.Repository.Entity;
 using Microsoft.EntityFrameworkCore;
 
 using AnswerService = KimChiTalk.Service.Answer;
@@ -11,9 +10,7 @@ using VocabularyService = KimChiTalk.Service.Vocabulary;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddControllers();
-
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -30,8 +27,23 @@ builder.Services.AddScoped<CourseService.IService, CourseService.Service>();
 builder.Services.AddScoped<LessonService.IService, LessonService.Service>();
 builder.Services.AddScoped<VocabularyService.IService, VocabularyService.Service>();
 
-
 var app = builder.Build();
+
+// ── Tạo DB + apply migration + seed 14.390 record ─────────────────
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    await db.Database.MigrateAsync();
+    await DbSeeder.SeedAsync(db);
+}
+// ──────────────────────────────────────────────────────────────────
+
+// Swagger UI (bạn đã AddSwaggerGen nhưng thiếu 2 dòng này)
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
 app.UseAuthentication();
 app.UseAuthorization();

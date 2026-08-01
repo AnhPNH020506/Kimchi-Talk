@@ -272,7 +272,6 @@ namespace KimChiTalk.Repository.Migrations
                     LessonId = table.Column<Guid>(type: "uuid", nullable: false),
                     CreatedAt = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: false),
                     UpdatedAt = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: false),
-                    GrammarId1 = table.Column<Guid>(type: "uuid", nullable: true),
                     IsDeleted = table.Column<bool>(type: "boolean", nullable: false)
                 },
                 constraints: table =>
@@ -284,11 +283,6 @@ namespace KimChiTalk.Repository.Migrations
                         principalTable: "Grammars",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.SetNull);
-                    table.ForeignKey(
-                        name: "FK_Questions_Grammars_GrammarId1",
-                        column: x => x.GrammarId1,
-                        principalTable: "Grammars",
-                        principalColumn: "Id");
                     table.ForeignKey(
                         name: "FK_Questions_Lessons_LessonId",
                         column: x => x.LessonId,
@@ -428,11 +422,6 @@ namespace KimChiTalk.Repository.Migrations
                 name: "IX_Questions_GrammarId",
                 table: "Questions",
                 column: "GrammarId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Questions_GrammarId1",
-                table: "Questions",
-                column: "GrammarId1");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Questions_LessonId",

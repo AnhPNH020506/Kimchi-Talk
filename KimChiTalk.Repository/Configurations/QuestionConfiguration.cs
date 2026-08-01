@@ -12,9 +12,13 @@ public class QuestionConfiguration : IEntityTypeConfiguration<Question>
         builder.Property(q => q.QuestionType).HasConversion<string>().HasMaxLength(64);
         builder.Property(q => q.QuestionStage).HasConversion<string>().HasMaxLength(64);
         builder.HasIndex(q => q.LessonId);
+        builder.HasIndex(q => q.GrammarId);
 
+        // ⚠️ PHẢI trỏ vào Grammar.Questions.
+        // Nếu để .WithMany() rỗng, Grammar.Questions bị "mồ côi" và EF sẽ tự
+        // tạo quan hệ THỨ HAI với shadow FK 'GrammarId1' (đúng warning bạn gặp).
         builder.HasOne(q => q.Grammar)
-            .WithMany()
+            .WithMany(g => g.Questions)
             .HasForeignKey(q => q.GrammarId)
             .OnDelete(DeleteBehavior.SetNull);
 

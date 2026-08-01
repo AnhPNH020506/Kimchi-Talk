@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace KimChiTalk.Repository.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260801163501_Initial")]
+    [Migration("20260801163818_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -260,9 +260,6 @@ namespace KimChiTalk.Repository.Migrations
                     b.Property<Guid?>("GrammarId")
                         .HasColumnType("uuid");
 
-                    b.Property<Guid?>("GrammarId1")
-                        .HasColumnType("uuid");
-
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("boolean");
 
@@ -285,8 +282,6 @@ namespace KimChiTalk.Repository.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("GrammarId");
-
-                    b.HasIndex("GrammarId1");
 
                     b.HasIndex("LessonId");
 
@@ -678,13 +673,9 @@ namespace KimChiTalk.Repository.Migrations
             modelBuilder.Entity("KimChiTalk.Repository.Entity.Question", b =>
                 {
                     b.HasOne("KimChiTalk.Repository.Entity.Grammar", "Grammar")
-                        .WithMany()
+                        .WithMany("Questions")
                         .HasForeignKey("GrammarId")
                         .OnDelete(DeleteBehavior.SetNull);
-
-                    b.HasOne("KimChiTalk.Repository.Entity.Grammar", null)
-                        .WithMany("Questions")
-                        .HasForeignKey("GrammarId1");
 
                     b.HasOne("KimChiTalk.Repository.Entity.Lesson", "Lesson")
                         .WithMany("Questions")
