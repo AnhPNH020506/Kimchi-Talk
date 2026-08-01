@@ -15,9 +15,6 @@ public class AppDbContext : DbContext
     public static Guid CourseId1 = Guid.NewGuid();
     public static Guid CourseId2 = Guid.NewGuid();
     public static Guid CourseId3 = Guid.NewGuid();
-    public static Guid LessonId1 = Guid.NewGuid();
-    public static Guid LessonId2 = Guid.NewGuid();
-    public static Guid LessonId3 = Guid.NewGuid();
 
 
     public DbSet<User> Users { get; set; }
@@ -136,31 +133,7 @@ public class AppDbContext : DbContext
                 .WithOne(l => l.Lesson)
                 .HasForeignKey(l => l.LessonId)
                 .OnDelete(DeleteBehavior.Cascade);
-            var lesson = new List<Lesson>()
-            {
-                new()
-                {
-                    Id = LessonId1,
-                    Title = "Beginner",
-                    CourseId = CourseId1,
-                    Order = 1
-                },
-                new()
-                {
-                    Id = LessonId2,
-                    Title = "Beginner",
-                    CourseId = CourseId2,
-                    Order = 2
-                },
-                new()
-                {
-                    Id = LessonId3,
-                    Title = "Beginner",
-                    CourseId = CourseId3,
-                    Order = 3
-                }
-            };
-            builder.HasData(lesson);
+            // Seed data cho Lesson đã chuyển sang LessonConfiguration.cs (55 Lesson theo chủ đề, thay cho 3 Lesson cũ)
         });
         modelBuilder.Entity<Grammar>(builder =>
         {

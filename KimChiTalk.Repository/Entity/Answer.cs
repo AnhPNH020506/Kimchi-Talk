@@ -6,6 +6,7 @@ public class Answer:BaseEntity<Guid>, IAuditableEntity
 {
     public required string Content { get; set; }
     public bool IsCorrect { get; set; }
+    public int? Order { get; set; }
     
     public Guid QuestionId { get; set; }
     public Question? Question { get; set; }

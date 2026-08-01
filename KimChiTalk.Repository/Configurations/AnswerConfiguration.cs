@@ -71,13 +71,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("C0C4AE1D-5F39-4ECB-AD77-C4EED3182C4A"),
-                QuestionId = new Guid("041AB088-2679-4202-9B87-110A261ED9CC"),
-                Content = "cửa hàng, cửa hiệu,  cửa tiệm, quầy",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("9A9528BE-68C1-4DF8-A6BE-7CCB69BB102F"),
                 QuestionId = new Guid("38028567-7603-4228-9916-F546CECC61E4"),
                 Content = "Phó từ",
@@ -159,13 +152,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("4DC2E33B-64D6-4AE5-B7F4-FABABBD54315"),
                 Content = "걸음",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("DAE5D075-B79E-4199-86F7-6018BBF96C6A"),
-                QuestionId = new Guid("FAA5E4BB-32D8-42EA-B4BC-CB6B42FA433B"),
-                Content = "sự đánh đập, sự ra đòn",
-                IsCorrect = true,
             },
             new()
             {
@@ -253,13 +239,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("4DA1433E-1093-4A90-B65B-843AAFAB8958"),
-                QuestionId = new Guid("16865034-BDE3-42B0-B512-6B7015844212"),
-                Content = "hộ gia đình",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("617D61E8-FE4D-4C38-9431-A705B74F18DC"),
                 QuestionId = new Guid("DF1D87EA-3635-4ADA-AD93-B9A46CB2771B"),
                 Content = "Danh từ",
@@ -340,13 +319,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("7F2570AB-16A6-434A-AE18-5D4469F0A9CF"),
                 QuestionId = new Guid("768971A8-2274-4431-8E7E-654900F2A46F"),
                 Content = "가깝다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("1F29D8D4-5529-41D7-9389-86DA95F2E989"),
-                QuestionId = new Guid("FA97DC3A-4BDB-4EB7-A3B1-5808F816A66E"),
-                Content = "gần",
                 IsCorrect = true,
             },
             new()
@@ -435,13 +407,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("CBBE985D-B3A8-49B4-9AD8-AE89D7A7A803"),
-                QuestionId = new Guid("2B5B20AC-098D-4483-B504-F88B8A336378"),
-                Content = "thỉnh thoảng, đôi lúc",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("4B9623D5-E844-4D05-B3D1-E0DFFF204B4A"),
                 QuestionId = new Guid("1F4FC6FE-FEFC-4696-AA6B-210F9A2520BF"),
                 Content = "Tính từ",
@@ -522,13 +487,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("BF88AC74-0D8C-4490-8FEC-2E8970503D36"),
                 QuestionId = new Guid("C9673421-9978-49FB-BF2D-741E23996ADE"),
                 Content = "가늘다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("ACF48CA1-749C-4C57-AB4B-A830EC194ECD"),
-                QuestionId = new Guid("CA134BE3-61C2-4C7C-8B53-50502D529F6F"),
-                Content = "mỏng manh, mảnh dẻ, thanh mảnh, thuôn dài",
                 IsCorrect = true,
             },
             new()
@@ -617,13 +575,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("8959136F-E057-4236-B021-E4A86853E200"),
-                QuestionId = new Guid("9D385644-1578-4E3B-BA98-403F7291EB34"),
-                Content = "đi",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("DEB3DD79-B0E2-49C1-A8B9-253AD5627AD4"),
                 QuestionId = new Guid("0B3BDAE2-9486-41A9-9208-9C49D58C9AD6"),
                 Content = "Tính từ",
@@ -705,13 +656,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("2BE23DC4-19E5-477B-8879-E299164906F5"),
                 Content = "곧장",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("F874DE76-4CDE-4F24-A97F-95D9016E9F4D"),
-                QuestionId = new Guid("CB4BEB39-3945-43EA-BC8C-4F74CF021388"),
-                Content = "đầy",
-                IsCorrect = true,
             },
             new()
             {
@@ -799,13 +743,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("7E2DE32F-3433-4426-908F-F8374E4F14C3"),
-                QuestionId = new Guid("DEBD01E8-D692-4CA8-AD0A-C870663E28AA"),
-                Content = "dạy",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("229BC406-968D-43B2-A1D5-F80609668107"),
                 QuestionId = new Guid("073793A2-372B-4123-BF39-14E799B88B4D"),
                 Content = "Tính từ",
@@ -887,13 +824,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("50DC10A4-33CF-43C4-AF3A-B1720CB4C8CE"),
                 Content = "깨우다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("02F68CEA-2C07-42B0-B25D-258A16CCE763"),
-                QuestionId = new Guid("6797D9EE-C2B9-45ED-AED7-8F6E43DDA149"),
-                Content = "chỉ, chỉ trỏ",
-                IsCorrect = true,
             },
             new()
             {
@@ -981,13 +911,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("DDD03D2F-C33A-420A-B313-D88023627B97"),
-                QuestionId = new Guid("21E25090-841C-407E-ABE7-9798ECF6A7FB"),
-                Content = "túi xách, giỏ xách, ba lô",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("1E56AE62-A9EE-4BCF-B8ED-0356D5B3C637"),
                 QuestionId = new Guid("D6CCFF3C-EF51-468A-A4A7-BE9D95ED3FCD"),
                 Content = "Danh từ",
@@ -1069,13 +992,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("705F94FC-D43B-44DC-B094-3E619E2DD21A"),
                 Content = "갑작스럽다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("AAC008EB-A849-4573-BEDA-75295AD9899D"),
-                QuestionId = new Guid("D033DFD6-DEE8-40CF-95C2-23DD06D68DE4"),
-                Content = "nhẹ",
-                IsCorrect = true,
             },
             new()
             {
@@ -1163,13 +1079,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("7A65029F-2650-4A5E-A003-DC3C51C273BC"),
-                QuestionId = new Guid("5CE11E4E-52AD-4C29-B09D-6CF3973358C7"),
-                Content = "ca sĩ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("866FA7D1-3805-4FC2-B1F8-350AE2A6E815"),
                 QuestionId = new Guid("E8EF0029-592A-4423-B783-2DD7CB98692C"),
                 Content = "Tính từ",
@@ -1251,13 +1160,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("B5E43A6C-975B-4632-80B4-083E2AD59469"),
                 Content = "극작가",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("57C54387-037F-4647-929E-0D8E89976129"),
-                QuestionId = new Guid("96114FDE-0608-47C1-9D99-FF438A6B80DE"),
-                Content = "ngực",
-                IsCorrect = true,
             },
             new()
             {
@@ -1345,13 +1247,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("1E53ED43-D014-4B12-A424-7CF6C502FB75"),
-                QuestionId = new Guid("23F95F7B-4EA6-466C-88D2-9A6A7E3FF751"),
-                Content = "bài hát đại chúng, ca khúc được yêu thích",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("1F8E3E51-F410-4A20-B93A-2E9CAC7A5711"),
                 QuestionId = new Guid("A1734AF3-B950-4CAB-ABD3-D0B01CB3924C"),
                 Content = "Tính từ",
@@ -1432,13 +1327,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("38024091-F7F3-4356-A2AE-E7DA50BBD56C"),
                 QuestionId = new Guid("72AB45CD-7C11-4CB2-84D5-F1C4540F3F80"),
                 Content = "가운데",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("CD8E6E63-04D1-4936-B9AE-1B5171661EDA"),
-                QuestionId = new Guid("59D83675-DDB9-44C1-9871-220359D43EA1"),
-                Content = "phần giữa, chỗ giữa",
                 IsCorrect = true,
             },
             new()
@@ -1527,13 +1415,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("0641CD7F-8C5B-4CD2-A778-69126F096659"),
-                QuestionId = new Guid("ED3D624F-4CB0-4EBB-9D5B-82EC6B167A66"),
-                Content = "cái kéo",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("8423AB8D-FABE-4124-8080-3075C2A3B49E"),
                 QuestionId = new Guid("B951358F-14B2-4439-BC44-98638B0C7BC7"),
                 Content = "Phó từ",
@@ -1615,13 +1496,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("DE9ECAFB-26C8-4B08-B15A-F727B4087040"),
                 Content = "감상문",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("14EB0EE3-FF80-4FA0-A7DD-484D59229B90"),
-                QuestionId = new Guid("A87E2215-687C-4A8A-B330-F6BA6DCCE017"),
-                Content = "mùa thu",
-                IsCorrect = true,
             },
             new()
             {
@@ -1709,13 +1583,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("C8560498-74AC-4693-96FB-264297728C96"),
-                QuestionId = new Guid("9CD97A03-FB17-4E55-98A5-E83BC0A94848"),
-                Content = "người chủ gia đình",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("02C243F7-0687-4006-99AA-824B883ACD5D"),
                 QuestionId = new Guid("8050E93D-1DB3-49E7-A4FF-9CCF53D28334"),
                 Content = "Phó từ",
@@ -1800,13 +1667,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("04F6B9FB-6DCD-4AEF-AFFA-C84C3665DE9A"),
-                QuestionId = new Guid("B20DD97B-0160-4D7D-A39E-C716F951344D"),
-                Content = "mang đi, đem đi",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("40666011-CB68-4E42-8407-5B99E068A1A4"),
                 QuestionId = new Guid("BC52D218-84C8-4344-B9C6-9C23988D6675"),
                 Content = "Động từ",
@@ -1887,13 +1747,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("A3673028-1807-41F4-A0A8-B11E54F8781B"),
                 QuestionId = new Guid("D560687F-CB98-45F0-9862-171D7C835727"),
                 Content = "가져오다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("C5F0AF11-201F-4C61-88BF-6B415BD4CD26"),
-                QuestionId = new Guid("39138EB5-F1D0-4EDF-AAC2-3D2513DB44B7"),
-                Content = "mang đến, đem đến",
                 IsCorrect = true,
             },
             new()
@@ -1982,13 +1835,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("67B43F32-4916-4879-BED6-2919480534D7"),
-                QuestionId = new Guid("B3BDC704-ED79-4D20-A3DF-D9078C7D51E2"),
-                Content = "gia đình",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("FD8A25C5-F663-450C-93C4-7D1D1EC2A059"),
                 QuestionId = new Guid("FF9CA82E-312B-49C5-91AF-16E07268D4C0"),
                 Content = "Phó từ",
@@ -2073,13 +1919,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("5DD69D8E-0D85-46A7-BE7E-5EE647257BBC"),
-                QuestionId = new Guid("CB5A6ACF-9EAE-4364-9D07-C5451915A9B7"),
-                Content = "cành",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("DD337100-FA9F-401D-A004-FD9EBB6536E8"),
                 QuestionId = new Guid("51F7C7A8-F073-490A-9D4C-856E0378F08D"),
                 Content = "quyết tâm",
@@ -2133,13 +1972,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("3C5BBF63-CC83-4B2F-8DCF-B0DFFBE0F47A"),
                 Content = "가져가다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("1F8AF985-7CF0-4AFC-A1E1-335A31049D22"),
-                QuestionId = new Guid("E0C1E025-2CB3-41F5-B386-DF7711DD15DF"),
-                Content = "mang, cầm",
-                IsCorrect = true,
             },
             new()
             {
@@ -2227,13 +2059,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("2C089FB0-6AAC-4366-9C78-E0F2AA8D5AE0"),
-                QuestionId = new Guid("45870449-F42E-45FB-A3F1-4CB56F3CA4F1"),
-                Content = "từng, mỗi",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("1EFFF022-B971-4C02-A7E2-3D0BF746FB50"),
                 QuestionId = new Guid("9110F11C-155F-411A-95D0-1DCBBCE7D4D0"),
                 Content = "Động từ",
@@ -2315,13 +2140,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("F7D239F8-904D-4B4A-B66A-DF66CE00E9FA"),
                 Content = "강하다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("36AC53EB-9873-45F4-B417-52B1CFDDC6AD"),
-                QuestionId = new Guid("A15D8A77-CEBE-4DA6-BE52-9B86D5F042F8"),
-                Content = "đơn giản",
-                IsCorrect = true,
             },
             new()
             {
@@ -2409,13 +2227,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("AC159056-F3D0-4094-9C22-41209038C37C"),
-                QuestionId = new Guid("51E8978C-8383-409A-8BF8-BFE9C2CB338C"),
-                Content = "một cách đơn giản",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("B403B7EA-8202-439F-B33F-5C1A1E016DCC"),
                 QuestionId = new Guid("FBC8696C-9406-40D1-BB88-AB19717266BA"),
                 Content = "Danh từ",
@@ -2497,13 +2308,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("13A83767-BFA7-4B4B-B1B0-B371106D96BF"),
                 Content = "기",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("9540D68B-8DD8-475A-9C39-E0293454DED5"),
-                QuestionId = new Guid("7B25265C-E4A4-467A-A420-B43BDEF4A53D"),
-                Content = "thức ăn giữa buổi, thức ăn nhẹ",
-                IsCorrect = true,
             },
             new()
             {
@@ -2591,13 +2395,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("AE006DA0-ACAD-47DE-83B8-DE3827FBF304"),
-                QuestionId = new Guid("ED2F0397-EC58-4AA2-8D63-31E5FD92ABFE"),
-                Content = "Ganjang; nước tương, xì dầu",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("74616C04-B01E-405B-A94F-D7CFCEB84CDE"),
                 QuestionId = new Guid("C8AC391D-FF6F-479B-893C-4ACF214AC7DE"),
                 Content = "Danh từ",
@@ -2679,13 +2476,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("B64D74A6-7547-44C9-B4DE-E2C7B12FE54B"),
                 Content = "군대",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("2CC88FA2-CA89-46B6-806B-D72CB7D5291D"),
-                QuestionId = new Guid("83EF4E7D-F037-4D48-9DC2-BCF76310C543"),
-                Content = "y tá",
-                IsCorrect = true,
             },
             new()
             {
@@ -2773,13 +2563,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("D6C22976-4B24-4682-B5CB-B8E2A93E7E6F"),
-                QuestionId = new Guid("6FCDC61F-4C42-40BF-9498-2DD99B81A375"),
-                Content = "sườn, món sườn",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("FB38A4E5-C840-42CC-94C7-ECFDA6B58FC6"),
                 QuestionId = new Guid("8B6CD016-FF57-4427-AFE1-6EB82C225262"),
                 Content = "Động từ",
@@ -2860,13 +2643,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("AEDC7B55-7A18-49FC-9915-2548598729D9"),
                 QuestionId = new Guid("9B9BE725-F6FE-4E8A-B515-4351AFE4A490"),
                 Content = "갈비탕",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("411E24A3-EF36-48F9-A0EA-5D01EC705F30"),
-                QuestionId = new Guid("F538055E-A402-41F0-BE68-2637C1AC097F"),
-                Content = "Galbitang; canh sườn ninh",
                 IsCorrect = true,
             },
             new()
@@ -2955,13 +2731,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("1ACFEE1B-370C-4FDA-B4E1-A7977B6DFE6A"),
-                QuestionId = new Guid("C6F6BC85-803E-4ECE-9B66-758B9B2D77B1"),
-                Content = "màu nâu",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("69EDC2A6-EF8B-429A-90C5-1A36CCF05E37"),
                 QuestionId = new Guid("E8A4CAD0-ABD1-48AC-9173-5014D895CC96"),
                 Content = "Động từ",
@@ -3046,13 +2815,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("1E79DB40-F923-4CD6-83DC-EAE50180FBF8"),
-                QuestionId = new Guid("276398AE-2150-426C-B17B-4FDF49EE3E9D"),
-                Content = "thay (quần áo)",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("E3AF3F9C-0D15-4230-AE9D-5BB93D5E70FA"),
                 QuestionId = new Guid("D867A72B-4036-4520-8597-7F5C4B212ED5"),
                 Content = "Danh từ",
@@ -3133,13 +2895,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("39767538-1DBD-425C-9DE8-1083483F37E2"),
                 QuestionId = new Guid("BE8AA2B0-E1F0-4514-9D72-BA23B0EE58E8"),
                 Content = "갈아타다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("42F2EC46-6C3F-4A5C-BFD8-28F43F2246F2"),
-                QuestionId = new Guid("5DE73A43-A8EF-4D76-AD0C-A8AA5EA2C5F7"),
-                Content = "chuyển, đổi (tàu, xe…)",
                 IsCorrect = true,
             },
             new()
@@ -3228,13 +2983,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("0D3978CD-9A15-4415-84AF-0AE9EF7F0803"),
-                QuestionId = new Guid("305EBAFE-A879-4A47-A7FB-1BA78B0BC5A4"),
-                Content = "quả hồng",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("90AD8840-427B-49C8-9728-71B29B535CDA"),
                 QuestionId = new Guid("A13DC6D3-F813-428B-A79C-52FB1A7A3AA1"),
                 Content = "Tính từ",
@@ -3319,13 +3067,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("C935E0D8-1665-42E5-8623-AEEC198F6B30"),
-                QuestionId = new Guid("056ED9B2-D14A-40FD-8109-679A121BF93D"),
-                Content = "bệnh cảm",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("ABBC07EF-FE37-4F91-B42C-A7978E20196A"),
                 QuestionId = new Guid("996B4FC5-9606-4E23-896B-6037452854F1"),
                 Content = "Phó từ",
@@ -3406,13 +3147,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("9BF817B7-D96C-436A-9BA0-3753B3658112"),
                 QuestionId = new Guid("248E61E2-B1B9-4548-9CD5-E628A9589353"),
                 Content = "감기약",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("5D18242A-1C82-4DD0-906B-BBD712620A21"),
-                QuestionId = new Guid("E38143C4-1F9C-48A6-B936-147832A2D9A9"),
-                Content = "thuốc cảm",
                 IsCorrect = true,
             },
             new()
@@ -3501,13 +3235,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("AB24BF58-5EB3-44CF-9F94-57642597A062"),
-                QuestionId = new Guid("EAE62D58-9B88-485D-BF74-B849627179FB"),
-                Content = "nhắm (mắt)",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("37DCC024-0684-4FC2-94C6-741C67DB1A68"),
                 QuestionId = new Guid("55BFBB29-7B1D-4312-AA70-17A50DDD221A"),
                 Content = "Động từ",
@@ -3589,13 +3316,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("702B32C0-8980-4ACB-AAE4-BC0A669140A4"),
                 Content = "감기",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("ABB4FE06-B405-4514-A4A1-58B16228C5FD"),
-                QuestionId = new Guid("23CFF631-0DD5-43CC-B617-7230878F865A"),
-                Content = "sự cảm tạ",
-                IsCorrect = true,
             },
             new()
             {
@@ -3683,13 +3403,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("788A6C75-9DE6-4B2C-8ADB-4C108FDF22FD"),
-                QuestionId = new Guid("AF7B7CB1-4510-4D7B-9D08-A6511182B8EE"),
-                Content = "cảm tạ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("AFBC6B88-22C4-49A6-8187-E203110BB11E"),
                 QuestionId = new Guid("C8185581-259B-4881-8C33-61065FCD8EE0"),
                 Content = "Tính từ",
@@ -3771,13 +3484,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("4589B99B-E8AD-4DF0-AA3F-58B690F93B02"),
                 Content = "겨울철",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("9E742BA8-24A9-4CC1-9A86-59422869AF8A"),
-                QuestionId = new Guid("1ED95138-2E6B-4D5F-BD45-266A26537009"),
-                Content = "khoai tây",
-                IsCorrect = true,
             },
             new()
             {
@@ -3865,13 +3571,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("5D7C0D00-32ED-45C2-9173-808B3C9F256B"),
-                QuestionId = new Guid("F8ACB3D0-D059-4A12-9297-1E18BB465EFA"),
-                Content = "đột ngột, bất thình lình, bỗng nhiên",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("611F70AE-4236-436D-BB4A-4BE2E215D902"),
                 QuestionId = new Guid("F95141AF-6699-4847-BAB2-2F54D88DF0DA"),
                 Content = "Danh từ",
@@ -3956,13 +3655,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("4F34478F-7C44-4042-ACCE-1AA99BDE4AEC"),
-                QuestionId = new Guid("7EFE28C1-4414-4C4A-BCFC-A33CBA5A0FBC"),
-                Content = "giá cả",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("DF84865F-6187-46A9-8E9F-9AD8B2C86E6F"),
                 QuestionId = new Guid("C2049FB7-260A-4708-AF62-2A0779C225A9"),
                 Content = "Động từ",
@@ -4043,13 +3735,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("BBA98208-AC1E-4DD4-AD82-DF37687EE19D"),
                 QuestionId = new Guid("D84A83D6-19C6-4765-934E-89B2637A1FDE"),
                 Content = "강",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("E7E140D7-38A8-4FEA-A152-485353426B66"),
-                QuestionId = new Guid("045EBDBD-CDC1-407B-9E9D-70F710B7181F"),
-                Content = "sông",
                 IsCorrect = true,
             },
             new()
@@ -4138,13 +3823,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("7EA950B1-5AC1-43F2-9BDF-08859457B796"),
-                QuestionId = new Guid("E7160035-C217-4B39-A316-71855588534C"),
-                Content = "chó con, cún con",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("3FE6E198-A53F-4ED9-BD0B-17C42149029C"),
                 QuestionId = new Guid("DA46C249-F56D-4706-ACAF-8BA2D6111732"),
                 Content = "Danh từ",
@@ -4225,13 +3903,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("A2E651DB-C29F-4F15-88B2-6ED6A23B2CF6"),
                 QuestionId = new Guid("53AE3181-B094-44E8-8580-BFBAEA7B190A"),
                 Content = "강하다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("3A5AB6E6-FB06-4962-8611-0304F50E160D"),
-                QuestionId = new Guid("640BE2ED-CCC5-4D1F-BC31-E9D4057E8FDF"),
-                Content = "cứng, rắn, chắc",
                 IsCorrect = true,
             },
             new()
@@ -4320,13 +3991,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("41441D07-DD09-4F76-9806-9C9F69D8A1ED"),
-                QuestionId = new Guid("764D381D-B33A-4EEF-8414-B51E8227F274"),
-                Content = "mang, cầm",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("8E151903-A408-4425-A87A-200598626312"),
                 QuestionId = new Guid("A744BAD2-8F1B-494A-ACDE-EDC5BF4C3398"),
                 Content = "Tính từ",
@@ -4408,13 +4072,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("D249203D-6DDC-4B93-BB13-F4085A7DB523"),
                 Content = "관계있다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("75CD1A85-B7C6-435D-AC84-F067AAC84ABB"),
-                QuestionId = new Guid("CF636732-CD18-4026-A2E4-21A14290FC6C"),
-                Content = "giống",
-                IsCorrect = true,
             },
             new()
             {
@@ -4502,13 +4159,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("D6EE763F-63B6-4BE3-9313-9C3DF78B2FBF"),
-                QuestionId = new Guid("BBF2692A-8142-4698-9ACB-408AC20E6BA8"),
-                Content = "cùng",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("5E14AC5A-709C-4540-8C8E-B5D7998DFD5A"),
                 QuestionId = new Guid("FD83F1A1-8714-4DBA-A74A-65BA682D9D4F"),
                 Content = "Động từ",
@@ -4590,13 +4240,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("0AFCD1C1-562D-4236-BE8A-D3BEA6D48C4A"),
                 Content = "고민하다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("C26B6CC7-F738-4400-80BC-77730CDEA35E"),
-                QuestionId = new Guid("8DFA3F1E-5AF8-47F9-A23D-22251F32A83B"),
-                Content = "trả",
-                IsCorrect = true,
             },
             new()
             {
@@ -4684,13 +4327,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("6D6EBE77-181C-44FD-BCB3-84E44B3EF9EA"),
-                QuestionId = new Guid("0FD325F9-DD31-41B4-9B81-9151CB9A7790"),
-                Content = "chó",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("A0C7ED7B-3473-4D66-8B18-D8B383BA7638"),
                 QuestionId = new Guid("62AC540C-E44F-4BE4-8F80-7DB6AAB1A321"),
                 Content = "Động từ",
@@ -4775,13 +4411,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("31FC6C0C-3A96-4954-ACB6-B1078DC07F61"),
-                QuestionId = new Guid("698766A5-0B3A-4714-9506-290922732995"),
-                Content = "tháng",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("7BB97059-234C-4AD4-BE61-8EE4FD10D8A4"),
                 QuestionId = new Guid("17F29591-A782-49BC-B0CA-989530227C76"),
                 Content = "gian giữa",
@@ -4835,13 +4464,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("15E3150F-B415-4391-8E69-9B73CBBE06B3"),
                 Content = "그놈",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("6CBBCF8D-F852-40A5-8811-9DF617580151"),
-                QuestionId = new Guid("D36DB271-130C-4B4F-A10F-BD6847284B01"),
-                Content = "cái, điều",
-                IsCorrect = true,
             },
             new()
             {
@@ -4901,13 +4523,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("042E4C64-03BF-4BFB-AEBA-1C7223D3C76A"),
-                QuestionId = new Guid("FF87A8CE-213F-41BE-B578-077EC78B5752"),
-                Content = "nơi đó",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("E3066E63-6DB0-42DA-B540-357CF8C50933"),
                 QuestionId = new Guid("12573357-0825-4B86-8B06-E3BFE3F4E789"),
                 Content = "con phố",
@@ -4961,13 +4576,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("8866EEE1-5D34-47F3-ABA9-4DE343A1FF77"),
                 Content = "교류",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("4E538780-301B-4B62-9575-0B59ED1929A9"),
-                QuestionId = new Guid("D187B736-4E32-44C5-B65E-39E97A5509C3"),
-                Content = "con phố",
-                IsCorrect = true,
             },
             new()
             {
@@ -5051,13 +4659,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("08B90D48-A8C6-49C1-BD0C-7C2C625CCFAE"),
                 QuestionId = new Guid("80A716DB-2D80-4A98-9281-2319598A7878"),
                 Content = "거실",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("9EBAE236-9E85-44FE-9EF4-3EC33E416AC5"),
-                QuestionId = new Guid("679A15C6-ED74-425B-9402-E61E6364694F"),
-                Content = "gian giữa, phòng khách",
                 IsCorrect = true,
             },
             new()
@@ -5146,13 +4747,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("6829E1E9-5736-45EB-BCA0-E73BD8044299"),
-                QuestionId = new Guid("DCDC8E51-CD5B-49D3-87C6-8115AA630B08"),
-                Content = "cái gương, gương soi",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("FF759DD9-C894-41A2-B7CA-68999FA57624"),
                 QuestionId = new Guid("DEC453FB-D0B3-44AB-9A63-677B2A6B04B9"),
                 Content = "Tính từ",
@@ -5233,13 +4827,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("2D5DB5E4-C902-43F2-BAA3-101281F80871"),
                 QuestionId = new Guid("C4D46D6F-98CB-4D94-8ABB-CB62C718FC09"),
                 Content = "거의",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("945E557C-BC0D-45E2-8089-8A86BD4DC2C2"),
-                QuestionId = new Guid("834EFC85-8693-45D1-A4B6-697D9C8BDE89"),
-                Content = "hầu hết, gần như",
                 IsCorrect = true,
             },
             new()
@@ -5328,13 +4915,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("F762F301-F0BB-4927-9497-7DC798EB16C0"),
-                QuestionId = new Guid("B734AFB8-5EA0-438F-B59E-B14C4CFBE48A"),
-                Content = "sự từ chối, sự cự tuyệt",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("FFF2D3FE-6158-4284-95AC-EF113131C5D2"),
                 QuestionId = new Guid("6627446B-5118-4599-987E-C029A35B0658"),
                 Content = "Phó từ",
@@ -5416,13 +4996,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("708D1C0C-2E79-40DF-88CF-59552179AD76"),
                 Content = "기혼",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("0EB7D96D-73B6-4B39-81F7-4FAE18AF2130"),
-                QuestionId = new Guid("1E8B1A77-A556-4E06-8C4E-EC511BD79B4B"),
-                Content = "lời nói dối",
-                IsCorrect = true,
             },
             new()
             {
@@ -5510,13 +5083,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("E09C0B53-79B5-43EE-AB4A-062041EB05A1"),
-                QuestionId = new Guid("9DA50FBB-A36B-476D-8AA6-24833B97E03A"),
-                Content = "nỗi lo",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("9DC0FFBF-ED4A-4A28-9CC0-303DF219EC4F"),
                 QuestionId = new Guid("49416248-94F1-4F26-9183-454F8458973F"),
                 Content = "Động từ",
@@ -5597,13 +5163,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("D359F732-3D8D-4B19-94DD-497FD8FFECE4"),
                 QuestionId = new Guid("6C6572B5-EC6E-4A17-B4C4-C32B17D688A6"),
                 Content = "걱정하다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("C4BFD3B4-0C79-40A0-A44F-5AB338AC7EFF"),
-                QuestionId = new Guid("8CAA52D6-827E-49D2-A3E9-1A46B78ADD67"),
-                Content = "lo lắng, lo ngại, lo sợ, lo",
                 IsCorrect = true,
             },
             new()
@@ -5692,13 +5251,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("0C5F55B1-67E6-48B6-85F8-95690300D2C5"),
-                QuestionId = new Guid("A33A4732-8B14-4216-A4C1-B3AA97EF44CB"),
-                Content = "sự khỏe mạnh, sức khỏe",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("778B5F31-D82A-45CD-B5FA-E50D8BB8421C"),
                 QuestionId = new Guid("1DD0F38B-DDEE-493F-82C9-BF427DF3BCA9"),
                 Content = "Phó từ",
@@ -5780,13 +5332,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("0D497D1F-DAC4-445A-B380-566AC17DAAED"),
                 Content = "가볍다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("0379215E-C8A1-40F6-BF87-40BC3BAFC963"),
-                QuestionId = new Guid("336673A8-63BB-4986-926F-86B0BC470636"),
-                Content = "khỏe mạnh, khỏe khoắn",
-                IsCorrect = true,
             },
             new()
             {
@@ -5874,13 +5419,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("480E7BA2-3208-4BEB-A81D-FD4FFCBDE064"),
-                QuestionId = new Guid("BC47B1F4-D11B-4023-B175-06C50980782E"),
-                Content = "đi qua, vượt qua",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("B20BE7AA-51A7-4419-9B18-6009A9939F6B"),
                 QuestionId = new Guid("16FB406B-AA9A-4153-954B-50A383963562"),
                 Content = "Tính từ",
@@ -5962,13 +5500,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("322CFC3A-4AD6-4BFA-8796-0E1F5895C747"),
                 Content = "까먹다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("9865EC71-892A-4B48-8457-95125EE2677D"),
-                QuestionId = new Guid("8A822AEE-40EC-4EAA-9338-630AD8B5048B"),
-                Content = "sang",
-                IsCorrect = true,
             },
             new()
             {
@@ -6056,13 +5587,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("CB5EFCDF-C6D5-4FCF-88A6-2B7D1869D326"),
-                QuestionId = new Guid("260F527F-F679-486A-A0CC-C02B0F7F6692"),
-                Content = "bên kia đường, phía đối diện",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("03CFE396-A6B3-47BC-8A01-A5647B18AF4C"),
                 QuestionId = new Guid("D180DA4B-36D7-4FA0-A19B-160D30EFCF1C"),
                 Content = "Danh từ",
@@ -6144,13 +5668,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("27DC3595-589B-431C-9E77-9CD5ACE1DDB1"),
                 Content = "결심",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("852DB698-44DF-4BA7-A60D-28A040EED907"),
-                QuestionId = new Guid("C01FD7CF-0334-44EF-95AB-1CFF026D9A50"),
-                Content = "tòa nhà",
-                IsCorrect = true,
             },
             new()
             {
@@ -6238,13 +5755,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("E5602398-FFC8-4D99-9547-0C227474B6D3"),
-                QuestionId = new Guid("6C81B73E-188F-4E42-A791-143A743B5CAC"),
-                Content = "tan",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("744C07AE-0E56-4D04-89B6-2BEFC6B2B21E"),
                 QuestionId = new Guid("BA3B2E21-6DE4-476D-B4A5-27BADF41E54F"),
                 Content = "Phó từ",
@@ -6325,13 +5835,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("E730B039-5BCA-49E4-B3AA-0EBAA6254898"),
                 QuestionId = new Guid("2E33C559-D280-4EE5-B1FF-ED5EC49C1256"),
                 Content = "걸다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("69D34AAF-4D54-4C40-B6BD-C25CA4B66405"),
-                QuestionId = new Guid("725F8A1F-9B26-4F33-A7B0-3149BD9F52E6"),
-                Content = "treo, đeo, mắc",
                 IsCorrect = true,
             },
             new()
@@ -6420,13 +5923,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("5DF9A1C6-B304-4CBB-831E-07AD86403F2B"),
-                QuestionId = new Guid("7089C972-3FDF-4774-955D-44582398ACBC"),
-                Content = "được mắc, được treo",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("F3B487F7-90D5-47FE-AD78-4A0303998D5B"),
                 QuestionId = new Guid("6BFB455D-1473-4488-A926-C03E3230F85C"),
                 Content = "Động từ",
@@ -6508,13 +6004,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("9F2E15CB-8080-4991-905D-13178877B10F"),
                 Content = "갖추다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("61C45898-6B11-4330-8DBA-44BF782E382C"),
-                QuestionId = new Guid("20B082E3-827C-4D54-9973-332D705D084A"),
-                Content = "bước đi",
-                IsCorrect = true,
             },
             new()
             {
@@ -6602,13 +6091,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("A35D90E3-FED2-42D7-B29A-1D58262FB423"),
-                QuestionId = new Guid("412D784F-12A9-458C-A78E-7B5419B55FF5"),
-                Content = "bước đến",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("5D62E8EE-47E6-454C-A081-4F54209D9849"),
                 QuestionId = new Guid("1AB7B551-7D7E-47C9-B5E8-AB79D814F9B6"),
                 Content = "Động từ",
@@ -6690,13 +6172,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("8D2476CE-CDC9-46C8-B67F-07EBD64ED4F9"),
                 Content = "건너",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("DF269EEB-CF08-453B-96BC-2DDCA9EF7455"),
-                QuestionId = new Guid("EF649CC8-C2EE-4291-A071-173AF2502A71"),
-                Content = "bước chân",
-                IsCorrect = true,
             },
             new()
             {
@@ -6784,13 +6259,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("A5C45C35-D2A2-4DE1-BAAE-7102DE09FD54"),
-                QuestionId = new Guid("82420D09-7A0D-4B4D-A90B-66A2C82854B3"),
-                Content = "kiểm sát viên, công tố viên",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("FA291996-E228-43CF-A9D1-11BC4C2EF155"),
                 QuestionId = new Guid("55C1A2A1-4A1A-4C91-A05F-0E967796650A"),
                 Content = "Động từ",
@@ -6872,13 +6340,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("B2B916CC-7E0A-4412-8870-2D489F977436"),
                 Content = "감옥",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("BC70BCDB-E529-4428-B046-FC3BF1D17BB5"),
-                QuestionId = new Guid("31708D5D-F4BF-46A5-8A04-44F44AA887C5"),
-                Content = "màu đen, màu mun",
-                IsCorrect = true,
             },
             new()
             {
@@ -6966,13 +6427,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("CC35DD66-B8BE-48B6-B306-2F95ADE8C614"),
-                QuestionId = new Guid("31405BB9-3373-4A04-BBAA-E1CF988783F1"),
-                Content = "màu đen",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("1EAC0669-9D56-4071-9568-BDE6691BD91C"),
                 QuestionId = new Guid("D0A06480-A0CC-4F8E-AB59-7A9218BC6CEB"),
                 Content = "Phó từ",
@@ -7057,13 +6511,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("01BAB48B-540B-412D-BFE8-72C89772B047"),
-                QuestionId = new Guid("4E89F7D0-A9F2-4C62-8B4E-A40C08863D0E"),
-                Content = "cái, điều",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("9C6287F2-01D6-4E02-A00F-74149EB34800"),
                 QuestionId = new Guid("CBD9E5C3-ADF2-49C1-9487-4DE57B577A18"),
                 Content = "nhà hàng tiệc cưới",
@@ -7116,13 +6563,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("D9A223D0-6DB2-49B3-9B41-2E6D5A3B90F5"),
                 QuestionId = new Guid("EF3B839A-C7F1-4773-AA75-D17361EADFC2"),
                 Content = "겉",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("6790540E-D416-4E73-856B-D0EC53E0E8CA"),
-                QuestionId = new Guid("B3BC4EBB-593A-465C-87F8-8111F93E10AB"),
-                Content = "bên ngoài, mặt ngoài",
                 IsCorrect = true,
             },
             new()
@@ -7211,13 +6651,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("45FCF08D-BCCF-490D-A89E-674FD2C75341"),
-                QuestionId = new Guid("2BB45916-1386-47C3-BEDF-1616B8AB8D9E"),
-                Content = "lười biếng",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("EC9B95E7-174C-48DA-BC9F-A6374EEC6216"),
                 QuestionId = new Guid("F2876307-7DD2-4788-9169-BEB9E367A867"),
                 Content = "Danh từ",
@@ -7299,13 +6732,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("464E27FE-0D13-41D5-BF42-AFE4F41B85D6"),
                 Content = "광경",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("333FDB71-A51F-4276-B3E8-1B2EF6459950"),
-                QuestionId = new Guid("C43BB4F0-314A-4F20-A932-0187F815C60E"),
-                Content = "trò chơi",
-                IsCorrect = true,
             },
             new()
             {
@@ -7393,13 +6819,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("FB0F3301-5890-4B31-9DA1-C62872317244"),
-                QuestionId = new Guid("61B19573-C31A-44A0-BAC3-D1BDB92620B6"),
-                Content = "mùa đông",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("9F5AF744-F868-4B8D-823E-AC710EBE34D5"),
                 QuestionId = new Guid("EAA18C12-CC34-4CBA-8661-4E5874A67D45"),
                 Content = "Động từ",
@@ -7481,13 +6900,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("E01442CD-6A72-4D99-A234-0E3279F89529"),
                 Content = "개최",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("1079EA36-67F4-4A62-BF44-6051FE291114"),
-                QuestionId = new Guid("041ABF6D-BC98-468A-A5A0-C2B141DF86F9"),
-                Content = "kết quả",
-                IsCorrect = true,
             },
             new()
             {
@@ -7575,13 +6987,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("A7A5684C-C7EA-4C02-B85E-48ADB969E9C7"),
-                QuestionId = new Guid("66D1390F-A485-4A69-B581-18C1374B095E"),
-                Content = "sự vắng mặt",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("A5B300A4-7F95-42D7-B316-40E854DD71EE"),
                 QuestionId = new Guid("98E21DF4-E60D-492E-9459-645791387004"),
                 Content = "Tính từ",
@@ -7663,13 +7068,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("C66C19CF-D292-40D5-AE96-A4D77824B555"),
                 Content = "개인",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("25E625C4-0D09-475A-A771-5C873A101DFF"),
-                QuestionId = new Guid("993DBAB2-9DBF-4BFF-AC48-3EC659C1252F"),
-                Content = "quyết tâm, lòng quyết tâm",
-                IsCorrect = true,
             },
             new()
             {
@@ -7757,13 +7155,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("E8873A5B-152A-40BA-8141-711998586EB1"),
-                QuestionId = new Guid("5A248CBE-560F-4ADF-B88A-73722AFF365F"),
-                Content = "sự quyết định, quyết định",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("32A4A9BC-8AE3-47F6-8FD8-081DDA6D35D3"),
                 QuestionId = new Guid("ACA5BAF5-E4E2-496D-87E6-EB163F64A6D9"),
                 Content = "Động từ",
@@ -7845,13 +7236,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("BB5B7BEE-A49A-41D3-8E54-DFC390BF9DDA"),
                 Content = "그간",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("3B2CB316-0025-432C-A0E2-DF98ABC2DD1F"),
-                QuestionId = new Guid("8843D7C6-C493-46DB-A717-2140935A5B5E"),
-                Content = "việc kết hôn",
-                IsCorrect = true,
             },
             new()
             {
@@ -7939,13 +7323,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("8B1EF9A4-5B6E-40D5-A1C8-09E7DA592662"),
-                QuestionId = new Guid("98C13F80-1F98-4D42-9340-90358886137E"),
-                Content = "lễ cưới, tiệc cưới",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("091FDFF8-1917-40AF-B030-066B2C18D9EA"),
                 QuestionId = new Guid("B1E6D8D5-A886-4317-8A4F-25304D676DF2"),
                 Content = "Danh từ",
@@ -8027,13 +7404,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("93C934BB-8F7B-4EE8-AE48-022DF3144DA5"),
                 Content = "구분되다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("D8593E4F-FAAF-4E1D-B727-75B4773C15D1"),
-                QuestionId = new Guid("C277A90F-6B53-4F9A-ACD7-1DB28AC9A5E4"),
-                Content = "kết hôn, thành hôn, lập gia đình",
-                IsCorrect = true,
             },
             new()
             {
@@ -8121,13 +7491,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("AA239925-2A65-4B80-A34C-3E9515DF4F16"),
-                QuestionId = new Guid("BD10C05F-9B6E-4997-A722-7F5BEB466430"),
-                Content = "tình hình kinh tế, nền kinh tế",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("09232C8E-DD50-4A80-BA33-6B8FD1258531"),
                 QuestionId = new Guid("9C1A8B5C-993C-4325-B848-2EA00D7856AD"),
                 Content = "Động từ",
@@ -8212,13 +7575,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("2303B79A-D3CF-458C-8D25-A5BEC41EE9FB"),
-                QuestionId = new Guid("4438FE54-183F-4085-8B45-2ECF92206EA2"),
-                Content = "Gyeongbok-gung, cung Cảnh Phúc",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("E7B1CBA0-4E84-4E83-81A9-04D069C7282C"),
                 QuestionId = new Guid("49FB1839-42BE-43E4-AB2D-4041BC45D3E4"),
                 Content = "kimchijjigae; món canh kimchi",
@@ -8271,13 +7627,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("E70313AC-8DEB-43B6-9A92-42EA58DA1482"),
                 QuestionId = new Guid("F7EC304B-B0A8-45E3-8F08-06E457D87E6C"),
                 Content = "경주",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("5241F847-82B3-4E6F-B9D3-4AF337FBA894"),
-                QuestionId = new Guid("C5BDBF30-8808-49E4-80F0-DAADFD0244CA"),
-                Content = "Gyeongju; Khánh Châu",
                 IsCorrect = true,
             },
             new()
@@ -8335,13 +7684,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("EBF33993-9EC0-4F06-AA88-BF782953E406"),
                 Content = "국제적",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("7F789226-6A52-43BF-B793-9F54A320A2A1"),
-                QuestionId = new Guid("204B6542-3C83-49FB-B89C-4AE37647EAE7"),
-                Content = "(cơ quan) cảnh sát",
-                IsCorrect = true,
             },
             new()
             {
@@ -8425,13 +7767,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("0FCF49C6-5B11-47DB-81B6-DA3E62780F95"),
                 QuestionId = new Guid("459E6F2F-2B33-4662-A847-EC86F01A8FD0"),
                 Content = "경찰서",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("4E062A64-B9B3-47D4-9B5F-EBDA58920FC8"),
-                QuestionId = new Guid("C4C54190-0443-477B-8659-59DE570AE647"),
-                Content = "đồn cảnh sát",
                 IsCorrect = true,
             },
             new()
@@ -8520,13 +7855,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("2CFAA214-E7A0-4818-9B73-7CB003091CAB"),
-                QuestionId = new Guid("436F7678-8CE9-4176-ADD0-5E08AE923B13"),
-                Content = "cảnh trí",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("1E276BBB-300F-406C-8067-8DD8947C02AC"),
                 QuestionId = new Guid("4DB22F63-4873-4FFF-B9AD-4D3ABFB794D0"),
                 Content = "Danh từ",
@@ -8608,13 +7936,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("8F212387-949B-43AA-B81B-F6A10CCBD76B"),
                 Content = "계산",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("684D9E5C-163E-4368-BD7F-744BEDDDA7CD"),
-                QuestionId = new Guid("ACACBB8B-6DBC-4188-A441-723EE5CB73F7"),
-                Content = "kinh nghiệm",
-                IsCorrect = true,
             },
             new()
             {
@@ -8702,13 +8023,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("553147A6-CE34-47F9-AD60-6825D934BD65"),
-                QuestionId = new Guid("F12446CB-6BDE-4234-8ACC-7DBACFB48F63"),
-                Content = "cầu thang, thang",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("9A5DAC82-878B-4501-B367-5EE093AFC833"),
                 QuestionId = new Guid("654D8479-AB01-468F-B603-25B4DA02C355"),
                 Content = "Tính từ",
@@ -8790,13 +8104,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("452B472D-BE73-4142-8BD8-5F02FCF8C763"),
                 Content = "근교",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("5ACD852B-AABA-43E4-A9A9-C5279E2B4A44"),
-                QuestionId = new Guid("A793559A-7D2A-4A49-87CB-D641556D3E54"),
-                Content = "trứng gà",
-                IsCorrect = true,
             },
             new()
             {
@@ -8884,13 +8191,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("ABE3502A-A534-4222-910F-3DC26EDF4DD2"),
-                QuestionId = new Guid("E5F6F7D6-7F68-40E4-A0C6-FA8796A16E8B"),
-                Content = "(sự) tính",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("D9AFB301-F45B-4D4A-B5E0-909569BEB8BD"),
                 QuestionId = new Guid("1118B51A-58CC-4173-A9CC-83CE57198E63"),
                 Content = "Động từ",
@@ -8975,13 +8275,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("9F55CCAA-F4FC-481B-92D8-E3A9B5D20B38"),
-                QuestionId = new Guid("328F1F7E-E546-49EC-AFB6-F197CDE172BB"),
-                Content = "sự liên tục",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("8B43EC6E-20A7-4207-97B3-A185EA45B5BB"),
                 QuestionId = new Guid("97C83B95-DB2D-4638-8BB7-990BBDC956C8"),
                 Content = "Danh từ",
@@ -9062,13 +8355,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("44BD59D0-4AD4-44BF-9348-8A5EC8855D96"),
                 QuestionId = new Guid("CC92CFC8-30FF-4558-805E-C8B10BAE5A33"),
                 Content = "계시다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("EDDB8DDE-58BC-45B9-A690-1B2E281A7A5F"),
-                QuestionId = new Guid("206FAAD2-650C-4F90-95E3-117A60F8AED1"),
-                Content = "ở (sống)",
                 IsCorrect = true,
             },
             new()
@@ -9157,13 +8443,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("3617ED1A-CBB8-4710-9FCA-B6899E574F2F"),
-                QuestionId = new Guid("6A450FBB-3BCE-481E-9942-A689DA5C5CCD"),
-                Content = "mùa",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("39A13357-63BC-4CA9-A575-8360A8A00ACF"),
                 QuestionId = new Guid("C6E8C107-10E0-4005-BC94-2F6645043D24"),
                 Content = "Động từ",
@@ -9245,13 +8524,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("68380112-66AC-440A-AC04-77E2033F515A"),
                 Content = "금",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("CC1DB91F-ABBE-4952-9CF5-21946B786CFC"),
-                QuestionId = new Guid("92AA9500-B845-44B1-B5B6-4E97611A607B"),
-                Content = "kế hoạch",
-                IsCorrect = true,
             },
             new()
             {
@@ -9339,13 +8611,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("C28D729A-20E5-40FB-98AB-504AB36DBE90"),
-                QuestionId = new Guid("B112352E-F2BF-40CB-A604-7D2E4BA3E1E7"),
-                Content = "cổ, gáy",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("641D911E-11C3-485D-A783-E2E24DE52568"),
                 QuestionId = new Guid("83E7305D-5D02-45B2-AD53-D7A87C3A2E9F"),
                 Content = "Danh từ",
@@ -9427,13 +8692,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("E3732B95-D86F-41FB-8AEB-B4004D1BF9EA"),
                 Content = "과목",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("EA3B2AAD-EA05-433D-BB7A-8952A947E386"),
-                QuestionId = new Guid("A276CE46-3B92-46DC-A6D2-A3EE9B72F10E"),
-                Content = "thịt",
-                IsCorrect = true,
             },
             new()
             {
@@ -9521,13 +8779,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("F91A6046-1E93-4A65-B67C-68649D0D8E80"),
-                QuestionId = new Guid("8BD7AAD0-345D-4DA3-A3F2-01E7061BE47B"),
-                Content = "trường trung học phổ thông",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("E3F0FA55-D394-4F66-BAB5-A1B61EB3E6DF"),
                 QuestionId = new Guid("D98C0085-4DF7-4B37-A4AF-26274D16CB9C"),
                 Content = "Phó từ",
@@ -9609,13 +8860,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("33E742CB-042C-43EF-915E-D44F03B48D9E"),
                 Content = "경제력",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("410BE3C5-92C6-4825-A7A1-EB8372B78874"),
-                QuestionId = new Guid("238DB29A-65A5-4FA1-9DAD-CB1442CB4B6F"),
-                Content = "học sinh trung học phổ thông",
-                IsCorrect = true,
             },
             new()
             {
@@ -9703,13 +8947,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("3DA0F527-B395-4EA8-AC67-DB029897C492"),
-                QuestionId = new Guid("B6FE4743-3566-43B8-A146-8C16F524F164"),
-                Content = "chọn",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("C04B7D96-49E1-4BA0-BC30-1104DF7787CD"),
                 QuestionId = new Guid("A872F5D2-3980-4E3E-99DC-3312A58E47C9"),
                 Content = "Tính từ",
@@ -9791,13 +9028,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("D740C3EA-094E-47DF-BEE5-04014EADA52B"),
                 Content = "기쁘다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("EC413535-B7E1-444B-AD0E-37572EF5DDDA"),
-                QuestionId = new Guid("914A9FD8-934C-420C-8704-774094BC4A33"),
-                Content = "cảm  ơn, biết ơn",
-                IsCorrect = true,
             },
             new()
             {
@@ -9885,13 +9115,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("80257BB4-C010-45D5-8380-A50B3BDD51C2"),
-                QuestionId = new Guid("747E18FC-F6F1-4E1E-8689-63B3BEEBB314"),
-                Content = "cô",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("E3A3C565-3542-45EB-A180-A2636B28EC14"),
                 QuestionId = new Guid("190224CB-CD54-4EEB-A277-B751F0667949"),
                 Content = "Động từ",
@@ -9976,13 +9199,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("B9B0B0C0-D397-4AFE-A993-EC1DCD9DCEEC"),
-                QuestionId = new Guid("E2200E29-D81D-4539-B850-9E4BE655F22E"),
-                Content = "sự lo lắng, sự khổ tâm",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("052F099F-7796-4FB6-BE5B-F6F5EAAA5152"),
                 QuestionId = new Guid("614EB747-B624-4F9F-B64C-5F0260D702E3"),
                 Content = "Danh từ",
@@ -10063,13 +9279,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("3C6C30D0-6AFD-4B4E-9798-4E0E64CDB181"),
                 QuestionId = new Guid("303115A7-5F68-46B4-B96D-516E299FF71C"),
                 Content = "고속버스",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("B92EBA9E-E7E2-450F-9C7F-F23769BA830D"),
-                QuestionId = new Guid("A7ECCBB4-4689-4747-A5FD-3A2B14B8FACB"),
-                Content = "xe buýt cao tốc, xe buýt tốc hành",
                 IsCorrect = true,
             },
             new()
@@ -10158,13 +9367,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("49C90827-58A6-4277-821A-F0BB5586C48B"),
-                QuestionId = new Guid("72F8539F-B892-420F-9465-A6BCB848D778"),
-                Content = "con mèo",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("C3F87AE4-76BC-441A-B2DD-0504817563B8"),
                 QuestionId = new Guid("A99BC9A3-0AD2-4B54-A727-EA3853F6052D"),
                 Content = "Tính từ",
@@ -10246,13 +9448,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("AE870710-88CE-4035-9F2B-5AEBC2685D4A"),
                 Content = "관심",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("F2E10E2C-8F78-48D0-8EBF-E153718BE691"),
-                QuestionId = new Guid("9960650D-1A1F-46AC-9D05-BF8D49F5A2A8"),
-                Content = "quê quán, quê hương, vùng quê",
-                IsCorrect = true,
             },
             new()
             {
@@ -10340,13 +9535,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("8FB9FA5B-8C27-4906-9B8F-B4F33D5664CD"),
-                QuestionId = new Guid("CEE35FE8-F510-4752-A8E7-33FFA5876837"),
-                Content = "Gochujang; tương ớt",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("DE4BEBB5-99B4-48F6-BD83-F1C4529B638A"),
                 QuestionId = new Guid("0BF7AA96-56FD-4923-A297-A11E85F2E709"),
                 Content = "Phó từ",
@@ -10431,13 +9619,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("6D075700-9CE1-4F97-B058-5836C396EE50"),
-                QuestionId = new Guid("D042BECE-E8DD-4CC9-ADFB-B6869163FF65"),
-                Content = "sửa",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("F6FDF7DA-C0E6-4231-81D6-2A3D8EEF6744"),
                 QuestionId = new Guid("7EB99A60-99AA-4BF4-9C94-3D360AD76CC6"),
                 Content = "Phó từ",
@@ -10518,13 +9699,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("9DF1D372-CE55-4020-811B-1C25F56C83DC"),
                 QuestionId = new Guid("A5323F50-4F36-4A31-AEFE-DD394C321ADC"),
                 Content = "고프다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("8B3F9183-799B-4EDF-878E-359F873CB8B4"),
-                QuestionId = new Guid("DB22B352-AB4C-4BA9-95FC-0348AC65C369"),
-                Content = "đói bụng",
                 IsCorrect = true,
             },
             new()
@@ -10613,13 +9787,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("8227DA08-FDCD-4462-9AB0-2C3029EF9693"),
-                QuestionId = new Guid("1D489F3D-2380-4AA0-8CA2-E7E483594BCD"),
-                Content = "quê hương",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("28BAAA7F-DFB6-4496-9CE8-E1489989225C"),
                 QuestionId = new Guid("E8DEFD30-56E1-4954-8332-0B5C91705215"),
                 Content = "Danh từ",
@@ -10704,13 +9871,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("EA141BBD-24E7-422E-ABF8-B0D9C413D147"),
-                QuestionId = new Guid("A29C735C-9ABA-4C5D-8E52-3FA7FEB9926A"),
-                Content = "ngay",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("93AEA90A-8953-4187-84D3-2D2B4B83E66B"),
                 QuestionId = new Guid("29C76FC7-65CA-476B-89E9-46228A1EF1BC"),
                 Content = "Tính từ",
@@ -10791,13 +9951,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("7C3B7022-E205-49C1-9711-8CA12E7E50A1"),
                 QuestionId = new Guid("DF158679-898D-4F53-A152-6A6EB2009DCD"),
                 Content = "곳",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("8E27A3DF-A63C-4A68-B9C0-03F10CE103F1"),
-                QuestionId = new Guid("BA4588C9-6591-4E12-ADA7-C210E276A6B2"),
-                Content = "nơi, chốn",
                 IsCorrect = true,
             },
             new()
@@ -10886,13 +10039,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("9AC9E7AD-2BA2-49A0-BBB4-7250FDEFE582"),
-                QuestionId = new Guid("6E0A33D9-2F1F-4375-A098-F3013C12887A"),
-                Content = "quả bóng, quả banh",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("42840FE2-6B25-4484-B669-F06C7A28309F"),
                 QuestionId = new Guid("8BC5E389-340C-422F-A58A-96FB568A4DF5"),
                 Content = "Động từ",
@@ -10973,13 +10119,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("A5710629-E176-47F2-B185-9273C042A406"),
                 QuestionId = new Guid("592C4991-6EDB-4146-9C7D-EB777CFD5F2F"),
                 Content = "공무원",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("9959D715-5697-494B-B7A4-D558395A4ACC"),
-                QuestionId = new Guid("5F6FEE09-9888-4DFE-8AD2-D5E115E6698A"),
-                Content = "công chức, viên chức",
                 IsCorrect = true,
             },
             new()
@@ -11068,13 +10207,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("01DE8FB2-8CAC-4BFE-BB53-B30EE9F919BD"),
-                QuestionId = new Guid("57F653E1-A8C7-4028-B5D9-991E9B5CA7EE"),
-                Content = "việc học, sự học",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("61AB104A-87A7-4CF9-BFC4-F87C4AF13EB1"),
                 QuestionId = new Guid("82F2A8AA-5F3F-48D3-B1F5-EA6B33007BD1"),
                 Content = "Tính từ",
@@ -11156,13 +10288,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("EF46A3ED-5C97-45E0-BE62-847616420E7A"),
                 Content = "가져가다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("F3F333DD-10FF-4DD4-8CED-6506FE7B8A3C"),
-                QuestionId = new Guid("8F665FE0-ACD4-4C32-969E-CEA3BB98C2B3"),
-                Content = "học, học tập, học hành",
-                IsCorrect = true,
             },
             new()
             {
@@ -11250,13 +10375,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("325A8D9F-057F-48DA-BB03-D9E0DB8C6692"),
-                QuestionId = new Guid("77476DDE-6E5A-42D0-B2D0-21FFC192A5B4"),
-                Content = "công nhân",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("4F1E76F4-D014-4A59-92F0-11DBF911D362"),
                 QuestionId = new Guid("2F14B513-93B8-4225-BD84-72CC39E1D958"),
                 Content = "Động từ",
@@ -11338,13 +10456,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("42B71780-786A-4CB6-B176-7E56B44FE5EE"),
                 Content = "간식",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("F5320A8F-FA6E-42FD-8C8B-1AAD54C6980B"),
-                QuestionId = new Guid("1929F9E1-235E-4D84-829A-976D5D9F56AA"),
-                Content = "nhà máy, công xưởng, xưởng",
-                IsCorrect = true,
             },
             new()
             {
@@ -11432,13 +10543,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("E31D2081-F804-4804-9347-FDB69B6D5649"),
-                QuestionId = new Guid("AA6A46A6-BD8A-477F-90C7-81095DD706EC"),
-                Content = "miễn phí",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("F0939C4A-7BCA-4A7D-833C-861DE93C18DC"),
                 QuestionId = new Guid("CF97A8B2-569A-4646-BE5F-25D38C92FA97"),
                 Content = "Danh từ",
@@ -11520,13 +10624,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("A146000A-697B-49CC-A959-322C545A25F2"),
                 Content = "구청",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("D3BA7359-6240-4B4E-9B7F-8CD6F8C593A9"),
-                QuestionId = new Guid("4E2F5820-F4B6-49DB-8BF5-34B7689ACB15"),
-                Content = "quyển tập, quyển vở",
-                IsCorrect = true,
             },
             new()
             {
@@ -11614,13 +10711,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("D68360CD-571D-48B4-AED9-993D9A1D2B92"),
-                QuestionId = new Guid("FD6744E1-9557-4CC1-BCB0-4130BED0386D"),
-                Content = "sân bay",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("5D40F1EF-F9A8-4890-AEC7-7CC5E4AB76AE"),
                 QuestionId = new Guid("F5072274-D591-48E7-9174-701C13B9CF39"),
                 Content = "Danh từ",
@@ -11701,13 +10791,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("1F4ECF51-1756-43F0-A7F8-E866B645FE76"),
                 QuestionId = new Guid("BFACB826-9F77-49D7-972E-B2DFAB9D7F49"),
                 Content = "공휴일",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("29A5CC3C-0CD7-4970-930D-0382C8D33AE6"),
-                QuestionId = new Guid("12C151A1-F002-42E5-8C85-77BD2C13DFD4"),
-                Content = "ngày lễ",
                 IsCorrect = true,
             },
             new()
@@ -11796,13 +10879,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("A0817B14-3AA8-4DD5-B5DE-CCA7FBB19FB2"),
-                QuestionId = new Guid("CC46C97F-06FB-4CCF-8661-AA60B8EA399E"),
-                Content = "khoa cử",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("1C5987FB-72A7-4874-A1E1-67A482FE3BA8"),
                 QuestionId = new Guid("F699042A-B2E1-4A42-94FF-47961709915A"),
                 Content = "Tính từ",
@@ -11887,13 +10963,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("9934817A-7208-42B9-825E-A6EFC514B0C9"),
-                QuestionId = new Guid("9F4C5083-503F-4359-95C0-0E729DE236AC"),
-                Content = "trái cây, hoa quả",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("0A0A59A3-597C-4CDF-B22F-625AAB7F698C"),
                 QuestionId = new Guid("BC0F1A0E-0C86-4D77-AD8D-41BDCA97C082"),
                 Content = "Phó từ",
@@ -11974,13 +11043,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("8A3E5AF3-7306-4C28-8C54-F3DF93E4E4D1"),
                 QuestionId = new Guid("3DBAA6D4-6556-44C9-B9E2-3842D4698505"),
                 Content = "과자",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("C453A7D7-A982-47B3-A03F-EB6D52733BED"),
-                QuestionId = new Guid("A35D50C6-EC84-4E25-B9FA-BD3E8B2ECDAC"),
-                Content = "bánh ngọt, bánh quy",
                 IsCorrect = true,
             },
             new()
@@ -12069,13 +11131,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("9ACCC6D0-87F4-4165-AC3A-F451B3F491B2"),
-                QuestionId = new Guid("59E694EE-F7ED-4C80-AFCE-8D6458C09A7A"),
-                Content = "giới quan chức, giới công chức",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("77320B67-9D65-499E-BFF8-B43FBEE482F1"),
                 QuestionId = new Guid("37972D3C-9462-4268-B8F8-03CF2D934E26"),
                 Content = "Động từ",
@@ -12157,13 +11212,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("33EB452D-A769-48AA-B75D-C2354C2DA4AC"),
                 Content = "개방",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("ACAF0996-8355-4224-8C0E-172E6D10D711"),
-                QuestionId = new Guid("6C3DD5FA-549F-44E6-B154-F0F23D48EE0E"),
-                Content = "sự tham quan, chuyến du lịch",
-                IsCorrect = true,
             },
             new()
             {
@@ -12251,13 +11299,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("A8BE73E1-8311-4592-9A77-0F2F32234C90"),
-                QuestionId = new Guid("FB0ACA4E-7D3E-4DDE-9DCA-ED4F196F8BDB"),
-                Content = "khách tham quan, khách du lịch",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("57CD67CF-F0E2-401D-9C99-A9FF2FD638CF"),
                 QuestionId = new Guid("7FEA52C4-68DF-4826-92AF-67529AF8CAF1"),
                 Content = "Danh từ",
@@ -12338,13 +11379,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("56A1AA21-D000-42EE-9E71-D6C88D697BC7"),
                 QuestionId = new Guid("622FB8C2-E3D0-4C7C-BFF0-208C53AF6D76"),
                 Content = "관광지",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("6D7913F9-1654-4491-8732-289268D5DFD4"),
-                QuestionId = new Guid("8A993977-ADC8-4EA3-A561-414A986FFF86"),
-                Content = "điểm tham quan, điểm du lịch",
                 IsCorrect = true,
             },
             new()
@@ -12433,13 +11467,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("F16C6D73-0183-42E3-805D-EBC2C1F5813F"),
-                QuestionId = new Guid("5D6F33F2-4876-47A5-93EE-0D7B6780FAF4"),
-                Content = "mối quan tâm",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("83E03F82-9E79-4655-9247-DF313877A13D"),
                 QuestionId = new Guid("EC4D1719-26AD-4024-A5DB-A59D45302511"),
                 Content = "Tính từ",
@@ -12524,13 +11551,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("1415473E-5C46-41DA-8E12-2FC9CC50EBDE"),
-                QuestionId = new Guid("E8E5B8C0-8A1D-4941-92D0-7211EEFAB368"),
-                Content = "sự quảng bá, sự quảng cáo",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("B1AECA8C-63C2-4085-AC5B-3E162819B4DD"),
                 QuestionId = new Guid("A35ABEE5-603A-422D-B587-1551F84B2887"),
                 Content = "Danh từ",
@@ -12611,13 +11631,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("521DA4A4-3EB4-4248-A5A4-068C7493364C"),
                 QuestionId = new Guid("5CE41863-D5A8-4326-BF44-0A3B8AA11020"),
                 Content = "광주",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("75FEA25B-4936-4120-89A8-8FC9409A1A53"),
-                QuestionId = new Guid("9D58D85A-1280-49A8-A18E-2D83A7E614C1"),
-                Content = "Gwangju; Quang Châu",
                 IsCorrect = true,
             },
             new()
@@ -12706,13 +11719,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("D95AD7DE-1978-4B8E-B60C-1B2ED4A24334"),
-                QuestionId = new Guid("DD335A29-93A3-4683-B5A0-0BDA43B8AF05"),
-                Content = "được",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("EB692AED-B2DF-48CE-9061-D916F5F5B78B"),
                 QuestionId = new Guid("B7805241-8E51-4475-ABB2-459DA50C92D1"),
                 Content = "Danh từ",
@@ -12794,13 +11800,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("D90DF54E-A49A-442B-928C-49A32370BBD7"),
                 Content = "가꾸다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("79ACE45D-81D8-4D5F-A3A1-C63EFD089B1B"),
-                QuestionId = new Guid("F6534B8A-BADD-4E6C-8986-BE8C9A4F4F7F"),
-                Content = "đau buồn, đau đớn",
-                IsCorrect = true,
             },
             new()
             {
@@ -12888,13 +11887,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("1D259928-30EF-4BC2-AEAF-73C0B4DC798F"),
-                QuestionId = new Guid("8F6DE372-49F5-4333-B05E-4D63C8A525B7"),
-                Content = "sách giáo khoa",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("BFD95CE6-5200-4ABC-9CA4-302D58FF480B"),
                 QuestionId = new Guid("7BDA0F5C-22DC-40BA-8AB4-04431FD5FB69"),
                 Content = "Danh từ",
@@ -12976,13 +11968,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("08262D74-E3B2-4DE0-B92A-55058EA6A614"),
                 Content = "기관",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("9347D334-0A0F-4BBA-B9C3-F40EE5216165"),
-                QuestionId = new Guid("E7155785-CDA2-4808-B4BA-522A6C8578E6"),
-                Content = "tòa nhà ở trường",
-                IsCorrect = true,
             },
             new()
             {
@@ -13070,13 +12055,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("80A309E3-EB65-49A2-BBDB-7B55317B9197"),
-                QuestionId = new Guid("D7C9384E-3B41-49F1-AA40-8406F9A0D583"),
-                Content = "việc giảng dạy",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("B3C4D2A6-CBD1-401E-89FA-2D815AF2D6D8"),
                 QuestionId = new Guid("CF5C9FBB-BB33-4FFD-A1AB-684C3C618DA1"),
                 Content = "Phó từ",
@@ -13157,13 +12135,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("CBC3B664-96F6-4D97-BCB8-57959F7D6CE7"),
                 QuestionId = new Guid("C8F4607E-EDEA-4A3F-8E76-CCC0738514FD"),
                 Content = "교실",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("F3050551-203E-49D1-B67C-3764AE855239"),
-                QuestionId = new Guid("827E4C5C-F6E0-4FF8-BBD2-8F04C2D1BB38"),
-                Content = "phòng học, lớp học",
                 IsCorrect = true,
             },
             new()
@@ -13252,13 +12223,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("9287E5B5-D8AB-473D-88E9-C754B3472AEB"),
-                QuestionId = new Guid("D2C4A6F7-F98E-4D1F-86D0-EF115A4E46FD"),
-                Content = "sự giáo dục",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("84D20C16-5E56-434D-81DF-30D0BE1A8A0B"),
                 QuestionId = new Guid("E323E8D5-0BE3-4D8A-91C8-3C9A84F592D3"),
                 Content = "Tính từ",
@@ -13343,13 +12307,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("908384BB-D1C1-415A-A333-2336CB614FFC"),
-                QuestionId = new Guid("D431FB4B-50BD-4B40-8EC7-E6015745F15C"),
-                Content = "giao thông",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("660543D3-6CBD-4B64-A07A-3914AA9C755B"),
                 QuestionId = new Guid("5060822B-F46D-490E-BA2B-01944434AF37"),
                 Content = "Động từ",
@@ -13430,13 +12387,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("175860B0-9FC4-4581-B142-420C67444FCF"),
                 QuestionId = new Guid("8E561B4B-3D30-4449-A8E9-F771993E11FE"),
                 Content = "교통비",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("8CB08D31-DC45-4BA6-B7B3-05B5F7D1CCF6"),
-                QuestionId = new Guid("327DC891-5E3A-4EB2-9EB5-66017689B4B7"),
-                Content = "phí giao thông",
                 IsCorrect = true,
             },
             new()
@@ -13525,13 +12475,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("6387133F-1E39-4D86-BC3C-296B50FDFD0E"),
-                QuestionId = new Guid("B2F4681A-FBE4-4C35-A24A-171C1A3365D2"),
-                Content = "tai nạn giao thông",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("DC2EC45F-4AF2-444F-B912-32BB13E7900C"),
                 QuestionId = new Guid("B6887822-9C4B-4880-88FF-05645F2A5E83"),
                 Content = "Tính từ",
@@ -13613,13 +12556,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("188B933A-453C-4304-922B-ECFEA43EAEC0"),
                 Content = "감정적",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("5CADE045-265A-424C-A888-D57DC0F9280B"),
-                QuestionId = new Guid("B82DD9A1-DF04-44F5-89BD-49590A34E8C7"),
-                Content = "sự thay đổi, sự hoán đổi",
-                IsCorrect = true,
             },
             new()
             {
@@ -13707,13 +12643,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("5C0407A5-A8D7-4091-8911-6366E15B38DB"),
-                QuestionId = new Guid("3379B899-0DFE-439C-9BB4-49EE1CF3BEC1"),
-                Content = "giáo hội, nhà thờ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("8AE05C33-961F-4B96-8B43-CC4879917252"),
                 QuestionId = new Guid("721F8A5C-CFCD-41D4-88C1-B7066C39AB69"),
                 Content = "Danh từ",
@@ -13798,13 +12727,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("64AD1EC1-29A6-4213-B7D8-33612B9893F8"),
-                QuestionId = new Guid("085CE028-7BA2-4085-9BDF-727EB96076DD"),
-                Content = "từ ghép, cụm từ, mệnh đề",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("38739BB4-6A0B-4795-8AFD-E98BC8A52C45"),
                 QuestionId = new Guid("95E0C309-27ED-4CD2-BD0B-18E5D5A86FDF"),
                 Content = "bước ngoặt",
@@ -13857,13 +12779,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("EC7AF55A-16E5-4FD4-8055-7E5E9C52B018"),
                 QuestionId = new Guid("64F1D191-E94B-45CB-918D-5CB82F998D61"),
                 Content = "구경",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("74269C77-F10B-4397-8220-7EC60E1F1644"),
-                QuestionId = new Guid("3B1D992A-70BF-48D8-9152-ED54E266023C"),
-                Content = "sự ngắm nghía, sự nhìn ngắm",
                 IsCorrect = true,
             },
             new()
@@ -13952,13 +12867,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("D20D9033-FB4A-4E0A-8133-A7B35317D2F7"),
-                QuestionId = new Guid("58B9C2A8-A61E-453E-BE49-76BB649C36C1"),
-                Content = "giày",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("EDF708F8-CF89-4148-8397-446F0BE87026"),
                 QuestionId = new Guid("62169727-7D71-47A5-8C1B-2F51597D9670"),
                 Content = "Phó từ",
@@ -14040,13 +12948,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("576FF0E9-AC8B-43D5-A95F-FFAB45E8E498"),
                 Content = "고속도로",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("93C044D2-B1EA-45BC-9FD1-A44A491F70EE"),
-                QuestionId = new Guid("D48756CE-D165-405F-A274-7FBE2AE31034"),
-                Content = "đám mây",
-                IsCorrect = true,
             },
             new()
             {
@@ -14134,13 +13035,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("92BF898E-A335-43C3-928F-7E349E560F97"),
-                QuestionId = new Guid("06B6A2F3-EC5F-4D84-8EAC-A24A53D23928"),
-                Content = "chín mươi, 90",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("E3EFB0AA-7CED-49D8-BD6E-2E837D04968A"),
                 QuestionId = new Guid("867D5BAC-BF70-41A4-A8E0-9FCCAB95A90F"),
                 Content = "tháng chín",
@@ -14194,13 +13088,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("C8A105D8-1DFA-40DF-9941-9E5907E39AAF"),
                 Content = "그리움",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("A08B18E4-203D-45C3-9857-AC4FA388DE3A"),
-                QuestionId = new Guid("4BB6C439-919C-4830-BAA2-DFF5BC98FF31"),
-                Content = "tháng chín",
-                IsCorrect = true,
             },
             new()
             {
@@ -14288,13 +13175,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("7F8B304F-AFEE-432F-A8A5-DA63799432EB"),
-                QuestionId = new Guid("EB33198D-4C31-4446-86FC-B764B4618187"),
-                Content = "canh, món canh",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("E57C3938-E269-4180-9BEB-13368BCC2287"),
                 QuestionId = new Guid("0180C530-BF5E-4CF5-937C-3B15886CC564"),
                 Content = "Tính từ",
@@ -14375,13 +13255,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("061723DF-F2F9-4549-B980-68A515E62F31"),
                 QuestionId = new Guid("30B76C2E-25C3-4B18-8E4F-49285C127ECA"),
                 Content = "국내",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("33AB1ACF-9767-47B2-A4DE-734ABB968C3A"),
-                QuestionId = new Guid("77927601-444E-48D3-A932-CFCA6798859D"),
-                Content = "quốc nội, trong nước, nội địa",
                 IsCorrect = true,
             },
             new()
@@ -14470,13 +13343,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("DDF07B0F-13FA-409C-BA25-674D5146B9F8"),
-                QuestionId = new Guid("D1B5C19F-B323-45C6-B6DC-768E4C3D050F"),
-                Content = "mì",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("635545FE-B09D-480F-B72C-0A6662BC4E7B"),
                 QuestionId = new Guid("5C4E91CC-9B14-4E2B-AD39-75B09D9B5561"),
                 Content = "Tính từ",
@@ -14561,13 +13427,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("2333FB35-4693-499E-A0D8-AE11AF8C477C"),
-                QuestionId = new Guid("38513B20-808F-46B2-8EB7-E11E0C3242FD"),
-                Content = "quốc tịch",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("325B7866-5BFB-4895-9461-CFE71781B6E1"),
                 QuestionId = new Guid("D0743F3F-33B2-4F75-9239-C6F355BB53C1"),
                 Content = "Phó từ",
@@ -14648,13 +13507,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("C633DF74-A8AE-4EDA-AEC8-6E1A4F5D941F"),
                 QuestionId = new Guid("83B30A8D-33C6-4A60-889B-D35E5536ACB5"),
                 Content = "국제",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("7808F5D1-750A-4EEF-80D0-ACF455958A57"),
-                QuestionId = new Guid("2AA9F020-05EE-4158-A8E2-BE4D2AB4C512"),
-                Content = "quốc tế",
                 IsCorrect = true,
             },
             new()
@@ -14743,13 +13595,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("37893505-CDFC-4D96-8331-A6D50ECAF195"),
-                QuestionId = new Guid("3809F170-328E-446D-9965-478DD2A8AD3E"),
-                Content = "quân nhân, bộ đội",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("F48A391D-E4EC-44B7-A039-EEDFE31657F4"),
                 QuestionId = new Guid("723B4C76-A7BF-410F-843E-FF9278E74F30"),
                 Content = "Động từ",
@@ -14834,13 +13679,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("81BFCE61-5B5A-4B09-9E5A-EC8817309BDB"),
-                QuestionId = new Guid("4F88BE47-92A6-4136-8EB8-8D5992F75126"),
-                Content = "đông, cứng",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("4698EA9B-A67B-4171-A1D3-7A8F552FFE63"),
                 QuestionId = new Guid("07452B79-EB18-4EE5-A686-56A58B027DF0"),
                 Content = "Danh từ",
@@ -14921,13 +13759,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("16A763F0-5068-4114-882F-0F076708BEF8"),
                 QuestionId = new Guid("2FA1FB0A-561C-4D57-9777-3448987A9A08"),
                 Content = "굵다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("94CC397E-8BD1-46B5-87AA-4C6A8476CB64"),
-                QuestionId = new Guid("D3D9A1C6-5AE9-4B27-8F84-60160C3CEBF3"),
-                Content = "to, lớn, thô",
                 IsCorrect = true,
             },
             new()
@@ -15016,13 +13847,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("DF01CB32-C3A4-4211-85F5-0619661AAFD4"),
-                QuestionId = new Guid("9548A204-09E8-4424-B10A-7713A6687696"),
-                Content = "nướng",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("BA2459AB-F0B2-4077-9890-7F5FB3BAE860"),
                 QuestionId = new Guid("A06B32E2-8494-4DAA-B539-0F6841CEC443"),
                 Content = "Danh từ",
@@ -15103,13 +13927,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("3037F728-BCE6-4AE3-9F7F-E5E63C0E1897"),
                 QuestionId = new Guid("27F86C87-6AC5-4919-B681-E288C85A51CF"),
                 Content = "궁금하다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("37736B1F-FD52-4302-9876-50382805C9D3"),
-                QuestionId = new Guid("AE31B173-9B49-4B01-B422-308169E1DCD5"),
-                Content = "tò mò",
                 IsCorrect = true,
             },
             new()
@@ -15198,13 +14015,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("68D2F16E-8F14-444F-8E07-758BB9FA5919"),
-                QuestionId = new Guid("10CA4348-8AD0-49B9-A872-6CA884998E4B"),
-                Content = "cuốn, quyển",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("5725DB3A-CDD2-40CC-B471-FC23FA1B4356"),
                 QuestionId = new Guid("CAC7E164-DDB4-49C8-9A1A-F0DE5B308063"),
                 Content = "kẹo cao su",
@@ -15257,13 +14067,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("B855E5F4-18DC-41FD-9B97-1F6DCA462542"),
                 QuestionId = new Guid("3A0279EB-285F-4522-A3AD-DDC5F0032776"),
                 Content = "귀",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("458CF4DF-C8E4-4041-8062-F384774DA5C7"),
-                QuestionId = new Guid("7D626303-F0B3-42A3-8951-12DB21ABCDD0"),
-                Content = "tai",
                 IsCorrect = true,
             },
             new()
@@ -15352,13 +14155,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("CC482CD0-FFB8-44FD-91DF-B8100AB5E3C3"),
-                QuestionId = new Guid("0EDFCFE1-4109-49C0-A8D8-1BFCB49B10EB"),
-                Content = "hoa tai, bông tai, khuyên tai, vòng tai",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("745EB45E-7325-4ABD-8DC3-6A1A4C745B5C"),
                 QuestionId = new Guid("E78DC0FF-3EC3-4628-8A54-A40B6EBBF80B"),
                 Content = "Danh từ",
@@ -15440,13 +14236,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("454ADCD9-6FE1-4935-804A-AE4FE78283EE"),
                 Content = "개발하다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("265BBB2F-E5B6-4211-966E-02E431ADDCF4"),
-                QuestionId = new Guid("45E091BC-055B-42A2-9CA3-DFFF99CAB33C"),
-                Content = "yêu quý, yêu mến",
-                IsCorrect = true,
             },
             new()
             {
@@ -15534,13 +14323,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("825757F9-779E-4623-8A1E-82D9976E3399"),
-                QuestionId = new Guid("3C0CF763-117C-416B-86D7-26F24007ADED"),
-                Content = "dễ thương",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("DB008AAB-298E-49BA-8C97-9720DA28C2B9"),
                 QuestionId = new Guid("2788DDDB-98C6-49FA-B3A8-5FBF379A3C27"),
                 Content = "Phó từ",
@@ -15622,13 +14404,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("3911AC8E-334B-4883-84E7-A2E516F4A729"),
                 Content = "거대하다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("0AC98721-8936-4231-930C-E1A45C7510D3"),
-                QuestionId = new Guid("483CB239-CD1D-4E06-9A01-830DAB288A97"),
-                Content = "phiền phức, bực mình",
-                IsCorrect = true,
             },
             new()
             {
@@ -15716,13 +14491,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("B365A7F9-D0DC-4CAE-AB63-CA61A4CF299E"),
-                QuestionId = new Guid("807FB086-F827-45B9-A3BA-DC2B7297C723"),
-                Content = "quy tắc",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("742D4428-A919-4837-90D7-F6A80ADC45EA"),
                 QuestionId = new Guid("24FCAABB-9765-430C-B1D8-A67E0B1415F5"),
                 Content = "Tính từ",
@@ -15804,13 +14572,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("2A0B57E1-0382-4169-8AE1-D66B2367B729"),
                 Content = "감기",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("3D579D94-CDB4-4399-B9C5-C61D4639E053"),
-                QuestionId = new Guid("5C58F25B-E0EA-45DD-AF6E-67A1242EB742"),
-                Content = "quả quýt",
-                IsCorrect = true,
             },
             new()
             {
@@ -15898,13 +14659,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("CECEB5C9-6D92-4268-A425-AEBC481FBF2A"),
-                QuestionId = new Guid("018B3A11-36A3-4D0D-AFEA-A66F61610B5D"),
-                Content = "người đó, anh (chị, ông, bà ...) ấy",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("88BBBF02-71D4-498D-ADB4-858208E255BA"),
                 QuestionId = new Guid("9A660A8E-6BF9-4FB2-B3EC-4044DB99419F"),
                 Content = "cái đó",
@@ -15958,13 +14712,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("32333DB3-CABD-48B1-B93F-1A48F2A4E5B5"),
                 Content = "그곳",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("621AD9BD-B930-46F9-A125-98C1CF867DFB"),
-                QuestionId = new Guid("496F3F61-E338-4E9E-B7B9-2FD36DF6A069"),
-                Content = "cái đó, cái đấy",
-                IsCorrect = true,
             },
             new()
             {
@@ -16024,13 +14771,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("D46663EB-EFDC-4BCB-ACFE-E8A6BDEF66D6"),
-                QuestionId = new Guid("D5F688D8-2F22-45A1-9FDB-6F00B6FFDED3"),
-                Content = "cái đó",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("1C8D0E42-5025-447F-B3D0-562CC5FABFA7"),
                 QuestionId = new Guid("5BB21B71-B2C2-4317-BC3D-C62A949D330F"),
                 Content = "nơi đó",
@@ -16087,13 +14827,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("0969AF0A-4D5A-4040-B512-99600149C57C"),
-                QuestionId = new Guid("009CAFE8-9DC1-4EC6-B677-9DA746F19D15"),
-                Content = "nơi đó, chỗ đó",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("458CA0ED-750A-4C53-90AD-BDA35A80F23A"),
                 QuestionId = new Guid("6DB3D7B6-A391-4F59-AA3F-E8B5A47B1AE3"),
                 Content = "ngày đó",
@@ -16146,13 +14879,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("D3D5B019-9DDD-415C-BD14-12B5AA48D30A"),
                 QuestionId = new Guid("2EE0A1A8-0F61-4A54-97F9-31FA2C93AE5E"),
                 Content = "그날",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("DFB23A7D-E0C2-4556-8EAE-10B08D7BC7FA"),
-                QuestionId = new Guid("46EDAF1D-A35E-4864-9BA3-669A62A180EB"),
-                Content = "ngày đó, ngày ấy",
                 IsCorrect = true,
             },
             new()
@@ -16241,13 +14967,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("314F4E3E-B58E-4B6F-A03D-824043EDC6AC"),
-                QuestionId = new Guid("059430C7-5184-42FB-9BB7-22CA14BAD9C5"),
-                Content = "cứ, chỉ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("67CF1E16-5987-4990-8CF8-9BF21DF8580F"),
                 QuestionId = new Guid("5A209525-1B24-4A64-ADB1-BD8C4CABCC82"),
                 Content = "Tính từ",
@@ -16329,13 +15048,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("B69DCD56-0F3B-4F5E-95AA-E2F9B3686FBE"),
                 Content = "곧바로",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("3E99730F-C938-40C9-AE64-F50B60020527"),
-                QuestionId = new Guid("FFB9B218-5273-4A24-B82D-A35006E7172F"),
-                Content = "cứ vậy, đúng như",
-                IsCorrect = true,
             },
             new()
             {
@@ -16423,13 +15135,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("21BC44BD-3A2A-4F62-967C-E6B7E9B89B8B"),
-                QuestionId = new Guid("2AEE0875-2300-48F9-80A5-2BEDA83DCAEB"),
-                Content = "trong thời gian qua, trong khoảng thời gian đó",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("709DCE7E-788C-4E1F-AF64-A60343566FAD"),
                 QuestionId = new Guid("DD6F5AE0-9B63-4BD5-A653-02626C59F53B"),
                 Content = "Động từ",
@@ -16511,13 +15216,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("F9FE8DBA-6BC5-4433-BE14-61CB3C321D29"),
                 Content = "간호",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("C5AB65C8-303F-4688-AE90-4F06F4AB8108"),
-                QuestionId = new Guid("B5C7F19B-95DA-4167-9ACE-E3E07786F443"),
-                Content = "lúc đó, khi đó",
-                IsCorrect = true,
             },
             new()
             {
@@ -16605,13 +15303,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("904E50E0-EC53-4932-B07C-5EF2768A38BE"),
-                QuestionId = new Guid("4088559D-FB64-40CB-ADDE-C134F26B0EB4"),
-                Content = "vậy nhé, đúng vậy, vậy đấy",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("010498BD-8449-4BD1-91B6-1B2E50C0E3BD"),
                 QuestionId = new Guid("1154E94E-8083-4FAA-BBA0-3E42A2C1ACC8"),
                 Content = "việc lập khế ước",
@@ -16664,13 +15355,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("D3CA9B33-BEED-4CA0-A3E5-2F47618DACF3"),
                 QuestionId = new Guid("AD57C54F-4B4F-4BF9-8366-4DFA01077F03"),
                 Content = "그래서",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("A7A51D3D-6F4F-4F33-8DEB-A13EB2AD303C"),
-                QuestionId = new Guid("4AA0D10A-E0B5-4873-A85F-21DC6B9B01AA"),
-                Content = "vì vậy, vì thế, cho nên, thế nên",
                 IsCorrect = true,
             },
             new()
@@ -16759,13 +15443,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("1EF3BF13-8516-40E4-B4BA-C60A2CFFAB77"),
-                QuestionId = new Guid("4D7B452B-FE82-4A69-B171-295CAD088D1F"),
-                Content = "nhưng..., thế nhưng...",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("7ADD4BD0-63DC-4452-AC31-318D4ECA671C"),
                 QuestionId = new Guid("02831109-700C-475D-B1D6-7264685A4F20"),
                 Content = "Động từ",
@@ -16847,13 +15524,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("BC22A375-1451-41E3-9DBA-A0F693483CF7"),
                 Content = "그리하여",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("6DB547A3-03BF-4674-884D-368CB557E741"),
-                QuestionId = new Guid("DA0C707C-185C-4969-AA30-629BFF006FB0"),
-                Content = "vì vậy, vì thế, bởi vậy",
-                IsCorrect = true,
             },
             new()
             {
@@ -16941,13 +15611,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("8D486248-C3AD-428C-BC5A-2100804DAA81"),
-                QuestionId = new Guid("63D9ECAF-BB26-4DF3-8895-A979D630043D"),
-                Content = "nếu vậy, như vậy, vậy thì",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("9DB4EDA9-931D-4410-BF87-AFE9AEB15066"),
                 QuestionId = new Guid("9E9D4B5D-02B8-4B8F-936A-BE19AA03C0DE"),
                 Content = "Danh từ",
@@ -17029,13 +15692,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("D50446E0-52D6-459F-B04D-0D896C0D1FE2"),
                 Content = "곧잘",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("7D54CA1C-030C-4584-BC77-6C25D69CA3E5"),
-                QuestionId = new Guid("49DC5015-4C6F-46A0-9C13-0B95E7FA22FD"),
-                Content = "vì thế, do đó",
-                IsCorrect = true,
             },
             new()
             {
@@ -17123,13 +15779,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("014F434F-49ED-4A51-95F0-9ECAFE1B98FB"),
-                QuestionId = new Guid("DA56E0CF-AB54-4DD8-ABCF-B0BA31D82C80"),
-                Content = "như vậy",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("C58FF093-3B49-4116-ABE6-0F0B5A3FA32B"),
                 QuestionId = new Guid("D16FCE9E-16F9-40B3-BADA-2DC83E6B32D2"),
                 Content = "năm đó",
@@ -17183,13 +15832,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("EDB1CDA7-ACDC-43E5-AB67-77F971E45ECA"),
                 Content = "곧",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("00A015E9-4CC6-465D-BF48-57733FAA73D6"),
-                QuestionId = new Guid("66A886AE-DA4B-4EFD-AF38-265AEBFE5A1C"),
-                Content = "nhưng mà, thế nhưng",
-                IsCorrect = true,
             },
             new()
             {
@@ -17273,13 +15915,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("1BFB6032-C950-48EC-B7D1-4A0061EFAD11"),
                 QuestionId = new Guid("91F7A21C-C7BD-409D-BB50-361A61FEA3B8"),
                 Content = "그럼",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("18366419-211A-461E-A48D-C122F483E1D5"),
-                QuestionId = new Guid("DA424F06-6023-4BCB-BA73-8E9BFCB8215D"),
-                Content = "nếu vậy thì",
                 IsCorrect = true,
             },
             new()
@@ -17368,13 +16003,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("442754F6-7195-41F9-A7E1-31C62553153D"),
-                QuestionId = new Guid("2F52A185-8F33-434E-8443-7E0DDC6C3886"),
-                Content = "cũng vậy, cũng thế, như vậy, như thế",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("3F5FC819-D3E6-4B52-A72D-1449DF3976A4"),
                 QuestionId = new Guid("20B4C9D8-0427-4049-BD44-258509CBD694"),
                 Content = "Danh từ",
@@ -17456,13 +16084,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("386F5401-0F60-48F5-8F35-07F4ABF1C89D"),
                 Content = "가득히",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("79CF7523-8379-4BE0-AE29-3C8F818279DF"),
-                QuestionId = new Guid("848D135A-4A98-4D3E-877D-A01EE130D8EB"),
-                Content = "nhưng, tuy nhiên",
-                IsCorrect = true,
             },
             new()
             {
@@ -17550,13 +16171,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("41943059-0A2A-422C-8977-EEBDF23427FC"),
-                QuestionId = new Guid("EACFF284-7E54-4DDC-98C9-8224466C94D4"),
-                Content = "chén, bát, tô",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("6B8A5829-8A2E-4135-9284-6C02FF677DE1"),
                 QuestionId = new Guid("D773CA63-4706-424F-828C-0F70051F4590"),
                 Content = "Phó từ",
@@ -17641,13 +16255,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("F5657C72-AB41-4A64-8DCA-C15738F271A7"),
-                QuestionId = new Guid("8D786051-7277-418D-A319-294E905614F3"),
-                Content = "và, với, với cả",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("BFF478EC-9A4D-49A3-93F9-6AE4BB12BDB4"),
                 QuestionId = new Guid("1F569F25-608F-4367-9054-9B02C10EEB25"),
                 Content = "Tính từ",
@@ -17728,13 +16335,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("67523EEC-8BA3-467E-8BCF-0DBB61BF34FF"),
                 QuestionId = new Guid("9ECC98E4-36DB-4B81-B7D0-BFC50C79E711"),
                 Content = "그리다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("DDAA960D-6265-4F8E-869F-EEA27E0D509C"),
-                QuestionId = new Guid("F5976DB6-786D-4183-8F08-259393FE83E8"),
-                Content = "nhớ nhung, thương nhớ",
                 IsCorrect = true,
             },
             new()
@@ -17823,13 +16423,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("A6E4AE91-54FD-4D23-BE8B-B65987250C5C"),
-                QuestionId = new Guid("09DF31DC-4D3E-4E96-A3DD-B6DF4931F6BC"),
-                Content = "tranh vẽ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("3D445BC1-4861-44B7-8F6A-12F8F6099686"),
                 QuestionId = new Guid("88BA1216-5AA2-41F5-AA94-0F70139BC99D"),
                 Content = "Phó từ",
@@ -17914,13 +16507,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("313253C8-E566-480B-83FE-1094CB403FA4"),
-                QuestionId = new Guid("8ACBB204-12F4-4686-9DD2-F0D4932D962F"),
-                Content = "mong nhớ, nhớ nhung",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("B128783F-80D9-4CDD-9C16-5CEBCD2CADD5"),
                 QuestionId = new Guid("CB129E1E-BB18-409C-99F4-6FC78BEFB348"),
                 Content = "Danh từ",
@@ -18001,13 +16587,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("46DAFDCB-9B54-489B-B110-25D2D913D44F"),
                 QuestionId = new Guid("DAE68685-76D8-4264-9B6F-C1F38B5D54EE"),
                 Content = "그만",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("4DCBB152-F67A-4206-A182-FA2684407BE7"),
-                QuestionId = new Guid("ED261AB4-099E-41F0-867E-4BC78F85DBB9"),
-                Content = "chỉ thế, có thế",
                 IsCorrect = true,
             },
             new()
@@ -18096,13 +16675,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("0A87A8A4-B0F8-426B-A389-C54530F8AE43"),
-                QuestionId = new Guid("38A4977E-3A74-4CE1-9B38-40F58E394F15"),
-                Content = "bỏ dở, từ bỏ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("2D077005-599C-4063-AE3A-FF2039B7A007"),
                 QuestionId = new Guid("404D6F2E-B380-4129-B8A4-930E95817A9B"),
                 Content = "Động từ",
@@ -18187,13 +16759,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("547813C5-858C-466D-B066-2176BA5B8975"),
-                QuestionId = new Guid("1431DCF3-36FF-491A-AFDB-040ED1D7A4F9"),
-                Content = "vị đó, vị kia",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("A3FAD4A5-3EF1-4DA6-9283-0294452109B7"),
                 QuestionId = new Guid("F4E403F6-063F-4310-908D-C5AB294E2B63"),
                 Content = "hôm kia",
@@ -18246,13 +16811,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("C1AA74B1-DF9B-4FF4-B34F-2DC764C58CF8"),
                 QuestionId = new Guid("A4D3615F-5016-4648-AC23-F69CD8CCD3E2"),
                 Content = "그저께",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("5A99B28E-8C94-4C47-BED4-2CE3483BB25A"),
-                QuestionId = new Guid("4A4B7500-DC06-47CD-AFDC-94C426EDCA68"),
-                Content = "hôm kia",
                 IsCorrect = true,
             },
             new()
@@ -18341,13 +16899,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("FC2EFC7B-7775-427B-AA20-4E5E00C8EF59"),
-                QuestionId = new Guid("8DFD2450-F137-46BE-860E-6648902ACB5E"),
-                Content = "hướng đó",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("87C5F518-BBEE-4691-B715-C0FB8A4BD3F4"),
                 QuestionId = new Guid("69670C86-D953-489A-957E-9CC1DA0D60B3"),
                 Content = "dừng",
@@ -18401,13 +16952,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("6214ABB3-E406-40BE-8AAC-DC7C3B188BDA"),
                 Content = "건설되다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("39CEC64D-1253-4A32-9923-886B4DB70421"),
-                QuestionId = new Guid("ED82F2BC-DD01-456B-957F-9AB0E32BED6D"),
-                Content = "dừng, ngừng, hết, tạnh",
-                IsCorrect = true,
             },
             new()
             {
@@ -18495,13 +17039,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("6C916EDB-4CC0-4328-B2B1-A8C44FBC0796"),
-                QuestionId = new Guid("F5E931C9-675B-45D9-A4F5-AB11AD2629EB"),
-                Content = "nhà hát",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("3399B5C7-BF2A-4466-B6C7-8C4FF284C01C"),
                 QuestionId = new Guid("D762A88D-27C2-4E66-A0AF-35DFF834A5B8"),
                 Content = "Tính từ",
@@ -18586,13 +17123,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("61D855DA-B577-432C-8CA6-C04F43FDB159"),
-                QuestionId = new Guid("2A6E1EF5-1651-42D3-B959-48386BDC6339"),
-                Content = "nơi gần",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("8A775DD6-6C6C-4ACF-A006-E88E11D2D9C4"),
                 QuestionId = new Guid("BBD886AC-14E0-41A6-A195-0CC899555C4F"),
                 Content = "Danh từ",
@@ -18673,13 +17203,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("91CFD29B-B8DB-43D8-B634-A209E8C265CE"),
                 QuestionId = new Guid("D6F3E1A3-D1D2-4D02-8F2F-8FE2CEC10D75"),
                 Content = "글",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("D1C4D1C2-DA86-46D4-839A-F0C3D5B48741"),
-                QuestionId = new Guid("3643B94C-DBD1-42DC-A731-AC403E5A1B66"),
-                Content = "bài viết, đoạn viết, bài văn",
                 IsCorrect = true,
             },
             new()
@@ -18768,13 +17291,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("7C77E212-80C1-4BE9-8BC8-E689571CF464"),
-                QuestionId = new Guid("8E17BF47-79A6-482D-9D68-3A480F9F6256"),
-                Content = "để xem, xem nào",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("C56ED691-D31F-4428-AEBD-644B4D1C89C3"),
                 QuestionId = new Guid("4D594595-A3AA-49C9-B3BF-5DDBF4122DF1"),
                 Content = "dụng cụ",
@@ -18831,13 +17347,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("B439038D-CD90-4B10-9986-DDAE9D3F58D2"),
-                QuestionId = new Guid("360B87D8-36D2-42F0-A149-6E58BF7246AC"),
-                Content = "để xem đã..., xem nào...",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("914DAC31-358D-4982-810E-326D95EB1E01"),
                 QuestionId = new Guid("2F9771E3-0C1A-4709-BDCE-AF25524E0B56"),
                 Content = "dựa",
@@ -18891,13 +17400,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("C4DAB572-7D4D-4758-ADF4-713D6FCC78A3"),
                 Content = "기초",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("0F60F2E6-7B2D-4766-A0BE-67FF609F79C7"),
-                QuestionId = new Guid("7D32881F-2109-41CB-82DE-00A595BB94F5"),
-                Content = "chữ viết, nét chữ",
-                IsCorrect = true,
             },
             new()
             {
@@ -18985,13 +17487,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("7E6D1828-53A5-413D-A802-FE2F758DCF0E"),
-                QuestionId = new Guid("18D0AC24-8096-41DF-84AA-7C73F8BA06E8"),
-                Content = "chữ viết, chữ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("AA93B87C-78C7-475D-B87D-FEDC1F5AAE7B"),
                 QuestionId = new Guid("6761DC2B-6624-484B-99D8-F9867189AFD5"),
                 Content = "Động từ",
@@ -19076,13 +17571,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("242978EE-10BF-4638-B0FE-451D79AAF959"),
-                QuestionId = new Guid("353911A1-E098-4B5C-96F2-A54481F0E434"),
-                Content = "vừa mới đây, vừa khi nãy",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("187655BF-11FC-4AAE-A13D-978B8095E5A1"),
                 QuestionId = new Guid("7C878249-7099-4A6E-9E51-74793DE72055"),
                 Content = "Phó từ",
@@ -19163,13 +17651,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("DD074C86-E67C-4E66-8F6A-CD53ECD10FF8"),
                 QuestionId = new Guid("4F409DF4-70D7-4FD4-BC5E-21C14A5D0E49"),
                 Content = "금요일",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("F334A722-87C7-40E0-92A2-0741B6E84EE6"),
-                QuestionId = new Guid("806D3D74-27F4-4E5C-B035-3ACF6FE5E601"),
-                Content = "thứ Sáu",
                 IsCorrect = true,
             },
             new()
@@ -19258,13 +17739,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("81D3E2C9-23E9-466D-A3C4-209923280417"),
-                QuestionId = new Guid("554ABEDD-CECE-443E-AFB1-C5F0AEB3399C"),
-                Content = "(sự) cấm chỉ, cấm đoán",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("28939D22-402D-4374-8408-B59CCD70C362"),
                 QuestionId = new Guid("6C97A59C-D6B1-45FB-B4CF-60CAD6FA3C4D"),
                 Content = "Danh từ",
@@ -19346,13 +17820,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("17BAAC40-CE70-48F9-8685-58A8B77D2B44"),
                 Content = "가운데",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("9066600E-1B92-4A5A-8D51-03B5B50D83CE"),
-                QuestionId = new Guid("FC232961-29A7-4C3A-B858-F66618CA99C6"),
-                Content = "và, bên cạnh",
-                IsCorrect = true,
             },
             new()
             {
@@ -19440,13 +17907,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("EC1F66FD-4F54-4541-BBC2-1F78511FEFC2"),
-                QuestionId = new Guid("06DA2CCD-C1E9-4A20-A012-7ABF6BD0C89E"),
-                Content = "gấp, khẩn cấp",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("D2139577-4BAC-46C2-B73A-F88E35A83D82"),
                 QuestionId = new Guid("CC8A7E15-6E3E-4E40-9AD5-98FDA707A68F"),
                 Content = "Tính từ",
@@ -19531,13 +17991,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("0FE66D1D-4A88-48B6-BFC2-17CF3CFA36F1"),
-                QuestionId = new Guid("F5C66B39-D22A-493C-89A3-95A343AB0E11"),
-                Content = "then chốt, trụ cột, rường cột",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("5DA2DCDB-71CE-4677-BB98-8E550AE60FB4"),
                 QuestionId = new Guid("987F667C-B209-4489-A59A-1AB76417A0A4"),
                 Content = "Động từ",
@@ -19618,13 +18071,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("FAE6957E-ABBD-402A-8AE7-AEFE2B84BA9C"),
                 QuestionId = new Guid("A2F7692D-ACFF-4778-A59D-87D9B4C0CF3B"),
                 Content = "기다리다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("0500F368-8B74-4D76-8ABF-CECC0CF67160"),
-                QuestionId = new Guid("C4B02073-7ED0-48DD-9A7D-02A4A33C2306"),
-                Content = "chờ đợi, đợi chờ, đợi, chờ",
                 IsCorrect = true,
             },
             new()
@@ -19713,13 +18159,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("632259D5-CE07-4370-913E-B2CF5BE3D6DD"),
-                QuestionId = new Guid("33914458-DB83-40C9-8E6D-D05B897721D6"),
-                Content = "nuôi",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("ED79B0C5-1D24-42BE-A18F-6B7CA097359B"),
                 QuestionId = new Guid("C32DFA78-FDDF-4204-B2CC-762856D92923"),
                 Content = "Động từ",
@@ -19801,13 +18240,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("33E6B087-D246-458D-B198-94D04569F665"),
                 Content = "감",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("D468677E-4733-46BE-BAE1-368C78E9F3B3"),
-                QuestionId = new Guid("F3FFFD1B-8994-4CD0-BC43-B17054B0AB36"),
-                Content = "dầu",
-                IsCorrect = true,
             },
             new()
             {
@@ -19895,13 +18327,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("B75882D7-BF32-45EC-BC09-43E3CC7AF849"),
-                QuestionId = new Guid("B596334C-9093-411A-ADBB-167FEFAAF841"),
-                Content = "kỳ thi cuối kỳ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("653F00DD-D17A-423F-AB66-FCCAD5D3BC7F"),
                 QuestionId = new Guid("86F0E996-64F0-4970-B213-8569C20C1B7A"),
                 Content = "Phó từ",
@@ -19983,13 +18408,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("894A6D13-AD60-483E-AB8B-6F2D4833E46E"),
                 Content = "계란",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("A9EA8E2B-DA14-4CDC-8BD3-FE757F05B627"),
-                QuestionId = new Guid("45ECAE88-74EC-44B4-9FDB-BE13F0F342DF"),
-                Content = "tâm trạng",
-                IsCorrect = true,
             },
             new()
             {
@@ -20077,13 +18495,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("FEE9750B-4642-4EA3-96FE-E3A11383F5CA"),
-                QuestionId = new Guid("004A65F6-93F1-4D35-812F-9DD5D8452D77"),
-                Content = "vui mừng, vui sướng",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("37EBAEF7-9C6C-403D-825A-FBEF701C98B4"),
                 QuestionId = new Guid("DD881A08-0B44-41F9-884F-5A44BD47317E"),
                 Content = "Phó từ",
@@ -20165,13 +18576,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("3FD1BD2D-5956-4E14-80F6-3536A2D71775"),
                 Content = "그럴듯하다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("82287262-3F12-4CB6-A8A5-5F397BBA2821"),
-                QuestionId = new Guid("0066FEFB-B3A9-43D2-9BCB-84F8313A9566"),
-                Content = "vui",
-                IsCorrect = true,
             },
             new()
             {
@@ -20259,13 +18663,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("ABD11CA6-CE50-4AC9-996B-02DF8782EF39"),
-                QuestionId = new Guid("63CE45F9-7EB3-43C2-8145-E84E7865DEE3"),
-                Content = "niềm vui",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("66072A3A-9D76-4BC7-8174-8AEAC8A6612E"),
                 QuestionId = new Guid("FF2602D9-FD1F-4767-99F0-84E70167650D"),
                 Content = "Danh từ",
@@ -20347,13 +18744,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("616CCDA6-1C8B-468F-8621-16D708E84AFB"),
                 Content = "고모부",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("6CA41A40-681C-4D05-8EC6-398CE3AFF142"),
-                QuestionId = new Guid("B039E947-09D8-4B38-AF7D-32802F1BA95D"),
-                Content = "ký túc xá",
-                IsCorrect = true,
             },
             new()
             {
@@ -20441,13 +18831,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("AF26C1EA-5CD5-4EBB-8749-0B1225DBA1E6"),
-                QuestionId = new Guid("75178260-10E8-44BA-AE5A-8E53483A67CF"),
-                Content = "sự ghi nhớ, trí nhớ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("2177B5D2-4DF3-4EA4-A460-AD7B1ACFEBE4"),
                 QuestionId = new Guid("12D32372-62D0-47B9-8AEB-7AC6DDF62680"),
                 Content = "Phó từ",
@@ -20529,13 +18912,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("190A470F-37B4-4060-B280-18755655D681"),
                 Content = "깔다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("A26E1844-BDEE-4D1E-A8C4-610D9517DF5D"),
-                QuestionId = new Guid("2A384516-36DA-4463-AD01-7C22A22F74AE"),
-                Content = "nhớ, nhớ ra",
-                IsCorrect = true,
             },
             new()
             {
@@ -20623,13 +18999,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("13C72AAF-283B-4210-90DB-025D653A61C7"),
-                QuestionId = new Guid("F71FC744-11F5-44C6-B204-D525A51152FB"),
-                Content = "nhiệt độ thời tiết, nhiệt độ khí hậu, nhiệt độ không khí",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("08D53C04-5E80-4EF4-90F1-B505E5C028E3"),
                 QuestionId = new Guid("572B497F-95DA-429C-998C-024DD513C51F"),
                 Content = "Động từ",
@@ -20710,13 +19079,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("3451E083-DDD5-4604-8EEF-A1A9325B438F"),
                 QuestionId = new Guid("BAD03880-A8B2-4DD6-B1C0-48C8A6A2CD73"),
                 Content = "기자",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("9AC5C23B-478E-47F9-85BD-C4FAC53366D2"),
-                QuestionId = new Guid("AD9F3E38-F80D-4379-A912-F5A5C6A54954"),
-                Content = "ký giả, nhà báo, phóng viên",
                 IsCorrect = true,
             },
             new()
@@ -20805,13 +19167,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("170E1221-E041-4763-B704-DD388C52CBCC"),
-                QuestionId = new Guid("DB7DFAF6-647E-4241-9811-455CED21A9B7"),
-                Content = "tàu hoả, xe lửa",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("A242D913-EBBE-4421-BB54-9D15A41BBDA9"),
                 QuestionId = new Guid("059E3449-5569-4EA0-A42A-66E4E088A211"),
                 Content = "Danh từ",
@@ -20893,13 +19248,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("B0D49B33-E335-4713-A32C-4011B756B9BE"),
                 Content = "그해",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("ED820095-A5CC-4231-9360-B8F0F4CA2181"),
-                QuestionId = new Guid("5FF68310-8115-4370-9EEB-4E71C8BEEA59"),
-                Content = "ga tàu hoả, ga xe lửa",
-                IsCorrect = true,
             },
             new()
             {
@@ -20987,13 +19335,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("8A9F7011-E62F-4566-A208-B831E42A0D73"),
-                QuestionId = new Guid("329F8353-C6DC-4FB1-9808-EA39A5C7ACEE"),
-                Content = "vé tàu hoả, vé xe lửa",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("B8149C55-4B4F-46AB-B390-A51A52F24B6C"),
                 QuestionId = new Guid("0A768409-838B-4094-A2E2-AD8F75E3872A"),
                 Content = "Phó từ",
@@ -21075,13 +19416,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("044731A9-7BBC-4294-82AE-B8ECBA8B4936"),
                 Content = "국기",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("FAD80C69-E2FD-42EC-944B-239835EBF990"),
-                QuestionId = new Guid("E9A82E9E-8C8B-4713-A420-43770C912AEB"),
-                Content = "sự ho",
-                IsCorrect = true,
             },
             new()
             {
@@ -21169,13 +19503,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("6A9873DC-F135-4BB1-BEF1-95DCF90E0410"),
-                QuestionId = new Guid("8CAEF810-C2AB-433F-A9CF-41E103D2AEAE"),
-                Content = "khác, vân vân",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("EEFDC56E-77A5-4CDA-BA14-0DE4F69B60B2"),
                 QuestionId = new Guid("340EE272-4F26-4285-9C52-99BE1EE44DE1"),
                 Content = "Tính từ",
@@ -21260,13 +19587,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("11CCDB84-01A5-4CC4-92A9-0E5CE82615D8"),
-                QuestionId = new Guid("4AFF7032-F3A0-4B3A-95D9-8B322749AFBC"),
-                Content = "cơ hội",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("7838E904-28AA-43D0-85D0-7253E60791A1"),
                 QuestionId = new Guid("8F123E2A-61FB-443D-8506-CB6026B5957E"),
                 Content = "Tính từ",
@@ -21347,13 +19667,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("B066E8DD-5CAA-4D9C-BD07-BE7DA7EE172F"),
                 QuestionId = new Guid("2C59AAB2-6D41-4DAE-988A-04F84F130F26"),
                 Content = "긴장",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("57628D30-10E5-4E9F-B95F-A1B879D7CF46"),
-                QuestionId = new Guid("CFC46850-6880-45AC-996B-18E6FBC1B742"),
-                Content = "sự căng thẳng",
                 IsCorrect = true,
             },
             new()
@@ -21442,13 +19755,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("4AA41D2C-E174-4E5F-B4CC-EBABE35C8426"),
-                QuestionId = new Guid("73CFDB4C-AF13-4D23-9FF7-529BD51647E0"),
-                Content = "đường, con đường",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("132EA86A-031D-471E-AF0E-D762CBD87CB9"),
                 QuestionId = new Guid("B2C16BC6-AF43-43D6-B7CF-1D02498D9127"),
                 Content = "Động từ",
@@ -21530,13 +19836,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("6A2430CF-B2AB-432D-AE97-F0050DD5B68B"),
                 Content = "깔끔하다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("0190AE1F-0DFB-4B90-B08E-388D33A61CEC"),
-                QuestionId = new Guid("10AF60D0-F486-45C3-8870-A07EC35B0067"),
-                Content = "mọc dài ra, dài ra",
-                IsCorrect = true,
             },
             new()
             {
@@ -21624,13 +19923,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("2CF8BB11-70B6-4ACC-B30D-4B97F2862A18"),
-                QuestionId = new Guid("11AC8C51-6535-4914-AA2E-56D5BA8BCDDE"),
-                Content = "chiều dài",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("5CC93901-B708-4F56-A870-AF60BA106CAF"),
                 QuestionId = new Guid("D641239B-AF71-4EA1-B392-8593B223284A"),
                 Content = "Phó từ",
@@ -21715,13 +20007,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("C81B3722-AF73-4C1A-8ADF-7764B0D76686"),
-                QuestionId = new Guid("5D5C71F2-8953-4B1E-AEE2-22E8A2CD4E10"),
-                Content = "hơi, hơi nước",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("EBD497EA-025E-450D-A4A3-C98455E61E02"),
                 QuestionId = new Guid("2739D717-3249-4D12-B35A-90D6CF775294"),
                 Content = "Tính từ",
@@ -21802,13 +20087,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("11383643-C29F-4E2E-A7D2-FDDC5DAE002A"),
                 QuestionId = new Guid("D7DCCD2C-7415-4E8C-A409-8D367B20B748"),
                 Content = "김밥",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("59FE85B2-D482-46D4-AB2F-F576A634B6D2"),
-                QuestionId = new Guid("0CC24EF3-0481-4598-8BF1-1ADD1C9F5C8E"),
-                Content = "Gimbap, món cơm cuộn rong biển",
                 IsCorrect = true,
             },
             new()
@@ -21897,13 +20175,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("B89861C1-16BC-4BE2-AEEF-62D12780ABA5"),
-                QuestionId = new Guid("02028E75-1BE4-4B05-907D-66005C0C25DB"),
-                Content = "kimchi",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("A5EAD506-6D5E-4EDD-AC2E-7A6D8298AD9B"),
                 QuestionId = new Guid("CAE36D73-0FCC-46EE-BA6B-97DDE9654AC2"),
                 Content = "Danh từ",
@@ -21985,13 +20256,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("B3408DE6-0342-4095-9A07-34BFD6C07A20"),
                 Content = "금연",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("22BA67E3-8C71-4699-968E-D7DDEDF55948"),
-                QuestionId = new Guid("BA0266DE-9B6E-4125-A283-80E1686C6054"),
-                Content = "kimchijjigae; món canh kimchi",
-                IsCorrect = true,
             },
             new()
             {
@@ -22079,13 +20343,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("5A7C8EB5-B9E3-47C0-97AF-D2E8E23193E8"),
-                QuestionId = new Guid("09C4D6B9-C044-4A6E-9F73-459B8DFFE306"),
-                Content = "sâu",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("C33F12F7-7D5D-4B16-8B7A-15FCBC3CDCA9"),
                 QuestionId = new Guid("AD8A2B22-340F-437B-91A9-19C126BFBE88"),
                 Content = "Tính từ",
@@ -22170,13 +20427,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("F931F427-06C7-49DF-B7D4-CECA14867D13"),
-                QuestionId = new Guid("65205607-CCFE-4238-9EF7-C754D9E5BB62"),
-                Content = "độ sâu",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("0CEA9A22-2B90-4F01-856B-B5A03A200EC1"),
                 QuestionId = new Guid("66927868-AA02-4DD9-AAA0-A9E4FD3A0BD2"),
                 Content = "Danh từ",
@@ -22257,13 +20507,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("403F987C-D762-42B2-95F8-C998DCD4C3AF"),
                 QuestionId = new Guid("7DD30760-74E9-48F5-BE57-F53CB8F6E897"),
                 Content = "까만색",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("F623D374-8D44-430D-BC3C-F278E8E92BE2"),
-                QuestionId = new Guid("7F2978DA-DD72-4A23-88D9-BEDCDEEC460B"),
-                Content = "màu đen",
                 IsCorrect = true,
             },
             new()
@@ -22352,13 +20595,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("F27D285F-3218-4B9E-BA46-2EC31B7B0C94"),
-                QuestionId = new Guid("857D0A5A-6B8C-4B3A-A363-BD325305AAF1"),
-                Content = "đen ngòm, đen sì sì",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("6257BA04-2B6B-45DA-BC9C-2716B5532574"),
                 QuestionId = new Guid("FDDE27E1-9C06-45AF-884A-E235288FAB40"),
                 Content = "Động từ",
@@ -22439,13 +20675,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("B010CA14-C690-440D-A2E1-4737BB5A359C"),
                 QuestionId = new Guid("DFC72E08-9D23-4DDE-A3A6-D2D5B21FC739"),
                 Content = "깎다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("455BD574-DC6E-4D51-9CF2-7A20EABBF375"),
-                QuestionId = new Guid("49DF759E-7CB3-4A15-A603-DDBF3800BE1C"),
-                Content = "gọt",
                 IsCorrect = true,
             },
             new()
@@ -22534,13 +20763,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("46C8F7FC-1628-452F-9C04-623C8B4E507F"),
-                QuestionId = new Guid("C2C9C3A9-D8E6-44C0-B8B6-0B67ACAD00B5"),
-                Content = "giật mình, hết hồn",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("7624BAD7-2B4F-4F4B-88D2-7258DCB77AB8"),
                 QuestionId = new Guid("FAEB1BD6-7DBB-408B-9622-E840939C0DE0"),
                 Content = "Tính từ",
@@ -22622,13 +20844,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("15D31C61-D12F-4E2C-9C97-27F3437EF49C"),
                 Content = "금세",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("D51405F9-47A2-4307-9945-8A0EE088EFC3"),
-                QuestionId = new Guid("3EA75121-54D7-46B0-9789-E2806F4CA303"),
-                Content = "một cách sạch sẽ",
-                IsCorrect = true,
             },
             new()
             {
@@ -22716,13 +20931,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("3B69546C-5911-4BF2-A475-EFCFE3E415DA"),
-                QuestionId = new Guid("738C688C-9E9B-4127-960B-E4407A439C8B"),
-                Content = "sạch sẽ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("3CF0F249-6256-493B-BCF2-1194744D6480"),
                 QuestionId = new Guid("2BB8A230-AA74-4DAB-B770-DE19042DE8E5"),
                 Content = "Phó từ",
@@ -22804,13 +21012,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("44FD9760-B6C3-44C3-9FDE-9777B8581C9C"),
                 Content = "고르다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("A8296D74-94DD-448C-80D0-83DFB7B8BF29"),
-                QuestionId = new Guid("8E11A5B9-0AB3-4BDB-B03B-1181624C5BFC"),
-                Content = "tỉnh ra, tỉnh lại",
-                IsCorrect = true,
             },
             new()
             {
@@ -22898,13 +21099,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("CB59F4E6-F8E8-4383-9A18-BDBA36FF0AF3"),
-                QuestionId = new Guid("534655F1-D372-478F-BB24-E1B5767A0E64"),
-                Content = "rút ra, lôi ra, lấy ra",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("D9DF8D48-2749-468C-AC10-BBB2960B2C9A"),
                 QuestionId = new Guid("85DB6263-C82D-4246-A425-0ED5952093FB"),
                 Content = "Danh từ",
@@ -22986,13 +21180,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("C3F8838E-98A1-4F84-8C43-A6067D48FEC1"),
                 Content = "구석구석",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("EFCAB3EA-6DE1-43C5-A47B-F847E34915A6"),
-                QuestionId = new Guid("CDD8070D-8FC6-4537-B808-02CB36936E8C"),
-                Content = "kẹo cao su",
-                IsCorrect = true,
             },
             new()
             {
@@ -23080,13 +21267,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("AB9B8023-B08A-4416-907E-73CD4C061B8B"),
-                QuestionId = new Guid("1016C691-DA5F-4720-B00C-21783934A8A0"),
-                Content = "thật mạnh, thật chặt, thật chắc",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("85F2F7D7-67F3-4836-A9C8-8CBB56B5C557"),
                 QuestionId = new Guid("61736B04-8B64-4B4E-BE72-1B4928FDD1C4"),
                 Content = "Phó từ",
@@ -23168,13 +21348,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("5ED881DE-07B3-43AB-99A8-CAAD41A7A673"),
                 Content = "가져가다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("20CD220B-BC43-46E3-AB30-D96A22179FE1"),
-                QuestionId = new Guid("2233E63B-3C4B-4CC4-8E59-37CB88EBA656"),
-                Content = "trở nên gần, gần lại",
-                IsCorrect = true,
             },
             new()
             {
@@ -23262,13 +21435,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("33C5C035-8D35-4D17-82C2-71B67A26F4C6"),
-                QuestionId = new Guid("C07D265F-6D46-4146-8869-791FD57B22C7"),
-                Content = "chỗ gần",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("A7B02516-BAAA-4A3C-9D72-CDB5065CA7B7"),
                 QuestionId = new Guid("658177E0-8964-4589-8CBC-9B0B20494FD4"),
                 Content = "Tính từ",
@@ -23350,13 +21516,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("4ACA247B-FDE1-464C-8B8D-B529EC266A5C"),
                 Content = "관찰하다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("7ABE6B1A-9D1D-4FD2-9E09-7260AB40E839"),
-                QuestionId = new Guid("FF3E1AA6-9B57-49BB-BA41-0D8952040822"),
-                Content = "chăm sóc, cắt tỉa",
-                IsCorrect = true,
             },
             new()
             {
@@ -23444,13 +21603,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("527B9859-29D9-456F-92E6-76E5ADE70795"),
-                QuestionId = new Guid("D6E4EA34-3B11-47BA-8A92-3B4A82200578"),
-                Content = "sự nghèo khó, cái nghèo",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("1C5AB4D4-FCBF-4FBE-AEE9-72B5AC6B6A10"),
                 QuestionId = new Guid("BDCB0950-54C8-4C82-90A0-115BCDD90453"),
                 Content = "Danh từ",
@@ -23532,13 +21684,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("3DCCD24A-14FF-4EFC-A0DD-D8754719C57C"),
                 Content = "걱정스럽다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("A87D8263-2260-41B3-9964-A169392A721E"),
-                QuestionId = new Guid("4C274D14-E88C-475F-BD03-2D209E910B66"),
-                Content = "nghèo, nghèo khó",
-                IsCorrect = true,
             },
             new()
             {
@@ -23626,13 +21771,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("AB94A821-B5DB-4534-BC24-3201E36C9E75"),
-                QuestionId = new Guid("DED890C9-AD25-4E5D-9D4F-487AD3F3472C"),
-                Content = "sự khả dĩ, sự có thể",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("E80172A7-D589-43CD-9EE3-6B3FA1A03EE7"),
                 QuestionId = new Guid("8DAC8727-D7F7-4041-B756-0EFDC7424B5E"),
                 Content = "Động từ",
@@ -23713,13 +21851,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("B86DA6B7-BB81-4435-B19D-3C7962F68247"),
                 QuestionId = new Guid("7A2B58B6-736D-459F-8A56-9AA6C6DC11B7"),
                 Content = "가능성",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("817B724E-7A95-437E-8658-457D3622374B"),
-                QuestionId = new Guid("C8407037-6EA4-4F0C-8D91-AE2292316FEC"),
-                Content = "tính khả thi",
                 IsCorrect = true,
             },
             new()
@@ -23808,13 +21939,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("42A0390B-222D-4264-A8B8-B6438B60617B"),
-                QuestionId = new Guid("5BA0F6D5-9B0C-4E22-8D0C-1DAA0FC41ED0"),
-                Content = "khả dĩ, có thể",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("9E26CEB9-263E-4078-9D61-2532E4494401"),
                 QuestionId = new Guid("15285619-02BE-4B78-B212-02F3BBE32BFF"),
                 Content = "Tính từ",
@@ -23896,13 +22020,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("470C901A-2B07-4A47-87E6-A02F83034219"),
                 Content = "귀엽다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("7DC81430-26CD-47BA-A294-8036D10AB478"),
-                QuestionId = new Guid("52C91A6B-8AA7-4933-BFC0-142483DFED0D"),
-                Content = "đầy",
-                IsCorrect = true,
             },
             new()
             {
@@ -23990,13 +22107,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("47D60248-6127-4F69-B8BD-30C1C1B1A931"),
-                QuestionId = new Guid("B4C7EC21-E901-468C-951F-399D16CDE17F"),
-                Content = "đầy",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("AD6ECA89-DF3B-4090-A1BA-5AA6F39C56B4"),
                 QuestionId = new Guid("74844669-8691-4807-95B0-140BEA9B0233"),
                 Content = "Danh từ",
@@ -24077,13 +22187,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("38148E22-DD92-4943-A5A0-42604A64E9DC"),
                 QuestionId = new Guid("4AF09213-07D6-4FBE-AF3D-C8F96D864D09"),
                 Content = "가라앉다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("820FF9D1-1085-4A68-86FE-999F587CA7CA"),
-                QuestionId = new Guid("EBBDBD0B-37F6-40BF-A091-8004D5443EEE"),
-                Content = "chìm, lắng",
                 IsCorrect = true,
             },
             new()
@@ -24172,13 +22275,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("452EA682-6246-48DA-8F51-9AF52C627CDC"),
-                QuestionId = new Guid("96EDD613-7FAF-4B63-97A7-10980E71EDED"),
-                Content = "ngứa",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("9A9CA238-6564-45EC-A2B1-6E60064DF78F"),
                 QuestionId = new Guid("EE59E858-5A19-4EF3-8B0B-5941F54CE464"),
                 Content = "Động từ",
@@ -24259,13 +22355,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("01023BCA-00DD-45FF-9E12-7131E2671D75"),
                 QuestionId = new Guid("BACF6DE7-2BC9-4353-A567-822C13E0599C"),
                 Content = "가로",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("6A8B77BF-858B-4DCE-A06C-C705BD382FCF"),
-                QuestionId = new Guid("443F3034-514E-454E-A1CE-351500170A45"),
-                Content = "chiều ngang, khổ rộng",
                 IsCorrect = true,
             },
             new()
@@ -24354,13 +22443,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("C2A2BBEE-9C11-49B9-8A35-318AEDAE1C91"),
-                QuestionId = new Guid("9EF5C886-BDB5-432D-A0B4-43294BE74412"),
-                Content = "đèn đường",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("F602F608-F907-490E-BCB5-24FE8ABD61AD"),
                 QuestionId = new Guid("937AC861-334A-4E6D-BCAE-2A2201526D9F"),
                 Content = "Danh từ",
@@ -24442,13 +22524,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("3C8CB082-1D81-4DDC-9B00-F11FAD135340"),
                 Content = "가까워지다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("EDD56D24-DB0D-464C-BC17-F968446E1CEF"),
-                QuestionId = new Guid("A588208A-117C-4356-85A9-F4C5484A571F"),
-                Content = "chắn ngang, chặn ngang",
-                IsCorrect = true,
             },
             new()
             {
@@ -24536,13 +22611,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("F56C54D3-B70E-4683-84EC-B2356DDDF5E5"),
-                QuestionId = new Guid("8B99C57A-28A5-42B1-A125-F1B10A982967"),
-                Content = "bột",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("F7AA6C0A-BB06-472D-8EAC-F665F6A52E99"),
                 QuestionId = new Guid("1342F3B6-BAA5-43DC-A5F9-DF0D18D123F8"),
                 Content = "Phó từ",
@@ -24627,13 +22695,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("B5C0D72E-2C17-4B69-BAFB-444E59341197"),
-                QuestionId = new Guid("839E3268-04C4-48A2-ACCD-B1BA29FC4F7E"),
-                Content = "xẻ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("D3AA1723-1528-4E37-A2E1-2DF68ABE150C"),
                 QuestionId = new Guid("FB0138A7-DC65-44F9-8746-2AABDC3CC922"),
                 Content = "Động từ",
@@ -24714,13 +22775,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("C839308A-4D1B-4B19-81AA-00CF80515220"),
                 QuestionId = new Guid("9FA82539-362A-4210-AD42-D4CB95D14A98"),
                 Content = "가리다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("8A2B95BA-2105-4D1D-8E48-3C3D7501919E"),
-                QuestionId = new Guid("ECC1863D-15F8-4F7F-944C-0114C7D3E59C"),
-                Content = "che, che khuất",
                 IsCorrect = true,
             },
             new()
@@ -24809,13 +22863,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("F1491B61-8CDC-4018-845A-F92036B7F92E"),
-                QuestionId = new Guid("60016E8D-57E7-43DC-88E8-D97F9EA9DD22"),
-                Content = "một cách lặng lẽ, một cách lặng thinh",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("9189B8F7-1729-4F2A-B9F3-0773C27FCDA2"),
                 QuestionId = new Guid("164E1F19-A3BE-495B-8BC2-D888D2E705E0"),
                 Content = "Tính từ",
@@ -24900,13 +22947,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("0D2D222D-0CCE-4B76-83B3-0F43B2A6060E"),
-                QuestionId = new Guid("0B4B58CD-E009-408A-BC7D-E79BF946EA4C"),
-                Content = "ở yên",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("D363895B-75AF-4320-8991-0C44E336B0DA"),
                 QuestionId = new Guid("54575252-E675-44E2-BFCC-10FA0C424907"),
                 Content = "Động từ",
@@ -24987,13 +23027,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("3E51743B-2A1C-412F-9861-BF6342970088"),
                 QuestionId = new Guid("F4CCCFC4-557B-4265-B661-968F85A804C0"),
                 Content = "가만히",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("E370F231-23B8-43EE-A554-08193921A4CD"),
-                QuestionId = new Guid("9292D575-4C15-4495-9F7B-456901D1A2F8"),
-                Content = "một cách lặng lẽ, một cách lặng thinh",
                 IsCorrect = true,
             },
             new()
@@ -25082,13 +23115,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("6AA0FD1B-C471-4935-AA2F-F8CC5ED8119F"),
-                QuestionId = new Guid("E0ACBC91-5956-4EEF-9273-E6B6CAA0B53F"),
-                Content = "hạn hán",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("3B1DEBBA-3519-4DD3-80E4-252E98A79E40"),
                 QuestionId = new Guid("E980DD89-D2E1-404D-80A3-88D0519CB1C6"),
                 Content = "Tính từ",
@@ -25173,13 +23199,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("3D7B26F7-DFCD-490E-A92A-F851CE36CC71"),
-                QuestionId = new Guid("57455E31-CE27-4AAD-9EB7-0C9DF6605C4F"),
-                Content = "việc nhà",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("721F5CED-AF48-49E7-8965-9D2A8C7175F4"),
                 QuestionId = new Guid("4746B57D-9A5A-498D-BEA3-43FD3155FFB2"),
                 Content = "Danh từ",
@@ -25260,13 +23279,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("DFF939D1-9E39-471A-809C-BC9D03BFF3AD"),
                 QuestionId = new Guid("CB051B4A-BE16-4BD0-922D-64F0182B66C4"),
                 Content = "가스",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("06A6293A-6414-4CCA-BCA9-86AEF05BD2F9"),
-                QuestionId = new Guid("9214DDA9-7B95-45D8-A552-D110DF2E1269"),
-                Content = "khí",
                 IsCorrect = true,
             },
             new()
@@ -25355,13 +23367,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("262E3809-6A03-44F6-9990-463D57E8A94F"),
-                QuestionId = new Guid("3C92A0CE-7C38-48AF-BCFA-EFE1C12B8CBA"),
-                Content = "bếp ga",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("55F1320E-455B-41C9-8FEC-C308943CA2AB"),
                 QuestionId = new Guid("2A853821-D3B7-4C00-ABC1-423230B780A1"),
                 Content = "Phó từ",
@@ -25442,13 +23447,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("92904E7B-3520-463F-9D9F-CC7417A71C03"),
                 QuestionId = new Guid("6D9F81A7-B5DB-41FC-B78E-36FE39F35A7E"),
                 Content = "가슴속",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("B75EC7E9-C24A-4CCB-810C-B07844385793"),
-                QuestionId = new Guid("56484417-8754-417F-A4A2-C9885120B415"),
-                Content = "trong cõi lòng",
                 IsCorrect = true,
             },
             new()
@@ -25537,13 +23535,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("5EE378D3-3CB4-4A5B-B5E6-7945CDA16513"),
-                QuestionId = new Guid("EE9A3E1C-3EC2-4ADB-90B1-0D5D880DA87E"),
-                Content = "máy tạo hơi ẩm",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("2E62B099-1642-4E38-A485-54E51A3E4168"),
                 QuestionId = new Guid("D80BB835-BF30-4EB5-BA85-1CBB2811D369"),
                 Content = "Phó từ",
@@ -25624,13 +23615,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("D83B6679-F7EC-4A86-8EFE-F65005A38998"),
                 QuestionId = new Guid("5F3637C1-3E13-4005-877A-FF18C98A7417"),
                 Content = "가이드",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("D8FBC8BE-9D7B-44B4-8ED8-130C15146266"),
-                QuestionId = new Guid("4D342206-629C-48DA-9ABD-46A71BD3D662"),
-                Content = "hướng dẫn viên",
                 IsCorrect = true,
             },
             new()
@@ -25719,13 +23703,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("EA46296C-F57A-4252-A23D-3BFBB9998F2F"),
-                QuestionId = new Guid("BC1EEF93-751D-42B5-B6EA-00AC6E54B306"),
-                Content = "sự gia nhập, sự tham gia",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("3AA33F17-4FAA-432D-86C6-08A8D7897F27"),
                 QuestionId = new Guid("2ABEBABC-FCA8-4E1A-880B-52B4573CA8B1"),
                 Content = "Động từ",
@@ -25806,13 +23783,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("F89EB874-8047-4305-ADBD-6F822F5219F4"),
                 QuestionId = new Guid("04AE585E-D6E1-42B9-BCD6-DE6C7387D5D8"),
                 Content = "가입자",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("837C857F-59EC-4EB2-9C33-58AC5A64AD15"),
-                QuestionId = new Guid("2D6F1484-DE9F-40C8-A983-49E89EB5463E"),
-                Content = "người gia nhập, người tham gia",
                 IsCorrect = true,
             },
             new()
@@ -25901,13 +23871,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("A3AFD671-11C2-4F4A-817F-9428E59BDE96"),
-                QuestionId = new Guid("2764DA5F-FB1F-4534-95FA-C00DED43F162"),
-                Content = "sản phẩm điện gia dụng",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("4F953B36-B5D5-41EF-980A-DA621466840A"),
                 QuestionId = new Guid("3D7E71E8-7EC6-49EB-B3DC-5AF3464312C5"),
                 Content = "Phó từ",
@@ -25992,13 +23955,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("682CBCDF-A7CE-4464-8002-1ECE8B42CF4A"),
-                QuestionId = new Guid("55B5194D-DFEE-4575-BC0C-1D9834A682F9"),
-                Content = "gia đình, nhà",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("638FBBD4-3544-48D0-8658-8649BC8F9D88"),
                 QuestionId = new Guid("5F90F196-C409-4352-A44F-DEFECBA794C5"),
                 Content = "Động từ",
@@ -26079,13 +24035,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("C65526A9-AA72-4CBC-AE10-EB50FA65161E"),
                 QuestionId = new Guid("9CA02B1A-DE16-4686-B13D-CDAF7A0E8503"),
                 Content = "가정주부",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("52B76022-83A0-4392-9DF4-9BAB00510483"),
-                QuestionId = new Guid("61C271BB-7F73-4126-A726-4C2994E0C530"),
-                Content = "nội trợ gia đình",
                 IsCorrect = true,
             },
             new()
@@ -26174,13 +24123,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("FB1B2435-9133-4F5B-8F1A-EF1E7BDD6437"),
-                QuestionId = new Guid("3921B1A0-B149-4BF4-86D2-8CFC1393E06E"),
-                Content = "mang cho, đem cho",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("E53F00C9-3435-489A-A1FB-F968BB088D9A"),
                 QuestionId = new Guid("1911E16E-0C60-45D2-9870-0EDB7AAD93B7"),
                 Content = "Tính từ",
@@ -26262,13 +24204,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("A6B95765-253E-4916-A86E-249134C05C81"),
                 Content = "고등학교",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("50BC527B-EE97-47E9-BE0A-7D32719D9C7F"),
-                QuestionId = new Guid("52CC43E7-CDE7-4B97-AF6A-D131FF25FFA8"),
-                Content = "da",
-                IsCorrect = true,
             },
             new()
             {
@@ -26356,13 +24291,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("5F955E5A-4BF2-47F1-B8FD-CD5D6A3C3856"),
-                QuestionId = new Guid("6145F0B6-534A-4D66-B8B7-B2083FF6A4D4"),
-                Content = "đồ giả, thứ giả",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("B7424862-931E-4330-A451-5F11961F0AE9"),
                 QuestionId = new Guid("54482CBE-BA36-4188-8A48-4F08BF820FDB"),
                 Content = "Tính từ",
@@ -26444,13 +24372,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("52713236-CE20-4C62-880F-CBADCF0A71FC"),
                 Content = "구세대",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("684CDC55-1E14-4E24-8B91-68DC9A21F96B"),
-                QuestionId = new Guid("69CB4859-3664-4D93-AA01-384815965FE7"),
-                Content = "giá trị",
-                IsCorrect = true,
             },
             new()
             {
@@ -26538,13 +24459,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("E4035F48-3587-4F9F-AB13-0724DBBCCB9E"),
-                QuestionId = new Guid("83402569-C7CF-4508-93EB-9003E784169C"),
-                Content = "giá trị quan",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("6DBAB4E8-465E-4901-9802-932B351DD501"),
                 QuestionId = new Guid("96C7BDED-82A4-4EBD-B1B5-CF0308DF89A0"),
                 Content = "Tính từ",
@@ -26626,13 +24540,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("F73F5E5A-8496-4438-8A76-13AA6940E6C1"),
                 Content = "교수",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("76C13C64-FC20-4CE6-8CA0-136E11E9E189"),
-                QuestionId = new Guid("79697F6B-D9D0-481B-8353-6F102B8E6218"),
-                Content = "đạo Thiên Chúa, tín đồ đạo Thiên Chúa",
-                IsCorrect = true,
             },
             new()
             {
@@ -26720,13 +24627,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("86BAEEC8-EF67-4831-8696-574F0B485FBE"),
-                QuestionId = new Guid("96541F69-4B01-4291-B762-0A8A8A8FF67D"),
-                Content = "góc",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("E6EDC11A-6B78-4916-B4B3-014BE8CD5069"),
                 QuestionId = new Guid("3F81964A-EEA7-427A-9543-B1385147A114"),
                 Content = "vì vậy",
@@ -26779,13 +24679,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("F77C8131-B07E-4840-BF45-7B26A6FA7B58"),
                 QuestionId = new Guid("B7E1687E-AC89-44B1-9612-7D255C8C5993"),
                 Content = "각국",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("F3C2888A-7459-4C39-BB67-FD62BA34934B"),
-                QuestionId = new Guid("DD33AE08-D962-443D-BF2D-B0F38603EE31"),
-                Content = "mỗi nước, mỗi quốc gia, từng quốc gia",
                 IsCorrect = true,
             },
             new()
@@ -26874,13 +24767,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("D39A1C09-778E-46E9-AF90-044BF40E82AA"),
-                QuestionId = new Guid("A63C5764-408D-4023-89FE-9A0383340618"),
-                Content = "sự giác ngộ, sự nhận thức",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("273ADB93-E3B8-41B5-B399-B7AD7C3C09B8"),
                 QuestionId = new Guid("B386607B-D7FC-4E20-BFAD-2111F41DB5DB"),
                 Content = "Tính từ",
@@ -26965,13 +24851,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("FEA5DC7F-963A-44E6-83DC-8D8CC137C261"),
-                QuestionId = new Guid("1208F9A4-5CCC-407B-840D-FE8581655B27"),
-                Content = "từng người, bản thân mỗi người",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("F11C43B4-78DA-4F49-A351-1AB7DC6DE356"),
                 QuestionId = new Guid("E2BEC63E-F3F2-42B1-BEC4-B27E73C1A5CD"),
                 Content = "Phó từ",
@@ -27052,13 +24931,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("7E10933D-887B-4E6F-B834-F30C18034F59"),
                 QuestionId = new Guid("B0147516-D817-4E3B-86FA-A6FA3DB4900D"),
                 Content = "각종",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("C28652F3-4390-43D7-8DEE-DD12419F5D35"),
-                QuestionId = new Guid("38D00416-E0EA-4A28-8931-F6271ABFDD45"),
-                Content = "các loại, các thứ",
                 IsCorrect = true,
             },
             new()
@@ -27147,13 +25019,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("8487CA59-E9C4-4AEB-A5E4-EDC6795E9ED1"),
-                QuestionId = new Guid("BB485B21-73AF-4500-997F-B6413F1A8A32"),
-                Content = "mắm muối, gia vị tạo vị mặn",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("443D63AD-BB7C-44EE-AA59-148BE587CEBA"),
                 QuestionId = new Guid("1D374DC4-841B-402F-9F0B-77756CF4C85C"),
                 Content = "Phó từ",
@@ -27234,13 +25099,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("337B5113-C6CC-4EC2-B2F3-21595CCC6856"),
                 QuestionId = new Guid("A549A230-0F10-48DE-9E39-2AAAE3DC34E9"),
                 Content = "간격",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("9E65833E-8F5C-4EFC-B76F-88D5EC9EDD7F"),
-                QuestionId = new Guid("BA6CE5B5-541E-42C9-8A5B-63A518458871"),
-                Content = "giãn cách",
                 IsCorrect = true,
             },
             new()
@@ -27329,13 +25187,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("7C5DC46F-F1AE-4444-B735-FB72D5A7A882"),
-                QuestionId = new Guid("F6D8D3FD-9A64-404D-BBC5-BF63816C4E28"),
-                Content = "sự can thiệp",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("68087165-5A7F-483A-87E0-4861AF2CB3AD"),
                 QuestionId = new Guid("52AB1D1B-855A-4EC0-A944-A6186EF9FFBF"),
                 Content = "Danh từ",
@@ -27416,13 +25267,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("EA531266-B177-416C-B023-48257D265FD7"),
                 QuestionId = new Guid("BC05BF1D-0D5A-42EF-8598-773A51D8AD39"),
                 Content = "간신히",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("A70B5A25-7F54-4866-97F0-B8641BC698AD"),
-                QuestionId = new Guid("65D29955-01E9-45D9-AF90-0A0C7D62F750"),
-                Content = "một cách chật vật, họa hoằn lắm mới",
                 IsCorrect = true,
             },
             new()
@@ -27511,13 +25355,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("64FEB174-A667-4C3F-8422-665D9D7B11ED"),
-                QuestionId = new Guid("687AEC41-BDA7-4B8B-872B-CFD011CBBDED"),
-                Content = "khẩn thiết",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("46372F4D-29A1-42AC-A623-85862F9267FA"),
                 QuestionId = new Guid("2D140A30-1CA9-4AB2-89D3-81F8B62FB3D6"),
                 Content = "Động từ",
@@ -27602,13 +25439,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("936BD0BF-FC96-469A-852E-56D268275477"),
-                QuestionId = new Guid("03601D37-F4BA-4AA6-BE38-3DD2536BE20D"),
-                Content = "tính gián tiếp",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("35E46E95-B095-4B2E-AE4F-408248F5B374"),
                 QuestionId = new Guid("759E2698-C362-41D8-8AA8-39E13A2A5956"),
                 Content = "tài chính tiền tệ",
@@ -27662,13 +25492,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("84E2E870-9B33-486D-9F7E-BFDA7387AF8E"),
                 Content = "같다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("1573B8A3-2331-4C22-80E8-AA3A49BE192F"),
-                QuestionId = new Guid("6D813E16-D4F2-44B7-9A6F-297F92309553"),
-                Content = "nhột",
-                IsCorrect = true,
             },
             new()
             {
@@ -27756,13 +25579,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("C905EC89-3C5B-4836-9C46-0441AC3D0161"),
-                QuestionId = new Guid("838A5439-4F46-4BD9-A3B5-768C5954877A"),
-                Content = "bảng hiệu",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("26163D6A-96C4-4B84-B1F5-F02E36B4A339"),
                 QuestionId = new Guid("C9D9D159-37E8-415E-90EB-87D683F5B776"),
                 Content = "Danh từ",
@@ -27843,13 +25659,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("2E79DD20-CD26-4BF3-B4C6-191955F6652E"),
                 QuestionId = new Guid("A646B628-3D1F-43CF-9EB1-71B04417C873"),
                 Content = "간편하다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("7FB68F60-17AF-48E1-AB6E-E908E24D587C"),
-                QuestionId = new Guid("E2F12671-DEC0-45DE-8EFE-CC5C01D6FCBA"),
-                Content = "giản tiện",
                 IsCorrect = true,
             },
             new()
@@ -27938,13 +25747,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("AB20D084-8392-4B26-AE10-656BF4F6AE20"),
-                QuestionId = new Guid("10401D0D-E8F5-4E8D-A408-D474DC45988F"),
-                Content = "sự điều dưỡng, sự chăm bệnh",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("5199249D-A941-4E85-A783-E80573566F2B"),
                 QuestionId = new Guid("6840135C-31BB-4E86-9B6E-D34BA5D40607"),
                 Content = "Động từ",
@@ -28026,13 +25828,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("B7C87F09-BB8A-4261-B52C-045B0A046BD1"),
                 Content = "과장",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("27CF4A73-D19E-4078-931B-70E7B3E7FF27"),
-                QuestionId = new Guid("DCB33287-235F-4EDB-A93E-B264622C842A"),
-                Content = "thi thoảng, thỉnh thoảng",
-                IsCorrect = true,
             },
             new()
             {
@@ -28120,13 +25915,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("6AADBEE3-3B6A-4480-832C-065230295B2B"),
-                QuestionId = new Guid("06D44D38-46C1-49A3-B616-C0F0619D1DF9"),
-                Content = "bị nhốt, bị giam, bị trói buộc",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("69715B33-7E4D-48DE-8F38-25EB2374B82D"),
                 QuestionId = new Guid("8304FD3F-C670-4959-A1AE-F26BE9E7CA43"),
                 Content = "Tính từ",
@@ -28208,13 +25996,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("865B5FE6-76BE-4743-B5C9-AD78EF2DBCED"),
                 Content = "골다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("F0A7CA4A-A267-4CAA-9B67-2E0BA4A3460D"),
-                QuestionId = new Guid("B27FD96E-D2CA-441E-BFA2-466FF732C96F"),
-                Content = "thay",
-                IsCorrect = true,
             },
             new()
             {
@@ -28302,13 +26083,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("53ED7A8E-7026-4B7D-B01B-EC51F77551B0"),
-                QuestionId = new Guid("2008A829-6AF9-4324-896D-0E7EC14C1CCC"),
-                Content = "sự bất đồng, sự căng thẳng",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("08BF95DB-3B15-4CFC-AF6A-FCF89430535F"),
                 QuestionId = new Guid("33740847-8EF7-4F94-8481-1C9F1BEA0054"),
                 Content = "Động từ",
@@ -28393,13 +26167,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("0ADDF6B5-63B5-4729-8B25-5142B385F1B5"),
-                QuestionId = new Guid("57066F50-714B-44D1-A934-197CA317C3A4"),
-                Content = "bị nứt, bị nẻ, bị rạn",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("3DEE863F-765C-4E52-8897-7AA11DC07477"),
                 QuestionId = new Guid("52FDFE16-D502-49E8-8D35-C7E0D6477C3D"),
                 Content = "Phó từ",
@@ -28480,13 +26247,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("A5528527-A479-443D-BFDF-108744138B25"),
                 QuestionId = new Guid("3549D023-B73B-43D3-BB78-84D0A36F13B3"),
                 Content = "갈수록",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("44938ADB-349C-43AE-948D-348546574B1B"),
-                QuestionId = new Guid("3B007EAA-4BB7-45EC-997E-8575BACF0730"),
-                Content = "ngày càng, càng lúc càng, càng ngày càng",
                 IsCorrect = true,
             },
             new()
@@ -28575,13 +26335,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("B3D1187B-4D69-4FB6-9C55-33AD46E77D46"),
-                QuestionId = new Guid("82C78951-5F24-4C79-AEF1-BB68357BC321"),
-                Content = "chứng khát, sự khát  nước",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("49A10E24-1DE4-49C8-846E-BD5991C01F26"),
                 QuestionId = new Guid("D0AFDD1B-8F91-4DDC-AA8D-E11E6B330BF1"),
                 Content = "Động từ",
@@ -28663,13 +26416,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("5DFD9ACF-58C5-454B-8138-F8B7665D06CC"),
                 Content = "관습",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("DBC5DCC3-B547-471B-8C9C-8955BF2A955C"),
-                QuestionId = new Guid("FD5E5C3E-0EA5-40C5-9FD2-417B4D22F9FC"),
-                Content = "cảm giác",
-                IsCorrect = true,
             },
             new()
             {
@@ -28757,13 +26503,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("E3A0183F-5AF1-410E-9922-7FD5587E12B9"),
-                QuestionId = new Guid("A9387093-4F48-4D4D-AE15-947F2FE4E7A1"),
-                Content = "sự giám sát",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("7ADB21F5-ABE8-4145-9443-861D69D1DDB6"),
                 QuestionId = new Guid("51E19805-1D7A-4AE3-8C87-DAF55C0DF9AA"),
                 Content = "Tính từ",
@@ -28845,13 +26584,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("F1AA0F57-73E9-4FBE-BF69-6C944A356029"),
                 Content = "그룹",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("A6FDA1F2-5A3F-4D7E-A0AD-BCE9B1A2A6AB"),
-                QuestionId = new Guid("E2B85170-036E-44A7-8FA2-652591FC3C56"),
-                Content = "sự cảm động",
-                IsCorrect = true,
             },
             new()
             {
@@ -28939,13 +26671,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("FD9EE0F1-9F1A-4B4C-8873-F534C70AA0F1"),
-                QuestionId = new Guid("E383BB16-E546-4477-93E2-D42D85606D72"),
-                Content = "tính cảm động, tính xúc động",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("71C16211-1C12-4F1B-AF4E-D8AE680A4BF2"),
                 QuestionId = new Guid("1B504E4D-1E07-4C84-8E27-16B7784942D3"),
                 Content = "việc kinh doanh",
@@ -28998,13 +26723,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("FCAD046B-C567-4B2B-A6F4-B230E27309AC"),
                 QuestionId = new Guid("DA234760-D501-4FE3-AC8D-214B5104C9E9"),
                 Content = "감상",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("A72D95E6-5514-4652-AF88-F570C181482A"),
-                QuestionId = new Guid("F5750D83-9A40-47CB-A633-A77047FDE3B8"),
-                Content = "sự cảm thương, sự đa cảm",
                 IsCorrect = true,
             },
             new()
@@ -29093,13 +26811,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("E9A17DA3-AA20-472D-B25A-65C1F4BF2629"),
-                QuestionId = new Guid("8C7C0033-C340-4B14-9216-600642D639DC"),
-                Content = "bài cảm tưởng, bài cảm thụ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("26B8E5AA-9ADD-4838-9EF9-659BE182490B"),
                 QuestionId = new Guid("EE9940C8-8B6C-4002-8BE2-02C0508140F7"),
                 Content = "Danh từ",
@@ -29181,13 +26892,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("BCC728DB-5636-4E1D-B4FE-76CCBBDF9FF6"),
                 Content = "구속되다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("77E02ED5-75E9-4B95-804F-9D20A159BDD7"),
-                QuestionId = new Guid("492AEF3A-0D8B-44FF-ACAE-8647D428C381"),
-                Content = "cảm thụ, thưởng ngoạn, thưởng thức",
-                IsCorrect = true,
             },
             new()
             {
@@ -29275,13 +26979,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("74E6CC63-0C76-446C-9130-525B34484137"),
-                QuestionId = new Guid("64B3D2B1-D3C9-4A10-A071-2AD3E86364D8"),
-                Content = "sự giảm bớt, sự cắt giảm",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("0BF7BCB3-1B4A-4D74-BFE2-5E20F99CFB97"),
                 QuestionId = new Guid("34E439D2-4E53-426A-B0E6-F666A3149749"),
                 Content = "Tính từ",
@@ -29363,13 +27060,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("E2A1549C-E281-4B1E-8602-09016E48E2E1"),
                 Content = "가이드",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("2090B251-6EA2-4505-B0A3-E7DF1F4CF9B8"),
-                QuestionId = new Guid("4CA2B8E1-211C-400C-8027-B3768FC59058"),
-                Content = "sự giám sát",
-                IsCorrect = true,
             },
             new()
             {
@@ -29457,13 +27147,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("274AE92E-BCFC-4558-BFDC-0F93653CAFBE"),
-                QuestionId = new Guid("B47707A7-0BEE-4E4C-9EFB-B53D13A9E13A"),
-                Content = "quấn quanh, quấn kín",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("F7D8F6F4-69CC-413F-8B98-FA9E89C320AE"),
                 QuestionId = new Guid("921C3658-9022-4381-BF34-D33757291059"),
                 Content = "Danh từ",
@@ -29545,13 +27228,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("F5617E81-3CBC-47B1-B4B8-A3EDBA3D568B"),
                 Content = "국적",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("927092F8-6C48-472E-A764-AFCBC3107309"),
-                QuestionId = new Guid("093C4E6C-7E98-4AF6-A6CB-AF3FF90E8999"),
-                Content = "nhà tù, nhà giam, nhà lao",
-                IsCorrect = true,
             },
             new()
             {
@@ -29639,13 +27315,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("E8317388-39DE-44C8-B023-0FDD44A358D5"),
-                QuestionId = new Guid("6E020194-D283-497B-BEB4-AA54E1F6DA91"),
-                Content = "tình cảm, cảm xúc",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("5DABEE1B-A502-42ED-96DA-E942FC7DDC4A"),
                 QuestionId = new Guid("A0FB42C4-D3A4-462C-8468-81411CC074EB"),
                 Content = "Danh từ",
@@ -29726,13 +27395,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("76C96653-5915-4155-954E-069237910AB1"),
                 QuestionId = new Guid("AFC80DA2-19E1-4785-BE00-A51898628D64"),
                 Content = "감추다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("AB4AC1AF-2CD5-49E1-A171-A4D9F935A581"),
-                QuestionId = new Guid("D0A5D837-EC73-4111-A155-0099BD667E9F"),
-                Content = "giấu, giấu giếm, che giấu",
                 IsCorrect = true,
             },
             new()
@@ -29821,13 +27483,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("0568E67E-E476-49F3-9E2D-EA2D83844E95"),
-                QuestionId = new Guid("59250E2F-64BF-481C-9770-F5D2D356B692"),
-                Content = "dám",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("F69FFDB1-F5F2-4266-911F-C28C45701C27"),
                 QuestionId = new Guid("B9AB1E8D-6304-4103-9F77-960B4A39A29F"),
                 Content = "Phó từ",
@@ -29908,13 +27563,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("AA6FBD71-D4A9-4A9E-B47D-C3FDBDFA2690"),
                 QuestionId = new Guid("B0458A0B-C0BA-43F0-82B1-DAEAF43132CB"),
                 Content = "갑작스럽다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("F9A586C8-5494-4BCB-A01D-84D806744987"),
-                QuestionId = new Guid("EF5CFCB4-67B2-4F79-B845-A3567BC3AFA9"),
-                Content = "bất ngờ, đột ngột, bỗng dưng",
                 IsCorrect = true,
             },
             new()
@@ -30003,13 +27651,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("7E262275-71EA-4EAA-B469-E6E16537F59A"),
-                QuestionId = new Guid("0A3790A4-91FE-472B-9C7F-0685F6CE7259"),
-                Content = "giá rẻ, rẻ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("9768D9F3-1E93-48EA-88A7-83633AD79CDC"),
                 QuestionId = new Guid("33E960EE-F0ED-4651-B5AA-24F0DBE78013"),
                 Content = "Danh từ",
@@ -30091,13 +27732,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("6301ED9D-AFFE-43E9-ACF3-0F7C1C63E266"),
                 Content = "공격",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("E908C176-73ED-4A21-B283-37D1AEB14E27"),
-                QuestionId = new Guid("3C5BE7D1-E8D8-4AC5-912C-8A2CFFC94EB6"),
-                Content = "giảng đường",
-                IsCorrect = true,
             },
             new()
             {
@@ -30185,13 +27819,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("558E4545-C23E-4184-97E6-D9C669759850"),
-                QuestionId = new Guid("98CDF33D-7974-4277-8B03-4AC0E22B7C80"),
-                Content = "độ bền, độ vững chắc",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("28E4926A-BA2E-44AD-B1D0-AC477D67883C"),
                 QuestionId = new Guid("3B8D47EC-2DA5-4F31-8109-CB89D71E3E7C"),
                 Content = "Danh từ",
@@ -30273,13 +27900,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("017E86FC-4CA0-43EB-888B-79D08AE8FEF8"),
                 Content = "경찰관",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("2291D71B-C6B6-4998-8631-B617C15155F7"),
-                QuestionId = new Guid("ACA457CF-931E-49B7-8637-D17DC95293E3"),
-                Content = "nước sông",
-                IsCorrect = true,
             },
             new()
             {
@@ -30367,13 +27987,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("468B5834-9893-4DA2-8729-DAE95BDE428A"),
-                QuestionId = new Guid("84F681AE-F2AC-4097-AEC8-77326E8356EF"),
-                Content = "giảng viên, người thuyết trình",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("D7EDC570-E721-4CA2-B307-B59A243BA08B"),
                 QuestionId = new Guid("E0763A5B-08B2-43D6-8B2E-5A7B2BC064AF"),
                 Content = "Tính từ",
@@ -30455,13 +28068,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("C72C1729-1D0A-4D6F-BF43-E7A1209A1660"),
                 Content = "고무",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("E509E2EB-094E-489E-8F29-2A582786EDA0"),
-                QuestionId = new Guid("67451FC8-634D-4450-9BBC-D7C13FFF0346"),
-                Content = "lượng mưa",
-                IsCorrect = true,
             },
             new()
             {
@@ -30549,13 +28155,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("2138EFDB-2647-432A-A66F-545C161BEE21"),
-                QuestionId = new Guid("A24D399E-9228-4E66-96FE-C37EC8757D0C"),
-                Content = "sự cưỡng ép, sự ép buộc, sự bắt buộc",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("858375BF-78F1-42E7-B334-4B3A90441A95"),
                 QuestionId = new Guid("8A1D6800-B232-4B3A-9AB3-70F76B81B4D1"),
                 Content = "Phó từ",
@@ -30640,13 +28239,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("85550853-10A2-4B4C-B934-5ABF0F3D4CC3"),
-                QuestionId = new Guid("24D03BBD-F9CE-48E7-B66F-72B082553204"),
-                Content = "Gangwon-do, tỉnh Gangwon",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("FDB2C31C-BE33-46E5-A95B-2EA2E12B27C1"),
                 QuestionId = new Guid("A358AB60-AA9D-4E14-98E8-D788D90661C0"),
                 Content = "trái cây",
@@ -30700,13 +28292,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("E2013EE5-F220-4E97-8F06-FD92992C4932"),
                 Content = "그사이",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("7FE2CF6B-FD20-48C8-ABDF-1DC674597118"),
-                QuestionId = new Guid("A53E735E-C69E-4BB5-B385-EDE4862B7F4B"),
-                Content = "việc giảng dạy",
-                IsCorrect = true,
             },
             new()
             {
@@ -30794,13 +28379,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("2A60FA95-8403-4B6C-861A-792871D7BE2D"),
-                QuestionId = new Guid("B8648592-C169-4BC3-8DB8-92AD8D9FBB09"),
-                Content = "giảng đường",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("58397956-3BD2-4E49-94D9-29850A48CC03"),
                 QuestionId = new Guid("959D5DB9-ECD8-4177-86BF-1521FA137960"),
                 Content = "Tính từ",
@@ -30885,13 +28463,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("4557CEB9-2FA7-4201-B9D2-BFD7550D1B04"),
-                QuestionId = new Guid("8C6D150E-0FF7-4074-B64B-1AF8EDEE0C26"),
-                Content = "sự cưỡng chế, sự bắt ép",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("4B3ABA2A-3879-470B-90E6-0C6E581A9DDC"),
                 QuestionId = new Guid("4EFD0706-98A3-4CEF-BF57-6725C325C356"),
                 Content = "Danh từ",
@@ -30972,13 +28543,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("52BDE750-57D5-41D8-9DA8-D086304C15F3"),
                 QuestionId = new Guid("83D1A485-BEF4-4C7A-B812-8CDE5AD06CA9"),
                 Content = "강조",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("B5AB9461-B9D6-4CB3-8D41-84249D423191"),
-                QuestionId = new Guid("7231D661-EA08-4D3B-905D-76C7736C91E5"),
-                Content = "sự khẳng định, sự nhấn mạnh",
                 IsCorrect = true,
             },
             new()
@@ -31067,13 +28631,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("F27E827D-A3AC-48B0-87CD-316BCCF5D78B"),
-                QuestionId = new Guid("DF8896FD-3BB1-4B4B-9922-B25B51EEC2C9"),
-                Content = "khẳng định, nhấn mạnh",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("7ECC870E-C48F-42BD-8BBF-05706D5C0888"),
                 QuestionId = new Guid("16533767-F69A-41F8-A02C-D41E8781B354"),
                 Content = "Danh từ",
@@ -31154,13 +28711,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("29107959-97D2-440F-A9DD-3725C5B26F7C"),
                 QuestionId = new Guid("CAAE93D7-DCCC-4C45-89BE-E6ABF488FB3A"),
                 Content = "갖가지",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("7E969514-B52A-4367-B964-B47A5FFBA2D8"),
-                QuestionId = new Guid("22E87369-534F-4037-B20F-6E7930FFC4A7"),
-                Content = "các loại",
                 IsCorrect = true,
             },
             new()
@@ -31249,13 +28799,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("E09B718D-1DEB-4907-AC86-E22A5D42AD4E"),
-                QuestionId = new Guid("C1F324EC-ABE8-4911-91D1-4BD81A22C0C4"),
-                Content = "trang bị",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("B2582530-DF25-436C-8DD5-35C4AECF3D33"),
                 QuestionId = new Guid("441CDA15-FB28-4294-B0E0-5600F8A9CA60"),
                 Content = "Phó từ",
@@ -31337,13 +28880,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("775FA87A-A7D2-4F3B-AA36-775064C518C1"),
                 Content = "간식",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("A9FB48DD-998F-465B-A325-63B7067B289F"),
-                QuestionId = new Guid("17178026-7DC1-4E83-9466-510CACC62FF0"),
-                Content = "con ếch",
-                IsCorrect = true,
             },
             new()
             {
@@ -31431,13 +28967,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("3ACD4A0E-035D-4B5C-A1C3-B9B621EEA34F"),
-                QuestionId = new Guid("7DBDAB60-5563-4C8E-8A5D-FDAC0FEA745B"),
-                Content = "cây hoa ge-na-ri, cây đầu xuân, hoa ge-na-ri, hoa đầu xuân",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("8014C3D3-940E-4220-899D-F2FC0D176771"),
                 QuestionId = new Guid("42B5A1D4-FD68-48A7-90B8-9F15D865EFDE"),
                 Content = "Tính từ",
@@ -31519,13 +29048,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("D7033D3D-84A1-4FF6-B9B1-74F8FDDE7843"),
                 Content = "가격",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("3BEB1699-AF2A-4DF0-A8AF-05B6C0A3EC26"),
-                QuestionId = new Guid("AB19C2DC-CE8F-41EB-BE9B-833D436CE10B"),
-                Content = "khái niệm",
-                IsCorrect = true,
             },
             new()
             {
@@ -31613,13 +29135,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("988D656A-BB21-4A3C-94EC-01F73E335C41"),
-                QuestionId = new Guid("97DC5E01-D4D4-4719-9CC6-A58476C8CCF7"),
-                Content = "trời quang",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("712439C1-89DB-4441-931D-C73C16E63569"),
                 QuestionId = new Guid("30567F4F-68FD-42FA-A0D8-5C8CB8984C5B"),
                 Content = "Động từ",
@@ -31700,13 +29215,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("9832B093-E9D6-46B2-8BAE-2A225AC186CE"),
                 QuestionId = new Guid("5047D471-ECD2-476B-AE27-BDA19155AEA5"),
                 Content = "개미",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("E75A6C2A-D973-4039-96DF-ADBD6AAE4913"),
-                QuestionId = new Guid("A392F14A-1780-470C-B4E6-9D9B4E210899"),
-                Content = "con kiến",
                 IsCorrect = true,
             },
             new()
@@ -31795,13 +29303,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("7FD624ED-14B9-49DF-9220-933CD9C6919A"),
-                QuestionId = new Guid("01056FA7-03DA-4B10-99CC-6600D63ADFBC"),
-                Content = "sự khai khẩn, sự khai thác",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("66638DA3-3EAC-4AF2-B51D-ECE6D6DFB8BC"),
                 QuestionId = new Guid("7EB0F866-6B03-477D-A84D-11A019C6B630"),
                 Content = "Động từ",
@@ -31883,13 +29384,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("C7886307-B6C4-43DC-B032-4149E4E86EB9"),
                 Content = "기뻐하다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("CE7175B7-52A5-4315-AEDC-1D57577EC155"),
-                QuestionId = new Guid("8D075201-3650-4922-93E5-6064988D78AD"),
-                Content = "khai khẩn, khai thác",
-                IsCorrect = true,
             },
             new()
             {
@@ -31977,13 +29471,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("1A548ED7-167F-4D92-B825-1E909E2D53E9"),
-                QuestionId = new Guid("5B9C4ED5-FE58-45C7-807A-3BFA762B4FE8"),
-                Content = "sự mở ra",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("9C87031F-09A0-4151-B7C5-BD34BAA89B2F"),
                 QuestionId = new Guid("8701A017-91FE-40BB-88CB-127ACA31F0B1"),
                 Content = "Phó từ",
@@ -32065,13 +29552,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("2C6F7C80-A487-4B82-807D-6C99882A5567"),
                 Content = "거짓",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("5C1CFD12-5DD6-4BE9-AE0D-97131E8CC47A"),
-                QuestionId = new Guid("B9B5687C-7EA3-4ED5-8BDF-5F3111E988D2"),
-                Content = "riêng biệt, riêng lẻ, riêng",
-                IsCorrect = true,
             },
             new()
             {
@@ -32159,13 +29639,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("10BEFF73-4C71-4E70-AC4C-518A336F5671"),
-                QuestionId = new Guid("D23515A4-C757-4F58-89CA-201386A785F7"),
-                Content = "sự cải tiến, sự cải thiện",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("34A96421-8582-4930-A230-E4E3F2E3E03B"),
                 QuestionId = new Guid("D779D176-F782-4419-A0B6-109FFE301B63"),
                 Content = "Danh từ",
@@ -32247,13 +29720,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("B7FB1ED2-B258-4373-8336-192B42969479"),
                 Content = "거지",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("2A29C2AA-20C5-4A1B-92DE-56DA661CA99B"),
-                QuestionId = new Guid("F16535A2-10E0-4944-BEAB-75F126CFA6BF"),
-                Content = "cá tính",
-                IsCorrect = true,
             },
             new()
             {
@@ -32341,13 +29807,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("FBB1F2D0-E2AB-4837-8267-EF08A083B380"),
-                QuestionId = new Guid("3D302235-53E9-47CE-A00D-DCC8E64903B2"),
-                Content = "cá nhân",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("A08754B0-A58B-4B0A-9D47-600F7A6A048A"),
                 QuestionId = new Guid("F89D2811-D8EA-4268-B499-20F21DB0501E"),
                 Content = "Phó từ",
@@ -32432,13 +29891,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("4D9DCA19-092A-4516-B074-562BBED0A293"),
-                QuestionId = new Guid("BDC86C90-501B-48AD-8E3F-D922EC77E502"),
-                Content = "sự riêng tư, cá nhân",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("D4F6E7E3-EFB0-4C82-A769-0AD21E3EF0A2"),
                 QuestionId = new Guid("4F9FAED9-5355-43FD-8BC2-0398C3D0DBC4"),
                 Content = "sự quan sát",
@@ -32492,13 +29944,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("4931CA1C-765F-408F-AE5B-B6CF45F25E15"),
                 Content = "기회",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("289E75D3-66C2-4F49-B728-7E906F77477F"),
-                QuestionId = new Guid("00961567-45A0-4A8F-B7D0-F663592B71E0"),
-                Content = "việc tổ chức",
-                IsCorrect = true,
             },
             new()
             {
@@ -32582,13 +30027,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("1CB4C9F2-C84C-4DB1-A219-B1203121149C"),
                 QuestionId = new Guid("5A87EBA2-9534-4441-99D9-6A8308D5BDF2"),
                 Content = "개혁",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("28969F48-D593-4ADA-B28B-C69D179FAF63"),
-                QuestionId = new Guid("570E7CB0-564C-4A66-9E37-30D0806292B2"),
-                Content = "cải cách, đổi mới",
                 IsCorrect = true,
             },
             new()
@@ -32677,13 +30115,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("EC237842-8375-44D3-87BE-A45D85CEDCE9"),
-                QuestionId = new Guid("96DC5849-A6EB-497F-83F1-8EE1B36BCF40"),
-                Content = "tính khách quan",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("FBF06A4A-8D1A-4174-838F-D48B3FB1D2C1"),
                 QuestionId = new Guid("58267972-6E2D-4B8C-80A1-E2A92F8393C5"),
                 Content = "vướng vào",
@@ -32740,13 +30171,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("CBE20D2B-E7AB-4D9E-8DAB-933FF1D9775E"),
-                QuestionId = new Guid("89B848FC-54DA-4C29-8B0D-C546184FF1DC"),
-                Content = "đứa đó",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("5388F1E0-DAC5-4154-A832-E303CF9E73D2"),
                 QuestionId = new Guid("402D03DE-82D3-4038-A6F0-3BF7E70CD9F4"),
                 Content = "mùa thu",
@@ -32799,13 +30223,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("544D4A62-8EF1-4E0F-915F-6948212CA1ED"),
                 QuestionId = new Guid("45554258-FC6A-4CF2-A632-990B8D9FAB96"),
                 Content = "거꾸로",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("6C3E1A22-5A48-4A67-93E5-C2B0A6D99CF7"),
-                QuestionId = new Guid("7AC130BC-3DC5-4E19-A9C3-E0A8F229835C"),
-                Content = "ngược lại",
                 IsCorrect = true,
             },
             new()
@@ -32894,13 +30311,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("D03E404B-7D3A-4928-A302-AFB6547AA0A9"),
-                QuestionId = new Guid("AAD23842-8814-4829-982A-951BED1D5F2D"),
-                Content = "sự to lớn",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("6BCD3252-3923-4F90-A829-8406B03473C8"),
                 QuestionId = new Guid("9DC1462F-2AEB-427F-9542-C5CE9F005656"),
                 Content = "Tính từ",
@@ -32982,13 +30392,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("2EE11324-5A63-42CB-8CD9-EFC3C5896213"),
                 Content = "개발되다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("A8ADFA6A-A716-4D5E-8004-346B8D10D0C1"),
-                QuestionId = new Guid("9A9B7449-4DE2-4953-A56D-2B98F8286452"),
-                Content = "thu dọn, thu gom",
-                IsCorrect = true,
             },
             new()
             {
@@ -33076,13 +30479,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("8464DFC9-D6C3-4A85-8DC3-D6401B0DAB6F"),
-                QuestionId = new Guid("8026C742-3DBF-4D62-8F86-D054097856A4"),
-                Content = "đỡ đần, giúp việc",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("423EB37E-2946-4F2D-8233-F94F0BAD7FC0"),
                 QuestionId = new Guid("A1701CCF-D0C9-4BCD-9C13-E217175DCD67"),
                 Content = "Phó từ",
@@ -33164,13 +30560,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("AEBA14D8-16AC-4DF5-B2AF-4F6A437408A6"),
                 Content = "근거",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("D3283D08-20FB-4ED7-9401-9DC01AD4F7BE"),
-                QuestionId = new Guid("6EC0AC04-C170-4BB1-8E38-BCB7BC58881A"),
-                Content = "sự giao dịch",
-                IsCorrect = true,
             },
             new()
             {
@@ -33258,13 +30647,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("8768592F-11B2-48FD-87C9-E1A5A43F93D2"),
-                QuestionId = new Guid("DF41C433-E8EC-45E9-801E-789F04FCB666"),
-                Content = "khách hàng, người giao dịch",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("333A9212-E96B-4F21-828A-29A2DD0E8A37"),
                 QuestionId = new Guid("C4756375-EC54-4263-95FD-83A195DE7B55"),
                 Content = "Tính từ",
@@ -33346,13 +30728,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("9B2DEB60-9EF4-42F6-8D09-37591A762A62"),
                 Content = "국민적",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("A14CCB19-630B-47D6-BCAA-0F266731E977"),
-                QuestionId = new Guid("AF838DC1-A33C-4CF1-8E59-8874BD27B678"),
-                Content = "con nhện",
-                IsCorrect = true,
             },
             new()
             {
@@ -33440,13 +30815,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("4EBF874C-A757-46A7-8841-582B2831B976"),
-                QuestionId = new Guid("FF1F971C-ADA9-4EDA-A944-75E8AD39E27A"),
-                Content = "con rùa",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("28D8F0DD-5A6A-4BF9-BAAF-62DF785E7C25"),
                 QuestionId = new Guid("0910B8D9-0A71-4522-A06A-3962A77038F6"),
                 Content = "Phó từ",
@@ -33528,13 +30896,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("69F12AA0-9C3B-42FB-BDFD-C0132D40D240"),
                 Content = "가격",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("BCC8A1EB-037F-4FD4-B7CD-D0AB81FA1508"),
-                QuestionId = new Guid("A4F48215-09A1-4F73-A0CC-7C1D54DE3589"),
-                Content = "tiền thối lại, tiền trả lại",
-                IsCorrect = true,
             },
             new()
             {
@@ -33622,13 +30983,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("43AB0CA0-6764-46A7-99B0-AAA1707D54D9"),
-                QuestionId = new Guid("5782AC94-7AFF-4840-ACE1-2CB9F76992BC"),
-                Content = "người ăn xin, người ăn mày",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("1EFCD1FC-4826-4025-AF92-644C727F6CC2"),
                 QuestionId = new Guid("EE20F3A3-85DE-41DE-9D72-50FC8ED83834"),
                 Content = "Danh từ",
@@ -33713,13 +31067,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("D1C0CE39-715B-48CE-9E4E-9633E984D685"),
-                QuestionId = new Guid("B3D3FEDD-8F74-455E-B694-8CF8D237115C"),
-                Content = "sự dối trá, sự giả dối",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("4914C1C9-3A42-4197-99CD-63318A9CE8E2"),
                 QuestionId = new Guid("C160D411-E220-4138-8412-B24F393460EA"),
                 Content = "Động từ",
@@ -33800,13 +31147,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("DA323ED7-877D-4203-9152-97A8FF3247BD"),
                 QuestionId = new Guid("E009196D-3F17-4814-B9B6-D111DDCD8DD0"),
                 Content = "거치다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("7B2D7030-E7D6-406B-8E8E-0C3B55F27B17"),
-                QuestionId = new Guid("08C8DD6A-ED4D-4FD9-8E3C-9C73AA1965E9"),
-                Content = "vướng vào, mắc vào",
                 IsCorrect = true,
             },
             new()
@@ -33895,13 +31235,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("3526421C-A9D8-4F9D-A855-55ED6BDE2548"),
-                QuestionId = new Guid("7F9E5669-A187-42B1-9B46-296E58AC437D"),
-                Content = "sần sùi",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("621C11D1-0272-4AB5-85EB-4FDDEEED7641"),
                 QuestionId = new Guid("38D0892D-B783-4C99-B631-5C6CC3F54F1F"),
                 Content = "Tính từ",
@@ -33983,13 +31316,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("5BC39718-9C3E-4BC7-AAC2-857EF996B456"),
                 Content = "공군",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("063C9C65-C346-4A4C-884F-7A304BFF26AB"),
-                QuestionId = new Guid("D25BB6A3-68B8-44BF-BD2C-AF84740D43BD"),
-                Content = "bọt",
-                IsCorrect = true,
             },
             new()
             {
@@ -34077,13 +31403,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("1689D32E-987D-4817-ACA6-19CF50E78FE9"),
-                QuestionId = new Guid("5EE8975F-BC27-4FE4-B700-408EDC49F0B0"),
-                Content = "trở nên lo lắng",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("DD292B8D-7367-4F11-8125-DBEE1596D129"),
                 QuestionId = new Guid("A5FC1A27-9A8E-4395-BD09-4D773258AA46"),
                 Content = "Phó từ",
@@ -34165,13 +31484,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("62E305EB-D9B6-411B-AF01-DFA3D1AA9A01"),
                 Content = "곧다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("995BACA7-F695-465D-959F-7A7413E9F92D"),
-                QuestionId = new Guid("4F34C133-F5C7-4E61-BFBC-F8A97BD8CBDC"),
-                Content = "lo lắng",
-                IsCorrect = true,
             },
             new()
             {
@@ -34259,13 +31571,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("8BAE6AAD-99E6-4B21-8E72-F5F87F50CCC8"),
-                QuestionId = new Guid("309923DB-F79F-4561-AC95-68C36154BE12"),
-                Content = "phía đối diện",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("D59227F6-6B7D-43DC-B0C5-CF3E2088702D"),
                 QuestionId = new Guid("6A948C7F-FEEA-4D99-BBF2-A28AB5E66EB2"),
                 Content = "Phó từ",
@@ -34347,13 +31652,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("ABC9BE80-9A66-4E94-980E-35A53F2B7052"),
                 Content = "감추다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("1610303F-B414-4A46-9729-C534A3AB51E3"),
-                QuestionId = new Guid("D5C5C2F7-4351-4FA3-A9F8-00F6E0B78F36"),
-                Content = "qua",
-                IsCorrect = true,
             },
             new()
             {
@@ -34441,13 +31739,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("353DE700-CB90-4E3A-AA2A-2BA67EEF92B2"),
-                QuestionId = new Guid("4268A60A-0775-477E-A61E-4148B66A260D"),
-                Content = "lối qua đường, đường ngang dân sinh",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("6E43AD83-6129-4EDD-8F4D-3C0EFB93CC91"),
                 QuestionId = new Guid("817B0358-4000-4B90-8F4D-471C076C1500"),
                 Content = "Phó từ",
@@ -34532,13 +31823,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("1AEF3507-7749-4D6B-9FCC-7BE041187569"),
-                QuestionId = new Guid("7E61F370-612B-4210-A5E2-41C3EF176E2C"),
-                Content = "trao, đưa",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("6F41166C-7D0B-4965-8C1D-EF8D50157FF5"),
                 QuestionId = new Guid("3B6750A5-F8D2-4AE5-ABBD-13D4E5EB9661"),
                 Content = "Danh từ",
@@ -34619,13 +31903,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("2CCE2BC5-76B4-4F4F-A8BF-58DB99D1E888"),
                 QuestionId = new Guid("8CA2A8FF-8158-4994-B869-F8A1F2C7F636"),
                 Content = "건네주다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("71D3D8D5-824E-4999-911D-94B3692ABD31"),
-                QuestionId = new Guid("459B9B82-FED2-4089-9FBC-23CF20A09A80"),
-                Content = "trao cho, chuyển cho",
                 IsCorrect = true,
             },
             new()
@@ -34714,13 +31991,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("FA5AD7C2-9853-4210-82AA-66127859B30D"),
-                QuestionId = new Guid("4825429C-B04B-4236-A5E8-863637E42037"),
-                Content = "chạm, đụng",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("490D5D86-262D-416E-B0B1-1356CF8B0CE4"),
                 QuestionId = new Guid("6F7A0589-A30C-4F33-B011-CDF529D13A54"),
                 Content = "Động từ",
@@ -34802,13 +32072,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("EF90CBAA-694B-4DD7-B713-D096D1BEFF96"),
                 Content = "깨",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("A75E52D0-169B-420D-B11B-986FEAE210AC"),
-                QuestionId = new Guid("9BF014CD-73E8-4B39-865B-D9F4650FB38B"),
-                Content = "sự xây dựng",
-                IsCorrect = true,
             },
             new()
             {
@@ -34896,13 +32159,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("213C7886-B2C8-44AB-8989-80F075B7A32B"),
-                QuestionId = new Guid("244391F3-62A5-4AA6-A25B-5FC634CCE29F"),
-                Content = "pin, viên pin, cục pin",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("ED8468C1-617A-40C0-8F45-1319E0495A79"),
                 QuestionId = new Guid("8541F573-90B8-4728-9785-4270D4F3E9F7"),
                 Content = "Động từ",
@@ -34984,13 +32240,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("1E9DD880-A61E-4BAB-8EE3-8978909FF543"),
                 Content = "겉옷",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("A9AF26C9-018A-4968-8A7E-2F95EBD0AA4B"),
-                QuestionId = new Guid("62A8535D-A1D7-4CCC-815C-A6A5EE5D2DE4"),
-                Content = "sự kiến thiết, sự kiến tạo",
-                IsCorrect = true,
             },
             new()
             {
@@ -35078,13 +32327,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("B7739C86-4964-455E-BDBE-9FD1ABC3C874"),
-                QuestionId = new Guid("5F368C95-6A7F-4784-A61B-635167CF09AE"),
-                Content = "vớt ra",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("6EA570FC-7724-4FC0-BF53-26CB10DCBD1E"),
                 QuestionId = new Guid("A6D94462-36A5-4DF8-AAFB-0B77C23812A3"),
                 Content = "Phó từ",
@@ -35166,13 +32408,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("1F583F07-2A1B-4F0C-BF4C-6F1374ADB6A0"),
                 Content = "공항버스",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("59B567F8-3B5F-4CC1-9232-EC2A7AE212EB"),
-                QuestionId = new Guid("ED780942-5EF1-45B8-A862-B544E4F27917"),
-                Content = "việc kiến trúc, việc kiến thiết",
-                IsCorrect = true,
             },
             new()
             {
@@ -35260,13 +32495,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("20876131-217D-4414-86FA-DC7D03E75D10"),
-                QuestionId = new Guid("07B9EF5B-5550-40CB-8D5D-01F6AC0FAE40"),
-                Content = "giẻ lau",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("8848BD79-EDB9-4CE9-BD8A-361210006E16"),
                 QuestionId = new Guid("39987831-A79E-498D-9786-0D910F907DB9"),
                 Content = "Động từ",
@@ -35348,13 +32576,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("7E55A0F1-7308-43C5-BF8D-499B3A4D068C"),
                 Content = "강화하다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("D7CA5BB9-4264-4C07-982A-A36D35211641"),
-                QuestionId = new Guid("68859590-8627-4E9B-BA9D-733D4116F1D5"),
-                Content = "lơ lửng",
-                IsCorrect = true,
             },
             new()
             {
@@ -35442,13 +32663,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("8B369005-3A07-4DB6-88AD-0D6C06AC6A0A"),
-                QuestionId = new Guid("8D07E1E8-E6FE-4ED5-8F0F-58141DABC966"),
-                Content = "đen",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("B5ED2DF3-8BF1-40F6-B056-8D7CA650BE8E"),
                 QuestionId = new Guid("A40EBE17-DE9E-46D6-B0BE-2642DE585661"),
                 Content = "Danh từ",
@@ -35530,13 +32744,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("39AFADC8-0176-4190-B648-44032A5BEC02"),
                 Content = "과자",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("392725C6-DD4C-4BAF-BCAA-B61F12A36D0C"),
-                QuestionId = new Guid("36049411-78B9-470B-B2EF-9CD0B72C268E"),
-                Content = "sự tra xét, sự khám xét",
-                IsCorrect = true,
             },
             new()
             {
@@ -35624,13 +32831,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("6A06CEF2-1A45-45BC-80D3-9D854219A290"),
-                QuestionId = new Guid("15F3E82B-E8FD-4AE4-B30B-E97AADBEA9DF"),
-                Content = "màu đen",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("D5021304-8F6A-4C46-8FAC-0B35BB80CA83"),
                 QuestionId = new Guid("DB7A4E70-4BC7-49FB-90B2-F9A1184B8321"),
                 Content = "Tính từ",
@@ -35712,13 +32912,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("57C08C44-B726-4181-8FD3-BCA40C3CA7A0"),
                 Content = "결석",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("6FFDC135-6893-4ED8-BF84-B7CE843F24D4"),
-                QuestionId = new Guid("48347FB0-CA50-47DE-B2AF-00A28CD48F52"),
-                Content = "xem xét",
-                IsCorrect = true,
             },
             new()
             {
@@ -35806,13 +32999,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("24A187C7-6493-49DC-B476-001CDC05E5A4"),
-                QuestionId = new Guid("31713AE9-3751-489D-B00C-A71E22EF7D05"),
-                Content = "nỗi sợ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("954324F8-B126-4E7D-B32C-D9AFB0720DD4"),
                 QuestionId = new Guid("814B9D11-054B-48C9-95A3-F0DBB07A90E2"),
                 Content = "Phó từ",
@@ -35893,13 +33079,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("8F8896DA-F007-4177-956D-85AB361729D3"),
                 QuestionId = new Guid("3D37C0B2-BE5C-4FB4-A65D-0EC2EED382A8"),
                 Content = "겁나다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("0EC51E06-B7AD-42C4-B691-84C88E7E7287"),
-                QuestionId = new Guid("7573B03A-1F47-47BD-91D8-35D70CB3324C"),
-                Content = "sợ hãi",
                 IsCorrect = true,
             },
             new()
@@ -35988,13 +33167,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("DBE6CEAA-C787-4A55-BDAB-724B8A691972"),
-                QuestionId = new Guid("DA13770F-E27D-4964-9E93-660CC68B63C2"),
-                Content = "vẻ ngoài, bề ngoài",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("64021E15-F886-419B-BFDF-527A1BBD4B1C"),
                 QuestionId = new Guid("0E877FE1-54FE-4B62-A812-3A80D8F8C80D"),
                 Content = "Phó từ",
@@ -36076,13 +33248,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("0AF4B34C-DBC7-4CAB-804F-3F8A20A467DF"),
                 Content = "고등학생",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("39A60076-F1A4-412E-8E01-2703A1405C47"),
-                QuestionId = new Guid("567B4559-D17B-4769-A9D7-0C4343F2FAB5"),
-                Content = "áo ngoài",
-                IsCorrect = true,
             },
             new()
             {
@@ -36170,13 +33335,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("AD1EFA73-D409-4D1C-BE10-BB9A7818FF59"),
-                QuestionId = new Guid("40C3A1BC-7223-4FA1-BFC1-A6296128F9F2"),
-                Content = "con cua, con ghẹ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("1350D1C3-9899-4880-A553-E5F3BD14354D"),
                 QuestionId = new Guid("9B0983DE-C595-4846-B382-BA350202C0E9"),
                 Content = "Phó từ",
@@ -36258,13 +33416,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("5958B6E2-8E0E-49F5-AFA1-53B00360D9EC"),
                 Content = "가득",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("F844F9EE-BA2C-494B-AE41-91FC2C9B37B8"),
-                QuestionId = new Guid("12478AE8-AC18-4100-A5C9-E40AD1545503"),
-                Content = "hơn nữa, vả lại, thêm nữa",
-                IsCorrect = true,
             },
             new()
             {
@@ -36352,13 +33503,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("BDBC7C33-A0E3-4EED-BE20-475BB274C0C9"),
-                QuestionId = new Guid("068BBE71-C551-4425-ACE9-099CD87ACB1D"),
-                Content = "sự đưa lên, sự dán lên, sự công bố ra",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("99B188F8-17F4-4A9F-A049-EC05573E2CF5"),
                 QuestionId = new Guid("F964FB84-10D6-4AE4-8664-EB0C85950FB8"),
                 Content = "Động từ",
@@ -36443,13 +33587,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("0E55D7F4-41D5-418C-8748-0BADE37F36DA"),
-                QuestionId = new Guid("6A74BD2F-F8D1-4DA2-BFC1-4253ED57BD86"),
-                Content = "bảng thông báo",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("40CCCA4E-B874-4CF0-922E-7E68BF52111E"),
                 QuestionId = new Guid("2DDBED32-3B95-410C-A0D5-5ACD0F20F82B"),
                 Content = "Tính từ",
@@ -36530,13 +33667,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("B5EE2841-F7E5-4FE3-A663-52D819FCE39E"),
                 QuestionId = new Guid("DC1BEABF-A148-4C21-A745-27FAA52549FB"),
                 Content = "겨우",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("BB904B6A-53CE-4AD4-8994-C5CDEA0C64AC"),
-                QuestionId = new Guid("6288CA82-17F5-471E-8D13-B0C8EA7FF40D"),
-                Content = "một cách khó khăn, một cách chật vật",
                 IsCorrect = true,
             },
             new()
@@ -36625,13 +33755,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("8E924E46-B68F-46FF-BED8-9DA68F72EF49"),
-                QuestionId = new Guid("4AA5CFD6-ED45-499D-9AE0-6217253AE083"),
-                Content = "mùa đông",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("17E1DC98-6BF6-4646-86D5-3DFD310F4A6A"),
                 QuestionId = new Guid("BF6E2508-1ADE-4125-A04F-502DA3ACCE19"),
                 Content = "Danh từ",
@@ -36712,13 +33835,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("8D8B31FE-9E95-4BA8-88BE-4394591117A7"),
                 QuestionId = new Guid("F10A4037-68D2-46B7-A953-2D0875F97638"),
                 Content = "격려",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("43579707-C75A-4E40-AAA1-4243F985BFD4"),
-                QuestionId = new Guid("7200889C-ED5C-4593-A967-AF56E7F58E08"),
-                Content = "sự khích lệ, sự động viên, sự khuyến khích, sự cổ vũ",
                 IsCorrect = true,
             },
             new()
@@ -36807,13 +33923,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("F4D3A1D6-5CBA-4ECC-B875-B0BDB36830EB"),
-                QuestionId = new Guid("B940DC5C-191B-4CD0-9E1C-D06B8A79DF08"),
-                Content = "trải qua, trải nghiệm",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("523061DC-5FA6-4921-8AD0-27E65F0EA0A7"),
                 QuestionId = new Guid("693914D5-D9BE-4D65-ACE9-18349CA1E9BF"),
                 Content = "Danh từ",
@@ -36894,13 +34003,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("0564DF2A-55E3-485A-B375-17CA5687803F"),
                 QuestionId = new Guid("E378B195-7D73-46C9-873E-38380891D8C6"),
                 Content = "견디다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("F1A2D028-9627-4F03-9F57-57EB2616C22A"),
-                QuestionId = new Guid("46C0EB22-8F1C-408C-949B-310F520F07B1"),
-                Content = "chịu đựng, cầm cự",
                 IsCorrect = true,
             },
             new()
@@ -36989,13 +34091,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("A2FF9066-F606-4AC5-BFA5-324DEEC522A1"),
-                QuestionId = new Guid("136B11B9-E3B7-42FC-9999-7D306D81C932"),
-                Content = "sự kiến tập, sự đi thực tế",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("0322739E-6731-47E7-B071-F498BB25B0E4"),
                 QuestionId = new Guid("79B7E6F7-0EDF-436C-A182-5D076F797FF2"),
                 Content = "Danh từ",
@@ -37077,13 +34172,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("E2ABB60A-ACAD-4F53-9595-1A3BEE657B34"),
                 Content = "금고",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("923ED4AE-45B3-4DB3-AE4B-6686579CC0CC"),
-                QuestionId = new Guid("6512636B-9DC1-4DA5-9745-BCB733C9C64B"),
-                Content = "quan điểm, cái nhìn, cách nhìn nhận",
-                IsCorrect = true,
             },
             new()
             {
@@ -37171,13 +34259,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("DB89EFBC-1BBD-4A69-92A3-CE116F23CB4A"),
-                QuestionId = new Guid("0AEC1DEB-286C-4347-A46B-3B393B53E454"),
-                Content = "đoạn kết, phần kết, sự kết thúc",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("269A8D7D-C2DB-4BC1-B96F-B80EABC07C71"),
                 QuestionId = new Guid("C22F5706-B491-4FD5-B204-4C783808A037"),
                 Content = "Danh từ",
@@ -37259,13 +34340,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("B26B254B-11EB-4D24-89B1-9213A0174102"),
                 Content = "가운데",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("92DC08F2-8CFF-4E34-A95C-E24B12BA2D9C"),
-                QuestionId = new Guid("997E23B5-2309-4D2F-BE4E-71C6FA4DF2F1"),
-                Content = "sự nghỉ làm",
-                IsCorrect = true,
             },
             new()
             {
@@ -37353,13 +34427,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("69C9225B-0486-4DFE-88D5-8C5A437167F2"),
-                QuestionId = new Guid("FC7B27B8-FF72-4531-A0C3-7C99CB32D21B"),
-                Content = "kết luận",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("63CC6A96-587B-495E-ABBB-E5E9882CC3EC"),
                 QuestionId = new Guid("0BB730EF-E74D-47F0-9B74-7D94446729AC"),
                 Content = "Tính từ",
@@ -37441,13 +34508,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("A47E548B-88D8-4E41-A126-DAF1A4DAF262"),
                 Content = "군인",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("F3C6352D-ED9D-4434-94BE-8C92357C3CC7"),
-                QuestionId = new Guid("85203F56-882A-48B7-A875-E5764B797C8D"),
-                Content = "sự phân thắng bại",
-                IsCorrect = true,
             },
             new()
             {
@@ -37535,13 +34595,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("22E02D0D-D2DF-428C-8A9C-79F08668C8D1"),
-                QuestionId = new Guid("CB190DAF-8524-4B70-8C56-A08FDEAF8302"),
-                Content = "quyết tâm",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("C75AD663-21CF-4E17-B056-472F073140FD"),
                 QuestionId = new Guid("EF5FECE0-13BF-4A10-A4CF-96EAA4FD9B73"),
                 Content = "Phó từ",
@@ -37626,13 +34679,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("E4C2D82C-986D-4B92-9633-4640FDD691D4"),
-                QuestionId = new Guid("62455546-0738-46C8-ABA2-654AB9F07096"),
-                Content = "được quyết định",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("F370E9C9-8948-499B-A2CD-5734A0125FA9"),
                 QuestionId = new Guid("DA8115D7-B137-49CE-A160-843AA4B9550A"),
                 Content = "Động từ",
@@ -37713,13 +34759,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("11AC4B91-85D3-4DB4-9B19-9A6CDFF0DE6F"),
                 QuestionId = new Guid("C871429E-87CE-4E58-AA36-3C721914EB22"),
                 Content = "결정하다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("CE7F47FA-A463-4583-BC52-1DD055ED9976"),
-                QuestionId = new Guid("347EDA31-C864-48E8-AA66-B5BEC4E514F0"),
-                Content = "quyết định",
                 IsCorrect = true,
             },
             new()
@@ -37808,13 +34847,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("F81CA5E0-6C0C-44CC-A2AD-76727D97F70E"),
-                QuestionId = new Guid("7D09CBEC-14BA-44BF-8D7B-191232F85420"),
-                Content = "sự thanh toán",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("085FD4A2-C4AC-4FC6-BF1D-750D96F77BAA"),
                 QuestionId = new Guid("B076D921-FABB-449F-B5F0-75CABE75E5B4"),
                 Content = "Danh từ",
@@ -37896,13 +34928,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("0F79AC94-BD2F-437A-8D2F-54DF86582722"),
                 Content = "가끔",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("1FEFED37-FDF8-4AAF-A5E2-CE3584AC8E0E"),
-                QuestionId = new Guid("AD178866-9279-4D7C-A26E-DAEDB16D03C6"),
-                Content = "tuyệt đối",
-                IsCorrect = true,
             },
             new()
             {
@@ -37990,13 +35015,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("15AD7FB6-4324-4FD7-BA2D-1314B543A339"),
-                QuestionId = new Guid("11AD5076-F1E6-41DD-9A09-BDEED24249C8"),
-                Content = "sự kết hợp, sự hoà hợp, sự hợp nhất",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("0BA83652-AFCA-41D3-A0AA-2B8F2DB94980"),
                 QuestionId = new Guid("59BC1B20-1F27-417B-A34A-A99AF412856F"),
                 Content = "Danh từ",
@@ -38078,13 +35096,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("C2F4AA97-DBC3-4524-B59B-83A469EF7D59"),
                 Content = "극장",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("5F922F36-71EB-476D-8E09-3B45EC6939E1"),
-                QuestionId = new Guid("D24C6C15-29DD-495A-910D-30C733400CF6"),
-                Content = "nhà hàng tiệc cưới",
-                IsCorrect = true,
             },
             new()
             {
@@ -38172,13 +35183,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("91506BA5-93D7-4A3F-A5BD-F245CCD82FAE"),
-                QuestionId = new Guid("BF284B1C-AC39-41AF-90D0-B3E2EC57734C"),
-                Content = "sự khiêm tốn",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("C4D39F25-97D1-4726-A501-DB2ED8D93DEC"),
                 QuestionId = new Guid("0D657F21-DDE1-4F61-9C7F-C0B6D9830377"),
                 Content = "Tính từ",
@@ -38260,13 +35264,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("33835A91-3FD2-4F08-B4D4-1C45BBA480C7"),
                 Content = "거치다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("F0DB4492-0F1B-478D-8829-55B1E932DA20"),
-                QuestionId = new Guid("E26AB593-169A-4E1B-9BA7-E6ED383CD530"),
-                Content = "bị chồng lên, bị chất lên, bị trùng lặp",
-                IsCorrect = true,
             },
             new()
             {
@@ -38354,13 +35351,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("E3B92832-8F7E-4C13-9CC3-9CC815A3B9BD"),
-                QuestionId = new Guid("FFD9BF13-F1E3-4A63-8A4C-0E0F6698957A"),
-                Content = "ranh giới, biên giới",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("2F1E58FD-D0FA-422F-8C3C-D6E27BB4C1EC"),
                 QuestionId = new Guid("7F824C8F-125A-4A82-802A-BB99CBC10731"),
                 Content = "Danh từ",
@@ -38442,13 +35432,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("5C102A9B-71E0-4E26-B65A-58E39C405EA4"),
                 Content = "건전지",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("94D457D9-AFF7-4BEF-A49C-352ECE3863F5"),
-                QuestionId = new Guid("0473769E-7BA5-4A4A-8E83-A5642A8B29B8"),
-                Content = "sự cảnh báo",
-                IsCorrect = true,
             },
             new()
             {
@@ -38536,13 +35519,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("07EFC14B-8A0F-456C-A7D3-E2000DA39129"),
-                QuestionId = new Guid("8D5B040E-1AF8-4C1F-B32F-0283CC77792D"),
-                Content = "Gyeonggi-do; tỉnh Gyeonggi",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("97288FC3-64D9-4B35-9E8A-711E22A0B837"),
                 QuestionId = new Guid("1165F5FC-DBB7-4288-949B-7F42B1F11618"),
                 Content = "sân vận động",
@@ -38595,13 +35571,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("71C443FB-A3FA-4DE9-AC41-AC4FC8B929F6"),
                 QuestionId = new Guid("8ABC4B05-EC15-4FC2-B38D-280A8E9660F5"),
                 Content = "경기장",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("80D8DE10-64E9-43CD-94F4-6EA2F58FD572"),
-                QuestionId = new Guid("240B7E16-ED4C-4239-A3E7-90CBB902EA33"),
-                Content = "sân vận động, trường đua, đấu trường",
                 IsCorrect = true,
             },
             new()
@@ -38690,13 +35659,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("89DCFE36-EAB4-49A3-9E95-4E88BDF7389F"),
-                QuestionId = new Guid("C65E5AEA-0334-462A-A784-D9DE4C5A10CB"),
-                Content = "kinh nghiệm",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("4FD249CB-F788-4CD0-8D86-B55F2FF46DAD"),
                 QuestionId = new Guid("20FE9199-2C74-4BF7-9B67-80DB9D429170"),
                 Content = "Phó từ",
@@ -38778,13 +35740,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("8A369E7A-F132-4618-AA07-8FB0271639AE"),
                 Content = "게",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("81BCF82D-3ADA-4FBB-9798-1EF4BA6042DE"),
-                QuestionId = new Guid("0F7879BB-7387-418E-B34C-6FF4B0BF53DD"),
-                Content = "kinh phí",
-                IsCorrect = true,
             },
             new()
             {
@@ -38872,13 +35827,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("8D4401E6-385F-4917-A0DC-85413E4E72C7"),
-                QuestionId = new Guid("E83FF9E5-1F55-442A-9837-4C20E510EA00"),
-                Content = "phòng bảo vệ, phòng canh gác",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("5D1E6393-1938-4582-944F-F53777D3A070"),
                 QuestionId = new Guid("C2409357-6214-4974-930C-ED2DDCC2419F"),
                 Content = "Tính từ",
@@ -38963,13 +35911,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("7FB1977B-1CD7-4925-85B3-12029582F78D"),
-                QuestionId = new Guid("F36FBEF9-E005-4701-9F0C-EE5B3E82DFED"),
-                Content = "Gyeongsang-do, tỉnh Gyeongsang",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("131E34B0-2077-451D-9F87-C0826D9CAB57"),
                 QuestionId = new Guid("5D90A003-09E2-46B0-BE93-221D7EB69C23"),
                 Content = "chỗ gần",
@@ -39023,13 +35964,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("D7A0871B-CC38-40D8-B823-7A4A1AC1AFD9"),
                 Content = "그중",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("50D89E91-3303-439A-B1F1-792B80A82A13"),
-                QuestionId = new Guid("DFC67DB8-9820-4426-96AD-40DA599863ED"),
-                Content = "việc kinh doanh, sự kinh doanh",
-                IsCorrect = true,
             },
             new()
             {
@@ -39117,13 +36051,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("B4915CF0-CF8C-4DC9-8C52-2FAD10637619"),
-                QuestionId = new Guid("C3775E95-7DB3-4EB3-AE0F-2989DE07FECC"),
-                Content = "đạo lý, sự phải đạo",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("90355415-933F-42CA-8533-692B4DDDA406"),
                 QuestionId = new Guid("802B1769-3596-456D-93CD-2AE567EB7327"),
                 Content = "Tính từ",
@@ -39208,13 +36135,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("8A896118-905D-4B71-9ECD-C4C32BD947DA"),
-                QuestionId = new Guid("70CB0C8F-2242-4483-8583-E6396059EFE5"),
-                Content = "sự cạnh tranh",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("C64DB1B3-DEFC-46EF-ADDF-1471B5C1E3F1"),
                 QuestionId = new Guid("AB586ECE-3323-40A1-8C83-709BE6CF12C9"),
                 Content = "Tính từ",
@@ -39295,13 +36215,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("01FE66D4-1A4D-4C2E-9DB9-C83D6423C497"),
                 QuestionId = new Guid("6635F340-CF89-4B1B-B602-4D9451C0434D"),
                 Content = "경쟁력",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("1A5964B2-4535-4889-AFF8-891C97D7FACB"),
-                QuestionId = new Guid("33AA37D8-00D6-4DDA-A5A2-409EC700D157"),
-                Content = "sức cạnh tranh",
                 IsCorrect = true,
             },
             new()
@@ -39390,13 +36303,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("683AD1BC-D966-4131-B871-91C175F3C07D"),
-                QuestionId = new Guid("F4C0288D-CF18-4AC8-827B-5C46852DBE47"),
-                Content = "kinh tế, nền kinh tế",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("E99E65E3-BE14-4208-8B9D-A94E6B6EA898"),
                 QuestionId = new Guid("DEE19538-CA55-4584-A191-42373BF950DE"),
                 Content = "Phó từ",
@@ -39478,13 +36384,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("C06A2E82-53F3-4A65-A891-1778816FCE5C"),
                 Content = "감기",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("6E28C9BA-C80B-4D45-A85A-789E3F883CDB"),
-                QuestionId = new Guid("E0565082-9017-4851-A96D-9ACB3878AADB"),
-                Content = "năng lực kinh tế",
-                IsCorrect = true,
             },
             new()
             {
@@ -39572,13 +36471,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("20750B31-9EDB-4CBB-9D81-104A2C1D4E03"),
-                QuestionId = new Guid("142BE0C9-8E39-4A0A-9AFE-FFEB44A5E873"),
-                Content = "tính kinh tế, mặt kinh tế",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("428DEE04-638A-497A-ABCB-38A6139521A5"),
                 QuestionId = new Guid("8BDE1CF2-C2D3-4890-ADE7-B7A1785F4304"),
                 Content = "mùa đông",
@@ -39632,13 +36524,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("25FC1D60-B1BC-4B41-AC2A-EB90BA610D41"),
                 Content = "국적",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("BC8C8D9E-D0D6-4DF0-BD2E-907FBD15FDEC"),
-                QuestionId = new Guid("E07B5FFA-63B9-4835-9F63-5368E6A953FA"),
-                Content = "viên cảnh sát",
-                IsCorrect = true,
             },
             new()
             {
@@ -39726,13 +36611,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("B2E255FA-A916-4253-B50E-73936AC898E0"),
-                QuestionId = new Guid("20E7CE80-59D0-4B21-8688-1600AD1C92A5"),
-                Content = "khuynh hướng, xu hướng",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("8E26C4FB-881A-41A5-80BC-5501DDFDC702"),
                 QuestionId = new Guid("EF846B8E-AAEF-49FE-BB3D-FDE40BDF124F"),
                 Content = "Tính từ",
@@ -39813,13 +36691,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("2E6D5821-CE1D-42C1-84E1-D23EED55206A"),
                 QuestionId = new Guid("D0D12729-FCDE-4F92-BACF-C63BF147D476"),
                 Content = "경험하다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("D9546A8F-42B7-4FB2-B20B-266EA683AB28"),
-                QuestionId = new Guid("36878FE6-6CDD-46AA-9638-086505A4D137"),
-                Content = "trải nghiệm, kinh qua",
                 IsCorrect = true,
             },
             new()
@@ -39908,13 +36779,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("025AFBE6-A4DB-479F-9166-5B3FF852FF1B"),
-                QuestionId = new Guid("B82A1FAA-B177-4534-B7AA-FDC78033A8BF"),
-                Content = "kề bên, bên cạnh",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("13EE6F66-4B3D-4AF3-944A-E512A0A425AA"),
                 QuestionId = new Guid("6637D757-ADE7-44C2-9D43-64ECDFA57FF3"),
                 Content = "Danh từ",
@@ -39996,13 +36860,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("E6518BD0-E0E3-4A16-8AD1-C62FA9FEDD88"),
                 Content = "기업가",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("F7F1D3FF-E03C-43F0-97AD-05C9E5A73DC6"),
-                QuestionId = new Guid("96B3CE6B-C827-480F-8DBE-F899E2B7C4B8"),
-                Content = "thung lũng",
-                IsCorrect = true,
             },
             new()
             {
@@ -40090,13 +36947,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("32B88A11-659B-4164-9A9C-89989EDD6EED"),
-                QuestionId = new Guid("DA5862D4-8825-4DFD-8683-D65EE617531B"),
-                Content = "bước ngoặt, dấu mốc, mốc",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("3F3FFA6B-9CB7-43BE-B564-14E443640899"),
                 QuestionId = new Guid("7C56F7D6-84A7-4121-BA04-133CA32104A4"),
                 Content = "Tính từ",
@@ -40178,13 +37028,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("1CFEACF0-93F9-4C87-8595-C1DF64452AAC"),
                 Content = "광장",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("4F771EA3-92A8-4376-BD80-B9B509B91FA6"),
-                QuestionId = new Guid("547ED15A-5D3B-453A-B040-F54497D514FE"),
-                Content = "máy tính",
-                IsCorrect = true,
             },
             new()
             {
@@ -40272,13 +37115,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("CBCF162E-15DD-40AB-872E-DBBC144FCBE4"),
-                QuestionId = new Guid("24B2F465-4E12-4622-9CBF-735BAA11E35F"),
-                Content = "quầy tính tiền, quầy thu ngân",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("9FF57EAE-CBDD-44D0-BB80-24BBB927EB63"),
                 QuestionId = new Guid("E2464A1D-5A68-4B77-8F3E-DBB808C677E5"),
                 Content = "Phó từ",
@@ -40363,13 +37199,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("39B90435-4BE0-4F99-8A47-9F7FFC872FF0"),
-                QuestionId = new Guid("08BDE6B0-E658-405A-B4EB-D1BD7EFD538A"),
-                Content = "tính",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("EA9FD24B-94C9-494F-BA1D-246C5AA3C423"),
                 QuestionId = new Guid("8396561A-DDB8-4365-9D5D-86FB19F30B9B"),
                 Content = "Phó từ",
@@ -40450,13 +37279,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("AFF2629C-2811-498C-838F-25D9C5CA1A3F"),
                 QuestionId = new Guid("35F6A0D6-4093-4A9E-9A34-24AA9583519F"),
                 Content = "계속되다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("5F068929-2B82-4EFF-990E-8EE0E0854E61"),
-                QuestionId = new Guid("865B4EBB-233C-4A98-89AB-FE07AF79943D"),
-                Content = "được liên tục",
                 IsCorrect = true,
             },
             new()
@@ -40545,13 +37367,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("3D2A7679-98D5-4A11-B9F8-49814AD4437C"),
-                QuestionId = new Guid("1F31E777-79D2-4691-A619-13FAA199FA35"),
-                Content = "liên tục",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("8456EB55-87C8-47FD-8808-2CD27C5D7089"),
                 QuestionId = new Guid("61FC15AD-10E5-4752-903F-387813F4EDEC"),
                 Content = "Tính từ",
@@ -40633,13 +37448,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("BFD9BC3F-9268-4120-9A22-7BD04B31F103"),
                 Content = "공공요금",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("210FD3B9-7BC0-4CB4-BC57-CD93DF5FB749"),
-                QuestionId = new Guid("036B3A98-51FA-428F-9D71-99D1033392F7"),
-                Content = "việc lập khế ước, việc hợp đồng",
-                IsCorrect = true,
             },
             new()
             {
@@ -40727,13 +37535,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("4C7E9427-388F-47A2-9D6D-8AF1638BBF16"),
-                QuestionId = new Guid("6D82A360-F3E1-436C-BBC6-8E07257F19D6"),
-                Content = "tiền đặt cọc",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("99177B7C-F91D-47AA-8BA6-48B11D44A384"),
                 QuestionId = new Guid("FDAE1EF9-4FB1-4B46-871F-CEA7BF78D59F"),
                 Content = "Động từ",
@@ -40815,13 +37616,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("00CCC17B-528A-4CD0-8F8C-5C8549576222"),
                 Content = "공동체",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("91684E93-538D-4AD7-B8ED-0AAC7663F3E6"),
-                QuestionId = new Guid("643F7837-E627-439D-8572-7A0A85732F16"),
-                Content = "bản hợp đồng",
-                IsCorrect = true,
             },
             new()
             {
@@ -40909,13 +37703,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("8FE305F7-B9B6-43DD-871C-F5570D1A3DC3"),
-                QuestionId = new Guid("0928227E-139F-4E6A-9FD0-42FE65303932"),
-                Content = "tài khoản",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("B422EED8-01AE-4770-BC60-A0151F38FFB7"),
                 QuestionId = new Guid("6D1002B7-F489-40E1-80CD-194898F94F41"),
                 Content = "Phó từ",
@@ -40997,13 +37784,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("39E0D93B-33F1-4D97-AAAE-DDF0AC1779EF"),
                 Content = "기차역",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("E944AA0C-0905-4008-8DBE-9D5040431BED"),
-                QuestionId = new Guid("3C99B278-FF0C-442D-A7AF-41DABD6102D6"),
-                Content = "giai cấp, tầng lớp, giới",
-                IsCorrect = true,
             },
             new()
             {
@@ -41091,13 +37871,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("F58FDE9B-014F-4DEE-B5B5-0760354AE51E"),
-                QuestionId = new Guid("A08D8EE2-CD5D-4AE4-8DAF-2784BDA8FBEF"),
-                Content = "lên kế hoạch",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("CBB354D1-9B20-403A-AE31-5747FD486053"),
                 QuestionId = new Guid("F45DB518-0B85-4E73-A69C-855461D4E1E6"),
                 Content = "Phó từ",
@@ -41179,13 +37952,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("72F7537C-2544-45BD-A2C3-937ED3C9EE9D"),
                 Content = "경향",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("3BC9BD6C-7287-423E-B1CE-A15C682DC68A"),
-                QuestionId = new Guid("D198576F-2623-4EC9-85D0-6D11664F8859"),
-                Content = "khách hàng",
-                IsCorrect = true,
             },
             new()
             {
@@ -41273,13 +38039,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("AFFF6E0B-6705-4143-9D8C-F4BB54FBEB39"),
-                QuestionId = new Guid("D8E89A64-D30B-4277-B116-7B94E8011649"),
-                Content = "trường cấp ba",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("B3C73472-FE98-4909-929D-91351F1C1D2D"),
                 QuestionId = new Guid("79A33893-47B0-46A9-8BFF-E9A77F56CCDD"),
                 Content = "Danh từ",
@@ -41361,13 +38120,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("375D4824-B5CC-418D-B389-202ED3664CC3"),
                 Content = "관계",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("0B387F81-8691-44CD-8A04-F70A8C518E45"),
-                QuestionId = new Guid("E630603C-D0CE-4953-9CE9-FE8A46AB859F"),
-                Content = "khoai lang",
-                IsCorrect = true,
             },
             new()
             {
@@ -41455,13 +38207,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("ECB99807-205A-4FC6-ADEE-31A46DC09CCE"),
-                QuestionId = new Guid("B07B4EE7-0DB6-44FE-96E7-65C86F2B4C35"),
-                Content = "cố hương, cố quốc, tổ quốc",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("EF09EE4C-DD10-4E24-BA61-615C0F956B65"),
                 QuestionId = new Guid("352A74DF-DDF2-4D4D-95F8-E887D71816CA"),
                 Content = "Động từ",
@@ -41542,13 +38287,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("C5CDF941-1F20-4793-882D-6BCD6CF8EB8D"),
                 QuestionId = new Guid("39F614E1-71D9-49E1-AC57-3FE50E17288C"),
                 Content = "고궁",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("9E7DB7E5-8A34-40D3-ADF1-84576FC5D2D7"),
-                QuestionId = new Guid("89F17EE3-D402-4AB7-8751-1E58BD409879"),
-                Content = "cố cung, cung điện cổ",
                 IsCorrect = true,
             },
             new()
@@ -41637,13 +38375,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("2BA53DFF-865D-4E30-93AD-180C0D968465"),
-                QuestionId = new Guid("E7002435-FCDE-4E2D-8109-7C9C6A93C016"),
-                Content = "sự cao cấp, sự sang trọng",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("BA956A63-2768-4CE9-9360-1EC499542AAD"),
                 QuestionId = new Guid("8734A886-4888-45A9-94FD-29E3862976F3"),
                 Content = "Phó từ",
@@ -41725,13 +38456,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("11E53BAD-0BEA-4B00-A210-1CF4592BD852"),
                 Content = "강력하다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("F65C5EB2-B28A-4ABC-89F6-64C6D9C2F7A1"),
-                QuestionId = new Guid("5889985B-F340-426A-8C76-CC81EBFC95D8"),
-                Content = "cao cấp",
-                IsCorrect = true,
             },
             new()
             {
@@ -41819,13 +38543,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("D0E4FE28-7B6E-4BE1-BDF2-7659BF95A247"),
-                QuestionId = new Guid("52C25D26-9BF8-4832-93A2-89AA37C0E10A"),
-                Content = "thời kỳ cổ đại",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("142F6502-2174-4D51-8446-A1E30D9A3588"),
                 QuestionId = new Guid("2CBB133C-276E-4866-A666-9228F9897955"),
                 Content = "Danh từ",
@@ -41907,13 +38624,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("D0DB16D9-A270-492D-9931-C1A20A924AC0"),
                 Content = "구입",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("908C1BC5-C725-4B76-A445-1262B75A8FB3"),
-                QuestionId = new Guid("2F609D50-6CFC-4D53-ADD4-88D51C06A9B0"),
-                Content = "sự cô độc, sự đơn độc",
-                IsCorrect = true,
             },
             new()
             {
@@ -42001,13 +38711,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("DBAA571F-CBE4-4A6A-B4EF-53BA8C0121F5"),
-                QuestionId = new Guid("F8F8BC47-9139-4984-A413-275BE6728190"),
-                Content = "bậc cao",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("BCDB4EE2-730F-40B2-BD59-BF7D1694510B"),
                 QuestionId = new Guid("03441E22-411B-4F6B-A157-C960A1E22CD6"),
                 Content = "Tính từ",
@@ -42089,13 +38792,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("06EC6A10-2798-475C-B29E-48C1BC2E89B8"),
                 Content = "기차표",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("65296FCA-9343-4E5B-BBD3-845A5DC7A493"),
-                QuestionId = new Guid("92EB71C2-0CB6-492C-8DD5-67AE716AF846"),
-                Content = "cá thu",
-                IsCorrect = true,
             },
             new()
             {
@@ -42183,13 +38879,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("97655A2B-0D9C-4541-99FE-1639C438FB2B"),
-                QuestionId = new Guid("D703A0DD-B8CE-4684-A572-09762BD808F7"),
-                Content = "cá voi",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("36B5A52D-A9DA-43A1-A9B1-B8B5E68B2DF3"),
                 QuestionId = new Guid("645F237A-6483-4BC8-AD3E-B4B2AAB9AA47"),
                 Content = "Tính từ",
@@ -42271,13 +38960,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("75AE1E33-3242-480A-95B7-075F24E8C579"),
                 Content = "고백",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("55D2B58D-9800-40A4-903D-C0F7344C036D"),
-                QuestionId = new Guid("05C20A4E-9E41-4AAF-BC81-0393098B2B8B"),
-                Content = "sự cân nhắc, sự đắn đo",
-                IsCorrect = true,
             },
             new()
             {
@@ -42365,13 +39047,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("A5638E2F-75B4-4EC1-B49F-F90D24BAE116"),
-                QuestionId = new Guid("1ED8A1F5-0DDA-4A12-94BD-2D4075437735"),
-                Content = "cân nhắc, suy tính đến",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("E5035D71-DC98-4941-A950-FA391D27382A"),
                 QuestionId = new Guid("F5A8F48E-416E-4421-BCF3-F86E7E39490E"),
                 Content = "Động từ",
@@ -42453,13 +39128,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("0257FD4E-3505-4E81-8A2E-A6E5B8C2C79E"),
                 Content = "깨뜨리다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("F741F1FB-B9E5-4298-9476-44AEB5220409"),
-                QuestionId = new Guid("2E8205E2-226F-47D0-B8BD-52779E068899"),
-                Content = "mang ơn, biết ơn",
-                IsCorrect = true,
             },
             new()
             {
@@ -42547,13 +39215,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("BC35C143-0ED5-4570-B747-811AA8436F2A"),
-                QuestionId = new Guid("BDF01188-CEEA-4099-856E-7DD9A9FA23F9"),
-                Content = "dượng, bác",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("0B9A4326-257D-458A-9433-0D68B6539029"),
                 QuestionId = new Guid("7790B795-96B4-47AA-8B3B-49C3232DAED1"),
                 Content = "Danh từ",
@@ -42635,13 +39296,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("46ADFBC9-D13B-4611-81F2-21EB45C23670"),
                 Content = "값",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("47A6C9AC-931B-47F4-BC31-210BB8DE4058"),
-                QuestionId = new Guid("924D3B35-77BA-4172-BA17-D3142C96B980"),
-                Content = "cao su",
-                IsCorrect = true,
             },
             new()
             {
@@ -42729,13 +39383,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("035E013C-A41F-4B3E-8AE6-5ED311F63DFC"),
-                QuestionId = new Guid("BBE4D102-DEB3-42BA-8311-71BA526D193C"),
-                Content = "lo lắng, khổ tâm",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("24CA0810-0D6A-4342-8D72-6D565AE60ACA"),
                 QuestionId = new Guid("926CBDE6-FB05-4CA1-9369-85F62E6E8F42"),
                 Content = "Động từ",
@@ -42817,13 +39464,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("A6101BB8-58F5-4D1D-9094-D55279181259"),
                 Content = "국어",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("105A2864-47A1-403F-9CC8-11337AEFE97F"),
-                QuestionId = new Guid("A5B7B179-0EB0-4A6A-B27B-6D47A7BB0C35"),
-                Content = "sự thổ lộ, sự bộc bạch, sự thú nhận, sự thú tội, (tôn giáo) sự xưng tội, sự tỏ tình",
-                IsCorrect = true,
             },
             new()
             {
@@ -42911,13 +39551,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("9226D89D-321B-4C98-8228-C5B058838176"),
-                QuestionId = new Guid("09730DA8-4642-4F04-9A61-2D4F20C87D86"),
-                Content = "nỗi khổ cực, sự cực khổ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("DEE42506-80E6-415C-A2C8-D92D4838DD43"),
                 QuestionId = new Guid("2A5762D9-32E3-4714-A4CF-436F2713EE0A"),
                 Content = "Tính từ",
@@ -43002,13 +39635,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("5E0B2C46-81D2-4A53-9DDF-EBBA902A1D87"),
-                QuestionId = new Guid("A1F5FA8F-3A1D-4E15-8031-8A5F1E617510"),
-                Content = "khổ sở, vất vả, nhọc công",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("AC5FDE05-6910-430E-9D40-23AF2566D4B2"),
                 QuestionId = new Guid("F09B4188-7730-4BDB-AFA4-4A0594C6C81F"),
                 Content = "Tính từ",
@@ -43089,13 +39715,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("EAF37A5F-8A70-4DFB-9266-68FA4FCE9253"),
                 QuestionId = new Guid("C2D9AE11-4360-48F9-8D6D-C6651941F5B4"),
                 Content = "고소하다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("0B07B226-602D-499D-9FF3-36ED2FAE58F2"),
-                QuestionId = new Guid("A0AE216B-DCB8-478C-8F27-770B01197F3C"),
-                Content = "tố cáo, kiện",
                 IsCorrect = true,
             },
             new()
@@ -43184,13 +39803,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("387AAEA2-1CF5-4786-9953-46349447B2D3"),
-                QuestionId = new Guid("09BF97F6-51CA-4D83-A966-62DB7B984BB3"),
-                Content = "cao tốc",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("33B5FE6F-CD47-45E9-9930-9ED13A9E7C34"),
                 QuestionId = new Guid("46DCA951-2E60-408A-B330-CF40A8985352"),
                 Content = "Tính từ",
@@ -43272,13 +39884,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("473B1FC9-B254-4DB5-965A-A2E6D775C745"),
                 Content = "그늘",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("68E692A4-8213-4AB5-9B80-CFC7C04F6042"),
-                QuestionId = new Guid("D92E23A5-13BA-4219-95A6-3C03BB2342D9"),
-                Content = "고속도로",
-                IsCorrect = true,
             },
             new()
             {
@@ -43366,13 +39971,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("D20D63A2-B67A-4D48-85EE-0CB3A5F44146"),
-                QuestionId = new Guid("5E66A607-5EF7-4642-8B6D-28E514442671"),
-                Content = "sự yên tĩnh, sự tĩnh mịch",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("13E6E9FF-3263-4134-8E05-2C46316581EA"),
                 QuestionId = new Guid("2D6256D8-F8E8-4964-B8D6-195AE35897B9"),
                 Content = "Động từ",
@@ -43453,13 +40051,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("24E0C3E8-9282-49B3-BAB3-28C1FB69DCBE"),
                 QuestionId = new Guid("B7F424D4-DCE6-4977-89BC-8CDCDE415B17"),
                 Content = "고유",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("3795AF32-DECD-4089-A3BC-A0AE0CA731A3"),
-                QuestionId = new Guid("BDE93FC6-BCBF-4E7B-A5B5-15C7FF4DA541"),
-                Content = "đặc trưng vốn có, cái vốn có",
                 IsCorrect = true,
             },
             new()
@@ -43548,13 +40139,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("B954E1E4-1A87-4CE2-800B-329243E5D51A"),
-                QuestionId = new Guid("D04D61ED-031F-4799-9F45-4212CE48A2B6"),
-                Content = "cổ truyền",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("98E8E11F-0FBB-463E-B2C4-C2D440841D25"),
                 QuestionId = new Guid("80A08B91-2E87-4130-9C58-8AC5A5C269C9"),
                 Content = "Tính từ",
@@ -43635,13 +40219,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("5D3EC9E4-0E80-4460-858D-947DDB681FF4"),
                 QuestionId = new Guid("5963B099-F08E-498F-8711-F61FF5C51882"),
                 Content = "고정",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("46E27591-1B7D-4552-B144-D0630B4DA902"),
-                QuestionId = new Guid("0B45F1FE-3FBD-4AA7-9555-0007D7A52384"),
-                Content = "sự cố định",
                 IsCorrect = true,
             },
             new()
@@ -43730,13 +40307,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("3F748E49-1148-4ABD-B27A-62AD79BA1090"),
-                QuestionId = new Guid("C96CEFD7-C654-40C5-8F37-72C0623FA542"),
-                Content = "sự cố chấp",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("B2ECE3AE-0556-40DF-B08E-1A32123D7686"),
                 QuestionId = new Guid("930A97F9-CE4E-48A5-8D89-FBA43009F483"),
                 Content = "Tính từ",
@@ -43818,13 +40388,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("A7A9AA9B-909B-4DF6-833B-EA708C07B06A"),
                 Content = "관광버스",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("3FE40831-20A8-495C-A94D-108ADCADB419"),
-                QuestionId = new Guid("51B26507-0C67-4D47-9DD1-32C836138AE1"),
-                Content = "quả ớt, trái ớt",
-                IsCorrect = true,
             },
             new()
             {
@@ -43912,13 +40475,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("5F1366DD-A753-49ED-9575-53FDE2AC48B5"),
-                QuestionId = new Guid("72747B61-2CF4-4CE2-818A-4619DE0C8160"),
-                Content = "bột ớt",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("37C33421-333E-4BCA-8A5B-65B302C972F5"),
                 QuestionId = new Guid("A6B29320-0204-469D-B7C9-EEC4C95ABB90"),
                 Content = "Động từ",
@@ -44003,13 +40559,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("E58DB623-1333-4FDD-9978-BD3DFD7313C4"),
-                QuestionId = new Guid("A3E14584-61D4-46A9-8FBB-006A63BAF582"),
-                Content = "tầng cao",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("4C3114DD-0EAD-430A-A630-9B51011DD904"),
                 QuestionId = new Guid("B38D8428-5E76-4E6D-A7F1-BE9A7933C641"),
                 Content = "Danh từ",
@@ -44090,13 +40639,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("4968E351-BC5D-4B2A-B161-9E888ED4D021"),
                 QuestionId = new Guid("874BB00B-C91D-4B1B-8DA5-4E401986B4D8"),
                 Content = "고통",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("E9D03BDB-4FEA-478F-BAE0-0006702A70C5"),
-                QuestionId = new Guid("3B67D31F-D95B-497B-B03B-DBA92DE81FE8"),
-                Content = "sự đau khổ, sự thống khổ, sự đau đớn",
                 IsCorrect = true,
             },
             new()
@@ -44185,13 +40727,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("5955B3D4-E4E6-4582-A8F1-21E6CC863A08"),
-                QuestionId = new Guid("CD6FE401-AE59-414E-97EB-664295743BA4"),
-                Content = "khó khăn, đau khổ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("8CFB7937-E2E1-4B34-8D95-CCC57A9763E1"),
                 QuestionId = new Guid("151D811C-9392-4B8F-8AF5-1AB48F726E70"),
                 Content = "Động từ",
@@ -44273,13 +40808,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("7E3AC8E6-0FA8-43AB-8324-A88B101A6364"),
                 Content = "가치관",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("FF39681C-7EBF-4CD1-AA71-C4391EB6CB89"),
-                QuestionId = new Guid("E892E6B5-B086-4847-86D1-74354B0526C0"),
-                Content = "khúc nhạc, bản nhạc",
-                IsCorrect = true,
             },
             new()
             {
@@ -44367,13 +40895,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("EEE48DD6-0408-4B0D-8E4F-7CAE0A7F05AD"),
-                QuestionId = new Guid("17E27E2A-2178-4F8D-AC2E-B0CD552A1BA8"),
-                Content = "ngũ cốc",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("9B9D6D4B-9B3E-4645-BDA3-4D3BE2F9112B"),
                 QuestionId = new Guid("998977F3-8BB9-4FE2-91B8-445E3921E387"),
                 Content = "Danh từ",
@@ -44455,13 +40976,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("D0D62D02-1058-4303-BA9F-D7CFE027FA0C"),
                 Content = "골목길",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("CBA0F7BF-52D3-4AB2-A6EB-50DC58A8450F"),
-                QuestionId = new Guid("0DED81FB-A158-42AF-8C59-FC128A646F69"),
-                Content = "sự khó khăn, sự trở ngại",
-                IsCorrect = true,
             },
             new()
             {
@@ -44549,13 +41063,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("8586388C-BF03-49E3-9CAF-194B7B705FCD"),
-                QuestionId = new Guid("3F6F9D37-8B3F-4D77-B55D-FEB4B85D9933"),
-                Content = "thẳng, ngay thẳng",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("ACB87329-4AD2-436A-98A5-631DDE3A28B6"),
                 QuestionId = new Guid("C3869CE1-65AC-42F5-8650-807ECC9D2C63"),
                 Content = "Danh từ",
@@ -44637,13 +41144,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("A62D17BF-3F35-48E1-8930-25671CBDA296"),
                 Content = "게다가",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("6EAE87DF-A152-4D76-AD5F-832CC7391CD1"),
-                QuestionId = new Guid("FDF5BEBB-5ECF-4674-AA4A-5B469D9642E9"),
-                Content = "ngay lập tức",
-                IsCorrect = true,
             },
             new()
             {
@@ -44731,13 +41231,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("0A1CC31F-7B0F-4B6D-89D0-FB029E14869F"),
-                QuestionId = new Guid("454A6C8F-227E-46D4-8B66-99EAEB2D42C8"),
-                Content = "ngay sau đó",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("7B0C7C97-9B58-4ACA-8224-E3532B76581C"),
                 QuestionId = new Guid("60DC705D-E224-4BAA-BB6C-0B529EEFE48E"),
                 Content = "Danh từ",
@@ -44819,13 +41312,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("6BF8B288-F701-4676-96E5-D9A921523E96"),
                 Content = "굳이",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("8CEA1334-79FC-42C7-BE95-E49BC65C4901"),
-                QuestionId = new Guid("F25C77D9-506C-4969-AB29-4836B0CDDA83"),
-                Content = "tốt, giỏi, hay",
-                IsCorrect = true,
             },
             new()
             {
@@ -44913,13 +41399,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("1DE97959-3F53-48CF-BB28-C5343572A7F1"),
-                QuestionId = new Guid("6885187B-A87F-4E93-B75E-C21D0B498836"),
-                Content = "thẳng tiến",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("55675E4D-6B69-4814-B68F-7601883DD361"),
                 QuestionId = new Guid("0ACCB896-ABDC-4B86-BC90-A5053A00C6A7"),
                 Content = "Danh từ",
@@ -45004,13 +41483,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("4FC6FEC8-9EAF-4EE7-890B-64639C1B6564"),
-                QuestionId = new Guid("EF36CC31-6F35-4BE0-A24B-6DBA43843E62"),
-                Content = "sự hờn dỗi",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("50D7F5AB-06B4-4045-8892-A31B43ADCD83"),
                 QuestionId = new Guid("B0DF1BD0-3262-49D0-95AD-9DFD288F2112"),
                 Content = "Phó từ",
@@ -45091,13 +41563,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("AC8F26F2-E229-4360-9215-DD8E04581D1E"),
                 QuestionId = new Guid("59C3E57F-CDA4-4CBC-9184-8B5DA1E91023"),
                 Content = "골고루",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("A9CA2F3F-C335-4964-971C-4543FE2C26A3"),
-                QuestionId = new Guid("DC151E55-3237-43C3-8C87-24CB79253626"),
-                Content = "(một cách) đồng đều, đều đặn, cân đối",
                 IsCorrect = true,
             },
             new()
@@ -45186,13 +41651,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("A15BA682-27B8-48F6-87CD-B585077587C7"),
-                QuestionId = new Guid("FD5C96C5-86D6-44C5-A3D9-159920D5CC5E"),
-                Content = "ngáy",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("614BBF8A-3BB9-42B9-B239-0A1A0833D8FE"),
                 QuestionId = new Guid("525EB5E9-D03B-4FDA-AFFC-650326CB7318"),
                 Content = "Tính từ",
@@ -45274,13 +41732,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("DE5A1653-602F-4976-BCD4-0B3713F78DED"),
                 Content = "거절",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("459950CB-1064-4832-98D9-E0E7CF8AA14B"),
-                QuestionId = new Guid("B210BA5C-59AD-47E0-926A-81AA8C5EE2D8"),
-                Content = "con hẻm, ngõ, hẻm, ngách",
-                IsCorrect = true,
             },
             new()
             {
@@ -45368,13 +41819,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("5949E9FA-1A67-4BD3-9ACF-3227EA0AB5F1"),
-                QuestionId = new Guid("50718EBB-161A-44EB-B217-65CF0EE0DAD7"),
-                Content = "con đường hẻm, ngõ hẻm",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("6F2697EC-B151-4539-A22F-FEBF5C2798AE"),
                 QuestionId = new Guid("73E8AD40-9DDC-4250-B10C-003CCBEA1502"),
                 Content = "Phó từ",
@@ -45456,13 +41900,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("32A46207-68E6-4795-B10A-9CE4E0B36AA3"),
                 Content = "강의실",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("52262824-96CE-496C-9BC5-5895B064E6A1"),
-                QuestionId = new Guid("C1F5BA28-5B71-42E8-8306-BF320E4AAE8B"),
-                Content = "môn đánh gôn",
-                IsCorrect = true,
             },
             new()
             {
@@ -45550,13 +41987,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("F69E6903-8A75-4B80-B72E-0FE6C9D1AA9A"),
-                QuestionId = new Guid("C01CD89E-BC38-4CD1-85C5-454A6FC5E6A8"),
-                Content = "sân gôn",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("C862F847-B06A-42EE-A113-BBCFFE32B081"),
                 QuestionId = new Guid("AC8899F7-2A0E-45AF-947F-0E1B8433BABB"),
                 Content = "Tính từ",
@@ -45637,13 +42067,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("0060DD0A-D42E-473A-940E-C7A33AEE5DF3"),
                 QuestionId = new Guid("4584DFDA-A536-4031-B6A1-1ED7A25C116E"),
                 Content = "곰",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("EA1FC454-E7F6-44CA-A08B-4F791F0D65D9"),
-                QuestionId = new Guid("696D3ADD-C8D3-4BD2-89C6-0B2B8BD71B65"),
-                Content = "con gấu",
                 IsCorrect = true,
             },
             new()
@@ -45732,13 +42155,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("7644964F-9411-403B-A8FD-93D57F76791A"),
-                QuestionId = new Guid("B9742E77-AF37-4A1A-A017-5D14A38B8FF4"),
-                Content = "cong",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("2B113335-C00F-4B83-AE21-94FBB0E54BFE"),
                 QuestionId = new Guid("A6EAAB40-B12B-4FC1-8E1D-208CFF243D1F"),
                 Content = "Động từ",
@@ -45819,13 +42235,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("E204778A-33E4-45CB-BC50-D1061E31B663"),
                 QuestionId = new Guid("77AC13EB-D3B9-498A-84EF-4B1D1E09A9A1"),
                 Content = "곱하다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("F95D8BC1-885A-4D72-AFE1-CE133B390AC0"),
-                QuestionId = new Guid("7087CAE3-36EB-4F1D-A15D-3E89B593F0DB"),
-                Content = "nhân",
                 IsCorrect = true,
             },
             new()
@@ -45914,13 +42323,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("2700774F-26E9-4680-A817-64E7E131C5A3"),
-                QuestionId = new Guid("7AB43C35-B61F-47A6-ABD2-645D997633E2"),
-                Content = "nơi nơi, khắp nơi",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("85F5ECDD-B4E6-461E-843A-6D9EC81C0593"),
                 QuestionId = new Guid("3C2D9B12-9C92-41B5-9ED2-5CE33400FF6E"),
                 Content = "Danh từ",
@@ -46005,13 +42407,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("59B6968A-761C-4796-8589-D455CAB56CE1"),
-                QuestionId = new Guid("3120B155-B1AD-4EE6-ABB5-DDFA09B20FFE"),
-                Content = "không gian",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("7AE43E2E-7644-4667-8357-B0055EFBDF4B"),
                 QuestionId = new Guid("AA1C0B85-843F-4676-9B20-07DE53E78CE0"),
                 Content = "Phó từ",
@@ -46092,13 +42487,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("9DD354A4-88E0-4CBD-A175-1BBD2BFA34BB"),
                 QuestionId = new Guid("3E31C598-80A6-4023-ABA4-0051DBF5FACA"),
                 Content = "공감",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("1CBFA9C4-B071-42DF-9DDE-C3772E5FCB03"),
-                QuestionId = new Guid("144B47BF-C80A-4877-93EC-E0308119F79B"),
-                Content = "sự đồng cảm",
                 IsCorrect = true,
             },
             new()
@@ -46187,13 +42575,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("39215202-4A4F-4739-AE3E-74665DB3116B"),
-                QuestionId = new Guid("99FF35FA-50AC-4E46-9A08-F2E0150209AF"),
-                Content = "sự công khai",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("9B19D4AD-F5F8-4713-9A06-E8CB68842DA2"),
                 QuestionId = new Guid("214D079F-DA7C-4459-ADBA-CD06EA524DEC"),
                 Content = "Phó từ",
@@ -46274,13 +42655,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("9E4351D9-F5C9-45E9-8311-88F2625E2819"),
                 QuestionId = new Guid("812B05DB-4550-47C4-891E-6CC26753634D"),
                 Content = "공격",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("6D48407E-61E0-4D3F-8F34-D9AB488BE108"),
-                QuestionId = new Guid("9DCCE658-4031-431C-B6B6-9FFA4B3931DA"),
-                Content = "sự công kích, sự tấn công",
                 IsCorrect = true,
             },
             new()
@@ -46369,13 +42743,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("72325826-AA64-48CE-ACFC-49A3EEF67637"),
-                QuestionId = new Guid("12B367D5-BEB6-4BC9-A1CE-24ADEC95495E"),
-                Content = "công cộng",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("7998992B-B5F2-40A7-960B-3BE05B90E73C"),
                 QuestionId = new Guid("3FF1D4F7-44E0-48AB-BA82-D2598270AA69"),
                 Content = "Danh từ",
@@ -46457,13 +42824,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("2FB2F4E2-BE79-4F29-8981-43B0FA56731A"),
                 Content = "관광버스",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("A1FF6976-5D2A-478D-B7A1-1832108976DB"),
-                QuestionId = new Guid("A6D7717E-CFE9-4211-ABAE-FA090E1CB572"),
-                Content = "chi phí dịch vụ công cộng",
-                IsCorrect = true,
             },
             new()
             {
@@ -46551,13 +42911,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("EABBA52A-5EF5-411A-8EE8-42CC863E9590"),
-                QuestionId = new Guid("7785341C-63C9-4468-AE18-53468970D388"),
-                Content = "nơi công cộng",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("8F94BC04-4A5E-45F1-A9A6-7D9AF889A525"),
                 QuestionId = new Guid("FDBA43A0-21A0-4120-8081-8736E9B89D8A"),
                 Content = "Tính từ",
@@ -46639,13 +42992,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("4786023E-DDFE-4E84-9C19-1CC9A7F58DB2"),
                 Content = "경고",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("DD9E86A5-268C-4AEB-AA6B-AEF9C10B697C"),
-                QuestionId = new Guid("3D06AC6F-2F43-48F9-97D1-14B8F58821B7"),
-                Content = "chi phí tiện ích",
-                IsCorrect = true,
             },
             new()
             {
@@ -46733,13 +43079,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("26579906-6CFE-4AD7-9469-F4A06EDB7E58"),
-                QuestionId = new Guid("69D51D1A-1731-44C0-9571-A403E22203F7"),
-                Content = "sự cung cấp",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("DF7D1D20-73F4-4DE7-A4AD-8BEF126BF83E"),
                 QuestionId = new Guid("FCDA5BEC-E398-4169-9FD4-AD0150833E46"),
                 Content = "Phó từ",
@@ -46824,13 +43163,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("B080F43E-3449-4C02-9D73-A23A07F405E1"),
-                QuestionId = new Guid("6E9E9647-C6A4-4015-815E-28ACE1F2E140"),
-                Content = "gonggi; viên đá hay viên sỏi (dùng để chơi trò chơi tung hứng)",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("871DE1FC-A228-4F2D-9241-7D2A74C3E5FE"),
                 QuestionId = new Guid("AB4AF524-2367-4FE9-A3E7-5A56CD7129DA"),
                 Content = "Động từ",
@@ -46911,13 +43243,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("1868F48A-664D-4889-A39E-0EB5CF2E5384"),
                 QuestionId = new Guid("514AB894-23CF-4190-A499-36A2AFB5690D"),
                 Content = "공동",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("C5EC6E62-AABF-4B57-840D-9861D2934305"),
-                QuestionId = new Guid("19B69C55-5903-4C51-8131-C7CA2DC03792"),
-                Content = "chung",
                 IsCorrect = true,
             },
             new()
@@ -47006,13 +43331,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("0DFCADD5-16EE-4AA4-AF1D-06BB0CD004FB"),
-                QuestionId = new Guid("B170DCF6-9498-4E04-8104-80A490545B36"),
-                Content = "cộng đồng",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("80BF759F-A98B-453F-9280-B835379E00C3"),
                 QuestionId = new Guid("602C30BA-D0CA-4DBD-8A0C-1985F4FA90F4"),
                 Content = "Tính từ",
@@ -47094,13 +43412,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("AEA1CABC-912C-4881-8012-86AA032AA539"),
                 Content = "근원",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("84B5D3C2-8E02-47F5-BFD5-A895DFBA7E2E"),
-                QuestionId = new Guid("17FE2A18-C364-4CEF-9A3F-B4D6BF611DBE"),
-                Content = "công trình",
-                IsCorrect = true,
             },
             new()
             {
@@ -47188,13 +43499,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("C100B7B8-C187-4F0C-8B91-6FA4585F21A4"),
-                QuestionId = new Guid("A1A29657-D8CD-4399-B714-FE20D9E42EF7"),
-                Content = "lễ phép và khiêm tốn",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("FA8CB1ED-1340-45A3-90C7-6FFB9AC31C2C"),
                 QuestionId = new Guid("E7B43BAD-2837-4E29-AE15-9F03B726A304"),
                 Content = "Động từ",
@@ -47275,13 +43579,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("24795217-7638-4F71-B494-38B685DDE3C5"),
                 QuestionId = new Guid("5716B1B5-BC17-468C-8957-1186827A77A4"),
                 Content = "공식",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("FD045438-049C-45B4-9C7A-29DFDA69C635"),
-                QuestionId = new Guid("3D4AA337-3809-488C-A5C6-E7C0ACFC6FC1"),
-                Content = "chính thức",
                 IsCorrect = true,
             },
             new()
@@ -47370,13 +43667,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("A0133B9B-ECC1-4308-BD08-7F75B0FBC74D"),
-                QuestionId = new Guid("A4276FC9-3B7A-4C87-BC8C-A0E8AF31F299"),
-                Content = "công nghiệp",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("06EA52CA-39F3-4D5C-8640-EE9325D60DAC"),
                 QuestionId = new Guid("3DC2D679-13AE-45EF-97A1-61F80A6D7DBC"),
                 Content = "Tính từ",
@@ -47458,13 +43748,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("71DC9B99-0E99-44E6-A554-31A06DE88349"),
                 Content = "고생",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("35542A70-0BEB-4B76-8781-49F3535B3AA9"),
-                QuestionId = new Guid("F7AD30EE-9EB5-4E2C-95A1-C2D320FBB129"),
-                Content = "sự công diễn, sự biểu diễn",
-                IsCorrect = true,
             },
             new()
             {
@@ -47552,13 +43835,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("3649900A-9529-4C12-B45C-6EF39BC51B0F"),
-                QuestionId = new Guid("018B014E-D0DA-4EE9-B14A-50542774867F"),
-                Content = "sàn diễn, nơi trình diễn",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("3DFBCD7E-DEBE-418E-B4A1-2237F2BF1B03"),
                 QuestionId = new Guid("2E66430C-6456-45DD-866B-59E826A63E01"),
                 Content = "Động từ",
@@ -47643,13 +43919,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("AFB23D8A-858E-4AA7-A578-153D7CC3B043"),
-                QuestionId = new Guid("592AE40E-D799-42E8-8ACE-4AFF9732E259"),
-                Content = "công, công cộng, công chúng, nơi công cộng, cái chung",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("B83CCA5D-3B2C-4944-990E-41A567512F98"),
                 QuestionId = new Guid("123600BE-8807-4ADB-98E5-460CAEE47410"),
                 Content = "chữ viết",
@@ -47703,13 +43972,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("26576FA4-B00E-4127-957E-668B319BB6DE"),
                 Content = "걷기",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("0DFE8629-A6E8-4117-9FB5-BA5978C8636F"),
-                QuestionId = new Guid("93368140-A185-4759-8D88-2E5EB737BE1A"),
-                Content = "công chúa",
-                IsCorrect = true,
             },
             new()
             {
@@ -47797,13 +44059,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("48311D0E-9844-41F2-A0D3-43C7EF00EF78"),
-                QuestionId = new Guid("E5F16556-D26E-4BA4-952A-C796D189540F"),
-                Content = "điện thoại công cộng",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("6B7A6981-64C5-4A4C-8BF4-EB66EFDD3C52"),
                 QuestionId = new Guid("B5C03A88-E6FF-470D-8CD2-62978659655C"),
                 Content = "Tính từ",
@@ -47885,13 +44140,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("78D3F37A-C0D9-4124-BD96-08B7115AF7E2"),
                 Content = "과학자",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("55E99280-B13B-4E0F-890B-5082AFB270C0"),
-                QuestionId = new Guid("1CF258EA-F3D1-4446-95ED-EBC26B331D19"),
-                Content = "sự thông báo, sự công bố",
-                IsCorrect = true,
             },
             new()
             {
@@ -47979,13 +44227,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("4ED74C5B-3019-4E0E-865F-E4BBA4AD25DB"),
-                QuestionId = new Guid("195E4971-B124-4B97-AF11-E7BDC9C718BB"),
-                Content = "sự chung, sự giống nhau",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("86686727-156A-4DAA-8E18-B6BEFCEA4E7F"),
                 QuestionId = new Guid("89050D8A-732D-4570-B41A-BC4C3D816EDB"),
                 Content = "Động từ",
@@ -48067,13 +44308,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("CD8E1D35-66BC-4F2F-8D6C-562EB824F3D8"),
                 Content = "관습",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("27325A4B-C11B-45D5-BD59-727DF2C2A2CB"),
-                QuestionId = new Guid("989B59A6-5301-4399-8E60-E5AED94D0390"),
-                Content = "điểm chung, điểm giống nhau, điểm tương đồng",
-                IsCorrect = true,
             },
             new()
             {
@@ -48161,13 +44395,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("B9A01BFC-07A7-4F94-804D-87A34E399866"),
-                QuestionId = new Guid("7B5ADFBE-56C3-48B3-B196-783B6F4FB0CA"),
-                Content = "sự công bố",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("4A45CC87-2947-4121-94E5-97BF6C717CEB"),
                 QuestionId = new Guid("06D63827-E86F-4BE4-BF07-A7A4EDDD2A6C"),
                 Content = "Phó từ",
@@ -48249,13 +44476,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("25293EBA-963F-41D9-8861-7D2120C2BE90"),
                 Content = "고춧가루",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("5DC2C3AC-EA83-466D-AD14-3EBEFFB31780"),
-                QuestionId = new Guid("4882D164-0891-4B27-AE21-72FD02B4B258"),
-                Content = "xe buýt sân bay",
-                IsCorrect = true,
             },
             new()
             {
@@ -48343,13 +44563,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("30221833-4150-4A0D-A191-4026C5DA2A30"),
-                QuestionId = new Guid("44AA9096-70A1-4BD5-894A-FD0FAB558BDA"),
-                Content = "sự ô nhiễm môi trường",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("011C08C1-37F8-41E0-9473-71566C51BDBD"),
                 QuestionId = new Guid("10AAA0F9-7DF8-44FF-8DD0-A8A2927DDEDA"),
                 Content = "Tính từ",
@@ -48431,13 +44644,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("86F06A25-FB9B-4777-B744-0BCFB67E6915"),
                 Content = "과학",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("6860FA85-2479-4FE5-98A9-5ACFE17105F7"),
-                QuestionId = new Guid("976CDAFD-7AAF-4028-9003-97D9578162F6"),
-                Content = "khoa",
-                IsCorrect = true,
             },
             new()
             {
@@ -48525,13 +44731,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("7A66E8E3-6AC8-41C3-BB4F-B632DE1870A7"),
-                QuestionId = new Guid("E320273E-3DF4-4626-987F-3CF429FFCDE8"),
-                Content = "sự quá sức, sự kiệt sức",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("08376933-529B-4830-8184-03D649C11E46"),
                 QuestionId = new Guid("2B3561E7-78EA-40EA-BE86-076B4B5DD993"),
                 Content = "Danh từ",
@@ -48616,13 +44815,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("61D2C360-32E0-4CE8-B922-51627F9C6E17"),
-                QuestionId = new Guid("D655AD9A-76CA-4AB9-A8E6-0387EAED8C02"),
-                Content = "môn, môn học",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("9CB7B95C-D236-427A-A749-9E5A0A7C25E0"),
                 QuestionId = new Guid("57587C5E-ABE8-4A07-9464-85D4C6F698ED"),
                 Content = "Động từ",
@@ -48703,13 +44895,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("441B9500-3C70-4C9D-930E-C9379894FCAA"),
                 QuestionId = new Guid("FF959C86-7A82-4CBA-8058-1D712C2BE933"),
                 Content = "과소비",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("BAAEA9D8-A1CB-4430-AFD4-D5A508C6338F"),
-                QuestionId = new Guid("2A6C4A50-9B04-469B-8069-5874E99A04FC"),
-                Content = "việc tiêu xài quá mức",
                 IsCorrect = true,
             },
             new()
@@ -48798,13 +44983,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("D2634D4C-4BA8-446C-A492-1040AAC33114"),
-                QuestionId = new Guid("41AE6655-D6D3-48AC-8B98-74EB22DA93A7"),
-                Content = "việc chạy vượt tốc độ, sự quá tốc",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("9EA835FE-D7FE-4BA2-A698-0E7377F767CC"),
                 QuestionId = new Guid("9ABE3F6C-48E8-4A5B-A81E-DD578890B318"),
                 Content = "Tính từ",
@@ -48886,13 +45064,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("0EA6B267-163D-44B1-B04F-2F63AF537A49"),
                 Content = "교체",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("415A4FBB-C8AC-4ED5-8F92-333E9DFAAFA0"),
-                QuestionId = new Guid("9C6CA372-28DB-4071-BFE6-BCCDE964AAB6"),
-                Content = "sự bội thực",
-                IsCorrect = true,
             },
             new()
             {
@@ -48980,13 +45151,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("1EFDD807-22DE-400B-A82E-1CA16D05034C"),
-                QuestionId = new Guid("8E73FB8B-6EE5-46A0-8926-8EB44F276B8A"),
-                Content = "đúng là, quả nhiên",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("8D8D4CBC-81CB-423B-A140-B229A5DF24F1"),
                 QuestionId = new Guid("2AD45243-6535-4D2A-9D7B-7732BAE0E4B9"),
                 Content = "Động từ",
@@ -49071,13 +45235,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("2B1E57FB-76E1-4BA0-810E-858246C0E259"),
-                QuestionId = new Guid("E23A2D49-5E56-4C7E-98CE-64D4936AC0FC"),
-                Content = "sự phụ thêm, sự tăng thêm",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("82139B1E-C72A-4265-9754-8481A8101462"),
                 QuestionId = new Guid("A295E78B-E0C1-46ED-9A1E-FB4155276EA5"),
                 Content = "Động từ",
@@ -49158,13 +45315,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("8D300126-7AC3-42DE-8EFC-DA5B0710825A"),
                 QuestionId = new Guid("31738A82-1778-4535-AEBD-8AEC9CE43EB9"),
                 Content = "과장",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("9A6812AD-8DF3-475A-BD97-45CE86B68CDD"),
-                QuestionId = new Guid("B7B6C8F7-126C-4990-A951-DB6AB80A2813"),
-                Content = "trưởng khoa",
                 IsCorrect = true,
             },
             new()
@@ -49253,13 +45403,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("FB2E5AFC-74FD-4D2B-A43C-597602A3CF39"),
-                QuestionId = new Guid("0441529A-E15F-4D2B-AEDA-63C0824D768D"),
-                Content = "quá trình",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("02653B60-C92A-4F93-A4D4-DFB2B4137C0C"),
                 QuestionId = new Guid("1A1ADBEC-834D-4163-9FBF-2FDB5BC8F5F7"),
                 Content = "Phó từ",
@@ -49341,13 +45484,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("08C04C60-7FC7-4444-93B3-4FCB779BE07A"),
                 Content = "거울",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("AD409A2B-34B3-4574-B1B2-E0A6C0CCEAFC"),
-                QuestionId = new Guid("8534E5D8-5C6F-4453-83C1-ABF90A0FCDF9"),
-                Content = "bài toán",
-                IsCorrect = true,
             },
             new()
             {
@@ -49435,13 +45571,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("E89BC149-42A2-4261-94AE-FFE118476CDB"),
-                QuestionId = new Guid("90418F5B-8CB0-4679-B01A-21877C277EEE"),
-                Content = "khoa học",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("7F442C77-56DD-4647-860A-B60CA1C718D6"),
                 QuestionId = new Guid("B7BFA7FF-4140-4069-B538-1D61CCF172DE"),
                 Content = "Động từ",
@@ -49523,13 +45652,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("F9AB902A-19B6-46A8-9BBA-F336E712F229"),
                 Content = "간",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("0054EFD4-5B41-4C0F-AA4D-C839F1AAC1BF"),
-                QuestionId = new Guid("CDC23CD0-B493-4A7F-A75C-125BF88A5EC5"),
-                Content = "nhà khoa học",
-                IsCorrect = true,
             },
             new()
             {
@@ -49617,13 +45739,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("489D416E-ABA3-4BF9-B733-45F4A237FDCD"),
-                QuestionId = new Guid("5679A9E1-0CF0-40DA-877C-48057C72DF25"),
-                Content = "khoa học,  tính khoa học",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("593DF661-C2BC-48C2-80C5-682777D96829"),
                 QuestionId = new Guid("B7012C96-0354-4B96-8B07-BE036D779E0D"),
                 Content = "đặc trưng vốn có",
@@ -49677,13 +45792,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("EDF77DB4-9C8F-4E16-9625-7155A83C7E48"),
                 Content = "갑",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("98E9DA26-2958-4D82-9D2F-A486247BE1EF"),
-                QuestionId = new Guid("EF37014B-344D-42D3-A3AD-9F51BCEBAFE8"),
-                Content = "khán  giả, người xem, quan khách",
-                IsCorrect = true,
             },
             new()
             {
@@ -49771,13 +45879,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("D66E7C5E-767D-4A86-80B3-738C1704CBEF"),
-                QuestionId = new Guid("A46C5475-6276-440E-BC9E-1D82B153DCA0"),
-                Content = "không liên quan, không có quan hệ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("B6266B25-E955-4229-B5E3-CEACA1C9662C"),
                 QuestionId = new Guid("5FF2CD45-050E-42A7-A8EC-6CDBE32E3266"),
                 Content = "Phó từ",
@@ -49858,13 +45959,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("01BC3E74-B480-4E8B-AEF8-0E2B776226EF"),
                 QuestionId = new Guid("2592BBA4-506F-41C3-8D4D-9831AC3B7E4D"),
                 Content = "관계없이",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("14A7D3C8-D7A0-4C5F-8FE0-97C092D5C4A9"),
-                QuestionId = new Guid("227B6A33-33D5-48B2-A289-7E524B0F31C6"),
-                Content = "không có liên quan, không có quan hệ gì, không có can hệ gì",
                 IsCorrect = true,
             },
             new()
@@ -49953,13 +46047,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("C29C9660-43DC-44EB-AEF4-F4D8B46A1663"),
-                QuestionId = new Guid("3DF8235F-E8CD-461F-B2D4-9D1E34604A26"),
-                Content = "có liên quan, có quan hệ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("EDBD010B-F964-4CB1-A4CC-2E7B07C02A5B"),
                 QuestionId = new Guid("A3444470-B544-42E3-8BF4-9DF7AD676DDD"),
                 Content = "Động từ",
@@ -50041,13 +46128,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("4F40D03F-D893-44DB-B1D6-B9121E708EE9"),
                 Content = "기술",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("747A59C5-03F3-40B1-8C7F-E73FE6631985"),
-                QuestionId = new Guid("E9FF5314-D332-4C82-8519-F14106434723"),
-                Content = "người có liên quan, người có phận sự",
-                IsCorrect = true,
             },
             new()
             {
@@ -50135,13 +46215,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("C0C9B981-7AA4-4DB3-AAB2-4B9107F87382"),
-                QuestionId = new Guid("DF9D5F4C-0A81-470A-AA2D-94F107CC9598"),
-                Content = "sự thưởng lãm, sự tham quan, sự thưởng thức",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("DD39EE8B-C4CE-4433-ADFE-E60D77B3985F"),
                 QuestionId = new Guid("BD331425-979C-41A8-9992-6ECE253CAB06"),
                 Content = "Tính từ",
@@ -50222,13 +46295,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("218C457E-A135-4F90-9B42-2CAED1C38267"),
                 QuestionId = new Guid("19507A91-6225-4FDC-8F5C-771083D1209D"),
                 Content = "관람객",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("B9E9FF53-0D77-40C6-9C4D-F3FCDA59E94D"),
-                QuestionId = new Guid("364F9411-9058-4CAC-BE04-E7383D387597"),
-                Content = "khách tham quan, người xem",
                 IsCorrect = true,
             },
             new()
@@ -50317,13 +46383,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("D2648D6B-F727-4CE2-9BA2-BAFD62EC9996"),
-                QuestionId = new Guid("79576AC7-D277-46E3-AC2C-04D9D4877385"),
-                Content = "sự liên quan",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("5143DC69-5BC7-4273-839E-464A2F1FE4A5"),
                 QuestionId = new Guid("23481701-1302-4B80-B11D-3023DA90F4B6"),
                 Content = "Phó từ",
@@ -50405,13 +46464,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("CA7FB99C-2B1E-4F3D-922F-9265D61A9F65"),
                 Content = "기대다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("512E4476-5996-4933-850A-E7CA87104BC0"),
-                QuestionId = new Guid("625511A3-1AB7-4516-AE6A-4384F6EBB955"),
-                Content = "có liên quan",
-                IsCorrect = true,
             },
             new()
             {
@@ -50499,13 +46551,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("A1B434EB-EA91-4DC6-93CD-BF2D1979E92F"),
-                QuestionId = new Guid("D5AA71BA-447E-4703-AFC1-672B5742E0E7"),
-                Content = "liên quan",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("0BAF1159-9AE0-4429-98A0-A92AD7E0A797"),
                 QuestionId = new Guid("6879DE8E-16BF-49B4-828C-354881E8ACE3"),
                 Content = "Tính từ",
@@ -50587,13 +46632,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("80DD70BC-BAF1-4858-BC21-41E520A6D903"),
                 Content = "각자",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("0A629A30-9B0B-49FB-8F24-4A00E124B2B5"),
-                QuestionId = new Guid("EDD2C273-973E-46EE-92E1-2961742DF24C"),
-                Content = "cán bộ quản lý, quan lại, quan chức",
-                IsCorrect = true,
             },
             new()
             {
@@ -50681,13 +46719,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("F5512B03-27BD-45E5-9135-9907BE442FC3"),
-                QuestionId = new Guid("7E4E5A01-BA91-4735-8D72-9F019847AA9C"),
-                Content = "mối quan tâm",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("55FF1433-2F0A-4F18-88DB-19F0B82BA865"),
                 QuestionId = new Guid("E2E14596-131C-4B7B-BB4E-C7DBA7437EED"),
                 Content = "Động từ",
@@ -50768,13 +46799,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("3EDB556A-F113-4B81-A279-0F451C679FC6"),
                 QuestionId = new Guid("948F685D-050C-46C5-8F29-DC8E907FE824"),
                 Content = "관점",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("DAFC1783-218B-4788-9ABE-CFC30D16D592"),
-                QuestionId = new Guid("C1B71DB2-5DE3-41B4-9A6A-EA705E90A312"),
-                Content = "quan điểm",
                 IsCorrect = true,
             },
             new()
@@ -50863,13 +46887,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("E0BE4A16-564A-46EF-A56E-9A995389061C"),
-                QuestionId = new Guid("81513458-6AA8-4F85-92F8-DC032232C9A9"),
-                Content = "sự quan sát",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("ED7B9632-D45E-457C-A82A-73362319A42C"),
                 QuestionId = new Guid("ADB62D78-89D8-4E17-BBEC-F1BBC5289A0D"),
                 Content = "Danh từ",
@@ -50954,13 +46971,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("DC7A5A7B-3173-4A7D-BE3F-993C63B147F5"),
-                QuestionId = new Guid("F6965EEC-F0BE-4E63-9250-7DF6AD7E7B1C"),
-                Content = "quan sát",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("F60A9483-BE95-4E94-8118-B4A077297DCC"),
                 QuestionId = new Guid("151B45DB-D277-4FAE-9C40-FED44E3DE4A1"),
                 Content = "Phó từ",
@@ -51041,13 +47051,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("E782F57C-7BA0-43BB-A81C-661A5F938821"),
                 QuestionId = new Guid("B6D5D812-F52E-4636-A947-A8ABA3EEEE17"),
                 Content = "관하다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("C4C9E7D1-14A1-462C-9EC7-6C1625760B0F"),
-                QuestionId = new Guid("B2B7E113-3B74-46EA-885D-94FB7B1A13AB"),
-                Content = "liên quan đến",
                 IsCorrect = true,
             },
             new()
@@ -51136,13 +47139,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("C2FC7B24-EBD5-4C62-BC69-54CEC7FE42E6"),
-                QuestionId = new Guid("67BC6479-1D84-4A82-8AB7-E8B326A64B17"),
-                Content = "quang cảnh",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("04BAE81B-14E3-40B4-8FBA-2FD9411FDBAB"),
                 QuestionId = new Guid("579992A9-48EF-470E-BBE1-889019FF940D"),
                 Content = "Phó từ",
@@ -51227,13 +47223,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("ADE7CB6A-6B94-49D8-8FDF-39E5446DE6DD"),
-                QuestionId = new Guid("AAC93FC5-6D80-4DA8-9972-890D9110491E"),
-                Content = "một cách vô ích",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("D7CB9EDC-D784-4788-82AD-53415CFCFA52"),
                 QuestionId = new Guid("5B31B7A6-AB49-44B3-AF86-F020854E65AC"),
                 Content = "Động từ",
@@ -51314,13 +47303,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("5B272FC0-0BF5-4207-BC62-525DC7A99692"),
                 QuestionId = new Guid("79776EFC-787D-4C54-AC2F-8AA7C72A5C5F"),
                 Content = "괴로움",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("BF35D63E-3955-46DA-ADD3-9FECCF9C780C"),
-                QuestionId = new Guid("C559C79D-688A-4F18-A20C-26848A733E21"),
-                Content = "sự đau khổ, niềm đau, nỗi khổ",
                 IsCorrect = true,
             },
             new()
@@ -51409,13 +47391,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("59B73BCD-855B-460D-8357-FF44FA4AF9E9"),
-                QuestionId = new Guid("D345B2C0-6C61-4FA5-B99D-4C348BA697C1"),
-                Content = "đau khổ, khổ sở",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("0285BA3D-2AFB-4179-8CB4-E735B2556E4D"),
                 QuestionId = new Guid("AADDD2C6-B109-4AAF-AEA0-E6CEE271ACD3"),
                 Content = "Tính từ",
@@ -51497,13 +47472,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("AD4BA714-048D-461F-B7E8-EBE17B58338A"),
                 Content = "구하다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("5ED4B9FA-BA6E-4101-A72E-F6B8F2FB18EE"),
-                QuestionId = new Guid("4E47F261-A4BE-4A81-B753-DE91D5CE1225"),
-                Content = "làm đau buồn, gây đau đớn",
-                IsCorrect = true,
             },
             new()
             {
@@ -51591,13 +47559,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("E513B058-FCCD-4D38-9EB4-252589A4635C"),
-                QuestionId = new Guid("3523ECD0-5EF2-49B9-8398-8557AD6B3921"),
-                Content = "hùng vĩ, nguy nga",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("DEFE60AB-FF74-4E50-8B52-F2F77F2BF9AF"),
                 QuestionId = new Guid("2DB67913-854E-4D66-A432-6CBE2655D0CD"),
                 Content = "Phó từ",
@@ -51678,13 +47639,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("D460E002-9DF2-4754-B431-B52BD3FEC8EB"),
                 QuestionId = new Guid("769ADFC1-C660-4258-A091-D567686499F7"),
                 Content = "굉장히",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("59924435-1DF1-4681-9741-7F2DE279ED4C"),
-                QuestionId = new Guid("CAAF8388-F4FC-49A3-BF84-7D96D72356C3"),
-                Content = "vô cùng, rất, hết sức",
                 IsCorrect = true,
             },
             new()
@@ -51773,13 +47727,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("8783A64A-0A69-4A02-B8EE-D75639EB1C5C"),
-                QuestionId = new Guid("1F7A99DA-6E9E-4E4B-A00C-BA2CAA1003CA"),
-                Content = "trong trường",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("D7279271-484E-42E8-BC72-C72A37DA2B35"),
                 QuestionId = new Guid("A8BA3B6D-1C46-4417-B34D-FB718F1BB03F"),
                 Content = "Tính từ",
@@ -51861,13 +47808,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("F3411367-2E9C-4AF2-B040-6744FD2434AF"),
                 Content = "겉옷",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("6DA0F4A4-1ABC-42A6-AE21-270C13E6491A"),
-                QuestionId = new Guid("1025F3C9-6B75-42FF-A904-B48EF6726AA1"),
-                Content = "ca (làm việc)",
-                IsCorrect = true,
             },
             new()
             {
@@ -51955,13 +47895,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("7387C2D7-5E8F-4C9A-8344-6E75A5F17E96"),
-                QuestionId = new Guid("193D53E9-B3BA-49CD-A9A6-1D71B96470D5"),
-                Content = "sự hợp lưu, dòng hợp lưu",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("E3B35706-6E8E-4B6D-951B-4FB55DA2B465"),
                 QuestionId = new Guid("42C8D572-0C23-4B70-ADBE-22AC54C58B2E"),
                 Content = "Động từ",
@@ -52043,13 +47976,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("00702E7E-B605-4A64-9DB0-FEC3088DD500"),
                 Content = "갈증",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("27989BF4-F4DD-40AC-A7EF-CEF88B08F67A"),
-                QuestionId = new Guid("F539A161-8E59-4D1B-B479-CC4AA52753DD"),
-                Content = "cổng trường",
-                IsCorrect = true,
             },
             new()
             {
@@ -52137,13 +48063,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("422A34B7-9FC4-4DC2-BBFD-713267C52DCE"),
-                QuestionId = new Guid("472B5301-F45C-4CB2-91CC-AA7BC5AB2B8C"),
-                Content = "đồng phục học sinh",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("4B1AF331-070C-4F83-BCB3-8FF22EBB3D9E"),
                 QuestionId = new Guid("C1047C90-FFB2-4E0C-9D69-5D1528A0300F"),
                 Content = "Động từ",
@@ -52228,13 +48147,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("786444ED-39B6-41AB-9BB8-A6EAEE4F7749"),
-                QuestionId = new Guid("91EEB3A0-4193-430D-897D-4CDFA7E0F659"),
-                Content = "sự chỉ dạy",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("32A4939F-FCBC-4A3F-8457-C9CCE161D937"),
                 QuestionId = new Guid("D9F25256-79A7-4386-900E-35F394380DA6"),
                 Content = "học thức",
@@ -52288,13 +48200,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("2F5EA6B0-29DA-4454-BB65-71FE517D2DBE"),
                 Content = "근로자",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("12A83F21-B655-44A9-922A-6132D4D8A93B"),
-                QuestionId = new Guid("CBCD67D5-AD74-4F83-8AC0-3D2DE6099A35"),
-                Content = "học thức, tri thức, học vấn, kiến thức đại cương, kiến thức chung",
-                IsCorrect = true,
             },
             new()
             {
@@ -52382,13 +48287,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("1E910764-298A-4C39-B857-B65206236F72"),
-                QuestionId = new Guid("91B2D452-AF53-4C36-A388-FB2DBE08C790"),
-                Content = "vùng ngoại ô",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("8C8A0002-2AE5-42A2-A339-5E1A87A2BD21"),
                 QuestionId = new Guid("D7CBC030-C447-4F4D-A50F-76381879330B"),
                 Content = "Tính từ",
@@ -52470,13 +48368,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("133523B0-0557-451C-BD67-491A5B0B985A"),
                 Content = "공공",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("EFCD9DCF-FA15-4BF8-B91E-369A12C128A0"),
-                QuestionId = new Guid("EDBA3E11-C703-4BE0-8EBF-C852C85D21CE"),
-                Content = "phí giáo dục",
-                IsCorrect = true,
             },
             new()
             {
@@ -52564,13 +48455,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("77A7A9F7-3563-4AC9-A1C0-A87AC927EE90"),
-                QuestionId = new Guid("875E2612-4D86-4670-AC60-1AACD8ECC029"),
-                Content = "nhà giáo",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("A58CDBB1-336D-4699-81B2-0E6AA8D1D8A8"),
                 QuestionId = new Guid("CD9B1CA3-D566-4964-8045-8B9E93A0F354"),
                 Content = "Tính từ",
@@ -52655,13 +48539,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("0F2E5C53-B9D6-4052-A8C8-6B632E76A9FA"),
-                QuestionId = new Guid("2C2D0231-FB8A-47D3-8380-9DB7833B4A94"),
-                Content = "hiệu trưởng",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("035C4235-B070-46F7-9E68-27943121F182"),
                 QuestionId = new Guid("2F144C36-36A2-4FE8-B597-DD4C3A9CE51C"),
                 Content = "Động từ",
@@ -52742,13 +48619,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("0F5C9505-9297-4B0C-9B0B-63BA63190EAB"),
                 QuestionId = new Guid("E6C1F614-4B39-4302-8F3E-0160528B2420"),
                 Content = "교재",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("F511D0D9-1180-491E-B68D-536B321A19F9"),
-                QuestionId = new Guid("E444D595-BA8B-4B85-BF8F-633B10FE3E92"),
-                Content = "giáo trình",
                 IsCorrect = true,
             },
             new()
@@ -52837,13 +48707,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("E4C2FB28-9966-41EF-8F29-0E2E4496826E"),
-                QuestionId = new Guid("1BB7DB93-7B0B-48CC-A0E0-702DFE2E3960"),
-                Content = "sự thay thế, sự thay đổi",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("B5C9DEC1-9D1D-4BD9-ABCF-7719F32FCF23"),
                 QuestionId = new Guid("557811F2-0EC4-4916-8FE0-6723B985921A"),
                 Content = "Phó từ",
@@ -52925,13 +48788,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("79986F60-5049-4EE6-8060-77EC1FBF704F"),
                 Content = "게임",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("F14626E8-D5DC-4158-9235-4C7C657D77C6"),
-                QuestionId = new Guid("5E185819-C810-4587-ABEA-2DA5F3191E54"),
-                Content = "phương tiện giao thông",
-                IsCorrect = true,
             },
             new()
             {
@@ -53019,13 +48875,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("BC743B8E-CC2C-4DB3-BCB1-E6192CD5C1B3"),
-                QuestionId = new Guid("1454A7D3-8D71-4988-BC5D-9774451CD3D5"),
-                Content = "phương tiện giao thông",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("0E144A3A-0F3E-4C8C-BD81-65710FA03A70"),
                 QuestionId = new Guid("15B2C7A9-E836-4B96-87E9-3C574876E2CD"),
                 Content = "Danh từ",
@@ -53107,13 +48956,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("39A47F0F-814C-4B12-BB71-3362375D7114"),
                 Content = "공공요금",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("E1BD1129-53DB-4F86-BFFA-C96DF0405F4B"),
-                QuestionId = new Guid("1913D763-8FE9-4533-B003-E3709E3BBBB5"),
-                Content = "kiểu bào",
-                IsCorrect = true,
             },
             new()
             {
@@ -53201,13 +49043,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("D2233D3E-8D4B-4DD4-8D72-F4928C6B6DBE"),
-                QuestionId = new Guid("7B87AC4A-981F-4520-8D32-1C84A3A57322"),
-                Content = "lời giáo huấn, câu triết lý giáo dục của trường",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("6C64E1F8-835C-426F-B3C4-131D550B82C0"),
                 QuestionId = new Guid("382E1530-33F0-4228-BD5C-7114A1AA0734"),
                 Content = "Phó từ",
@@ -53289,13 +49124,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("42797326-EE2E-4894-A141-5DD9322581D8"),
                 Content = "글씨",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("262E038B-6BE2-414B-AF22-254D30C87222"),
-                QuestionId = new Guid("B8851C2B-E847-4038-8D41-2E5E4BF722C7"),
-                Content = "cái để ngắm, cái đáng xem",
-                IsCorrect = true,
             },
             new()
             {
@@ -53383,13 +49211,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("758FCEE7-3770-49EE-A6AD-1D602180C351"),
-                QuestionId = new Guid("B4FB6800-7603-4985-B0E5-F165D0755E8E"),
-                Content = "ngắm, ngắm nghía",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("534DBA69-1817-4D6F-9664-B38A69950B28"),
                 QuestionId = new Guid("8D1CADB7-C34D-48B4-A849-D16E1163927F"),
                 Content = "Phó từ",
@@ -53470,13 +49291,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("0423E477-5035-4371-960C-FABDC5865166"),
                 QuestionId = new Guid("948C2E71-2F57-4D89-BB85-C49123BC9A8C"),
                 Content = "구르다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("F6AD1005-31BA-4356-82AB-D0AD0BD348E1"),
-                QuestionId = new Guid("CECD1336-4012-457B-BE62-59468C04CF91"),
-                Content = "lăn tròn",
                 IsCorrect = true,
             },
             new()
@@ -53565,13 +49379,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("D65EE6D8-151C-463F-AF27-454DCF47B521"),
-                QuestionId = new Guid("82BF1981-1B9E-4F5C-8828-3ACA71DD40E6"),
-                Content = "sự mua, việc mua",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("3A266BCF-305E-4AE8-A702-8B6124AB91C2"),
                 QuestionId = new Guid("084688F4-86AA-469C-A25D-2958412593BE"),
                 Content = "Danh từ",
@@ -53652,13 +49459,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("8006AD88-C0EE-47F5-881D-D2016030933A"),
                 QuestionId = new Guid("723E08FA-9E3B-4A56-8282-3BB91E319AE9"),
                 Content = "구멍",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("BEE72525-7B8C-4495-809A-3060133BB00C"),
-                QuestionId = new Guid("1F371499-B40D-4F10-BE22-92B05078E94F"),
-                Content = "lỗ",
                 IsCorrect = true,
             },
             new()
@@ -53747,13 +49547,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("DA592779-4091-4726-AD4E-A058FD17D7C1"),
-                QuestionId = new Guid("B62DF2C2-7A9D-47D8-B32A-2B8BD3435BB9"),
-                Content = "sự phân biệt, sự tách biệt",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("55692BD3-D9F9-43DF-A9BB-5E521560C0FE"),
                 QuestionId = new Guid("05B8C60B-5149-4B3A-B606-8AF7D15CEA22"),
                 Content = "Phó từ",
@@ -53835,13 +49628,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("8D0E31BB-634D-4692-A811-65E25ACABCDB"),
                 Content = "귀가하다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("D920B66B-48EB-4B01-89E1-E564B18A078F"),
-                QuestionId = new Guid("E17409BC-3069-41AC-832E-96A1092CD0B1"),
-                Content = "gập, bẻ cong",
-                IsCorrect = true,
             },
             new()
             {
@@ -53929,13 +49715,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("23C87157-BC0F-4E61-BDD2-B3A237416881"),
-                QuestionId = new Guid("42E4BED9-5F90-4B3C-9325-060CAAC3067D"),
-                Content = "sự phân loại",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("4A29C86D-340D-4357-8609-3E4989CF327E"),
                 QuestionId = new Guid("95D508ED-FF16-49C7-BB9E-B6EDEA9E3B1C"),
                 Content = "Danh từ",
@@ -54017,13 +49796,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("D161CE39-5793-41A5-8480-CFE63DC3A975"),
                 Content = "관찰",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("C4B03794-BBDA-47DA-9F32-162C35082F15"),
-                QuestionId = new Guid("7CB2A49B-4E01-4DBE-93A7-DA06D359C997"),
-                Content = "góc, xó",
-                IsCorrect = true,
             },
             new()
             {
@@ -54111,13 +49883,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("1BA4033A-3D63-48DB-8BB8-8789B94E1C40"),
-                QuestionId = new Guid("2D8791E5-99B1-4750-A026-70DFB7428525"),
-                Content = "sự cấu thành, sự hình thành",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("A7FDE6E6-74E9-40C3-9B4F-D869826AF75E"),
                 QuestionId = new Guid("71193585-6C22-4096-89FA-5EF972DB799F"),
                 Content = "Tính từ",
@@ -54199,13 +49964,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("853740CA-F667-4D46-A593-162D111E5A77"),
                 Content = "고궁",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("D6217D08-AD61-41B2-8427-DEA65269BE45"),
-                QuestionId = new Guid("DFE5E09C-CFC4-4F3D-9069-8237387E0B56"),
-                Content = "thế hệ cũ",
-                IsCorrect = true,
             },
             new()
             {
@@ -54293,13 +50051,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("5F274ACC-F7E7-411B-B2E5-1AA2D95DD95B"),
-                QuestionId = new Guid("E63D0814-12CE-4424-BEAD-C6A9E24C9F3E"),
-                Content = "sự khống chế, sự gò ép",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("B54E0E3B-971F-4086-9A55-1407491C8B76"),
                 QuestionId = new Guid("DCF27714-643F-4CE0-9CFA-AFE46EBAC65A"),
                 Content = "Danh từ",
@@ -54381,13 +50132,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("05612F45-37D8-4453-945E-A7C5648874CC"),
                 Content = "곱다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("CCAF47C3-7D6A-4C35-9422-F56D7F603357"),
-                QuestionId = new Guid("8763B32A-E1F1-4702-A747-2F2CF589D162"),
-                Content = "thơm ngon",
-                IsCorrect = true,
             },
             new()
             {
@@ -54475,13 +50219,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("D67B2354-3B98-4FDA-B563-6E06E075B4DA"),
-                QuestionId = new Guid("7423651D-815B-414B-9628-0BCC8612F242"),
-                Content = "khu vực",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("0C1CD034-9B5A-4213-97CD-397120521F60"),
                 QuestionId = new Guid("75CC4DEB-7E4B-4480-A71C-900D3EC5D174"),
                 Content = "Tính từ",
@@ -54562,13 +50299,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("624442BD-EF9C-404B-8523-2E5364D6FECD"),
                 QuestionId = new Guid("D0CC4B76-5F72-4421-B434-61F9520383B9"),
                 Content = "구입",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("B3773F66-7837-4049-8A2A-EDA61171257C"),
-                QuestionId = new Guid("9198A4A6-013B-40FF-A0ED-BC615F0A3268"),
-                Content = "sự mua vào, sự thu mua",
                 IsCorrect = true,
             },
             new()
@@ -54657,13 +50387,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("D93F6998-79D8-4400-9E31-EF9E560AA6E1"),
-                QuestionId = new Guid("CCAF6925-FAC0-43E7-A3DD-D7CA92CECE17"),
-                Content = "sự cứu trợ, sự cứu hộ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("65B42218-3CA4-4BCD-8FE3-BEA760AD4C72"),
                 QuestionId = new Guid("5BF5CE7D-9FE2-44E9-B866-7D12494F9615"),
                 Content = "Danh từ",
@@ -54745,13 +50468,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("DC5FAD10-2BB5-42AF-9BAB-1BE80AC61A81"),
                 Content = "군인",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("BDEA3008-23E0-4031-9BF5-2FD075436234"),
-                QuestionId = new Guid("CD99BE17-7DFF-4DB6-8FDC-D82F986DD4A9"),
-                Content = "đội cứu trợ, đội cứu hộ, nhóm cứu hộ",
-                IsCorrect = true,
             },
             new()
             {
@@ -54839,13 +50555,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("C1BC3022-14BE-4F5A-A9AC-A75593A05804"),
-                QuestionId = new Guid("D6CAAA73-68EA-4A11-8B44-A1851285D11A"),
-                Content = "tính cụ thể",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("BBD64254-BC45-499F-B953-72C2F7ABE061"),
                 QuestionId = new Guid("C2BC9DE1-B4F4-462C-995E-6BF4BA9C14BE"),
                 Content = "tìm",
@@ -54899,13 +50608,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("FBFEE69C-250F-4342-B9B6-5149A8008F3A"),
                 Content = "깔다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("2089C305-23A7-42D5-9714-564D250897C8"),
-                QuestionId = new Guid("A96241E8-E706-4534-B10E-7D27A595EA6E"),
-                Content = "tìm, tìm kiếm, tìm thấy",
-                IsCorrect = true,
             },
             new()
             {
@@ -54993,13 +50695,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("041DAE71-E900-44C4-9E9C-EC6A6A1B79BE"),
-                QuestionId = new Guid("6EE04C8C-3338-4DCA-88F9-1949D344E60D"),
-                Content = "quốc gia",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("9EB37883-6039-417B-922C-AA5024341777"),
                 QuestionId = new Guid("91A0358B-EBB9-497E-A37B-BE1D8FDE0B1B"),
                 Content = "Tính từ",
@@ -55080,13 +50775,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("A8864021-3F75-4488-A350-DDA6F8A212B1"),
                 QuestionId = new Guid("A30F37F0-E96B-4F2D-9C87-3CBB881B0093"),
                 Content = "국경일",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("AC6ACAB9-8E19-4D95-AA82-6527E52CE394"),
-                QuestionId = new Guid("C3D10803-36EA-4790-A683-FBDE23F133DA"),
-                Content = "ngày quốc khánh",
                 IsCorrect = true,
             },
             new()
@@ -55175,13 +50863,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("CDB4EEA1-C16E-49D1-9EFB-EA6CBDA3EBAC"),
-                QuestionId = new Guid("F146112E-294D-4A0B-A82A-794EB1070C1C"),
-                Content = "quốc kỳ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("D25818B6-5696-42FB-8063-AA0A730A890B"),
                 QuestionId = new Guid("24D3E945-131E-4F80-BEE0-C8313C522957"),
                 Content = "Tính từ",
@@ -55262,13 +50943,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("8705B898-A3C6-4032-AF74-76FDCED0F50F"),
                 QuestionId = new Guid("70F71BFF-4611-4B35-BD5F-0C890D411479"),
                 Content = "국내선",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("9D7175E1-598A-4435-8047-F1FFD4CEC7A1"),
-                QuestionId = new Guid("E64F227F-3282-48A5-BE4F-5760A4C9CE39"),
-                Content = "tuyến quốc nội",
                 IsCorrect = true,
             },
             new()
@@ -55357,13 +51031,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("3C15A2A3-7983-40E0-A1B9-0BD954F967FB"),
-                QuestionId = new Guid("8C6EA1ED-E69D-4D69-AB0F-9722EA8BF46D"),
-                Content = "quốc lập, quốc gia",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("7C9DDB7F-B8BA-4A83-A3D3-0ACC5E037E5F"),
                 QuestionId = new Guid("F6E5EC4B-61A9-4186-9505-A2C95FEC1A42"),
                 Content = "Phó từ",
@@ -55448,13 +51115,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("C1D2EF58-D2DA-4EB1-B85A-E88BD95EB1D9"),
-                QuestionId = new Guid("232B9249-C400-4F37-AB77-CE3A39831C69"),
-                Content = "nước canh",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("8E2E8792-E82A-4BE6-AAEA-0EEE3C762556"),
                 QuestionId = new Guid("27679BA7-B9F7-4072-A3FF-5049B089898C"),
                 Content = "Phó từ",
@@ -55535,13 +51195,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("114F55A8-1923-4EDB-8B1F-FFBACA5A5003"),
                 QuestionId = new Guid("36A7B500-4DE6-4F11-BE67-C302065D058C"),
                 Content = "국민",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("5F85561A-8C50-4F98-B716-2897D2C351FD"),
-                QuestionId = new Guid("5A2B09DC-8FDC-4EF3-8F17-EE52442EF1AD"),
-                Content = "quốc dân, nhân dân",
                 IsCorrect = true,
             },
             new()
@@ -55630,13 +51283,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("95CCCBD1-39DA-4334-BE0B-1E912FBF7523"),
-                QuestionId = new Guid("845D2221-F4E2-49A5-9B2C-5E6C6CF48394"),
-                Content = "việc sản xuất trong nước, hàng nội, sản phẩm trong nước",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("5BF4F4B4-2A84-41CE-8004-27EEE37B6E3B"),
                 QuestionId = new Guid("6D46FA72-532D-44D2-A04F-6244821E6AF1"),
                 Content = "Danh từ",
@@ -55718,13 +51364,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("156ECC4B-AF24-4D28-9D74-AA58B335DFD7"),
                 Content = "고개",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("5C8AACBF-E86A-4D39-AEEC-A97606EEE9FB"),
-                QuestionId = new Guid("6D617297-EB9F-4EC3-BF53-A7AF75EFDE9A"),
-                Content = "quốc ngữ",
-                IsCorrect = true,
             },
             new()
             {
@@ -55812,13 +51451,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("C479D303-C48E-483D-8C88-E1EFB8863AD7"),
-                QuestionId = new Guid("3499513A-96E1-40EC-91E1-92FCB07328EF"),
-                Content = "ngoại quốc, ngoài nước",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("01357D4E-932A-4D52-8D3A-9016A7D39E5F"),
                 QuestionId = new Guid("F7B50C6B-9D9B-4585-996A-B30424F1A50A"),
                 Content = "Tính từ",
@@ -55899,13 +51531,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("690C4CEB-5B9B-4BCD-9604-0D8465376FE0"),
                 QuestionId = new Guid("68334585-C223-4C33-8D43-0E403A7610C9"),
                 Content = "국제결혼",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("4467E622-0B4C-4A90-A101-C393A87C714A"),
-                QuestionId = new Guid("5A2506AD-DC14-4615-B41F-76652393BAD0"),
-                Content = "việc kết hôn quốc tế, việc kết hôn khác quốc tịch",
                 IsCorrect = true,
             },
             new()
@@ -55994,13 +51619,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("3B2E81E8-42C6-486C-8EFF-4C9D5DABAFF2"),
-                QuestionId = new Guid("C1549748-8EA5-4986-88C6-1F1E45D40EFB"),
-                Content = "tuyến quốc tế",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("9908E6F3-F422-4FA2-A9D5-F323105269D2"),
                 QuestionId = new Guid("FDE1DC4A-7804-4823-99E6-D80F4771C6B6"),
                 Content = "Động từ",
@@ -56082,13 +51700,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("6DCF07D3-6B86-4D46-B45E-25145C17C785"),
                 Content = "고속",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("5E5C0AD4-A7EF-4421-B3AB-4B1979F7BCA7"),
-                QuestionId = new Guid("E9A088F1-89B8-4B52-ABE1-27EDED886A3D"),
-                Content = "sự quốc tế hoá, sự toàn cầu hoá",
-                IsCorrect = true,
             },
             new()
             {
@@ -56176,13 +51787,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("FEC80458-D082-4F9A-8EE7-4C3C98CDFFAF"),
-                QuestionId = new Guid("10CE713B-6138-41BD-8A75-596252F69822"),
-                Content = "quốc hoa",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("9B84BD38-8FAD-41BB-888D-1CACC3C07122"),
                 QuestionId = new Guid("E1B4DD2A-73B7-4071-8CFB-008DBB885082"),
                 Content = "Động từ",
@@ -56264,13 +51868,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("5B81D0CF-0329-4516-A46A-7C6B2B12E82D"),
                 Content = "교사",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("BA083492-1766-42EE-8B6E-7DF2752ECA12"),
-                QuestionId = new Guid("6EA0C0AA-7A3E-4C45-BB10-FF4092C61D49"),
-                Content = "quốc hội",
-                IsCorrect = true,
             },
             new()
             {
@@ -56358,13 +51955,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("200A5B57-63B3-4B89-B04F-8E9F7CB3E73D"),
-                QuestionId = new Guid("C006593C-DCAF-410C-BCB7-857F432D91E6"),
-                Content = "국회의원",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("FD3637FA-AB6E-4212-AFC2-E4EF20A825B8"),
                 QuestionId = new Guid("0655B551-C5F7-44FC-B14F-F5073B0DDA01"),
                 Content = "Phó từ",
@@ -56449,13 +52039,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("16F7A92C-C55F-4857-812F-9EEEAC1572C9"),
-                QuestionId = new Guid("92306089-55EE-4601-B9FD-BF5D040163C1"),
-                Content = "quân",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("41782AAD-8F5F-4C8F-835B-458D864FC5FB"),
                 QuestionId = new Guid("EC4504B8-2CC2-4845-AE12-A27D672E05F6"),
                 Content = "quân đội",
@@ -56508,13 +52091,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("661AB289-D770-4815-972D-CE2F5F2EE86C"),
                 QuestionId = new Guid("A4647A83-26FA-4515-B54A-506C0B335A80"),
                 Content = "군대",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("79D1C551-76C4-4A9C-A630-8A070CEFA503"),
-                QuestionId = new Guid("EE1A6BE1-77A1-41CA-B536-05C680945341"),
-                Content = "quân đội, bộ đội, quân ngũ",
                 IsCorrect = true,
             },
             new()
@@ -56603,13 +52179,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("6ED11FD7-5E5D-487D-A0C1-E38EBA80E4EA"),
-                QuestionId = new Guid("E4AE553D-0EB0-4C2F-807F-A870D4579DA5"),
-                Content = "nơi, chỗ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("945CF82F-18C3-4948-BADD-814FDBA28700"),
                 QuestionId = new Guid("D6A35828-FC0E-44D5-95BE-AEC170815EBB"),
                 Content = "kết hôn",
@@ -56663,13 +52232,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("66E6C350-0D4A-45FA-A3EE-5EB02E666DBC"),
                 Content = "근처",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("02DA5CE4-7AB8-480B-90EF-3D65B3634C50"),
-                QuestionId = new Guid("12706042-4EFA-4A9A-9F01-1C6182B27F5C"),
-                Content = "quân sĩ",
-                IsCorrect = true,
             },
             new()
             {
@@ -56757,13 +52319,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("37A8575E-05BF-461E-8AEF-05DD129E048B"),
-                QuestionId = new Guid("A52A967D-FA47-4D95-809A-2DA1C0C4E731"),
-                Content = "trở nên đông, trở nên cứng",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("472DD50A-24AB-47AD-B6A9-CEE2E72734AC"),
                 QuestionId = new Guid("31A62B9C-0BF1-4AB4-BF30-1E2A0AF3B44A"),
                 Content = "Phó từ",
@@ -56845,13 +52400,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("6D865A0F-C203-4FAF-90A3-C146BFA186B1"),
                 Content = "그제야",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("0304F08E-3E2B-4FD1-9468-CD2CEFB82D5D"),
-                QuestionId = new Guid("E5D38314-E3C0-4D8E-BB6F-851DB15A966D"),
-                Content = "cố ý, chủ ý, có chủ tâm",
-                IsCorrect = true,
             },
             new()
             {
@@ -56939,13 +52487,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("CBE151FA-2766-4D53-9071-9DC3E0D8F07E"),
-                QuestionId = new Guid("DB7E6ACA-382D-4D1E-A8B0-D0E0DE7BDB7B"),
-                Content = "con hào",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("F3728AB7-6757-4BD2-859E-276D46042639"),
                 QuestionId = new Guid("22BAE128-111F-488A-9FFE-16DAF1FFDAB7"),
                 Content = "Danh từ",
@@ -57027,13 +52568,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("394BD97C-73C3-49C4-A5EF-91617A76A5D4"),
                 Content = "굽다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("470CB369-74DD-45C5-A6A1-BA870D516DF5"),
-                QuestionId = new Guid("811904BF-8691-4E17-B811-F4D97F7E7453"),
-                Content = "nhịn ăn",
-                IsCorrect = true,
             },
             new()
             {
@@ -57121,13 +52655,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("672EEEA9-424C-4371-9D51-6897BD1CA2F6"),
-                QuestionId = new Guid("CF49C44F-9CAB-4DB0-9552-E04AC2FDB4AD"),
-                Content = "móng chân",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("36B5FCEC-435B-4ED5-B5E5-ED801061EEA6"),
                 QuestionId = new Guid("6FC31867-843A-47FD-9231-75945CA4D69B"),
                 Content = "Tính từ",
@@ -57209,13 +52736,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("3873ED18-1220-4801-AD4D-EFDB94B10295"),
                 Content = "가지다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("97E74BE8-AEFD-48A3-966F-D45671FF5ADE"),
-                QuestionId = new Guid("2D0338E8-D9F3-421D-BF24-D29DDA778D1A"),
-                Content = "cúi, khom",
-                IsCorrect = true,
             },
             new()
             {
@@ -57303,13 +52823,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("885E9FAC-DFFC-44F7-ABF4-4E1D47B153F1"),
-                QuestionId = new Guid("D0F3A180-A7FA-4357-BCE7-7B84AFB3BE64"),
-                Content = "quyền lực",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("BA15B8CA-BD1A-4573-98C7-F8CA72CC36A2"),
                 QuestionId = new Guid("A8283559-AE15-489A-A978-58E36D00DF0E"),
                 Content = "Tính từ",
@@ -57391,13 +52904,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("3983FD7E-4373-4D98-9A39-A64C035CD799"),
                 Content = "교사",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("C15B236B-9047-4B04-A8ED-87BD03541774"),
-                QuestionId = new Guid("F2C63252-AFD5-41A6-ADEB-4748765A09D0"),
-                Content = "quyền lợi",
-                IsCorrect = true,
             },
             new()
             {
@@ -57485,13 +52991,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("C671E47A-E5A0-4166-B89F-5E98A2B7CB31"),
-                QuestionId = new Guid("7B2E9BDE-4303-48B7-B506-9CC1D286C719"),
-                Content = "quyền uy",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("5A72370C-4C11-4BB7-A65A-D214C796C418"),
                 QuestionId = new Guid("1F7C9256-EF6C-496D-9377-AEBAF2500D80"),
                 Content = "Tính từ",
@@ -57573,13 +53072,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("601AA86A-097C-421D-BFB0-65EC181BF4AA"),
                 Content = "게시판",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("8D282868-774B-47A1-BE43-F950665648FA"),
-                QuestionId = new Guid("0A55D484-F0D2-46DF-8729-78F5247CDABA"),
-                Content = "sự khuyên nhủ, sự khuyên bảo",
-                IsCorrect = true,
             },
             new()
             {
@@ -57667,13 +53159,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("2F9E1C0C-5DE5-4C15-9E27-FC6CD439B983"),
-                QuestionId = new Guid("7A22B8DE-B9A0-4E0D-BC40-9FC53E3A4FB0"),
-                Content = "quyền anh",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("F5A0BA74-978A-4BBA-904A-9D710A67F1E6"),
                 QuestionId = new Guid("2692FD15-43D4-40EA-B796-27D9B7EBEF14"),
                 Content = "Phó từ",
@@ -57755,13 +53240,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("E52E111D-E938-4492-B079-376D98A85AC1"),
                 Content = "고려하다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("9BF53C0A-0CA2-44C7-8817-45406E7FC11B"),
-                QuestionId = new Guid("5F2C13D4-A581-40E0-9BB5-CF76320B1FF2"),
-                Content = "khuyên, khuyên nhủ, khuyên bảo",
-                IsCorrect = true,
             },
             new()
             {
@@ -57849,13 +53327,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("F767A160-960C-46EC-95F1-CD9EFA5A64C3"),
-                QuestionId = new Guid("0F895783-66A7-4B4C-BEB6-E01D19FE7C94"),
-                Content = "sự trở về nhà",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("E0D6C5DD-7681-4410-BAEB-EA1D3AB2DD94"),
                 QuestionId = new Guid("269ADA1F-1CDB-4C82-A671-815A3D187926"),
                 Content = "Phó từ",
@@ -57937,13 +53408,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("6998FB86-7836-41FD-83E7-DA095A1C8008"),
                 Content = "거액",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("B6E06E20-E537-4AD0-AE7A-016FE3D3D67D"),
-                QuestionId = new Guid("4268EC43-667F-4ED5-8CC6-26F285C064FB"),
-                Content = "sự về nước",
-                IsCorrect = true,
             },
             new()
             {
@@ -58031,13 +53495,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("B94B4E0F-8149-4F3F-8BDD-4A39E069E3BA"),
-                QuestionId = new Guid("F8F18977-5C4A-4F21-9618-90D08655367D"),
-                Content = "về nước",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("5C506968-BACE-4FA9-9CFB-D85CF98AB531"),
                 QuestionId = new Guid("89D3B127-63BD-40E0-B4DF-54C8FCDE0A50"),
                 Content = "Phó từ",
@@ -58119,13 +53576,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("C381E0C5-2E0D-487D-BAA5-1D58DAB80D38"),
                 Content = "관심",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("5EE7EF8E-E2CE-4A37-89AA-C47F16AF768D"),
-                QuestionId = new Guid("6E0D8200-232B-4C74-BF2E-E58ABBADE46B"),
-                Content = "hồn ma",
-                IsCorrect = true,
             },
             new()
             {
@@ -58213,13 +53663,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("639CACF5-D1FD-4779-94DD-B3785145C0BE"),
-                QuestionId = new Guid("6D8BBE28-EE9A-4779-892C-28A3520E0781"),
-                Content = "quý trọng",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("84588511-A75D-471C-ADB9-F0DA64A4B902"),
                 QuestionId = new Guid("ADAA4BE8-587C-4E38-A729-F03A194BE52C"),
                 Content = "Động từ",
@@ -58304,13 +53747,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("FD35C00F-EDEB-44F1-833A-0FEE5018A625"),
-                QuestionId = new Guid("36F99CF8-A308-4FD7-A14B-120A69E2A42B"),
-                Content = "kính gửi",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("7DD0840A-1932-4CCB-8BC4-76523E11E138"),
                 QuestionId = new Guid("0E8937CD-7A98-418D-952B-5994B931F7CA"),
                 Content = "sự giác ngộ",
@@ -58363,13 +53799,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("9B331581-1699-4C0F-AFA1-32FACFACE335"),
                 QuestionId = new Guid("51523154-A965-4D32-89ED-880B2B02B4E2"),
                 Content = "귀하다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("345C7DFD-6B07-436C-B4F2-8CABC460A2A6"),
-                QuestionId = new Guid("0C0EDDA1-DFF8-4276-8998-B73441A4A864"),
-                Content = "cao quý",
                 IsCorrect = true,
             },
             new()
@@ -58458,13 +53887,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("1F644942-9FED-4DFC-9441-6DD563DCFD7C"),
-                QuestionId = new Guid("3FB68DA7-F1A2-4733-B448-63C860543E67"),
-                Content = "quy mô",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("1EFEC397-B8DD-4E23-88FB-BEB02A7FDA2F"),
                 QuestionId = new Guid("7918B905-A87C-4BEE-8CD7-C0367BEF5914"),
                 Content = "Phó từ",
@@ -58546,13 +53968,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("03988163-56AC-4193-82CF-D7B404D5DE6F"),
                 Content = "감상",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("31156557-A68A-4A31-9BD5-C1FC1CB045DC"),
-                QuestionId = new Guid("3EB48D5F-24B9-4A46-941E-DD0437EF3039"),
-                Content = "quy định",
-                IsCorrect = true,
             },
             new()
             {
@@ -58640,13 +54055,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("3101F237-2350-4B6F-BAD1-87C61EEDA86C"),
-                QuestionId = new Guid("C1F6C2DC-0E8A-4C81-AD76-15C596FB48A7"),
-                Content = "tính quy tắc",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("6B626542-AC59-4ECB-8DA6-D98BFB967AC9"),
                 QuestionId = new Guid("D9FD8E8F-AC36-4340-9E4C-CC88C7641101"),
                 Content = "sợ hãi",
@@ -58700,13 +54108,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("9600A856-910D-42E8-AE7B-C3F6E7B4CDC5"),
                 Content = "귓속",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("CF8E9CF8-C57B-404B-9C81-0CD7FF572ADF"),
-                QuestionId = new Guid("B9AAD4E2-886E-4D5E-9FE3-DEDD2574AF8B"),
-                Content = "sự cân bằng",
-                IsCorrect = true,
             },
             new()
             {
@@ -58794,13 +54195,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("65B958AB-F2D1-461C-84EE-06AD7D947E58"),
-                QuestionId = new Guid("33BC7951-9C7F-4C35-96FE-3DAEAA486B2E"),
-                Content = "dù sao thì cũng, thế cũng còn",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("7EEE0BCD-DF5E-4BDD-80F0-E7D9FF2B68F5"),
                 QuestionId = new Guid("B0425A42-3251-4044-A1A7-ED4C7A18B1CF"),
                 Content = "Phó từ",
@@ -58882,13 +54276,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("BEB4C4BE-8A1F-4450-B4F0-FFDC34CCAABA"),
                 Content = "귀신",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("FC3FF63D-BCB7-41FE-9CA1-74CE854F801A"),
-                QuestionId = new Guid("CC9DD166-4ABF-485B-A634-29A0AD95EDB8"),
-                Content = "cái xích đu",
-                IsCorrect = true,
             },
             new()
             {
@@ -58976,13 +54363,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("CB97A55A-A5A6-48E3-981A-653E67A17E3B"),
-                QuestionId = new Guid("C09B32D8-EC49-4286-8D5D-43709C9300DD"),
-                Content = "cô ấy, bà ấy",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("BB1C21A3-0AA7-4C5E-BF68-066107D4853C"),
                 QuestionId = new Guid("B060F77E-2929-47ED-800F-D36AFC2FB9A7"),
                 Content = "tốt",
@@ -59036,13 +54416,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("193F32C1-81CA-4FBF-854D-E8AB8599223C"),
                 Content = "감옥",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("E364974E-EB29-436A-8322-D415F958AAB1"),
-                QuestionId = new Guid("36B0394D-FE7D-46DB-A4EC-55A046358C69"),
-                Content = "bóng, bóng râm, bóng mát, bóng tối",
-                IsCorrect = true,
             },
             new()
             {
@@ -59130,13 +54503,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("6EBD4592-4149-40EE-94C4-B12F2C7CDECA"),
-                QuestionId = new Guid("CF68184C-1DB1-41FF-97A8-76099F73ABDE"),
-                Content = "sau đó, tiếp sau",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("8BA04967-946D-47B7-9C3E-3212A152BC49"),
                 QuestionId = new Guid("C16ACDE9-3665-4363-9987-9D2C88603BAC"),
                 Content = "Danh từ",
@@ -59218,13 +54584,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("FF67181E-7812-4D9F-B09A-1A8CF76E8535"),
                 Content = "급속히",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("849AE859-961D-4258-8306-948D7D2CE8D8"),
-                QuestionId = new Guid("A9E3E6BA-755F-4A6F-8531-8F7234D23821"),
-                Content = "(không)...lắm, (không)...đến nỗi, (không)....đến mức",
-                IsCorrect = true,
             },
             new()
             {
@@ -59312,13 +54671,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("BBD1292E-421B-4945-A03E-4E7F77466563"),
-                QuestionId = new Guid("4A1F573E-34CB-40C3-9293-3C93D2EA7206"),
-                Content = "cậu, em",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("BC6BC5DD-53D5-4D08-B715-8A14FEB9FABD"),
                 QuestionId = new Guid("5584E3B8-32D6-4C62-8094-FB507E823B11"),
                 Content = "việc chạy vượt tốc độ",
@@ -59375,13 +54727,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("DD359B4B-8989-4C9F-84E7-C12EFDDB3AE1"),
-                QuestionId = new Guid("55182926-6D57-4BDE-8BA0-F5B4EF88ADD0"),
-                Content = "dù vậy, dù như thế",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("0DC6770F-FF81-4F5A-BF58-D2A408479E57"),
                 QuestionId = new Guid("3DEC0D1B-8E76-44A4-8037-E1ABA7345844"),
                 Content = "ký giả",
@@ -59435,13 +54780,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("929CE9B9-0E69-4C91-81CA-71670A5C42E0"),
                 Content = "계산",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("2A94658C-D7B3-4C4B-8F2F-4135D1BC8304"),
-                QuestionId = new Guid("FAB8823C-0BC6-4A77-8457-4FFB7C48CFE9"),
-                Content = "đồ thị, biểu đồ",
-                IsCorrect = true,
             },
             new()
             {
@@ -59529,13 +54867,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("160529E3-655A-49A6-94F1-7FE4357CE4F7"),
-                QuestionId = new Guid("28E708E6-D40C-4FC6-BD77-0EC373D96190"),
-                Content = "gam, gram",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("E86BF1DE-88E3-4F29-B58D-DAED92FEDF61"),
                 QuestionId = new Guid("F40AFA65-2C52-4E87-93E6-D8EA5FB97C3A"),
                 Content = "được trải",
@@ -59592,13 +54923,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("80E40778-6FEB-4538-86B0-3A41212AA208"),
-                QuestionId = new Guid("E9A48597-F94E-4CEF-BFEA-4AD867064EF1"),
-                Content = "thì đó, thì tôi đã nói rồi mà",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("C1D0BA4F-1F7F-4E04-8255-05E68495E429"),
                 QuestionId = new Guid("C62AA242-6D0D-4B23-A9EB-0984DC1EFC2D"),
                 Content = "làm như vậy thì",
@@ -59652,13 +54976,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("DD63C578-5DEE-48F3-B6A2-97188DE5F10E"),
                 Content = "가다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("E63F6677-6008-47C4-8ADC-421F56246332"),
-                QuestionId = new Guid("D493DD4B-3864-485D-8BEE-ED6B0F30384C"),
-                Content = "làm như vậy thì",
-                IsCorrect = true,
             },
             new()
             {
@@ -59742,13 +55059,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("AEAF6AD9-285F-4BE8-A740-79140C0CA5DB"),
                 QuestionId = new Guid("4BEAACED-0718-4611-B3AE-2512EFE56BC2"),
                 Content = "그러하다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("3F18B12C-AC3F-490A-9C08-48E548D2DA37"),
-                QuestionId = new Guid("4B41391E-E956-4CCC-AD89-02B61BCA6312"),
-                Content = "như thế, như vậy",
                 IsCorrect = true,
             },
             new()
@@ -59837,13 +55147,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("3EF55229-937E-4314-B32C-F774E07B6D4D"),
-                QuestionId = new Guid("30BC561B-5B10-4B7A-9B47-2A452AB2113C"),
-                Content = "đều đều",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("74484121-FC5C-41B9-8299-413E522169D5"),
                 QuestionId = new Guid("B346CE64-B2A4-4848-81E9-43E3B747D4BD"),
                 Content = "Tính từ",
@@ -59925,13 +55228,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("55E098B9-2A25-4082-9E3B-29B879C5A51E"),
                 Content = "가득히",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("51981BD7-B500-4084-A1EE-587167FBA147"),
-                QuestionId = new Guid("0890C06B-9E1B-456C-9058-2DA4C6532F13"),
-                Content = "dù sao",
-                IsCorrect = true,
             },
             new()
             {
@@ -60019,13 +55315,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("A449626D-D7F9-4425-8244-D09D7F010891"),
-                QuestionId = new Guid("51C017E2-8C13-4BCC-8403-93336A84CE55"),
-                Content = "như thế, như vậy",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("27FA0133-EC13-47D5-BCB7-B6DAC9EC2BBB"),
                 QuestionId = new Guid("6102031D-F544-4AEB-9C57-CA05E0386BF8"),
                 Content = "sự cố chấp",
@@ -60078,13 +55367,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("880DD04D-9F79-48AA-9EF5-7BAB265200BF"),
                 QuestionId = new Guid("689B27A2-D43A-40E6-AA3C-75DDD9A70DF8"),
                 Content = "그렇지",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("325C59FB-6B39-4987-80C4-BFC6E1208443"),
-                QuestionId = new Guid("DA466792-EF93-486F-81BE-592287CC79D5"),
-                Content = "đúng rồi, có thế chứ",
                 IsCorrect = true,
             },
             new()
@@ -60142,13 +55424,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("2E6DCBFB-8D98-4A8D-8651-41722EBBD523"),
                 Content = "갈라지다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("BCEC4ACA-702E-449C-B562-5CF2A41223A5"),
-                QuestionId = new Guid("ABEA480B-64C2-48E9-9027-23C7772D4B6A"),
-                Content = "그려지다",
-                IsCorrect = true,
             },
             new()
             {
@@ -60236,13 +55511,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("2CCFFC90-7698-4CD6-9268-C2F8F5E9A096"),
-                QuestionId = new Guid("A527DEC3-B241-4A5E-9663-E0BEAFCC6220"),
-                Content = "nhóm",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("CFD55BC2-C07F-4733-BA1E-F28AF9893CE6"),
                 QuestionId = new Guid("52C17B8A-9B04-4FBA-9ED0-1C14FA41F929"),
                 Content = "Danh từ",
@@ -60324,13 +55592,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("ED4559E5-7772-452B-ADC0-FDAB212250C4"),
                 Content = "극히",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("97359E8D-E355-4CFC-B283-EAD660020FF0"),
-                QuestionId = new Guid("B05453E8-2DF7-41ED-B4A5-57DB66614934"),
-                Content = "chỗ đó, hướng đó",
-                IsCorrect = true,
             },
             new()
             {
@@ -60418,13 +55679,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("C99C8CF3-A8DB-40CD-93DE-3164B2C92D4E"),
-                QuestionId = new Guid("F9082353-77AB-4AE5-A812-DEB17A1E1257"),
-                Content = "sự nhớ nhung",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("7065D969-B5C6-45BF-8CD5-7669EFB95D4F"),
                 QuestionId = new Guid("141801E7-A6AF-41C1-85D9-3B1DCBA426C8"),
                 Content = "Động từ",
@@ -60505,13 +55759,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("AAFB1BA1-A0EE-4470-8F11-42565C981045"),
                 QuestionId = new Guid("0992D80A-507B-4A5D-B032-9A334819FC03"),
                 Content = "그림자",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("7AD853D9-716D-4F9D-8569-30FAC639738D"),
-                QuestionId = new Guid("CCD4B86D-A406-4AB2-B49E-568DFBA69022"),
-                Content = "bóng",
                 IsCorrect = true,
             },
             new()
@@ -60600,13 +55847,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("8A209DCE-1379-43E6-A386-1CD8C32B4831"),
-                QuestionId = new Guid("05D60D51-70BD-4515-B5B2-5CDDA6FC2C53"),
-                Content = "truyện tranh, sách tranh",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("C9AACA80-E4BD-4A0E-8AE3-77D92E88D77E"),
                 QuestionId = new Guid("B9366DEB-0607-4A10-89BC-9EBDF01E4ACF"),
                 Content = "Phó từ",
@@ -60688,13 +55928,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("08450823-688A-45BF-9289-444D10CE9630"),
                 Content = "고무",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("F212E11C-9CD8-41C1-9997-82B88A3AF2A1"),
-                QuestionId = new Guid("3AD886BB-EF0E-4EB6-AAC1-0093FCCCAB0B"),
-                Content = "chừng đó, mức đó",
-                IsCorrect = true,
             },
             new()
             {
@@ -60782,13 +56015,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("EEE7D4AC-157B-45E2-9AD1-531F89D7A402"),
-                QuestionId = new Guid("0817FDAD-334A-41EA-B85E-64F3288DCBDE"),
-                Content = "ngừng, thôi",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("0A43A355-2A17-4D3E-BAB8-58EB60F99C9A"),
                 QuestionId = new Guid("161C8EB4-A1AF-4CDE-A29C-31E609CBFB6D"),
                 Content = "Tính từ",
@@ -60870,13 +56096,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("1EEA047F-FCB8-49DA-B721-DE054E2845E3"),
                 Content = "거듭",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("FFC68038-70CF-46F4-9AE9-C29A9753FF4B"),
-                QuestionId = new Guid("68FDDFDC-9245-4E11-B63B-0E4B07EAA3B7"),
-                Content = "quả thực, đúng là, chính là",
-                IsCorrect = true,
             },
             new()
             {
@@ -60964,13 +56183,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("5DF88BB6-6B3F-45DD-997E-076DAFA4346B"),
-                QuestionId = new Guid("40525BDE-C6E4-4BA3-8568-4C0A45513FC1"),
-                Content = "suốt, liên tục, không ngừng",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("2D862A49-B9AD-42FC-8F6A-4080494588D7"),
                 QuestionId = new Guid("8A241E9E-12AC-4FDE-9062-46C11AEB3649"),
                 Content = "Danh từ",
@@ -61052,13 +56264,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("578E1A32-8583-4E1E-968A-4068CD925F31"),
                 Content = "경우",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("643C028F-C95E-489E-8954-2FCE92EF6A36"),
-                QuestionId = new Guid("BBC55DB4-80B6-4CE9-BF50-ADF4D6298D29"),
-                Content = "ngày hôm kia",
-                IsCorrect = true,
             },
             new()
             {
@@ -61146,13 +56351,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("2F1E8AF4-A0F8-4DA5-B954-50CEE60F0474"),
-                QuestionId = new Guid("E6BEEF86-97C4-4C47-BA70-4460E74F1C70"),
-                Content = "phải đến khi ấy, phải đến lúc ấy",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("CDBA9349-FE61-4B5B-A4D6-F13793645F9C"),
                 QuestionId = new Guid("7D486BBB-BC2F-4204-BFD7-F16FFDB09656"),
                 Content = "Phó từ",
@@ -61234,13 +56432,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("F0DC09BE-6D9D-4755-9692-8805372C72F4"),
                 Content = "그만큼",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("486ABDFE-1870-4FF9-9DE8-238EFD43BE2D"),
-                QuestionId = new Guid("DF233029-16ED-4116-AF23-B84BC9B4B012"),
-                Content = "trong đó, trong số đó",
-                IsCorrect = true,
             },
             new()
             {
@@ -61328,13 +56519,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("EECDF8DE-386B-4D9B-A9CE-65EFFED5E69E"),
-                QuestionId = new Guid("EF843592-F0A7-4469-96CA-135082CE3798"),
-                Content = "đến đó, đến thế",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("2218AC0B-0364-4B0B-97FA-FEBDED91BBF3"),
                 QuestionId = new Guid("CB77A901-B364-4030-9D75-D028B52A182C"),
                 Content = "Danh từ",
@@ -61416,13 +56600,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("CEA7D18D-9659-4165-998C-1661CD156912"),
                 Content = "구분",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("FE8C8D3D-5833-4A9C-84DB-8008AE09F2C3"),
-                QuestionId = new Guid("957D4A5A-B49C-4E9E-88C6-CA765B50080A"),
-                Content = "năm đó, năm ấy",
-                IsCorrect = true,
             },
             new()
             {
@@ -61510,13 +56687,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("2CCDB46E-4AB5-4B73-9610-CE4405730DA4"),
-                QuestionId = new Guid("3BE66E19-5000-4AD8-AA06-1A36334876A7"),
-                Content = "sự khắc phục",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("07139344-C32A-410B-8D55-72C6D42160C8"),
                 QuestionId = new Guid("313E2EE6-59E9-4206-914B-95C4E6F4ACA7"),
                 Content = "Phó từ",
@@ -61598,13 +56768,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("E0C0072B-36CB-4ABE-9378-D9C27B4A6E48"),
                 Content = "그런대로",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("6F3996FA-00C3-4A57-B3A8-4D44D11746E4"),
-                QuestionId = new Guid("77C47D2C-9E43-4593-A58B-89AD6C3CB523"),
-                Content = "cực kì",
-                IsCorrect = true,
             },
             new()
             {
@@ -61692,13 +56855,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("CE8BEEE8-CA98-4934-BFCB-1C2A4ADEA384"),
-                QuestionId = new Guid("84B44E73-9E9E-43E7-894D-A577C9805D5B"),
-                Content = "cơ sở, căn cứ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("ED4ED447-EBD0-4CDE-A2E1-D276741BC636"),
                 QuestionId = new Guid("C8EB1177-F358-4604-8DAF-9C227F8B985F"),
                 Content = "Tính từ",
@@ -61779,13 +56935,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("98F7457F-E98B-43F8-9A26-A6E2DB71B890"),
                 QuestionId = new Guid("742D043C-FEAD-46FD-ACAF-A8959D3C6186"),
                 Content = "근교",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("D9379EFC-BB46-43D5-B047-2B4C7D508906"),
-                QuestionId = new Guid("7C27B720-E641-4743-96CE-4C515B6F1360"),
-                Content = "vùng ngoại ô, ngoại thành",
                 IsCorrect = true,
             },
             new()
@@ -61874,13 +57023,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("17857877-B480-45A2-954D-9B6CE85F9720"),
-                QuestionId = new Guid("66F1CC95-2C3A-4A34-802C-C7BF5FCAC51A"),
-                Content = "thời cận đại, thời đại gần đây",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("666141C0-86A6-482F-BDD7-72FA68841E6A"),
                 QuestionId = new Guid("81ED4134-1B45-4D7E-B633-30EB013372AA"),
                 Content = "Tính từ",
@@ -61962,13 +57104,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("E4E2293A-4022-4C7C-981C-95A9139EB2F5"),
                 Content = "그야말로",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("7EB59FB5-92E0-40A3-8B9D-F4242CC45522"),
-                QuestionId = new Guid("5D962E68-E908-4692-9288-02E953CB7750"),
-                Content = "thế nhưng",
-                IsCorrect = true,
             },
             new()
             {
@@ -62056,13 +57191,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("25704FDE-C876-4A11-8323-A48CA09FD550"),
-                QuestionId = new Guid("FB8F7102-63DF-46EE-9F80-78B3DC29645C"),
-                Content = "gần đây, vừa rồi",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("4026C690-4CAA-4E16-AAB4-1D8CD0D306A1"),
                 QuestionId = new Guid("0BB3DDA5-438B-4406-BB07-663BC70B057F"),
                 Content = "Tính từ",
@@ -62147,13 +57275,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("8A4314E5-F3FC-4558-9E22-E52BF688C06B"),
-                QuestionId = new Guid("CA27605C-FC20-4F62-9A66-9499687FC371"),
-                Content = "người lao động",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("FB7B871C-54E6-488D-A586-920C7B20E7BF"),
                 QuestionId = new Guid("66A53AF9-D058-4B1E-8669-123FD7F33EB1"),
                 Content = "Động từ",
@@ -62234,13 +57355,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("AB62FC19-5828-4E94-AB3B-1624C7AC746B"),
                 QuestionId = new Guid("33FC7A33-4163-42B0-B715-EC922BB22EB2"),
                 Content = "근무",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("753AE80D-3C7D-4DCF-8659-642FD81F75F3"),
-                QuestionId = new Guid("9036E050-7E1B-4138-83B7-0C4185CE2C05"),
-                Content = "sự làm việc, công việc",
                 IsCorrect = true,
             },
             new()
@@ -62329,13 +57443,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("F17CC9B2-AF97-40AF-8FDC-C92A7A13D248"),
-                QuestionId = new Guid("B949ABD1-CCD0-4B11-BE03-0E5BAC778A0A"),
-                Content = "làm việc",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("50FBF0AD-5E30-493D-A377-60C955E9E502"),
                 QuestionId = new Guid("F8CE9876-FBF6-469E-8808-2B11A8B980DF"),
                 Content = "Phó từ",
@@ -62417,13 +57524,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("B458B258-3EFF-4267-8978-3459CB72BFC1"),
                 Content = "가치",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("791A1972-4294-4D21-AA2B-852F6EC9AD1F"),
-                QuestionId = new Guid("74E85013-5BCD-4977-912E-9BE41FB49DDE"),
-                Content = "sự căn bản, nền móng, cơ sở",
-                IsCorrect = true,
             },
             new()
             {
@@ -62511,13 +57611,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("046694E2-C9D0-4BD0-96C5-D96626FC3E74"),
-                QuestionId = new Guid("88C7F68F-86A6-4E84-8B43-5E4FBFD33486"),
-                Content = "tính căn bản, tính cơ bản",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("D033654C-E131-444D-BC29-553B82B5F76B"),
                 QuestionId = new Guid("3744701E-E135-407F-8911-09DFB12CB19B"),
                 Content = "công khai",
@@ -62571,13 +57664,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("297DAB06-EC91-4BDC-A916-1180D419947D"),
                 Content = "경향",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("D436E818-8E47-4C36-A126-5D016B08BB1E"),
-                QuestionId = new Guid("6916785A-F514-4E21-B5AA-5740AA8A1690"),
-                Content = "sự lo ngại, sự quan ngại, sự lo sợ",
-                IsCorrect = true,
             },
             new()
             {
@@ -62665,13 +57751,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("8DDDEBAF-1219-4264-A3EF-57F81F4794B4"),
-                QuestionId = new Guid("865C3ECD-8E70-4223-B28E-149B89E1C2CF"),
-                Content = "cơ bắp",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("B97B8046-8D4C-4FFA-AD37-F21C17A492FA"),
                 QuestionId = new Guid("684DB008-3C0F-4391-B4E8-2927E9DFF405"),
                 Content = "Phó từ",
@@ -62752,13 +57831,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("13F2EA71-8C57-4EA3-844B-FA2A8E07C486"),
                 QuestionId = new Guid("A3899D50-6259-4FD1-966D-E491EF3F6402"),
                 Content = "글쓰기",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("FE9930A5-C06F-4B9D-8063-ED9C10C7C7B3"),
-                QuestionId = new Guid("E6C2F0EC-AC8E-407C-A38B-491E35A8B28F"),
-                Content = "sự viết văn, việc viết văn",
                 IsCorrect = true,
             },
             new()
@@ -62847,13 +57919,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("15708FEE-90F7-4357-9394-851626A0C103"),
-                QuestionId = new Guid("394313F2-578F-4A27-AA6F-8944C8713A95"),
-                Content = "gãi, cạy",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("3D25C7A4-653C-4B28-8793-D39B086842AA"),
                 QuestionId = new Guid("3B6F949A-D256-4477-BCA4-8B3B958D9F00"),
                 Content = "Phó từ",
@@ -62935,13 +58000,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("98F69500-1600-4C88-A09A-03E9D7268735"),
                 Content = "곡식",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("5C9FCFA7-CF59-43F2-8366-ACAE866BF9AF"),
-                QuestionId = new Guid("E02AA5D8-13DD-4BFB-9DB5-23921BD521A3"),
-                Content = "vết rạn, vết nứt, vết nhăn",
-                IsCorrect = true,
             },
             new()
             {
@@ -63029,13 +58087,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("6A3F7732-3EA0-461B-8F90-65141B468B24"),
-                QuestionId = new Guid("8D95A247-1689-4E84-B7D0-5AC124AA3903"),
-                Content = "năm nay",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("E9DA894F-76AD-480F-910D-C1B4BB187940"),
                 QuestionId = new Guid("EFCADD93-D711-4934-9958-24D7AA5569D3"),
                 Content = "Danh từ",
@@ -63116,13 +58167,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("C69B214A-9A4F-44C3-93AE-1AC4E416455B"),
                 QuestionId = new Guid("9112247A-2E5D-4890-B6C6-9364D6783700"),
                 Content = "금액",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("7CD3CE95-367A-4FA6-95E5-CFBC8E419DC8"),
-                QuestionId = new Guid("09388A78-12BF-4746-94EC-0C9E48353573"),
-                Content = "số tiền",
                 IsCorrect = true,
             },
             new()
@@ -63211,13 +58255,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("A47A3436-56D2-46FB-B3BB-5C4DE08436AF"),
-                QuestionId = new Guid("AC8EA7F6-2952-49A2-A018-A13CBAB0E667"),
-                Content = "sự cấm hút thuốc",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("6EFEDE37-26C8-476C-BB1D-298E36BC3D6D"),
                 QuestionId = new Guid("68E5F1D4-A86D-48C0-AD40-7D70F5A627FD"),
                 Content = "Tính từ",
@@ -63299,13 +58336,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("8CF68B9A-712F-4619-A90A-0E984967F231"),
                 Content = "규칙",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("A82DF713-EE6D-4C07-A7C6-157A1F3C350A"),
-                QuestionId = new Guid("5BBC3481-09D6-435E-A6AA-0C1E50DC3B39"),
-                Content = "tài chính tiền tệ",
-                IsCorrect = true,
             },
             new()
             {
@@ -63393,13 +58423,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("17C0ADC0-14B5-4574-A409-6286461669BA"),
-                QuestionId = new Guid("48F7AD0E-8ECB-4E8F-91C1-D048202BCD61"),
-                Content = "cấm chỉ, cấm",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("299E5819-43FE-4956-8DBC-8C1322B811E2"),
                 QuestionId = new Guid("F1C43C4E-0875-42CB-B910-33CC29E66F6D"),
                 Content = "Danh từ",
@@ -63480,13 +58503,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("0922B69B-5E9D-4F41-BB75-D423D1921910"),
                 QuestionId = new Guid("02B14297-24C5-4F6B-AD56-64F21990FF80"),
                 Content = "금하다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("DF2F8766-E366-4358-9773-C62E6311D3EB"),
-                QuestionId = new Guid("F7C14384-4B46-41D7-9182-48378821D177"),
-                Content = "cấm, cấm đoán",
                 IsCorrect = true,
             },
             new()
@@ -63575,13 +58591,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("12B6E46E-2F62-4539-B56C-84A2C842FE7D"),
-                QuestionId = new Guid("24C50AE3-E702-47B6-981C-A61A104F07F1"),
-                Content = "một cách đột ngột, một cách chóng vánh",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("78E242BF-B4B5-413C-B59B-50096C601080"),
                 QuestionId = new Guid("27D239A0-A0AA-41F0-8866-7D74A9F7B6C3"),
                 Content = "Động từ",
@@ -63662,13 +58671,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("0700E3E6-63CF-4424-9C4A-E497FDCE2662"),
                 QuestionId = new Guid("4E7F8E72-80E5-4A34-A251-D872CC612B41"),
                 Content = "급속히",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("C5677CE3-EA5A-4523-AF80-BC85F416F2EC"),
-                QuestionId = new Guid("9B9C07DB-60A5-4C58-9012-B6A452559B8B"),
-                Content = "một cách cấp tốc, một cách gấp gáp",
                 IsCorrect = true,
             },
             new()
@@ -63757,13 +58759,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("61739D8A-584C-4AE3-8EE0-02F755BE6565"),
-                QuestionId = new Guid("AAF88BC9-8665-452E-A428-6A090C352DB5"),
-                Content = "sự tăng đột ngột",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("50A768DF-A95B-43CC-A151-74F2A8211FF9"),
                 QuestionId = new Guid("0958AE6B-3189-4A2E-A14E-DB258A6157F8"),
                 Content = "Động từ",
@@ -63844,13 +58839,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("4FB0D485-1998-4310-892F-9EE59E35F240"),
                 QuestionId = new Guid("6E221707-0A19-4467-81ED-80A2A5E44521"),
                 Content = "급히",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("FD781B2C-3301-49DA-90F1-E85BF75C82F9"),
-                QuestionId = new Guid("A28388BF-2DE6-4C15-AF59-1092369C0DE8"),
-                Content = "một cách gấp gáp, một cách vội vàng",
                 IsCorrect = true,
             },
             new()
@@ -63939,13 +58927,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("F6B94355-5D4F-4567-8A6E-766324911835"),
-                QuestionId = new Guid("56CD7111-E8E4-42C1-A493-71BC03AED623"),
-                Content = "vạch, gạch",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("41E39AFF-F258-4E3D-8E2F-6F6409F2FAF4"),
                 QuestionId = new Guid("3B8826C9-D5C4-4E10-B0CC-D2C9A0B3F098"),
                 Content = "Phó từ",
@@ -64030,13 +59011,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("AF71F249-3E21-4036-B4B4-A0E05C04CF84"),
-                QuestionId = new Guid("46181AD7-C431-481E-B560-0E57BF899064"),
-                Content = "sự khẳng định",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("AFDC59E9-6A74-43EF-969E-C488A3262521"),
                 QuestionId = new Guid("DE8FD9F0-7420-46D0-9F72-D9DA096E5A3F"),
                 Content = "lối qua đường",
@@ -64090,13 +59064,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("64FACD86-8800-4B14-8E6E-B68501301994"),
                 Content = "껌",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("3AF819C7-46F4-4B99-B382-7AE77A92BBDB"),
-                QuestionId = new Guid("9B4BC465-B248-402F-A149-23CC0C209AAB"),
-                Content = "máy",
-                IsCorrect = true,
             },
             new()
             {
@@ -64184,13 +59151,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("151B02BB-B5A1-4933-A8D2-1C2684582AD7"),
-                QuestionId = new Guid("56D6AFED-A00C-4452-A38B-1DB818A6188C"),
-                Content = "khí quản",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("692E64C4-E621-46A6-B66A-85FD4A71D371"),
                 QuestionId = new Guid("655DE1E5-E856-40C9-B553-A07ED9502726"),
                 Content = "Danh từ",
@@ -64272,13 +59232,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("0A73A9C5-F559-4EDB-A183-13C9ACD39F0F"),
                 Content = "공휴일",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("1468BAC0-501F-4F8F-9D8C-61F2D73708C2"),
-                QuestionId = new Guid("CC11877E-B9B9-4BB8-9C43-DC2BDAE45AD6"),
-                Content = "dụng cụ, đồ dùng",
-                IsCorrect = true,
             },
             new()
             {
@@ -64366,13 +59319,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("61E20FBC-5D56-4119-B3F4-656B8DE558B2"),
-                QuestionId = new Guid("0E941E36-B9E1-4205-A881-FBC194F315FC"),
-                Content = "sự kỷ niệm",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("04B932CD-CDB6-4718-BF2A-E1B7E9B51001"),
                 QuestionId = new Guid("F46FBF90-F947-4E42-89A0-83F40D521E40"),
                 Content = "Danh từ",
@@ -64454,13 +59400,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("A0242D0E-822D-4978-AB20-1F69525DA320"),
                 Content = "교복",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("1741959A-EFD6-4279-900A-860F7E3F1AF8"),
-                QuestionId = new Guid("ADDE0605-D1D9-43B1-A2AF-18ADC1EAE30A"),
-                Content = "ngày kỷ niệm",
-                IsCorrect = true,
             },
             new()
             {
@@ -64548,13 +59487,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("D44DA210-AC4E-4A62-A37D-07C5830FAF19"),
-                QuestionId = new Guid("048DFDDE-5204-4F76-B88A-9FD4582CC494"),
-                Content = "đồ lưu niệm, hàng lưu niệm",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("A0A14BE8-4561-4C9E-B2EF-A3E7DC2424C9"),
                 QuestionId = new Guid("DD39FBB0-7222-4996-95E0-65FF503DB646"),
                 Content = "Danh từ",
@@ -64636,13 +59568,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("3E9D918E-C70A-4A10-B734-7901D9678D18"),
                 Content = "귓속",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("3FAE210E-B89E-47B2-931A-CEFAE99D50DE"),
-                QuestionId = new Guid("D00F7ED3-2744-4CD4-B4E2-84DEC37F9CA9"),
-                Content = "kỹ năng",
-                IsCorrect = true,
             },
             new()
             {
@@ -64730,13 +59655,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("82EDFCD1-9A64-4F61-9D23-E6F4A435F013"),
-                QuestionId = new Guid("A625221C-859C-4457-BE06-FE47E8D6564E"),
-                Content = "trườn, bò, lê",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("3B334722-6B4A-496F-8916-5261CC30F85A"),
                 QuestionId = new Guid("6022A39A-AB6A-44FF-84D9-157C2CA8E734"),
                 Content = "Động từ",
@@ -64818,13 +59736,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("66312CB7-9E0F-4204-8093-568D09AAF7E3"),
                 Content = "구월",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("9D9B30C8-9735-4E76-80C9-2310E79AA540"),
-                QuestionId = new Guid("44822C78-BD16-4286-8D29-CE51FB26F3F5"),
-                Content = "sự mong đợi",
-                IsCorrect = true,
             },
             new()
             {
@@ -64912,13 +59823,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("D9D48D7A-6D6D-4BF8-9155-D9DA1CE2DCAE"),
-                QuestionId = new Guid("2239140A-DFF0-4F5F-A595-88E074B88D08"),
-                Content = "dựa, chống",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("F943FEDA-EEAC-46D8-B1A8-7DA2810BC991"),
                 QuestionId = new Guid("8BA66F59-929B-4A38-8530-56990210BF9E"),
                 Content = "Tính từ",
@@ -65000,13 +59904,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("1051F470-0DB8-4358-8D98-F18678628697"),
                 Content = "가지다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("B1E43763-3C77-4B2E-A4C7-C5C336306A1B"),
-                QuestionId = new Guid("FC78AF07-2E89-48CF-837A-FB8B8E3CCEE8"),
-                Content = "mong đợi",
-                IsCorrect = true,
             },
             new()
             {
@@ -65094,13 +59991,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("5958DCE7-12A7-46AB-83FE-5F039E9F1F7A"),
-                QuestionId = new Guid("76589A50-4C48-4E1F-86FF-84774EF29B8D"),
-                Content = "sự thử, sự cố gắng",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("A5DBC992-2401-40EB-B95D-77F584C5D933"),
                 QuestionId = new Guid("7BA74604-4695-4493-9944-67E9846D9217"),
                 Content = "Danh từ",
@@ -65182,13 +60072,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("7DE1681D-FADF-4FB7-BB09-DF2B2EDE7512"),
                 Content = "고모",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("EE522ACD-5121-43EC-90ED-DF130D54AD35"),
-                QuestionId = new Guid("0B0C29C5-7833-4253-97B8-BA325A3A1F98"),
-                Content = "Cơ Đốc giáo",
-                IsCorrect = true,
             },
             new()
             {
@@ -65276,13 +60159,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("737FD9D1-6632-45FD-B36E-06312DD08E4E"),
-                QuestionId = new Guid("9E319574-4DE8-4598-9A4D-E664F39AA6EB"),
-                Content = "cột, trụ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("BA790B1A-6D5F-44E5-9FDF-713B65D75024"),
                 QuestionId = new Guid("96AF3DE7-DA85-4B1F-993B-124B17DF534F"),
                 Content = "Phó từ",
@@ -65363,13 +60239,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("D68BC8EF-1D6B-4491-95D6-491D263466BE"),
                 QuestionId = new Guid("B988292E-B4C7-4D57-B63F-E9F7EF9E4A4E"),
                 Content = "기록",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("C98E6A18-8154-4C29-9164-6D9A3AE03C25"),
-                QuestionId = new Guid("640181DD-1D9D-4B21-89B6-EB2BFCFB7913"),
-                Content = "sự ghi chép, sự ghi hình, bản ghi chép, tài liệu lưu",
                 IsCorrect = true,
             },
             new()
@@ -65458,13 +60327,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("D89694E1-6841-41BD-835C-C705B5E892A0"),
-                QuestionId = new Guid("742F7182-9E5A-46BC-9599-ADFDF40339D0"),
-                Content = "ghi chép lại",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("C8069C17-DF8D-4CE4-99DD-EFE68602F31C"),
                 QuestionId = new Guid("20D3D079-07D8-4013-A9DE-062062679D53"),
                 Content = "Phó từ",
@@ -65549,13 +60411,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("A94AD51F-A3B4-4C29-AA0D-4A2BDB4072A6"),
-                QuestionId = new Guid("C776FD15-679F-4DC5-8BA9-66DEDE8BBF75"),
-                Content = "điều cơ bản",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("7CDB4943-BAE0-44D7-9246-3AC1607D46B2"),
                 QuestionId = new Guid("EDEB4777-A74E-4896-A2CA-CA42660936A7"),
                 Content = "Phó từ",
@@ -65636,13 +60491,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("9B00FE55-4FB4-4E70-8C73-530B1CCD05BC"),
                 QuestionId = new Guid("98522C1B-6037-40A4-963F-60C8D6B615FC"),
                 Content = "기본",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("89C8A670-2F54-4302-8836-4164DC379D02"),
-                QuestionId = new Guid("145F06AD-3D05-4176-A589-A5926DDC17B2"),
-                Content = "cái gốc, cái cơ bản",
                 IsCorrect = true,
             },
             new()
@@ -65731,13 +60579,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("8904F69D-727F-48C3-BE31-8BBB49B8BA29"),
-                QuestionId = new Guid("26F284CC-B70A-49F8-9549-4329504F4B11"),
-                Content = "tính căn bản, tính cơ sở",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("5B7BEC85-49FE-4474-9738-C2C9665EB072"),
                 QuestionId = new Guid("72CA4A88-8DEA-4676-8FDF-8F33664BF642"),
                 Content = "vui mừng",
@@ -65791,13 +60632,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("8EEEB6B9-B4FC-4E29-9272-C65DD0343C1E"),
                 Content = "곁",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("8CC1F00B-5528-4C03-AEE8-2A2BB515F6DB"),
-                QuestionId = new Guid("C5520D67-13A0-43E8-9B58-E3C2A1879D34"),
-                Content = "sự cho tặng, sự hiến tặng",
-                IsCorrect = true,
             },
             new()
             {
@@ -65885,13 +60719,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("722C10B9-B686-472D-ABB8-8D84A4235A4D"),
-                QuestionId = new Guid("AA336E0D-14DD-4F80-9EC3-94317E4B18EB"),
-                Content = "người lái xe, người lái máy, người điều khiển máy chuyên nghiệp",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("A7B83EA2-464A-48E3-8EE5-4878210E9A79"),
                 QuestionId = new Guid("130E025E-2DF2-4EF1-912B-06C803BC5D8C"),
                 Content = "Phó từ",
@@ -65973,13 +60800,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("1E7D3678-76A7-4B01-BEAA-67CCF8F784B7"),
                 Content = "감기약",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("FE5F214A-D272-4594-8160-AB0D474BD750"),
-                QuestionId = new Guid("525AC497-E163-4D96-9351-5579401D8356"),
-                Content = "kỹ thuật",
-                IsCorrect = true,
             },
             new()
             {
@@ -66067,13 +60887,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("DEEB07A7-B7E8-4456-84A7-7F700D9B9DCC"),
-                QuestionId = new Guid("1BEC6117-5D88-437F-8B18-2F1264B79458"),
-                Content = "kỹ sư, kỹ thuật viên",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("EC49FB2C-D0A1-4F5E-877B-C4EF7E9E0F66"),
                 QuestionId = new Guid("EA206A81-3D27-41F6-96FF-DF12E48CE688"),
                 Content = "Động từ",
@@ -66158,13 +60971,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("0385BE31-D02C-4A14-AB79-C1D3DF2A207D"),
-                QuestionId = new Guid("33533773-0E20-49F9-A099-B8D258AEA906"),
-                Content = "khả năng ghi nhớ, trí nhớ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("FFD2ADF2-6501-41FA-8875-F01AF1605BD4"),
                 QuestionId = new Guid("1D3F57C2-F24D-4AFB-9F38-3A86B382E25D"),
                 Content = "Phó từ",
@@ -66245,13 +61051,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("6D0D1B75-AF16-49E0-BD00-A6FAF95530FE"),
                 QuestionId = new Guid("A914D448-A19A-429E-86DD-FDE65ABE21AA"),
                 Content = "기억하다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("CC0BB982-D50B-4DE4-B314-36FC456E9CB5"),
-                QuestionId = new Guid("4BB9653F-9D7F-4140-8BFC-FB43D6668CE6"),
-                Content = "nhớ, nhớ lại, ghi nhớ",
                 IsCorrect = true,
             },
             new()
@@ -66340,13 +61139,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("26FF37C1-8A0E-4234-8F7A-1A4A7CDAF623"),
-                QuestionId = new Guid("5B95BDD5-7AC8-4BA9-9444-9726E007E44C"),
-                Content = "doanh nghiệp",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("6F38FDEB-D696-4F9C-BB96-188302C1157B"),
                 QuestionId = new Guid("A783BED5-3B6C-46C4-A40F-72E93F2A7642"),
                 Content = "Động từ",
@@ -66428,13 +61220,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("1BCCA542-DD3E-4284-B200-2FFE60E1B3D0"),
                 Content = "과장",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("44B0C599-E2E2-46D0-9A21-D515E92EA73E"),
-                QuestionId = new Guid("0619899F-18DD-4F11-8478-A70C1F3DA5F3"),
-                Content = "nhà doanh nghiệp",
-                IsCorrect = true,
             },
             new()
             {
@@ -66522,13 +61307,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("6C7DF8DD-FB51-4EBA-8031-64DE12CB5B55"),
-                QuestionId = new Guid("E3C89D99-762B-4126-9FA0-90DB6CCEEBFB"),
-                Content = "sự đóng góp, sự góp phần",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("137869D8-3DFF-4435-8333-FE219BC84FAF"),
                 QuestionId = new Guid("445A2E91-C943-4DD5-A655-175D094F112B"),
                 Content = "Tính từ",
@@ -66613,13 +61391,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("BE00CAA4-B885-4D7F-8C47-DF74176B4346"),
-                QuestionId = new Guid("F0B34DE8-6B91-4AAB-854D-A8BFD84AA133"),
-                Content = "khí lực, khí thế, sức lực",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("8A3ECAE0-620A-4749-BC5E-249827FFDCC5"),
                 QuestionId = new Guid("8C819077-EFC6-4BF4-A8C9-5F6E0D1EF6F1"),
                 Content = "Động từ",
@@ -66700,13 +61471,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("DAF71B03-5762-4609-9765-CC8C9F0E3B19"),
                 QuestionId = new Guid("C61F61EF-A7E2-4D88-993C-5EBF211696A5"),
                 Content = "기울다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("B3BA6DB5-273B-45F1-9AA3-B4846B2986D7"),
-                QuestionId = new Guid("C4962BD3-FB79-4564-9824-A11128685063"),
-                Content = "nghiêng, dốc",
                 IsCorrect = true,
             },
             new()
@@ -66795,13 +61559,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("3A1F2AFB-8AFE-44E2-BD3E-2BC2A71C17A0"),
-                QuestionId = new Guid("8D5A3B89-726C-418A-AA93-C5D86BC91C22"),
-                Content = "làm nghiêng, làm xiên, làm dốc",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("97F29FD8-3FBF-49E1-87A3-9C5171396AE2"),
                 QuestionId = new Guid("A68F6AE9-9C54-42FD-8F04-8CF2F371EFA6"),
                 Content = "Động từ",
@@ -66886,13 +61643,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("EACE3983-1AB9-4209-9FB7-2C7786B67E6E"),
-                QuestionId = new Guid("76B3B8CC-454E-4DE3-B42B-B6AD6425E567"),
-                Content = "sự cầu mong, sự mong ước",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("C2B4062C-85F6-4E0C-8409-0A58C80778C8"),
                 QuestionId = new Guid("8FCEC13B-5154-4271-B3EE-7F03F4DF10F9"),
                 Content = "Động từ",
@@ -66973,13 +61723,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("71E86B30-FFAA-42C4-B482-A3EA3D81E8B3"),
                 QuestionId = new Guid("E4246B05-39D2-486A-94D8-89C19AD305D6"),
                 Content = "기적",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("F38136E3-FC75-4F0D-93E9-2C976083A391"),
-                QuestionId = new Guid("7C669800-9A1B-4D9E-ADD0-D89A47181206"),
-                Content = "kỳ tích, phép màu",
                 IsCorrect = true,
             },
             new()
@@ -67068,13 +61811,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("B1744C71-A15B-433F-BD87-1162C3CC6496"),
-                QuestionId = new Guid("BB721426-FF65-4F9D-A0A4-F8C8DA739B0C"),
-                Content = "vốn có, sẵn có",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("F84F412F-CFE0-4920-B934-305290926DB1"),
                 QuestionId = new Guid("2C8DEC5E-2C1C-4934-A5A3-300F6214DBD7"),
                 Content = "Danh từ",
@@ -67156,13 +61892,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("ABC21EB1-7706-42C9-A5E2-E1E088F7FC6E"),
                 Content = "골",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("622DC11D-4D58-4BA6-A25E-51FFBD23F07E"),
-                QuestionId = new Guid("586D8CF6-A0AD-40C3-8614-5CE73C6E8901"),
-                Content = "tiêu chuẩn",
-                IsCorrect = true,
             },
             new()
             {
@@ -67250,13 +61979,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("596AFED4-B31B-4013-AF18-BEF88E7A36AA"),
-                QuestionId = new Guid("13BD71B0-A788-4905-A12F-DDF6B6729EE3"),
-                Content = "sự vươn vai đứng thẳng dậy",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("3203F856-0393-418C-8922-D0CDE43B0F82"),
                 QuestionId = new Guid("A5432BF7-94B3-4DDC-8A6A-6C48AEE84279"),
                 Content = "Danh từ",
@@ -67337,13 +62059,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("7CBB1973-B81E-4B9F-B909-D519E3701FF3"),
                 QuestionId = new Guid("C3780867-2BA5-45A1-92EC-C5A897B23A5B"),
                 Content = "기초",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("E558ED35-BDD7-4F47-ADCD-DA7F4D249A40"),
-                QuestionId = new Guid("795DDB7E-5EC9-413B-8F2C-06F08287D677"),
-                Content = "cơ sở, nền tảng ban đầu",
                 IsCorrect = true,
             },
             new()
@@ -67432,13 +62147,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("90708A18-B4A8-4E16-BF4C-7BA29C400B58"),
-                QuestionId = new Guid("1197F474-8B2F-4C0D-8593-1717932394DB"),
-                Content = "sự có gia đình",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("1C72FC69-05F9-4ECD-BAC5-6CDBD9FA2BAA"),
                 QuestionId = new Guid("ACC980A1-95E3-42EC-8B47-C22FBF311170"),
                 Content = "Động từ",
@@ -67520,13 +62228,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("F7E8B41B-D4F7-4BE6-AD4B-B2A1EA4029C2"),
                 Content = "고양이",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("8C769732-76D9-41EA-966C-824CAB85050A"),
-                QuestionId = new Guid("AC0BAEC7-37CF-4678-8DAD-5EFB66DFA84F"),
-                Content = "kế hoạch, dự án, đề án",
-                IsCorrect = true,
             },
             new()
             {
@@ -67614,13 +62315,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("250CD473-D24F-4931-A7F6-E28431015901"),
-                QuestionId = new Guid("25F34EB3-3455-4D92-81E0-FA988E893CFB"),
-                Content = "thời tiết",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("045AD638-E35E-4F59-B121-4712F57C146B"),
                 QuestionId = new Guid("AF01F8D8-887C-43AD-868C-960D2B992EF6"),
                 Content = "Động từ",
@@ -67702,13 +62396,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("9BB5D861-4297-479B-A8BB-F201CF2344C2"),
                 Content = "근거",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("EB384D24-3862-4C06-8542-8A121E03FBDB"),
-                QuestionId = new Guid("C1A6D8B1-7F92-4264-9DE5-FE86E4975627"),
-                Content = "sự khẩn cấp, sự cần kíp, sự cấp bách",
-                IsCorrect = true,
             },
             new()
             {
@@ -67796,13 +62483,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("1F5581A2-E7A2-4015-B6BB-7DB9F822F362"),
-                QuestionId = new Guid("5478D96D-8F65-4B20-B795-B937706B03A0"),
-                Content = "căng thẳng",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("1EF73F01-3AC4-4C0F-B175-031C93A9147C"),
                 QuestionId = new Guid("10322054-2220-427A-962B-3511B97126B6"),
                 Content = "Phó từ",
@@ -67884,13 +62564,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("8B830A9A-2FC8-44F5-A0EA-DF7069241202"),
                 Content = "거실",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("86A8CDC8-7BC3-4284-BF38-7D0E5BA6E012"),
-                QuestionId = new Guid("63274AD2-C50F-4C78-816F-215AE71885E4"),
-                Content = "tai dài, áo tay dài",
-                IsCorrect = true,
             },
             new()
             {
@@ -67978,13 +62651,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("FF831D87-B0C5-4135-B82F-D6123635B4CC"),
-                QuestionId = new Guid("8DF93561-1523-494C-995A-D9DED40B56A2"),
-                Content = "lề đường, vệ đường, bên đường",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("F8E2A837-332E-4785-BFCA-3450555AD437"),
                 QuestionId = new Guid("8B9A6200-91EB-4D80-8544-0223482BCEAB"),
                 Content = "Phó từ",
@@ -68066,13 +62732,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("95214D03-C54F-418C-985B-1561366228BD"),
                 Content = "그래픽",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("921B66FA-6E89-420B-A5EF-ED328AAEBAF6"),
-                QuestionId = new Guid("8E46F0CD-53D0-4F87-8EBC-F6C298ABA7C5"),
-                Content = "đường, đường phố",
-                IsCorrect = true,
             },
             new()
             {
@@ -68160,13 +62819,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("00BCAC71-8F38-4279-9905-BE9192A63EA5"),
-                QuestionId = new Guid("247C5642-086D-4AA0-9834-9F3C61120D2E"),
-                Content = "김포공항",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("EE8E7CEE-0580-49E2-ABED-06A42CFD375A"),
                 QuestionId = new Guid("5EDBCCE3-B02D-4026-9E44-095E0105A288"),
                 Content = "quầy tính tiền",
@@ -68220,13 +62872,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("D7B50804-68F8-4A2B-BC74-05358A1C602F"),
                 Content = "그리워하다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("3274897F-3230-4EDF-837A-EECB4D0B7F17"),
-                QuestionId = new Guid("63AD7C59-359C-459E-BF5C-43659AE08079"),
-                Content = "bóc, lột",
-                IsCorrect = true,
             },
             new()
             {
@@ -68314,13 +62959,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("B2ACBE31-FBB4-4698-8C06-6FB9AAEC515A"),
-                QuestionId = new Guid("BCE4F1EF-4DBF-42BB-87B2-F4233E0D867D"),
-                Content = "cầu kỳ, rắc rối",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("6447F6D3-1E55-4CD0-A567-1C9297393C5E"),
                 QuestionId = new Guid("0F2781C2-AC64-4875-8B88-BA825E0E6336"),
                 Content = "Danh từ",
@@ -68405,13 +63043,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("5D3C9C4E-49D9-4DC4-B8B7-1644E07F8D58"),
-                QuestionId = new Guid("398F4ABD-A6A4-48FE-9D08-DB39CF60424E"),
-                Content = "lý do, nguyên nhân, căn nguyên",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("848C8CD5-387D-422E-A45C-87F63E2509F4"),
                 QuestionId = new Guid("0D94E274-4D76-43D2-9D54-B157D6F88406"),
                 Content = "Động từ",
@@ -68492,13 +63123,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("F1C0B641-A35D-4959-BF14-7C623E2ABD16"),
                 QuestionId = new Guid("CA275B46-EB30-4B70-9D27-9A382666E61B"),
                 Content = "까먹다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("5C277D44-2876-4241-AF86-5F3BB1BC12D8"),
-                QuestionId = new Guid("2C6CEC62-9E21-4DB1-B24C-F51D5B9BF4AB"),
-                Content = "gặm",
                 IsCorrect = true,
             },
             new()
@@ -68587,13 +63211,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("7D132358-9E3C-445A-9D70-7639DF81B6F8"),
-                QuestionId = new Guid("A1907B97-0FEB-463B-9637-65DE42441B3C"),
-                Content = "tươm tất, gọn gàng",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("15DAEEC1-4EC2-4A85-B0BA-140A1D56BFB3"),
                 QuestionId = new Guid("73201A30-9FC9-4122-AD25-C01287E11546"),
                 Content = "Tính từ",
@@ -68675,13 +63292,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("DEA983AE-3BDB-458A-92D8-576BFC2CE8E7"),
                 Content = "그치다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("E1F9A4A4-E4E0-45C0-B544-F56E0C41E5D4"),
-                QuestionId = new Guid("5E3B9C91-956D-4938-A140-EA60EACBE88A"),
-                Content = "trải",
-                IsCorrect = true,
             },
             new()
             {
@@ -68769,13 +63379,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("7C594ACC-B1AD-4F1A-B1F5-D3F842E552F8"),
-                QuestionId = new Guid("EBA643A6-CC21-4287-9F8D-AB841D9E6C38"),
-                Content = "được trải, được giải",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("F5044531-C79B-406B-A7D1-005840873B27"),
                 QuestionId = new Guid("7FE43440-9992-4202-B4C6-48533305DC3F"),
                 Content = "Tính từ",
@@ -68857,13 +63460,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("E15CEF62-43C3-46B7-8C51-B526EC55BBB2"),
                 Content = "귀중하다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("77A59B22-F17F-4ED9-8F5D-43B6984A7773"),
-                QuestionId = new Guid("E5B4F828-21A4-4D25-8A35-5E8F96B0DFF9"),
-                Content = "tối đen",
-                IsCorrect = true,
             },
             new()
             {
@@ -68951,13 +63547,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("AE03520E-0AF4-4FAC-8307-729A8B76A119"),
-                QuestionId = new Guid("1D5C6466-684C-45C6-B255-4B204BD93669"),
-                Content = "lấp lánh, nhấp nháy",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("E60E78A3-9A3C-464A-8F5C-61AF739B1B12"),
                 QuestionId = new Guid("77F938E3-C865-406F-AAD4-F683689C9A41"),
                 Content = "Phó từ",
@@ -69039,13 +63628,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("7C2E3962-851B-4D91-BA7D-3F663CE7C4E9"),
                 Content = "그다지",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("BE06EC8D-2415-48C3-AE4C-2550192A5905"),
-                QuestionId = new Guid("9AF8B9D4-8E17-48A7-8851-058C5DF02D7A"),
-                Content = "chớp, lóe",
-                IsCorrect = true,
             },
             new()
             {
@@ -69133,13 +63715,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("64B8E0FB-02A6-4DE5-BA95-84E451606819"),
-                QuestionId = new Guid("F5395EB9-77CE-41D8-BD34-A5CF0270B7DE"),
-                Content = "vừng, mè",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("C2CBD713-2B73-4F03-B425-A4AF157E6947"),
                 QuestionId = new Guid("AE69CE29-F4AF-4636-A347-6AA2AB955F92"),
                 Content = "Phó từ",
@@ -69221,13 +63796,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("2A025B58-AF57-4857-9CC4-844501347CDB"),
                 Content = "감상하다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("8A8DC70C-79A2-40A9-B663-59F0258EFC51"),
-                QuestionId = new Guid("61686204-5179-47BE-A0B2-6922FB194974"),
-                Content = "nhận biết, ngộ ra",
-                IsCorrect = true,
             },
             new()
             {
@@ -69315,13 +63883,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("D28BA965-41EC-47E1-A3BC-3481F6A78464"),
-                QuestionId = new Guid("69FC2A2C-B24E-4564-A47C-D367095E870A"),
-                Content = "làm vỡ, làm bể",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("EEF85E09-66C1-464A-9772-016D56B9B90E"),
                 QuestionId = new Guid("8029B23A-8027-415C-A5A1-A57F0CC78E0F"),
                 Content = "Phó từ",
@@ -69406,13 +63967,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("7AFF2C4B-B522-4995-9790-344806775915"),
-                QuestionId = new Guid("EBBAC10B-D380-42A1-962D-BCB0F0911C1D"),
-                Content = "cắn",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("22C95040-BD3A-4C59-A8EC-8AA7A06BC806"),
                 QuestionId = new Guid("6BB7922D-B102-41F0-917C-BB057CBF64E1"),
                 Content = "Danh từ",
@@ -69493,13 +64047,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("A1BDD3BA-BD0D-40D3-BDD6-D92B90F0FDC4"),
                 QuestionId = new Guid("80AAB502-4DE6-429F-B63B-9590DB762C3B"),
                 Content = "깨어나다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("23F65B4C-ECFF-442A-8A0E-F0C27871084B"),
-                QuestionId = new Guid("D7940CD8-E220-47C3-B414-49399368DFC3"),
-                Content = "tỉnh dậy",
                 IsCorrect = true,
             },
             new()
@@ -69588,13 +64135,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("2E9A9FE9-5034-48E8-A43A-E76F397EEEFF"),
-                QuestionId = new Guid("AF6AAAA2-F750-4237-9A04-EACBFFA47B54"),
-                Content = "đánh thức, vực tỉnh dậy",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("CA5F69EC-685B-4543-B231-72F203A19F15"),
                 QuestionId = new Guid("F269210C-746F-4FC7-9324-37D7E8D0D40C"),
                 Content = "Động từ",
@@ -69676,13 +64216,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("B94D904D-259D-4EC3-95C9-667E9ACE040F"),
                 Content = "구르다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("08D4E42B-85D8-44C2-9F52-834D7890AE6A"),
-                QuestionId = new Guid("6EE342D6-9304-4E0E-929D-4A3EC765DDB6"),
-                Content = "bị đập tan, bị đập vỡ, bị vỡ tan",
-                IsCorrect = true,
             },
             new()
             {
@@ -69770,13 +64303,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("37DD4950-D5A5-4A4C-BB76-0AF2AF0E906B"),
-                QuestionId = new Guid("9E7AD9EC-339E-45D7-A760-87F56F5674BD"),
-                Content = "가능해지다",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("9151EB2E-CBC0-405B-A6B5-911902981785"),
                 QuestionId = new Guid("6BB9FEA2-4D17-4112-B6A2-749055A78ED2"),
                 Content = "Danh từ",
@@ -69858,13 +64384,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("FC189E43-2F8F-46DC-BFF5-2A74956EFF6F"),
                 Content = "급증하다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("3599CEE6-4F5F-45B4-97CA-AE05FCAB2138"),
-                QuestionId = new Guid("B87AB1CD-247A-452B-84CD-7BA816AA8FBF"),
-                Content = "bị che khuất, bị che lấp",
-                IsCorrect = true,
             },
             new()
             {
@@ -69952,13 +64471,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("0FDCE7F1-1ED3-4F56-8A55-DD126A795292"),
-                QuestionId = new Guid("C2C16A4E-4692-477D-BCDC-2B2CA7D8B0A3"),
-                Content = "giả sử, nếu",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("DF7D020F-0690-46C2-8061-AAA6CC3EEF7A"),
                 QuestionId = new Guid("6364B364-EC19-48DE-8F9D-DEE3BD0B0E07"),
                 Content = "Tính từ",
@@ -70043,13 +64555,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("0CB60A7D-5685-4D8F-A8EA-9D3CCF1A4D0B"),
-                QuestionId = new Guid("071D0C0E-445A-43D8-A6FC-9530C1C05889"),
-                Content = "cây ven đường",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("D16E0B51-200E-4795-90F1-D24F837E393B"),
                 QuestionId = new Guid("4E72B5AB-E833-4445-85BA-5DDBCC89877B"),
                 Content = "Tính từ",
@@ -70130,13 +64635,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("0D7F8299-7A30-4947-9E0E-07B13FDCE504"),
                 QuestionId = new Guid("83821B6D-2B10-4A21-A7C2-EEE6611126FF"),
                 Content = "가르침",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("6C8B911C-B367-437D-A886-AAF7E8A856AC"),
-                QuestionId = new Guid("D6E78710-35C8-49A4-8490-CAA7E4A2801D"),
-                Content = "sự chỉ dạy, sự dạy bảo",
                 IsCorrect = true,
             },
             new()
@@ -70225,13 +64723,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("745EF16D-5C3C-409D-900A-BF11FCEF5D76"),
-                QuestionId = new Guid("3C0B673A-4EF9-4587-89F1-12A01C7D66E4"),
-                Content = "sự giả tưởng",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("49C00458-45A2-4B5D-9F11-D570211DDE62"),
                 QuestionId = new Guid("90E3AF1F-9DE3-4D6A-BE7C-CA21E70F04FC"),
                 Content = "Động từ",
@@ -70313,13 +64804,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("E3EE49EB-E275-4E6C-81DC-22C592C499E7"),
                 Content = "결정되다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("47DE6C1B-E37C-4385-9B6B-EC5323F410D6"),
-                QuestionId = new Guid("89C44718-E75B-450C-9C33-AC0D2DFE3ACC"),
-                Content = "gia nhập, tham gia",
-                IsCorrect = true,
             },
             new()
             {
@@ -70407,13 +64891,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("26DCC98C-0CA3-44D1-8317-696CB7F2F1E9"),
-                QuestionId = new Guid("93826CEF-E430-4562-A19A-5DDA51BA0024"),
-                Content = "가정교사",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("7E2EF12D-B4EA-4F74-8A0C-86C91B113C5B"),
                 QuestionId = new Guid("0A34094B-313D-47FC-B034-CB86FBE43F75"),
                 Content = "Động từ",
@@ -70498,13 +64975,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("7988F432-5259-42E6-9E82-2C73A49B14CF"),
-                QuestionId = new Guid("87D8C0C4-6B34-41C3-AF4B-87E6D3CFFB7A"),
-                Content = "gây (áp lực, sức ép)",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("A46C0557-3208-4F05-8F38-5588FF8389AB"),
                 QuestionId = new Guid("26070750-D58E-4D1D-924A-673D5C8B7CD0"),
                 Content = "Phó từ",
@@ -70585,13 +65055,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("D1147658-2A87-424B-999E-8349DB2D9F55"),
                 QuestionId = new Guid("A3F14FC3-7AFA-4DA5-96C9-1AFAD3945776"),
                 Content = "각기",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("62B61015-B362-429D-888E-BC73D8E6B2CB"),
-                QuestionId = new Guid("197328FE-6CCB-46B7-AF35-5533C22D3854"),
-                Content = "từng người, từng cái",
                 IsCorrect = true,
             },
             new()
@@ -70680,13 +65143,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("C6042EE0-5422-4B4B-B068-DAC10CD8E685"),
-                QuestionId = new Guid("488929D5-6D51-4B7B-B1B9-B510FDCFC0C8"),
-                Content = "cán bộ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("D05852FD-FD33-4447-8358-5C4F68DA69E2"),
                 QuestionId = new Guid("41F2E535-01CE-4A80-B1CA-5DAA985F68E0"),
                 Content = "Danh từ",
@@ -70767,13 +65223,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("7D946FD9-5F9F-4A3B-936D-609BA8E23384"),
                 QuestionId = new Guid("139C2B0F-75F8-42AE-8999-627A80C62054"),
                 Content = "간접",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("86CE42F6-FFB1-457D-A064-D5F382BE70DF"),
-                QuestionId = new Guid("1BFDB7A9-759C-4182-9F5B-4ADC8D2525F0"),
-                Content = "(sự) gián tiếp",
                 IsCorrect = true,
             },
             new()
@@ -70862,13 +65311,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("6C2BD313-8AB4-4745-8D1E-56CD5A8F6B76"),
-                QuestionId = new Guid("9C0C492A-E193-4DAA-8FBE-0A7A7A7C18FE"),
-                Content = "bị giảm sút, bị giảm bớt",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("050E02D0-B1DC-4BEE-9F6B-004CDBC720B6"),
                 QuestionId = new Guid("68B5144A-0E75-40A2-BEDB-D0F9438065EF"),
                 Content = "Động từ",
@@ -70950,13 +65392,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("6F294681-9927-40F3-BA21-5AA3E88FD249"),
                 Content = "갖다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("6779C763-98A3-4F4E-92AA-5C72C016CA73"),
-                QuestionId = new Guid("F215ACE9-F254-49A1-87F0-6FFBF91305E4"),
-                Content = "giảm, giảm sút, giảm đi",
-                IsCorrect = true,
             },
             new()
             {
@@ -71044,13 +65479,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("E5A294E7-870B-40C8-853C-2EFD871ED053"),
-                QuestionId = new Guid("5824DBE7-9969-42FA-A210-2A8E4E4DBC56"),
-                Content = "tính nhạy cảm, sự nhạy cảm",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("B62B43EE-748D-4201-A67D-ED489191E276"),
                 QuestionId = new Guid("CF0740E4-E516-4192-80CC-3554B515665B"),
                 Content = "Động từ",
@@ -71132,13 +65560,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("8AD4A250-D386-4EAB-AFFB-DBE289B704EC"),
                 Content = "가을",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("AC1D115A-EDEB-4D9A-BD36-57697D777A8F"),
-                QuestionId = new Guid("F434913C-4CE0-46C8-8C65-544BA6C76292"),
-                Content = "tính tình cảm, tính cảm tính",
-                IsCorrect = true,
             },
             new()
             {
@@ -71226,13 +65647,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("5FFB2554-878D-4D95-B4BF-41FFDD360C00"),
-                QuestionId = new Guid("1926D589-25AC-4066-9C52-13BA6EF19632"),
-                Content = "bên A",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("256D3CCE-75B8-4F26-BF5B-13F6F5794DD9"),
                 QuestionId = new Guid("35C25790-96F9-462F-80C7-229E3A8B2D4E"),
                 Content = "Danh từ",
@@ -71314,13 +65728,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("0FD0259E-2CDD-4B47-8FB6-F3AA9D90B1F8"),
                 Content = "기숙사",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("F2CCBFAF-095E-4769-B25F-4ECA54B4D9B8"),
-                QuestionId = new Guid("17FAD170-BF3B-485B-A3AE-958BB66037B3"),
-                Content = "phía nam sông",
-                IsCorrect = true,
             },
             new()
             {
@@ -71408,13 +65815,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("3463D68F-E93E-4D29-BA10-CCA8A7BC1AF4"),
-                QuestionId = new Guid("168D7B04-61AB-48D6-BFDC-CADBFFC25D09"),
-                Content = "cường tráng, mạnh mẽ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("C197D43D-817D-4614-A83E-6436A1628B71"),
                 QuestionId = new Guid("D6CECD60-8C2D-4AD4-A950-CA83FD1A16FD"),
                 Content = "Tính từ",
@@ -71499,13 +65899,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("C95433FB-D2BA-4C4F-8731-DF50445B8E2F"),
-                QuestionId = new Guid("31B6D3DC-2FFC-48C7-B9EF-2E4437B5EA2D"),
-                Content = "một cách cường tráng, một cách mạnh mẽ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("9A7A62E7-A029-4935-A95C-3747E1A10574"),
                 QuestionId = new Guid("2817B402-55FE-4CAD-A13B-71F6DC4930AF"),
                 Content = "Tính từ",
@@ -71586,13 +65979,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("61774DE2-9463-4C2F-8C41-23B6D14B5BDC"),
                 QuestionId = new Guid("C05902DF-7CC5-437B-B233-3E2650C97100"),
                 Content = "강렬하다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("52870061-972F-41A1-962B-5E4D5E4BA114"),
-                QuestionId = new Guid("0B8CA62B-6153-4EA2-9122-E56C8EF7B801"),
-                Content = "mạnh mẽ, kiên quyết, quyết liệt",
                 IsCorrect = true,
             },
             new()
@@ -71681,13 +66067,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("2DCFE695-B1D4-487D-A3F9-22C2E142CD3F"),
-                QuestionId = new Guid("08124010-E7E9-40F8-AF2C-9639493F88EB"),
-                Content = "bờ sông, mép sông",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("0448EDDD-13D7-45B6-B631-CAB22E03191E"),
                 QuestionId = new Guid("369740A4-335D-400F-AA55-D69F714FE24D"),
                 Content = "Động từ",
@@ -71772,13 +66151,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("59A69E13-B433-41FB-817E-56FBE6736A1D"),
-                QuestionId = new Guid("396B94D3-5426-4558-83FD-366A75595588"),
-                Content = "bờ bắc",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("D9F63F30-27E8-4A32-B9B1-C72069801118"),
                 QuestionId = new Guid("E7F008C2-3924-4F1E-B405-B08200DC063B"),
                 Content = "Phó từ",
@@ -71859,13 +66231,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("3EDBC70E-C9CE-4E3F-A207-EDCD8886AEBF"),
                 QuestionId = new Guid("F16608D9-82AD-403F-87BC-0301AD6CF296"),
                 Content = "강요하다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("B6835089-3F29-4CA5-9FEF-802EA66C7B46"),
-                QuestionId = new Guid("C782B064-D801-44D8-8814-60F96091CE15"),
-                Content = "bắt buộc, ép buộc, cưỡng bức",
                 IsCorrect = true,
             },
             new()
@@ -71954,13 +66319,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("55E99C83-FEB6-410C-AE21-AADB5F6C7A9E"),
-                QuestionId = new Guid("A6CFE338-55AD-441B-990A-F490DFB78ED4"),
-                Content = "giảng dạy",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("C26E6140-D6EE-4410-A92C-308716036F8D"),
                 QuestionId = new Guid("D6F6E328-82E7-42C2-837B-B0ABECFFA968"),
                 Content = "Danh từ",
@@ -72042,13 +66400,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("090170FE-40BA-4A36-948C-165562183CDD"),
                 Content = "결정되다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("37F60458-27E6-498E-AD53-7E2DB6E50CEA"),
-                QuestionId = new Guid("077114C9-E32C-439B-AD25-9CB1F49F5A7B"),
-                Content = "tăng cường",
-                IsCorrect = true,
             },
             new()
             {
@@ -72136,13 +66487,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("FFFE7FDE-A182-4CA1-BFE2-BBACC0F41361"),
-                QuestionId = new Guid("E787915C-6002-494A-BB68-1FFC1F0671C0"),
-                Content = "cùng nhau",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("D9081985-5B66-4AD7-A7F0-2FBD2FBF2E0C"),
                 QuestionId = new Guid("2B01721F-DB52-45E4-8F01-7D6C386C5E75"),
                 Content = "Danh từ",
@@ -72224,13 +66568,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("4B9727F3-806D-485C-9FC7-D0197277E475"),
                 Content = "경험",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("798284DE-086C-45E0-9477-BA992241A1B2"),
-                QuestionId = new Guid("E21B6449-9AC2-4FF2-9984-2A1BCBE99063"),
-                Content = "mỗi người, từng người",
-                IsCorrect = true,
             },
             new()
             {
@@ -72318,13 +66655,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("ED844E36-AA02-45CC-8308-621913D66D87"),
-                QuestionId = new Guid("65337B08-F30A-4A52-8B9F-5CD1C7B30807"),
-                Content = "sự khánh thành, sự khai trương",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("EA8C2BDA-D974-46C4-9EA7-4234FC35BE37"),
                 QuestionId = new Guid("7B7A91BA-6060-4E1A-AC31-7BB23A50C5D6"),
                 Content = "được khai khẩn",
@@ -72378,13 +66708,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("88139B6B-F73C-4AD7-BB1C-DC66CC41E084"),
                 Content = "강의하다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("BEBA3A3E-6FDA-4F85-A201-66201FF4076F"),
-                QuestionId = new Guid("BDC16053-2EFC-42CA-A1A4-1F08A6E68B45"),
-                Content = "được khai khẩn, được khai thác",
-                IsCorrect = true,
             },
             new()
             {
@@ -72472,13 +66795,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("127263BE-42FC-46AA-BEA9-239F55ED4DEC"),
-                QuestionId = new Guid("E21D4802-6FE6-48FA-8C09-267FD8CFFE52"),
-                Content = "được mở ra",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("8BD79AF6-25C9-4D5E-ACD4-7FFE7951FC9D"),
                 QuestionId = new Guid("9A00F227-6765-4388-8992-1CB4FB66CBDD"),
                 Content = "Tính từ",
@@ -72560,13 +66876,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("FB9F9158-AF29-4ADF-869F-3A09182573D0"),
                 Content = "굶다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("6FED3243-A14B-467E-891A-5C43C039C5B9"),
-                QuestionId = new Guid("6E21265C-835D-41FA-9D73-2063C404CD68"),
-                Content = "mở ra",
-                IsCorrect = true,
             },
             new()
             {
@@ -72654,13 +66963,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("B56AF2B9-CABC-49D4-ABD4-F4780D4756EC"),
-                QuestionId = new Guid("A0ED16A8-5D39-468D-BE65-BDA043F3AF1A"),
-                Content = "được cải tiến, được cải thiện",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("3F9F06A0-896A-4F57-A506-E7CB08DE8A00"),
                 QuestionId = new Guid("1424D200-952D-4290-AE8E-D1ABA417F3FE"),
                 Content = "Động từ",
@@ -72742,13 +67044,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("4F199E0E-FC15-4487-A1DA-684A1A942CC7"),
                 Content = "기다리다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("262213AF-2AC1-4591-9728-3171612A709C"),
-                QuestionId = new Guid("50BF558B-8FD9-4355-93B6-DDD6F1BDEABA"),
-                Content = "cải tiến, cải thiện",
-                IsCorrect = true,
             },
             new()
             {
@@ -72836,13 +67131,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("56C8828F-37D9-468B-BFBF-024CBC2947AC"),
-                QuestionId = new Guid("9802BF11-DF79-4536-B364-536D21F5C5F4"),
-                Content = "lớn lao, to lớn, vĩ đại",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("BC81878D-B361-49FF-8988-10BB47C309A7"),
                 QuestionId = new Guid("2AFE818B-40F8-4270-9F3F-38D8B8B3857F"),
                 Content = "Phó từ",
@@ -72923,13 +67211,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("159DFC9A-B100-48FB-9EA4-46AE3755C572"),
                 QuestionId = new Guid("7AEEF291-0978-40C7-B998-A57764F2F34C"),
                 Content = "거듭",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("6B5D14BB-4AF9-4743-8C98-4B436F268330"),
-                QuestionId = new Guid("D3DF0EC6-EA64-4596-AB6B-07A57D1E1A60"),
-                Content = "cứ, hoài",
                 IsCorrect = true,
             },
             new()
@@ -73018,13 +67299,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("A2480D55-6C24-4F37-9AED-4328C86BB302"),
-                QuestionId = new Guid("1103BDAC-2497-4C56-962D-FC1AADC68F09"),
-                Content = "từ chối, khước từ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("F194F7F8-E679-4A60-B62D-C79A4376DA89"),
                 QuestionId = new Guid("6BA58EDE-CFE4-4883-A4E3-2BEFC2A9D238"),
                 Content = "Động từ",
@@ -73106,13 +67380,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("2369145F-46D1-4089-B463-34AE1153D224"),
                 Content = "결국",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("D10D28A4-EDF4-4F03-9556-01B6B73CFBE9"),
-                QuestionId = new Guid("8E0F55BB-7D04-45EC-B6B7-AE049B8284A0"),
-                Content = "số tiền lớn",
-                IsCorrect = true,
             },
             new()
             {
@@ -73200,13 +67467,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("BF830EE1-94E6-43FD-809F-A8507D0F9577"),
-                QuestionId = new Guid("71898428-FC7D-4B70-B978-6206BABD8013"),
-                Content = "từ chối, khước từ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("DE7023CB-AC8A-47BD-A749-71022E6E0A93"),
                 QuestionId = new Guid("FC2FD98E-4E42-4DB4-BD7A-96725F3642CF"),
                 Content = "Tính từ",
@@ -73291,13 +67551,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("0E0F0651-9265-47D0-BF9A-1DF29AC706FB"),
-                QuestionId = new Guid("78308702-E27A-4D7C-B390-DE12D3E6B6F9"),
-                Content = "vụ, hồ sơ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("F9EFDD96-83BA-4F73-92BB-DBA89BE7B70A"),
                 QuestionId = new Guid("74539D8E-9106-41D1-95F0-644C3C27996E"),
                 Content = "sinh khí",
@@ -73350,13 +67603,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("FD865B64-684C-4C2C-A899-0C0BA8063E0F"),
                 QuestionId = new Guid("6AC66E42-B10F-4583-88DB-C7526DE7C1C4"),
                 Content = "건넌방",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("728D7B0F-140B-4375-8935-4F91ECF00B38"),
-                QuestionId = new Guid("A972790F-2A64-4980-B48C-51D71E0D472B"),
-                Content = "phòng đối diện",
                 IsCorrect = true,
             },
             new()
@@ -73445,13 +67691,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("23FD3547-1744-4085-A0C8-F87564ACB2A8"),
-                QuestionId = new Guid("E8899686-177A-49AF-95D5-225F164A46C1"),
-                Content = "được xây dựng",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("3C1B9658-EEF0-4A62-9194-8E92C6B8DA6A"),
                 QuestionId = new Guid("E1EC58B6-D16C-4F43-9782-DD7B0F2BE172"),
                 Content = "Động từ",
@@ -73533,13 +67772,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("ECAC4102-A838-44A5-AD78-763C9536EF84"),
                 Content = "곱하다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("2F008FF3-48AD-4D72-A3B7-1C4762DD2130"),
-                QuestionId = new Guid("0472831D-526E-4EEB-B239-076C1D20FD2F"),
-                Content = "xây dựng",
-                IsCorrect = true,
             },
             new()
             {
@@ -73627,13 +67859,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("010FEFE3-9E4B-43C2-8006-3E29EAB7DAC5"),
-                QuestionId = new Guid("53229136-0261-49B7-8351-57598178ACBF"),
-                Content = "tích cực, lành mạnh",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("3CEBABC9-036E-4C18-8734-F1D125B30AC9"),
                 QuestionId = new Guid("CAF076AA-474A-4699-8CBB-8F1F9008D3CF"),
                 Content = "Động từ",
@@ -73715,13 +67940,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("6EA27FE5-5236-4206-AE81-D0B1521B68AA"),
                 Content = "관계없다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("22D04D2D-BE80-4393-8F50-FEAD2D77037D"),
-                QuestionId = new Guid("3DEC904E-6885-4D9D-9947-BF4B736D88A2"),
-                Content = "kiến tạo, kiến thiết",
-                IsCorrect = true,
             },
             new()
             {
@@ -73809,13 +68027,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("E5EB7F83-6879-467F-B39D-BF76AACB5E58"),
-                QuestionId = new Guid("EAD46EF0-216B-4B6E-844B-CDAAB7566847"),
-                Content = "việc đi bộ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("51A3A3AC-B470-41CB-AD36-A7CAC456FD8F"),
                 QuestionId = new Guid("6ED74EAE-1B16-46F0-A43B-BC71A4BBBDA5"),
                 Content = "Danh từ",
@@ -73900,13 +68111,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("DF22C78A-CE0A-488C-9296-7938A0242F84"),
-                QuestionId = new Guid("13233CC7-8F09-4AE2-AF12-32D4424F5A86"),
-                Content = "cây  mù tạt",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("68B6041D-A020-4DEA-9516-16E4AE7FED0E"),
                 QuestionId = new Guid("5A86CBF9-24DE-46B9-8C39-B0573EC25C7D"),
                 Content = "Động từ",
@@ -73987,13 +68191,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("00051491-A2AC-4AF3-BF38-A59A255D74BF"),
                 QuestionId = new Guid("54DA13FA-CE3D-4079-8F2C-F0494549E6DF"),
                 Content = "결과적",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("E57D7EDD-FBAA-4276-B9AF-4A4718259752"),
-                QuestionId = new Guid("A9CAC441-4582-42DB-9570-D9038DC91ACA"),
-                Content = "về mặt kết quả",
                 IsCorrect = true,
             },
             new()
@@ -74082,13 +68279,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("386236AC-6D79-4C35-9CB2-60106A7BE6C7"),
-                QuestionId = new Guid("EA18392C-1C78-4AB8-AAB3-D3093B23DDA8"),
-                Content = "vắng mặt",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("4C6D5C5B-F944-4EAB-A5B9-F936290EC098"),
                 QuestionId = new Guid("EC068799-987E-4E35-B768-9C33D3BC5FF8"),
                 Content = "Phó từ",
@@ -74170,13 +68360,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("39B10E7C-BF91-4BD3-8128-35B779712CEA"),
                 Content = "가리키다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("DC6AC51B-16B2-4454-841D-9C424D30C355"),
-                QuestionId = new Guid("124743EC-BB21-4896-922A-37ABDE273FB4"),
-                Content = "cảnh báo",
-                IsCorrect = true,
             },
             new()
             {
@@ -74264,13 +68447,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("01C3252D-EB7D-4A27-A309-7C2003E594A6"),
-                QuestionId = new Guid("3D708071-B862-4D05-A67D-2F755EC7AAD8"),
-                Content = "kinh doanh",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("DB525B91-F3B5-4318-A97B-7A14F90EB23C"),
                 QuestionId = new Guid("4653FB04-7A2C-43C6-9484-F4D5D30F775F"),
                 Content = "Phó từ",
@@ -74352,13 +68528,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("0D865161-818E-4FDB-B9AC-E4195889A2AE"),
                 Content = "기차역",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("536FCF1A-70FD-4861-9C25-250418285B4F"),
-                QuestionId = new Guid("51CC62A6-CDA8-4B85-B04D-0ED6E4A3B080"),
-                Content = "kinh tế học",
-                IsCorrect = true,
             },
             new()
             {
@@ -74446,13 +68615,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("46058C34-AC3A-4219-9535-825D1D2456C0"),
-                QuestionId = new Guid("04826D1B-E272-46E4-B0E5-98187705131B"),
-                Content = "Goguryeo, Cao Câu Ly",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("F4F98E88-8E2A-401C-8EA7-E31FF5F26233"),
                 QuestionId = new Guid("DF7774FE-6219-4929-815A-F1FDB984C5D1"),
                 Content = "tai",
@@ -74506,13 +68668,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("325241FF-AF81-46DC-B2A2-CC66FD621CA6"),
                 Content = "길",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("459CF4D7-84A3-40B4-96A4-F2752F618F8D"),
-                QuestionId = new Guid("D5FF5B50-CA89-478F-B86C-1FFB72EE7391"),
-                Content = "Gomusin; giày cao su",
-                IsCorrect = true,
             },
             new()
             {
@@ -74596,13 +68751,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("2CF385DB-4551-478B-9CCB-610E555F3CDC"),
                 QuestionId = new Guid("E9867AC7-CEAB-4B92-8FB5-1D62F607D465"),
                 Content = "고요하다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("CC010213-89F9-4337-84D2-525B8EB8E99B"),
-                QuestionId = new Guid("49A1778D-DE9E-48EC-AE60-CEC268BEAAA0"),
-                Content = "yên ắng, tĩnh mịch, trầm mặc",
                 IsCorrect = true,
             },
             new()
@@ -74691,13 +68839,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("5948B1AF-B38B-446C-B939-82E0027EAD0D"),
-                QuestionId = new Guid("ED284C61-98E5-44CA-AF38-44AB15A9F48C"),
-                Content = "hầu như không",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("250086D0-602D-4082-9CD0-0DFE43E3C24B"),
                 QuestionId = new Guid("9746688D-2783-40AE-ADE0-5DA39F273DBB"),
                 Content = "Tính từ",
@@ -74779,13 +68920,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("6204C5E2-A1FB-4925-BEB6-EEC0E253E941"),
                 Content = "거부하다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("BB344F95-EA9D-4ED7-BC41-089F788840C4"),
-                QuestionId = new Guid("B07B0ADA-840D-40B1-92F9-2E6FC6D42C1D"),
-                Content = "cố chấp",
-                IsCorrect = true,
             },
             new()
             {
@@ -74873,13 +69007,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("58753277-A860-480F-B280-8D5FADB4DCDA"),
-                QuestionId = new Guid("CE4ABDE3-5520-48BE-BD0D-75E037A60175"),
-                Content = "tiếng la hét, tiếng rống",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("F6C80825-B298-4BB0-B39A-F7569E702D08"),
                 QuestionId = new Guid("00579A5F-B6F4-494F-852C-75876B9AF549"),
                 Content = "Động từ",
@@ -74960,13 +69087,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("E7CAB3B8-53AA-4C09-B5A5-ECF1820E029B"),
                 QuestionId = new Guid("7AF4FAD5-0C6A-4497-B83D-2D38995294B2"),
                 Content = "곤란하다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("393D4E97-B3FB-4A54-8D25-60359EE5B343"),
-                QuestionId = new Guid("171CECD7-6BDC-4B47-B703-71297263ECB3"),
-                Content = "khó khăn",
                 IsCorrect = true,
             },
             new()
@@ -75055,13 +69175,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("B77DA9A4-DD14-46D7-99F0-EFF5719E55AB"),
-                QuestionId = new Guid("482EB64A-7449-48B8-8222-9B1051F5AECB"),
-                Content = "hẻm núi, thung lũng",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("0CCA3BC5-8D74-4DDA-9EAA-DB12EEFE67CC"),
                 QuestionId = new Guid("FC65C50B-7983-41A7-B907-4E0CA7276D32"),
                 Content = "Danh từ",
@@ -75143,13 +69256,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("A7A599C3-1BCA-4605-80EE-4AD35D33C298"),
                 Content = "고백",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("D71D031B-12BF-4917-96E0-35E95E2CEE4A"),
-                QuestionId = new Guid("B95BD827-C15D-456C-8697-5A90FBDA2B9E"),
-                Content = "cái đầu",
-                IsCorrect = true,
             },
             new()
             {
@@ -75237,13 +69343,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("D813E9B0-54E5-4D7E-900E-EFB3E416FC0E"),
-                QuestionId = new Guid("5848ABBC-4F60-4CA0-A378-18AAFE8886AA"),
-                Content = "công khai",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("E4D9135F-996A-406E-831A-F6F5A1AE79CB"),
                 QuestionId = new Guid("E5EF1236-5EEE-4C13-8EFE-577699E818EC"),
                 Content = "Phó từ",
@@ -75324,13 +69423,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("0F409075-F346-43D3-8328-4BE744A7DE60"),
                 QuestionId = new Guid("22F570B9-CDCB-4C22-A9E9-449D81F1F7AA"),
                 Content = "공격하다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("CE789382-779D-4DFB-817D-460BA123CF73"),
-                QuestionId = new Guid("82B2B39B-25F3-4869-B0BC-C7B829BF4C80"),
-                Content = "công kích, tấn công",
                 IsCorrect = true,
             },
             new()
@@ -75419,13 +69511,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("E1135A1F-9AF8-4890-9499-637BE035062C"),
-                QuestionId = new Guid("54217528-172F-491B-B710-82CD782C5175"),
-                Content = "không quân",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("CBD4E264-020E-4F19-9177-244F633C6E21"),
                 QuestionId = new Guid("E8606672-08FE-4919-88F8-97A59155C926"),
                 Content = "Phó từ",
@@ -75507,13 +69592,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("39D6D529-A3C0-4018-8346-B7C22EC7C491"),
                 Content = "구름",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("856EA2F4-C45F-4279-8256-32AC65D0FCE8"),
-                QuestionId = new Guid("A6AF10B2-4BA3-4358-9969-EC0723B07374"),
-                Content = "tính chính thức",
-                IsCorrect = true,
             },
             new()
             {
@@ -75601,13 +69679,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("12B97D65-D484-430D-BAE7-96E442B25222"),
-                QuestionId = new Guid("D6F4C554-3F78-4EC9-98E8-3273DC905257"),
-                Content = "được biểu diễn, được công diễn",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("8AE98457-4791-4AC2-9ABA-57FA20F9A65A"),
                 QuestionId = new Guid("521C32CF-8209-4997-AF80-6210BDEAD880"),
                 Content = "Tính từ",
@@ -75688,13 +69759,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("06757BAE-843F-41A4-90C3-8C1F071BAFFC"),
                 QuestionId = new Guid("554B574F-B5C2-4EC3-98B9-3116384BE616"),
                 Content = "공연하다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("54EB68F2-F866-4DA2-BBEE-2651551F5ED3"),
-                QuestionId = new Guid("49137992-3888-4BB8-A91F-AB0052F6655D"),
-                Content = "trình diễn, công diễn, biểu diễn",
                 IsCorrect = true,
             },
             new()
@@ -75783,13 +69847,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("CA737F14-FEC5-40AB-84C7-5980C80D46E9"),
-                QuestionId = new Guid("453FB47F-FB3F-4151-AB05-7CA6F787BC5F"),
-                Content = "vớ vẩn, lãng xẹt",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("28B61860-A8BC-4176-BC6E-D87E6FDF3928"),
                 QuestionId = new Guid("38109D4A-5D7B-4E40-99FD-B18A59722E0E"),
                 Content = "Động từ",
@@ -75871,13 +69928,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("41680ADB-A843-4590-9711-ECE7E82F2F61"),
                 Content = "권위",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("BF1DC00A-5799-4256-94DF-7E56483E8D3E"),
-                QuestionId = new Guid("77AD4FA1-2E8E-4B75-A954-BA4573AA12CA"),
-                Content = "công chúng",
-                IsCorrect = true,
             },
             new()
             {
@@ -75965,13 +70015,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("D3AEB896-0D24-4580-8971-2095B396E12F"),
-                QuestionId = new Guid("645C3CC7-1E5B-40DA-95D5-164D47C97F90"),
-                Content = "chung, giống nhau",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("88165454-A53A-4CE2-AFFB-15CA56A3826F"),
                 QuestionId = new Guid("56DFB7F4-EA55-4684-A4B7-B2FFB4EAE7A2"),
                 Content = "Phó từ",
@@ -76056,13 +70099,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("4D5FD45F-BBB7-44C0-AFF4-A72B892B03B7"),
-                QuestionId = new Guid("8D5CF234-F68B-47DF-9A31-81EFEEA1D130"),
-                Content = "tính chung",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("2D2EC2BC-EBE1-47AA-875E-A8FC497EF30C"),
                 QuestionId = new Guid("448E8A3D-2C66-431E-962C-851CABB2C0E6"),
                 Content = "Danh từ",
@@ -76143,13 +70179,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("13684C19-0904-4F03-BEFD-8BA2E624B7C9"),
                 QuestionId = new Guid("1F97D42D-B7D3-45D8-92F6-C89E1E355DA6"),
                 Content = "관계되다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("6B3F22D1-5823-4747-9CA2-F8EDE07F7E6B"),
-                QuestionId = new Guid("CA76B29B-DE9B-4813-8CFC-5AAF56373CC6"),
-                Content = "có liên quan, có quan hệ",
                 IsCorrect = true,
             },
             new()
@@ -76238,13 +70267,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("137CF174-28D2-4E92-8598-980532AA5E27"),
-                QuestionId = new Guid("7A7DCB25-BF56-4199-B61F-F3A34623ADBD"),
-                Content = "xe tham quan, xe du lịch",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("F2A68752-B8DB-496A-8119-556ED3DB9341"),
                 QuestionId = new Guid("BE89C7CB-32B2-4733-A54D-7BCCD99C5139"),
                 Content = "Tính từ",
@@ -76325,13 +70347,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("2FE6BC7D-AC36-4445-8F37-7EB6779D9255"),
                 QuestionId = new Guid("AADA17F5-E57B-4C90-BDC3-F055D4307B95"),
                 Content = "관념",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("2DDAD9EC-A1F2-4641-A605-C543C2852A58"),
-                QuestionId = new Guid("56A57165-3152-4F1A-9C68-5EF71DC97F21"),
-                Content = "quan  niệm",
                 IsCorrect = true,
             },
             new()
@@ -76420,13 +70435,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("B19B6E54-8CD3-4B08-9A02-A313087C4A60"),
-                QuestionId = new Guid("58E11D4C-A968-463D-8AB9-E2599B1B2FC6"),
-                Content = "quản lý",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("A1D94ABB-5901-47FC-BA4A-0097055AA0AA"),
                 QuestionId = new Guid("812B8618-49BA-456D-AE96-A450A0400C68"),
                 Content = "Tính từ",
@@ -76507,13 +70515,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("C1DF9DC2-34B0-4434-8E99-38C07E106022"),
                 QuestionId = new Guid("8F317148-1D5C-4DCD-86B3-4F96C3A9CA1B"),
                 Content = "관습",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("A7D978D5-3AB7-41B9-A0DD-31626287F37B"),
-                QuestionId = new Guid("9DAF048F-AFBB-4AF4-9649-F36D349534ED"),
-                Content = "thói quen, tập quán",
                 IsCorrect = true,
             },
             new()
@@ -76602,13 +70603,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("60006DEB-F585-4C3A-98A7-B5C132CB06CE"),
-                QuestionId = new Guid("523A6259-6EB0-4C9B-8601-42788C29288B"),
-                Content = "quảng trường",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("71A57840-E6E2-466C-AEBC-B246A117C49F"),
                 QuestionId = new Guid("630739B8-BD7A-4428-B221-9B2FCAA32089"),
                 Content = "Động từ",
@@ -76690,13 +70684,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("52110CB3-A6E6-4C98-8778-87C9AC190C13"),
                 Content = "공중전화",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("6B9A39B2-B693-4636-B8CD-A90CB44207ED"),
-                QuestionId = new Guid("F2F1BFA7-4AB5-40FB-9A30-8000C4407D7F"),
-                Content = "nghề giáo",
-                IsCorrect = true,
             },
             new()
             {
@@ -76784,13 +70771,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("A1C38F89-912C-46C1-B500-1B2362B9DC16"),
-                QuestionId = new Guid("DD42934F-4F0E-4D8B-B40E-C7425AD5EED5"),
-                Content = "đổi, hoán đổi",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("2C24696B-5741-408E-BEBD-146E9EECD07D"),
                 QuestionId = new Guid("81CCEC39-F21C-4C13-BCFA-289A0823FB36"),
                 Content = "Danh từ",
@@ -76872,13 +70852,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("197F7890-EB49-43BB-985C-23BFEDEF6112"),
                 Content = "결정하다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("3069F2FD-D530-4CB4-B014-AC44D64912D8"),
-                QuestionId = new Guid("A21B9536-B41E-4F59-B3FE-F38A7979CE57"),
-                Content = "được phân biệt",
-                IsCorrect = true,
             },
             new()
             {
@@ -76966,13 +70939,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("7F89CC5C-5D75-4431-9B33-08DFAC0171A7"),
-                QuestionId = new Guid("654B6C17-6439-4717-B0BD-55F5CB484424"),
-                Content = "phân biệt",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("C23AA93B-49CC-48C8-A065-E8366D23AA9D"),
                 QuestionId = new Guid("5FF80340-FE92-4448-B9FC-4659EBBF68A7"),
                 Content = "Động từ",
@@ -77054,13 +71020,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("CEE60026-52E3-4FB8-81AC-93823DC08DDE"),
                 Content = "고생하다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("965D5C8D-701C-4FA0-83FA-8DF4E1D7F71F"),
-                QuestionId = new Guid("61CDFD41-824C-4E64-BD53-B3A49D54795C"),
-                Content = "được phân loại",
-                IsCorrect = true,
             },
             new()
             {
@@ -77148,13 +71107,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("E917807E-CBC2-4F91-8CC8-500FB109BC6D"),
-                QuestionId = new Guid("2528B33C-23C2-4732-A9AA-84B30D929084"),
-                Content = "phân loại",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("032897C6-27B0-4E35-AC4D-EF24381D5A29"),
                 QuestionId = new Guid("708540B8-4BEE-42DC-8F42-27074E5BDBE6"),
                 Content = "Tính từ",
@@ -77239,13 +71191,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("8562A9BE-A484-4814-B2FF-D47421CBB197"),
-                QuestionId = new Guid("C7A8F6F4-2CE0-40EF-B35C-FBDE0A3EBBDD"),
-                Content = "khắp nơi",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("FFCEDA3F-5549-4048-BF76-DF19456D1E9A"),
                 QuestionId = new Guid("AB3137C8-91A5-4F34-A0E8-2DEC059928F3"),
                 Content = "Tính từ",
@@ -77326,13 +71271,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("ACE6F24B-7A2B-4964-8D4C-3B27B5FCEA21"),
                 QuestionId = new Guid("422BDE0C-F315-4009-B9B3-66FFEE63437B"),
                 Content = "구성되다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("BF9305E2-B01B-44CF-9D2C-2090527D2541"),
-                QuestionId = new Guid("9DC9E133-5C39-4064-A5FF-5232F0AE5C69"),
-                Content = "được cấu thành, được tạo ra",
                 IsCorrect = true,
             },
             new()
@@ -77421,13 +71359,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("25FFB64B-C70E-4C68-BBEE-D86F8408E20C"),
-                QuestionId = new Guid("F9BD30EC-D6D6-4B80-925F-602A1160C60E"),
-                Content = "tạo thành, làm ra, cấu thành",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("DEA2CF45-A57A-432E-B095-24F39EAD563D"),
                 QuestionId = new Guid("A483A9AE-2D22-4A92-8291-A87822697BDA"),
                 Content = "Danh từ",
@@ -77509,13 +71440,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("D30EB56C-A8FE-4061-91C2-4BEF7E4E94A7"),
                 Content = "가져가다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("526E6186-945D-4B06-8528-F2209CF4F222"),
-                QuestionId = new Guid("A5794319-43EB-4BDE-9FF5-9E3CA90E6F91"),
-                Content = "bị giới hạn, bị kiềm chế, bị ràng buộc, bị khống chế",
-                IsCorrect = true,
             },
             new()
             {
@@ -77603,13 +71527,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("577E21C9-BA4F-4F37-B21E-273B843F9650"),
-                QuestionId = new Guid("6692849B-4420-452D-9194-5DE01F2D9601"),
-                Content = "khống chế, ràng buộc",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("E304428E-72B4-43F3-8958-329E8F9018FF"),
                 QuestionId = new Guid("07E2B85E-DD21-448B-9438-91084E232836"),
                 Content = "Động từ",
@@ -77691,13 +71608,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("4E7E347A-4BB1-4C65-9FED-3F8D23D9CBD4"),
                 Content = "깨다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("B6F4116C-C63A-4D7C-9F70-848EBB4DC60C"),
-                QuestionId = new Guid("7745D8FA-446D-4CD7-898C-EAF978A01F0B"),
-                Content = "mua, mua vào",
-                IsCorrect = true,
             },
             new()
             {
@@ -77785,13 +71695,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("F106956D-447F-4DA0-8328-7C7651B908CF"),
-                QuestionId = new Guid("F146898A-AB8E-4DB2-A18E-A1A75EDAA91B"),
-                Content = "Gu-cheong, ủy ban quận",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("FDD933BB-A6E7-4880-98C4-E94BB1114DF2"),
                 QuestionId = new Guid("73D5350F-F66B-4B2D-A59B-ECC2EDFDF646"),
                 Content = "Danh từ",
@@ -77872,13 +71775,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("071E43A8-6A3C-4EFB-A3C5-994872C84468"),
                 QuestionId = new Guid("4E9CF8E8-9CC3-48CA-87D8-FD91BC75E761"),
                 Content = "국가적",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("9A1835F9-040A-4642-8BA4-7035EF46F237"),
-                QuestionId = new Guid("84A5E7A3-CF10-44A4-94A1-B6D0E3E5CB74"),
-                Content = "tính quốc gia",
                 IsCorrect = true,
             },
             new()
@@ -77967,13 +71863,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("63313BC4-43FE-4CFB-9CED-5A2A74783B1D"),
-                QuestionId = new Guid("061790BD-7AF6-4BFB-9A91-8E4269CBB1BF"),
-                Content = "trong và ngoài nước",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("656EB649-9A1B-45CB-83B1-621134FA2FBE"),
                 QuestionId = new Guid("51970475-CC46-4292-95CF-A640B9E7FCF1"),
                 Content = "Tính từ",
@@ -78055,13 +71944,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("CC3526FB-D07C-4347-BB79-04DE0B74E311"),
                 Content = "겉옷",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("B1241CFA-F4A5-4B0A-801A-BE9415D4AB6D"),
-                QuestionId = new Guid("01C95FE6-28F3-40DE-A0E3-63DFE923EA7F"),
-                Content = "tính toàn dân",
-                IsCorrect = true,
             },
             new()
             {
@@ -78149,13 +72031,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("C7D686BB-94A6-4578-9694-D19C490FB5E5"),
-                QuestionId = new Guid("C1A5A4BA-9AE4-452F-893D-E8B0B2D9368D"),
-                Content = "quốc sử",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("6F82550D-2830-4C59-9F87-BAE340E6FDB6"),
                 QuestionId = new Guid("9DF9E01A-2467-4F6C-B6C8-227A1971E5FE"),
                 Content = "Động từ",
@@ -78237,13 +72112,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("66144F17-FD41-4643-B8F4-09256931A42A"),
                 Content = "국산",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("A2879330-6F4C-4215-BED1-ECD5EEBCE43A"),
-                QuestionId = new Guid("A531F1A1-565E-4EDC-A23E-2262542EEE9E"),
-                Content = "quốc vương",
-                IsCorrect = true,
             },
             new()
             {
@@ -78331,13 +72199,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("29AE6543-29B5-46CF-BE01-DD75BA1776D9"),
-                QuestionId = new Guid("A5F78AE0-8337-4991-97CB-6CEB64CC8A20"),
-                Content = "mang tính cục bộ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("0536B127-8DE2-45FA-805F-CB8F7E13DE0A"),
                 QuestionId = new Guid("3A0666F1-CC23-4BD2-9C39-2F63E54E4AD0"),
                 Content = "Danh từ",
@@ -78419,13 +72280,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("651F40F7-1271-43B9-B0A8-A33A7EDBA4F0"),
                 Content = "건너가다",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("A2C848E4-4FB9-43F0-8E32-B14FECB6E105"),
-                QuestionId = new Guid("CCE281E9-1AD6-49D5-8232-48354F7C3F4A"),
-                Content = "làm cho đông, làm cho cứng",
-                IsCorrect = true,
             },
             new()
             {
@@ -78513,13 +72367,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("9A11F552-51DA-46DF-9AAE-E92B7B95278B"),
-                QuestionId = new Guid("4F9A2CAC-E644-4E14-A2A3-C3AA5A9B0DD0"),
-                Content = "tính cùng cực",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("22C5DC55-C7AE-4896-B72C-89354F68A316"),
                 QuestionId = new Guid("DB3C5A4F-A902-4585-BB06-B5CF72D054E4"),
                 Content = "Động từ",
@@ -78600,13 +72447,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("C1C545E3-3F5C-4109-A4AC-B85D3B6A6A6D"),
                 QuestionId = new Guid("9B524787-0662-4992-94AE-8AEACF8E7430"),
                 Content = "귀가하다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("C07E81C3-FA3A-4CA2-8F8A-95F8CC790E2E"),
-                QuestionId = new Guid("F7B6A187-CE1B-49CA-AC5E-48977BDA48CE"),
-                Content = "về nhà, trở về nhà, đi về nhà",
                 IsCorrect = true,
             },
             new()
@@ -78695,13 +72535,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("4E252B94-92EA-46D8-97C2-CF685ADA1490"),
-                QuestionId = new Guid("898DA114-2269-499F-8C0B-777FB220D27E"),
-                Content = "trong tai",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("06271F4B-3861-497F-9E28-CCB6B7A07520"),
                 QuestionId = new Guid("52FAF1B5-BF9D-4638-BA5C-53EA6EB2420A"),
                 Content = "Phó từ",
@@ -78783,13 +72616,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("B2A78062-3AF5-40D4-BB86-81F5037CB21B"),
                 Content = "건강",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("61C5BE28-01A1-46B2-98FA-DF3CD7899BE2"),
-                QuestionId = new Guid("B31FEB50-8947-4FE4-92E9-5CD4D292F442"),
-                Content = "trong khoảng đó, trong khi ấy, trong lúc ấy",
-                IsCorrect = true,
             },
             new()
             {
@@ -78877,13 +72703,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("A2106EC6-E0ED-4795-B56F-D2A13B84CDFC"),
-                QuestionId = new Guid("C6F5895B-AA3E-465F-BC59-2E35B4A77191"),
-                Content = "그놈",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("CAEC9A3A-0F60-46CC-8C0D-9BF335B97968"),
                 QuestionId = new Guid("52941410-5160-4A21-83BF-7E40AF514DC4"),
                 Content = "góc",
@@ -78936,13 +72755,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("5F7B3069-F93A-4D3E-A288-D0D212933107"),
                 QuestionId = new Guid("9EFBBB03-3FDA-4CF1-8785-BAA0FF6CEE69"),
                 Content = "그때그때",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("91B35A22-68CB-488D-9C42-5C88F7C2E08D"),
-                QuestionId = new Guid("054ABC92-678B-42CE-8232-055B39AEA417"),
-                Content = "những lúc ấy, những lúc đó",
                 IsCorrect = true,
             },
             new()
@@ -79031,13 +72843,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("0AD1A383-4992-4748-8E6F-918CAE66DF96"),
-                QuestionId = new Guid("DB578C00-F9A0-4317-B871-49CC222A8507"),
-                Content = "그리하여야",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("6F1BC50F-0BE0-400A-9293-D9072F64F422"),
                 QuestionId = new Guid("9C9849F9-965F-4169-8C72-5489194B21A2"),
                 Content = "đồ hoạ",
@@ -79091,13 +72896,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("D7D6437B-49DA-42A2-8210-CB28A610DE42"),
                 Content = "깨",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("6B3BBF15-6061-43AB-804D-B74D404586E6"),
-                QuestionId = new Guid("F2AC3B05-DF65-4E9F-AAD4-8036C6AF7C69"),
-                Content = "đồ hoạ, hoạ đồ",
-                IsCorrect = true,
             },
             new()
             {
@@ -79185,13 +72983,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("7C501C00-896E-4317-9A08-20DF9C6CEED6"),
-                QuestionId = new Guid("1DF3DE93-ACC8-4859-AAF3-C66E335DA67A"),
-                Content = "hợp lý, hợp lẽ",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("7F1D4152-7013-42DC-AF10-FFC095A8D596"),
                 QuestionId = new Guid("8A1E1693-E6FD-4D24-92C4-70CBFBF18EF4"),
                 Content = "Phó từ",
@@ -79276,13 +73067,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("E53366B1-5736-4311-B796-F36DF6345DF0"),
-                QuestionId = new Guid("8CD02B51-7540-414C-A8AA-413BDA17DD06"),
-                Content = "gốc (cây)",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("935E8A89-5FDE-4F20-946B-44398ED4BA16"),
                 QuestionId = new Guid("14174F5C-6BD3-40DB-BB11-01FEE5818813"),
                 Content = "nghề giáo",
@@ -79335,13 +73119,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("5B5422E9-90C3-453F-BDE0-44E1395AA2F0"),
                 QuestionId = new Guid("48CF14EF-7CB5-4DE3-AA85-CF053388D7DC"),
                 Content = "그리로",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("450464DA-9DF3-4991-9F3D-D6A62D2DDC75"),
-                QuestionId = new Guid("C4085697-A627-4260-9141-CE6D086AE8D9"),
-                Content = "nơi ấy, chỗ ấy",
                 IsCorrect = true,
             },
             new()
@@ -79430,13 +73207,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("FAC7316F-000A-47C1-A2DA-5AF8F5DA64E0"),
-                QuestionId = new Guid("EE4ADB62-8D63-4FFD-BA98-96DCF04855B1"),
-                Content = "nhớ, nhớ nhung",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("A590572B-BD51-4F81-9247-EE3BE242CD3B"),
                 QuestionId = new Guid("2B82A7B4-2473-4399-A5DA-945914FF9437"),
                 Content = "Tính từ",
@@ -79517,13 +73287,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("AD1B6297-17C9-4749-9E48-45792A6D7973"),
                 QuestionId = new Guid("BAF7F9CA-316E-40ED-8C39-3E19D13D2FE3"),
                 Content = "그리하여",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("F4955EC1-3DB3-4F4A-A93C-A30DECC5E5FB"),
-                QuestionId = new Guid("7735517F-079B-4A91-AE89-6D49F262FBB0"),
-                Content = "làm thế, làm vậy",
                 IsCorrect = true,
             },
             new()
@@ -79612,13 +73375,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("64725394-88CD-4176-AFE5-E0661A411951"),
-                QuestionId = new Guid("57FCBF88-F058-4AB0-BFDD-5FD5E498758B"),
-                Content = "giữa lúc đó, trong khi đó, trong lúc ấy",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("D2122BCB-FF22-40B4-B38F-7CB84C9051E5"),
                 QuestionId = new Guid("86F5300D-3A64-4768-9062-0E328461223B"),
                 Content = "Động từ",
@@ -79703,13 +73459,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("D590F94D-6D09-42E2-BB31-BFC86C80A285"),
-                QuestionId = new Guid("AEE42EEB-FF50-40D4-A9E6-9A915D52468D"),
-                Content = "người ấy",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("E93D71AA-CFFD-4A75-BD01-1CAE891223AF"),
                 QuestionId = new Guid("374CA230-3060-44FB-B12F-55922341706B"),
                 Content = "thuốc cảm",
@@ -79763,13 +73512,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("CEB21119-AB04-4CA3-A764-11755CB9504C"),
                 Content = "광장",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("9D141513-F8DA-48A6-B54D-8E08F059ABD9"),
-                QuestionId = new Guid("612D4AE7-D385-4FD1-ABDA-19EB89068BBC"),
-                Content = "trước đó, trước đấy",
-                IsCorrect = true,
             },
             new()
             {
@@ -79857,13 +73599,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("9DDF141C-6BC1-4CE0-91C2-1CD8841A18A0"),
-                QuestionId = new Guid("44738E85-F585-428C-9A31-90DACB5E521E"),
-                Content = "그제서야",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("1883E415-7E89-4FAA-856C-B69D2D358EF5"),
                 QuestionId = new Guid("20EB7054-6670-41F5-970A-33BBC208DBE3"),
                 Content = "Danh từ",
@@ -79944,13 +73679,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("9399C8BA-24D5-40C3-A1DE-7053DCDBDD05"),
                 QuestionId = new Guid("E2689DAD-90E3-437A-A7C4-2CED689E0C0C"),
                 Content = "극",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("3373F936-1A75-4A7D-95F5-9D0A0D05D48D"),
-                QuestionId = new Guid("88440940-DFEE-4848-BAC4-68107D476E9F"),
-                Content = "cực độ, tột điểm, cùng cực",
                 IsCorrect = true,
             },
             new()
@@ -80039,13 +73767,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("CA01CECE-8B6F-48AD-B5D8-AFBDAB3F8C05"),
-                QuestionId = new Guid("BE5B7174-3F96-45B3-AFBC-3D517DE85558"),
-                Content = "khắc phục",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("1C68FB1B-CD74-42E6-A61C-F83B43172DDE"),
                 QuestionId = new Guid("95A6A8B6-5E2B-4304-AC3D-DD42B5CAD812"),
                 Content = "Danh từ",
@@ -80130,13 +73851,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("B5C5EEBB-293D-4C4C-A3E3-751B72B92CEB"),
-                QuestionId = new Guid("324F0935-22C9-4165-ADF8-9E8471986DE3"),
-                Content = "nhà biên kịch, nhà soạn kịch",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("6383F5F8-9B9C-43F8-B227-7BEFBA770DD3"),
                 QuestionId = new Guid("6E001B8F-DE52-437B-AF75-6084534CEABB"),
                 Content = "Phó từ",
@@ -80217,13 +73931,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("F5DB3FD3-7726-4FF6-A000-6ABA6EE4C003"),
                 QuestionId = new Guid("6A3C7E65-503F-479D-834A-3AB73E7A1EA0"),
                 Content = "근거하다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("FEBB0AE8-937D-4320-B46A-E01122D6A943"),
-                QuestionId = new Guid("694E2F52-1145-4DDE-A898-13590883A192"),
-                Content = "trên cơ sở, căn cứ vào",
                 IsCorrect = true,
             },
             new()
@@ -80312,13 +74019,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("F04D27F4-29B5-479E-BE6E-FCF4519F044F"),
-                QuestionId = new Guid("2D905A57-095B-4925-B1F8-FC1895904BC2"),
-                Content = "(sự) cần lao, sự cần cù lao động",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("862D16F3-08B4-497E-9415-C57F87A382E9"),
                 QuestionId = new Guid("5D785F1E-C9FC-4355-8627-031D2C9B65A2"),
                 Content = "Phó từ",
@@ -80400,13 +74100,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("71FDB494-1D90-4F18-92BD-EE369E24D87E"),
                 Content = "껌",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("F119B399-DAB9-475D-B696-4C796997C56B"),
-                QuestionId = new Guid("B3727FFF-3B09-4415-AD22-57B091308712"),
-                Content = "khởi nguồn, đầu nguồn",
-                IsCorrect = true,
             },
             new()
             {
@@ -80494,13 +74187,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("ED24950F-0345-40D9-9139-0F3E4024D0E8"),
-                QuestionId = new Guid("CFC3A142-5AE6-49E4-8FEB-A4939264F1E5"),
-                Content = "Geumgang-san, núi Geumgang (Kim Cương)",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("685032FC-EF06-4CBB-AA83-9B66B321C1CF"),
                 QuestionId = new Guid("B376EFC2-FA18-4F76-AD5A-FFC5FBC54AB7"),
                 Content = "két",
@@ -80554,13 +74240,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 QuestionId = new Guid("79936259-78F3-411C-AF66-A7F996045E3E"),
                 Content = "기숙사",
                 IsCorrect = false,
-            },
-            new()
-            {
-                Id = new Guid("BE50301B-ABCC-4136-8B9F-9E5B3D3E7AF6"),
-                QuestionId = new Guid("0DFABE93-7BFC-406C-A503-004322EE66B7"),
-                Content = "két, kho báu",
-                IsCorrect = true,
             },
             new()
             {
@@ -80648,13 +74327,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("2001E2F4-CA49-4672-B840-7A0A2B9642E2"),
-                QuestionId = new Guid("9F813AA7-55C5-4312-AD92-08EEC8CD40B9"),
-                Content = "huy chương vàng",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("47413856-3E93-40B8-A681-41221E524690"),
                 QuestionId = new Guid("3EAD7965-E606-4BEF-B450-CF477A19E76D"),
                 Content = "Phó từ",
@@ -80735,13 +74407,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("0C6CF65B-BB2C-49DB-99EC-D1855A39FF63"),
                 QuestionId = new Guid("6171CDE8-02BE-48DB-8B09-37E3C8EF0699"),
                 Content = "금세",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("8B52C774-8BBF-4C86-88E4-BD8DA36B8BEE"),
-                QuestionId = new Guid("EE6128DC-920F-4948-95A9-0B23DFB7FBB6"),
-                Content = "ngay, nhanh chóng",
                 IsCorrect = true,
             },
             new()
@@ -80830,13 +74495,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("D55D3758-1E1B-45A0-AA20-C3B3B405A76D"),
-                QuestionId = new Guid("376F1DD0-92FA-40B0-876F-8AD41FDEC111"),
-                Content = "bị cấm đoán, bị cấm",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("ACC74247-B4CE-4D92-AF55-539D8B14F28B"),
                 QuestionId = new Guid("AE70A04B-3244-4B14-A435-A1CE6C3FDCCB"),
                 Content = "Động từ",
@@ -80917,13 +74575,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 Id = new Guid("7D159750-F2C2-469D-A755-C902854AC297"),
                 QuestionId = new Guid("09F83130-29BF-474A-8799-65DD06F7EA19"),
                 Content = "급증하다",
-                IsCorrect = true,
-            },
-            new()
-            {
-                Id = new Guid("AA47C42C-6BBF-4319-AF4D-F0BFC2A1E99B"),
-                QuestionId = new Guid("4F627759-0457-4CB0-A2C7-8E691E34BF4F"),
-                Content = "tăng nhanh, tăng gấp",
                 IsCorrect = true,
             },
             new()
@@ -81012,13 +74663,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
             },
             new()
             {
-                Id = new Guid("048E816B-867E-4770-BE7D-DB0E4F915B61"),
-                QuestionId = new Guid("ED934536-1548-4FF8-B7CB-D7B79AEC767E"),
-                Content = "sinh khí, nhuệ khí",
-                IsCorrect = true,
-            },
-            new()
-            {
                 Id = new Guid("B06F74D0-3751-461C-BA9A-CA9B521CC5D1"),
                 QuestionId = new Guid("1152BCAF-A693-4BCD-952A-26D4D909C3B0"),
                 Content = "Phó từ",
@@ -81046,7 +74690,6 @@ public class AnswerConfiguration : IEntityTypeConfiguration<Answer>
                 IsCorrect = false,
             },
         };
-
         builder.HasData(answers);
     }
 }
