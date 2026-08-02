@@ -57,7 +57,10 @@
 | BR-13 | `Question` cần có field `QuestionType` (enum: `VocabularyMeaning`, `Grammar`, `SentenceTranslation`) để phân loại, dùng chung 1 bảng `Question`/`Answer` cho cả 3 loại |
 | BR-14 | Cặp ngôn ngữ dịch cho loại `SentenceTranslation`: **Việt ↔ Hàn** (không có tiếng Anh) |
 | BR-15 | Question loại `SentenceTranslation` vẫn gắn với `LessonId` cụ thể — nội dung câu dịch chỉ xoay quanh từ vựng/ngữ pháp của Lesson đó |
-| BR-16 | v1 chỉ làm dạng **trắc nghiệm** (chọn đáp án đúng trong nhiều lựa chọn) cho `SentenceTranslation`; dạng tự nhập câu trả lời (free-text + so khớp) để dành version sau |
+| BR-16 | `SentenceTranslation` dùng cơ chế **sắp xếp mảnh ghép** (kiểu Duolingo) thay vì trắc nghiệm chọn nguyên câu — xem BR-29, BR-30 |
+| BR-28 | `Answer` có thêm field `Order` (int, nullable): số thứ tự đúng của mảnh ghép trong câu/từ hoàn chỉnh; `Order = null` nghĩa là mảnh nhiễu (decoy), không thuộc đáp án đúng. Không cần field nhãn loại từ (chủ ngữ/động từ...) — chỉ cần đúng thứ tự ghép |
+| BR-29 | `VocabularyMeaning`: giữ nguyên trắc nghiệm chọn nghĩa đúng (như data cũ), bỏ hẳn dạng tự gõ đáp án (`"Writing"`) khỏi seed — không chuyển đổi, xóa thẳng |
+| BR-30 | `SentenceTranslation`: mảnh ghép chia theo **cụm từ có vai trò ngữ pháp** (chủ ngữ/vị ngữ/bổ trợ), có thêm mảnh nhiễu. Cần **data câu ví dụ mới** theo từng Lesson (chưa có sẵn, để làm sau — không lấy được từ data "Writing" cũ vì đó là hỏi nghĩa từ đơn, không phải câu) |
 
 ### 3.4. Phần thưởng (Reward / Gamification)
 
@@ -116,7 +119,8 @@
 | Entity | Thay đổi |
 |---|---|
 | `Course` | + `Level` (enum: Beginner/Intermediate/Advanced), + `Order` (int, thứ tự trong Level) |
-| `Question` | + `QuestionType` (enum: VocabularyMeaning / Grammar / SentenceTranslation), + `QuestionStage` (enum: Practice / FinalTest) |
+| `Question` | + `QuestionType` (enum: VocabularyMeaning / Grammar / SentenceTranslation), + `QuestionStage` (enum: Practice / FinalTest); xóa field `Type` (string) cũ |
+| `Answer` | + `Order` (int?, nullable) — thứ tự đúng của mảnh ghép, null = mảnh nhiễu |
 | `Grammar` | + quan hệ với `Question` (Question có thể thuộc Grammar thay vì chỉ Vocabulary) |
 | *(mới)* `UserGrammar` | UserId, GrammarId, IsLearned |
 | *(mới)* `UserReward` | UserId, RewardId, ReceivedAt |
@@ -144,3 +148,51 @@
 | **Cập nhật entity thật trong code** | ⏳ Bước tiếp theo — sẵn sàng bắt đầu |
 
 > Toàn bộ Business Rules và Use Case đã chốt xong. Bước tiếp theo: cập nhật entity + tạo migration.
+
+## 7. Main Flow (luồng chính của hệ thống)
+
+Đây là 4 luồng trải nghiệm cốt lõi, dùng làm thứ tự ưu tiên implement Service — thay vì làm rời rạc theo từng Entity.
+
+### Main Flow 1 — Xem khóa học & Chọn học
+Customer xem thông tin các khóa học (Course) công khai, **không cần đăng nhập** (MoSCoW: Should) → khi muốn bắt đầu học, mới đăng ký/đăng nhập → chọn khóa học mình mong muốn, đăng ký học.
+> Use Case liên quan: UC-03 (xem công khai) → UC-01, UC-02 (đăng ký/đăng nhập) → UC-04 (đăng ký học)
+> **Lưu ý code:** Endpoint danh sách Course KHÔNG gắn `[Authorize]`; chỉ endpoint đăng ký học (UC-04) mới yêu cầu đăng nhập.
+
+### Main Flow 2 — Học & Nhận thành tựu
+Customer học từng Lesson (Practice → Final Test) → hoàn thành Lesson này mới được mở Lesson tiếp theo (BR-25, BR-20, BR-21) → đạt các cột mốc (1/2, full Level) thì nhận phần thưởng kèm lời chúc (`Reward.Message` — BR-22, tự động, không phải Admin soạn tay).
+> Use Case liên quan: UC-05, UC-06, UC-07, UC-08, UC-09, UC-11
+> **Lưu ý:** "Lời chúc khi đạt thành tựu" thuộc `Reward.Message`, sinh tự động khi đạt mốc — khác với `AdminMessage` (UC-16, Admin soạn tay, gửi thủ công, không tự động trigger). Không nhầm 2 khái niệm này khi code.
+
+### Main Flow 3 — Admin theo dõi & động viên Customer
+Admin theo dõi tiến độ học tập của từng Customer → gửi thư động viên/chúc mừng riêng cho từng người.
+> Use Case liên quan: UC-15, UC-16
+
+### Main Flow 4 — Admin quản lý nội dung học
+Admin CRUD Course, Lesson, Vocabulary, Question, Answer, Grammar — quản lý toàn bộ nội dung học của hệ thống.
+> Use Case liên quan: UC-13, UC-14
+> **Ghi chú:** Ưu tiên thấp nhất trong 4 flow — giai đoạn đầu vẫn quản lý nội dung qua seed data / thao tác trực tiếp DB, chưa cần giao diện CRUD riêng.
+
+### Main Flow 5 — Không gian cá nhân
+Customer xem lại Reward đã sưu tầm (mục Sưu tầm), xem danh sách từ vựng đã đánh dấu yêu thích.
+> Use Case liên quan: UC-10 (xem mục Sưu tầm — BR-23), UC-12 (đánh dấu/xem từ vựng yêu thích — BR-26)
+> **Ghi chú:** Tính năng tra cứu cá nhân, không nằm trên mạch học chính (không chặn/mở khóa gì) — làm sau khi MF1-3 chạy được.
+
+### ⚠️ Blocker dữ liệu cần xử lý trước khi code Main Flow 2
+BR-06 định nghĩa Lesson `Completed` = xem hết Vocabulary + đọc hết Grammar + làm xong Question — nhưng hiện tại:
+- Bảng `Grammar` đang **0 record** (chưa seed) → không thể test điều kiện "đọc hết Grammar"
+- Bảng `Reward` đang **0 record** (BR-12 yêu cầu seed cứng 3 Level × 2 mốc = 6 record) → không thể test UC-09
+- Toàn bộ 2,667 Question hiện là `VocabularyMeaning` — chưa có Question loại `Grammar` hay `SentenceTranslation`
+
+→ **Trước khi bắt đầu code Main Flow 2**, cần seed tối thiểu: vài Grammar cho 1-2 Lesson (kèm Question loại `Grammar`), và đủ 6 Reward theo BR-04/BR-05 — nếu không, Main Flow 2 code xong sẽ không test end-to-end được.
+
+### Thứ tự implement Service đề xuất (theo Main Flow 1 → 2 → 3 → 4)
+1. User (Register/Login)
+2. Course (danh sách, đăng ký học)
+3. Lesson (danh sách theo Course, trạng thái khóa/mở)
+4. Vocabulary + Grammar (nội dung học trong Lesson)
+5. Question + Answer (làm bài Practice/FinalTest)
+6. UserProgress (tính Completed, mở Lesson kế)
+7. Reward/UserReward (kiểm tra mốc, trả thưởng)
+8. AdminMessage (Admin gửi thư, Customer nhận)
+9. Admin xem tiến độ Customer
+10. Admin CRUD nội dung (Course/Lesson/Vocabulary/Question/Grammar) — làm sau cùng
