@@ -37,6 +37,14 @@ public static class DbSeeder
                 await context.SaveChangesAsync(ct);
             }
 
+            if (!await context.Grammars.AnyAsync(ct))
+            {
+                var grammars = Load<Grammar>("grammars.json");
+                Stamp(grammars, now);
+                await context.Grammars.AddRangeAsync(grammars, ct);
+                await context.SaveChangesAsync(ct);
+            }
+
             if (!await context.Vocabulary.AnyAsync(ct))
             {
                 var vocab = Load<Vocabulary>("vocabularies.json");

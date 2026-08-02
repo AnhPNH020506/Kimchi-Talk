@@ -1,0 +1,282 @@
+[
+  {
+    "Id": "7ea3da94-7536-5f10-942b-28c2b5d95a0e",
+    "LessonId": "5f719033-8948-49c6-9b1c-a70e0da9b58c",
+    "Title": "N은/는 — Trợ từ chủ đề",
+    "Explanation": "Gắn sau danh từ để nêu chủ đề của câu (\"thì, là, còn về\"). Danh từ kết thúc bằng phụ âm dùng 은, kết thúc bằng nguyên âm dùng 는. Thường dùng khi giới thiệu bản thân hoặc so sánh, đối chiếu hai đối tượng.",
+    "Example": "저는 학생이에요. → Tôi là học sinh.\n교실은 넓어요. → Phòng học thì rộng."
+  },
+  {
+    "Id": "26ce6f8e-cfc3-50d3-bfb8-0439ac0de135",
+    "LessonId": "5f719033-8948-49c6-9b1c-a70e0da9b58c",
+    "Title": "N이에요/예요 — Là (thể lịch sự)",
+    "Explanation": "Vị ngữ danh từ nghĩa \"là N\", dùng trong hội thoại lịch sự thân mật. Danh từ kết thúc bằng phụ âm dùng 이에요, kết thúc bằng nguyên âm dùng 예요. Dạng trang trọng hơn là N입니다.",
+    "Example": "저는 교사예요. → Tôi là giáo viên.\n이것은 기말시험이에요. → Cái này là bài thi cuối kỳ."
+  },
+  {
+    "Id": "2930bb43-96d0-518d-bae1-12ac21af26c4",
+    "LessonId": "71aed010-44ca-4125-a0bf-0d684affb031",
+    "Title": "A/V-아요/어요 — Thì hiện tại thân mật",
+    "Explanation": "Đuôi câu hiện tại lịch sự thân mật. Nếu nguyên âm cuối của gốc động từ là ㅏ hoặc ㅗ thì dùng -아요, còn lại dùng -어요; động từ 하다 đổi thành 해요. Đây là đuôi câu dùng nhiều nhất trong giao tiếp hằng ngày.",
+    "Example": "약을 먹어요. → Tôi uống thuốc.\n건강해요. → Khỏe mạnh."
+  },
+  {
+    "Id": "12869d6c-a4dc-574f-91c6-0b347274498f",
+    "LessonId": "71aed010-44ca-4125-a0bf-0d684affb031",
+    "Title": "N이/가 아니에요 — Không phải là N",
+    "Explanation": "Phủ định của N이에요/예요. Danh từ kết thúc bằng phụ âm dùng 이 아니에요, kết thúc bằng nguyên âm dùng 가 아니에요.",
+    "Example": "이것은 감기약이 아니에요. → Cái này không phải thuốc cảm.\n저는 의사가 아니에요. → Tôi không phải bác sĩ."
+  },
+  {
+    "Id": "0ca416a2-cc0e-5db7-ad3b-909f2ccf7703",
+    "LessonId": "902bd8be-46b9-4606-8c84-c83b1851966d",
+    "Title": "N이/가 — Trợ từ chủ ngữ",
+    "Explanation": "Đánh dấu chủ ngữ thực hiện hành động hoặc mang trạng thái. Danh từ kết thúc bằng phụ âm dùng 이, kết thúc bằng nguyên âm dùng 가. Khác 은/는 ở chỗ 이/가 nhấn vào chủ thể mới hoặc thông tin mới, còn 은/는 nêu chủ đề đã biết.",
+    "Example": "고민이 많아요. → Tôi có nhiều nỗi lo.\n아기가 귀여워요. → Em bé dễ thương."
+  },
+  {
+    "Id": "f781ce60-2b57-5b41-a520-db31587e2410",
+    "LessonId": "902bd8be-46b9-4606-8c84-c83b1851966d",
+    "Title": "A/V-지 않다 — Phủ định dài",
+    "Explanation": "Gắn sau gốc động từ/tính từ để phủ định, nghĩa \"không ~\". Trang trọng hơn dạng phủ định ngắn 안 + V, thường gặp trong văn viết.",
+    "Example": "걱정하지 않아요. → Tôi không lo lắng.\n귀찮지 않아요. → Không phiền đâu."
+  },
+  {
+    "Id": "31904350-8b74-5d39-a5e5-38cd0ce36957",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "Title": "N을/를 — Trợ từ tân ngữ",
+    "Explanation": "Đánh dấu tân ngữ trực tiếp của động từ. Danh từ kết thúc bằng phụ âm dùng 을, kết thúc bằng nguyên âm dùng 를. Trong hội thoại thân mật có thể lược bỏ.",
+    "Example": "가방을 샀어요. → Tôi đã mua cặp.\n가수를 좋아해요. → Tôi thích ca sĩ."
+  },
+  {
+    "Id": "0198cc63-3d66-5222-93dc-4d04db69beae",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "Title": "이/그/저 + N — Đại từ chỉ định",
+    "Explanation": "이 N = cái N này (gần người nói), 그 N = cái N đó (gần người nghe hoặc đã nhắc tới), 저 N = cái N kia (xa cả hai). Đứng trước danh từ để chỉ định.",
+    "Example": "이 가방은 가격이 비싸요. → Cái cặp này giá đắt.\n저 사람은 가수예요. → Người kia là ca sĩ."
+  },
+  {
+    "Id": "e86f6817-dd8d-54b9-ad45-f117a1f8203e",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
+    "Title": "N도 — Cũng",
+    "Explanation": "Gắn sau danh từ nghĩa \"cũng, cả ~ nữa\". Khi dùng 도 thì phải bỏ trợ từ 은/는, 이/가, 을/를 đi.",
+    "Example": "관광객도 많아요. → Khách du lịch cũng đông.\n공책도 주세요. → Cho tôi cả vở nữa."
+  },
+  {
+    "Id": "f87ec2a0-8990-5dc8-80de-1cc9394d6bb1",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
+    "Title": "N의 — Trợ từ sở hữu",
+    "Explanation": "Nối hai danh từ theo quan hệ sở hữu, nghĩa \"của\". Trong hội thoại thường được lược bỏ; 저의 rút gọn thành 제, 나의 thành 내.",
+    "Example": "교수의 연구실이에요. → Là phòng nghiên cứu của giáo sư.\n제 관심은 한국어예요. → Mối quan tâm của tôi là tiếng Hàn."
+  },
+  {
+    "Id": "4bd62e02-22a6-5fa7-b8b6-57d806d7bbd0",
+    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "Title": "N하고 / N와·과 — Và, với",
+    "Explanation": "Nối hai danh từ hoặc chỉ đối tượng cùng làm. 하고 dùng trong hội thoại, không phân biệt phụ âm/nguyên âm. 와 dùng sau nguyên âm, 과 dùng sau phụ âm, mang sắc thái trang trọng hơn.",
+    "Example": "가구하고 가방을 가져왔어요. → Tôi đã mang đồ nội thất và cặp tới.\n가족과 같이 가요. → Tôi đi cùng gia đình."
+  },
+  {
+    "Id": "4c9b7dea-1001-56ae-8bd3-c0d8bf25dba0",
+    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "Title": "안 + V — Phủ định ngắn",
+    "Explanation": "Đặt 안 ngay trước động từ/tính từ để phủ định. Với động từ dạng N하다 thì tách ra thành N 안 하다 (ví dụ 공부 안 해요), không nói 안 공부해요.",
+    "Example": "안 가져가요. → Tôi không mang đi.\n오늘은 공부 안 해요. → Hôm nay tôi không học."
+  },
+  {
+    "Id": "d01f4b7a-b045-5859-b917-25ea877f1185",
+    "LessonId": "918c686b-aea1-4658-8467-e4a0af482178",
+    "Title": "N만 — Chỉ, chỉ mỗi",
+    "Explanation": "Gắn sau danh từ nghĩa \"chỉ ~ thôi\", loại trừ các đối tượng khác. Có thể dùng cùng lúc với 을/를 (N만을) nhưng thường lược bỏ.",
+    "Example": "김치찌개만 먹어요. → Tôi chỉ ăn canh kimchi thôi.\n글만 읽어요. → Tôi chỉ đọc chữ thôi."
+  },
+  {
+    "Id": "60c4861d-21e5-5800-a25b-16db95a993ab",
+    "LessonId": "918c686b-aea1-4658-8467-e4a0af482178",
+    "Title": "V-고 싶다 — Muốn làm gì",
+    "Explanation": "Gắn sau gốc động từ để diễn tả mong muốn của chủ ngữ ngôi thứ nhất (hoặc ngôi thứ hai khi hỏi). Với ngôi thứ ba phải dùng V-고 싶어하다.",
+    "Example": "김치찌개를 먹고 싶어요. → Tôi muốn ăn canh kimchi.\n그 길로 가고 싶어요. → Tôi muốn đi theo con đường đó."
+  },
+  {
+    "Id": "4cc79db5-8654-527f-8922-4c29c37a6d45",
+    "LessonId": "894bd7ad-1c9d-4393-9735-3715c818ba93",
+    "Title": "N을/를 하다 — Làm N",
+    "Explanation": "Nhiều danh từ hành động kết hợp với 하다 tạo thành động từ: 게임을 하다 (chơi game), 구경을 하다 (đi ngắm/tham quan), 거짓말을 하다 (nói dối). Có thể viết liền thành 게임하다.",
+    "Example": "게임을 해요. → Tôi chơi game.\n거짓말을 하지 마세요. → Đừng nói dối."
+  },
+  {
+    "Id": "414c7134-b1bc-518e-880b-dc18ae6665fe",
+    "LessonId": "894bd7ad-1c9d-4393-9735-3715c818ba93",
+    "Title": "V-고 — Và (nối hành động)",
+    "Explanation": "Nối hai mệnh đề có hành động xảy ra nối tiếp hoặc liệt kê song song, nghĩa \"và, rồi\". Thì và kính ngữ chỉ chia ở vế cuối.",
+    "Example": "글씨를 쓰고 게임을 해요. → Tôi viết chữ rồi chơi game.\n구경하고 사진을 찍어요. → Tôi tham quan và chụp ảnh."
+  },
+  {
+    "Id": "3752f634-5935-5ff9-af6f-38e96081a048",
+    "LessonId": "70e7309c-7fcb-48ef-a22a-aecc8b57fee9",
+    "Title": "N에 있다/없다 — Có / không có ở đâu",
+    "Explanation": "Trợ từ 에 chỉ nơi tồn tại, đi với 있다 (có, ở) và 없다 (không có). Cấu trúc: [Vật] 은/는 [Nơi] 에 있어요.",
+    "Example": "가게는 건물 안에 있어요. → Cửa hàng ở trong tòa nhà.\n근처에 경찰서가 없어요. → Gần đây không có đồn cảnh sát."
+  },
+  {
+    "Id": "ae7cacc0-e0a5-5b3b-bc61-d1a05bd4b2c6",
+    "LessonId": "70e7309c-7fcb-48ef-a22a-aecc8b57fee9",
+    "Title": "N에서 — Tại (nơi diễn ra hành động)",
+    "Explanation": "Chỉ địa điểm nơi hành động diễn ra. Phân biệt với 에: 에 chỉ nơi tồn tại hoặc đích đến, còn 에서 chỉ nơi thực hiện hành động.",
+    "Example": "극장에서 영화를 봐요. → Tôi xem phim ở rạp.\n거실에서 쉬어요. → Tôi nghỉ ở phòng khách."
+  },
+  {
+    "Id": "56357ff2-4bcc-54fe-837d-a2cc869e8d88",
+    "LessonId": "338075fd-99bb-4fe7-bf44-640f1cef2c1f",
+    "Title": "Số đếm + Danh từ đơn vị",
+    "Explanation": "Tiếng Hàn dùng số thuần Hàn (하나, 둘, 셋...) kèm danh từ đơn vị: 개 (cái), 명 (người), 권 (quyển), 병 (chai). Khi đứng trước đơn vị, 하나/둘/셋/넷 đổi thành 한/두/세/네. Trật tự: Danh từ + Số + Đơn vị.",
+    "Example": "사과 세 개 주세요. → Cho tôi ba quả táo.\n학생 두 명이 있어요. → Có hai học sinh."
+  },
+  {
+    "Id": "6de35094-b85b-5579-87d8-2d3340e8e20b",
+    "LessonId": "338075fd-99bb-4fe7-bf44-640f1cef2c1f",
+    "Title": "A-(으)ㄴ N — Định ngữ tính từ",
+    "Explanation": "Biến tính từ thành định ngữ đứng trước danh từ. Gốc kết thúc bằng nguyên âm dùng -ㄴ, kết thúc bằng phụ âm dùng -은. Tính từ 있다/없다 dùng -는.",
+    "Example": "가벼운 가방이에요. → Là chiếc cặp nhẹ.\n굵은 선을 그려요. → Tôi vẽ đường nét dày."
+  },
+  {
+    "Id": "c65c6ad0-dc32-59f4-8e65-d8288c13ff53",
+    "LessonId": "1af5b5d6-ede1-4e7c-939b-9c0f8bdad23a",
+    "Title": "N에 — Trợ từ thời điểm",
+    "Explanation": "Gắn sau danh từ chỉ thời gian để nêu thời điểm xảy ra hành động. Lưu ý: 오늘, 어제, 내일, 지금 KHÔNG dùng 에.",
+    "Example": "구월에 가을이 와요. → Tháng chín mùa thu đến.\n공휴일에 쉬어요. → Tôi nghỉ vào ngày lễ."
+  },
+  {
+    "Id": "a3988021-6e0e-5d49-81a3-f375bbbf794a",
+    "LessonId": "1af5b5d6-ede1-4e7c-939b-9c0f8bdad23a",
+    "Title": "N부터 N까지 — Từ ... đến ...",
+    "Explanation": "부터 chỉ điểm bắt đầu, 까지 chỉ điểm kết thúc, thường dùng cho thời gian. Với địa điểm dùng 에서 ... 까지.",
+    "Example": "구월부터 십일월까지 가을이에요. → Từ tháng chín đến tháng mười một là mùa thu.\n한 시부터 세 시까지 공부해요. → Tôi học từ 1 giờ đến 3 giờ."
+  },
+  {
+    "Id": "d1d75895-aaab-5f8b-9dac-fffcd592f5ed",
+    "LessonId": "79cabd7d-83e3-4320-bb24-78e581d87453",
+    "Title": "A-게 — Biến tính từ thành trạng từ",
+    "Explanation": "Gắn -게 sau gốc tính từ để tạo trạng từ bổ nghĩa cho động từ, nghĩa \"một cách ~\".",
+    "Example": "가득 채우게 넣어요. → Tôi đổ vào cho đầy.\n깨끗하게 청소해요. → Tôi dọn dẹp sạch sẽ."
+  },
+  {
+    "Id": "1a405a9d-0217-5fd1-8b1d-fda9253e1e06",
+    "LessonId": "79cabd7d-83e3-4320-bb24-78e581d87453",
+    "Title": "아주 / 너무 / 조금 — Trạng từ mức độ",
+    "Explanation": "아주 = rất (tích cực), 너무 = quá (thường mang sắc thái vượt mức), 조금 = một chút. Đứng trước tính từ hoặc động từ để chỉ mức độ.",
+    "Example": "너무 갑자기 왔어요. → Đến quá đột ngột.\n조금 계속 기다려요. → Tôi đợi tiếp một chút."
+  },
+  {
+    "Id": "bdf503f1-d830-542a-a889-7609ac580065",
+    "LessonId": "a4c81b67-a1e6-457c-806e-db105f77da83",
+    "Title": "Bất quy tắc ㅎ",
+    "Explanation": "Tính từ có gốc kết thúc bằng ㅎ (그렇다, 빨갛다, 어떻다...) khi gặp đuôi bắt đầu bằng nguyên âm thì ㅎ bị lược bỏ và nguyên âm biến đổi: 그렇다 + 아요 → 그래요; 그렇다 + (으)ㄴ → 그런. Riêng 좋다 là quy tắc, không biến đổi.",
+    "Example": "그래요? → Vậy à?\n그런 사람이에요. → Là người như vậy."
+  },
+  {
+    "Id": "ba35b931-69ad-54db-8967-b8fdfc8ad8f2",
+    "LessonId": "a4c81b67-a1e6-457c-806e-db105f77da83",
+    "Title": "A/V-지요? — Đúng không nhỉ?",
+    "Explanation": "Đuôi câu xác nhận điều người nói đã biết hoặc phỏng đoán, mong người nghe đồng tình. Rút gọn trong hội thoại thành -죠?",
+    "Example": "귀엽지요? → Dễ thương nhỉ?\n깨끗하죠? → Sạch đúng không?"
+  },
+  {
+    "Id": "0cba8d4c-8e8c-5bf0-bf15-b1527e089e05",
+    "LessonId": "6fc00419-1d75-4e9e-8770-4bd956553449",
+    "Title": "Nhóm 하다 — Danh từ + 하다",
+    "Explanation": "Rất nhiều tính từ/động từ tiếng Hàn có dạng [danh từ Hán-Hàn] + 하다: 간단하다 (đơn giản), 감사하다 (cảm ơn), 건강하다 (khỏe mạnh). Chia hiện tại thành 해요, quá khứ thành 했어요.",
+    "Example": "간단해요. → Đơn giản thôi.\n정말 감사해요. → Thật sự cảm ơn."
+  },
+  {
+    "Id": "6ab2b2b7-c48a-595e-8ff4-b7a7d982a6d7",
+    "LessonId": "6fc00419-1d75-4e9e-8770-4bd956553449",
+    "Title": "A-고 A — Nối hai tính từ",
+    "Explanation": "Dùng -고 để liệt kê hai tính chất song song của cùng một chủ thể, nghĩa \"vừa ~ vừa ~\".",
+    "Example": "간단하고 강해요. → Vừa đơn giản vừa mạnh.\n게으르고 느려요. → Vừa lười vừa chậm."
+  },
+  {
+    "Id": "c553741e-61d7-5d17-8077-6d58c6bb5feb",
+    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
+    "Title": "N에 가다/오다 — Đi / đến nơi nào",
+    "Explanation": "Trợ từ 에 chỉ đích đến, đi với động từ di chuyển 가다 (đi), 오다 (đến), 다니다 (lui tới). Cấu trúc: [Nơi] + 에 + 가다.",
+    "Example": "학교에 가요. → Tôi đi đến trường.\n거기에 가까워요. → Gần chỗ đó."
+  },
+  {
+    "Id": "81ccdc8f-9bfc-5a84-9952-c175fa9d9302",
+    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
+    "Title": "N(으)로 — Hướng đi / phương tiện",
+    "Explanation": "Chỉ hướng di chuyển hoặc phương tiện sử dụng. Danh từ kết thúc bằng nguyên âm hoặc ㄹ dùng 로, kết thúc bằng phụ âm khác dùng 으로.",
+    "Example": "지하철로 갈아타요. → Tôi chuyển sang đi tàu điện ngầm.\n이쪽으로 가세요. → Hãy đi về phía này."
+  },
+  {
+    "Id": "f80947d9-1925-52cc-90ef-911f70472c57",
+    "LessonId": "10c5de2f-e85b-4944-bcca-ba0fa12cbe6f",
+    "Title": "V-(으)세요 — Mời / đề nghị lịch sự",
+    "Explanation": "Đuôi câu mệnh lệnh lịch sự, dùng để mời hoặc đề nghị. Gốc kết thúc bằng nguyên âm dùng -세요, kết thúc bằng phụ âm dùng -으세요. Cũng dùng làm kính ngữ khi nói về người trên.",
+    "Example": "간식을 드세요. → Mời bạn dùng đồ ăn vặt.\n여기 앉으세요. → Mời ngồi đây."
+  },
+  {
+    "Id": "5db8a513-313d-5abd-b037-6ed64053dba0",
+    "LessonId": "10c5de2f-e85b-4944-bcca-ba0fa12cbe6f",
+    "Title": "N 주세요 — Cho tôi N",
+    "Explanation": "Cấu trúc gọi món hoặc yêu cầu đưa vật gì, cực kỳ thông dụng khi mua sắm và gọi đồ ăn. Có thể thêm số lượng: N + số + đơn vị + 주세요.",
+    "Example": "갈비 주세요. → Cho tôi sườn nướng.\n간장 하나 주세요. → Cho tôi một chai nước tương."
+  },
+  {
+    "Id": "9d2966de-8d68-5139-bb29-49739d1c1a46",
+    "LessonId": "8c7be511-46d1-4e46-879d-bfd295171b09",
+    "Title": "V-았/었어요 — Thì quá khứ",
+    "Explanation": "Diễn tả hành động đã xảy ra. Nguyên âm cuối gốc là ㅏ/ㅗ dùng -았어요, còn lại dùng -었어요, động từ 하다 thành 했어요.",
+    "Example": "한국어를 가르쳤어요. → Tôi đã dạy tiếng Hàn.\n옷을 갈아입었어요. → Tôi đã thay quần áo."
+  },
+  {
+    "Id": "27919903-53aa-5dd7-8734-73f36b16077d",
+    "LessonId": "8c7be511-46d1-4e46-879d-bfd295171b09",
+    "Title": "V-(으)ㄹ 거예요 — Thì tương lai / dự định",
+    "Explanation": "Diễn tả kế hoạch hoặc dự đoán. Gốc kết thúc bằng nguyên âm dùng -ㄹ 거예요, kết thúc bằng phụ âm dùng -을 거예요.",
+    "Example": "내일 가르칠 거예요. → Ngày mai tôi sẽ dạy.\n가방을 가질 거예요. → Tôi sẽ lấy cái cặp."
+  },
+  {
+    "Id": "a6641277-6a4c-5cc4-a319-9c5adfff596a",
+    "LessonId": "caa9dc19-b472-4888-9590-23b5a585559e",
+    "Title": "V-(으)러 가다/오다 — Đi/đến để làm gì",
+    "Explanation": "Diễn tả mục đích của việc di chuyển. Gắn -(으)러 sau động từ chỉ mục đích, theo sau là động từ di chuyển 가다/오다. Chỉ dùng với động từ di chuyển.",
+    "Example": "경복궁을 구경하러 가요. → Tôi đi tham quan Gyeongbokgung.\n감자를 사러 왔어요. → Tôi đến để mua khoai tây."
+  },
+  {
+    "Id": "e084b9e6-19e6-5538-baa2-1a14dabc0496",
+    "LessonId": "caa9dc19-b472-4888-9590-23b5a585559e",
+    "Title": "A/V-지만 — Nhưng",
+    "Explanation": "Nối hai mệnh đề có nội dung tương phản, nghĩa \"nhưng, tuy nhiên\". Có thể gắn sau đuôi quá khứ: -았/었지만.",
+    "Example": "경주는 멀지만 좋아요. → Gyeongju xa nhưng đẹp.\n감자를 샀지만 안 먹었어요. → Tôi đã mua khoai tây nhưng chưa ăn."
+  },
+  {
+    "Id": "46459f48-621c-5045-8110-b9131da88ffb",
+    "LessonId": "e4ac0098-b443-4a0d-ad5d-dd24930595dc",
+    "Title": "A/V-기 때문에 — Vì, bởi vì",
+    "Explanation": "Nêu lý do, nguyên nhân, mang sắc thái trang trọng hơn -아서/어서. Vế sau KHÔNG được dùng câu mệnh lệnh hay rủ rê. Sau danh từ dùng N 때문에.",
+    "Example": "가능성이 낮기 때문에 포기했어요. → Vì khả năng thấp nên tôi đã bỏ cuộc.\n간섭 때문에 힘들어요. → Tôi mệt mỏi vì bị can thiệp."
+  },
+  {
+    "Id": "bdbecc3b-da5e-5078-b831-4a16d925c498",
+    "LessonId": "e4ac0098-b443-4a0d-ad5d-dd24930595dc",
+    "Title": "A/V-(으)ㄴ/는 것 같다 — Có vẻ như",
+    "Explanation": "Diễn tả phỏng đoán. Động từ hiện tại dùng -는 것 같다, quá khứ dùng -(으)ㄴ 것 같다; tính từ dùng -(으)ㄴ 것 같다; danh từ dùng N인 것 같다.",
+    "Example": "개선된 것 같아요. → Có vẻ đã được cải thiện.\n간절한 것 같아요. → Có vẻ rất tha thiết."
+  },
+  {
+    "Id": "6f4bb80b-d073-5651-9580-ad5f7ff49a5a",
+    "LessonId": "764c970f-7227-4e7d-ba2f-36f08628a089",
+    "Title": "V-아/어야 하다 — Phải làm gì",
+    "Explanation": "Diễn tả nghĩa vụ hoặc điều kiện bắt buộc. Có thể thay 하다 bằng 되다 với nghĩa gần như nhau; 되다 nghiêng về quy định bên ngoài.",
+    "Example": "간호를 받아야 해요. → Tôi phải được chăm sóc y tế.\n약을 먹어야 돼요. → Phải uống thuốc."
+  },
+  {
+    "Id": "90a5b187-533f-553c-916b-5a4c0f4ef53e",
+    "LessonId": "764c970f-7227-4e7d-ba2f-36f08628a089",
+    "Title": "A/V-(으)면 — Nếu",
+    "Explanation": "Nêu điều kiện hoặc giả định. Gốc kết thúc bằng nguyên âm hoặc ㄹ dùng -면, kết thúc bằng phụ âm khác dùng -으면.",
+    "Example": "고통이 심하면 병원에 가세요. → Nếu đau nhiều thì hãy đến bệnh viện.\n괴로우면 말하세요. → Nếu thấy khổ sở thì hãy nói ra."
+  }
+]
