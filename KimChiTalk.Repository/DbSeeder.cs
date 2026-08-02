@@ -45,6 +45,14 @@ public static class DbSeeder
                 await context.SaveChangesAsync(ct);
             }
 
+            // if (!await context.Rewards.AnyAsync(ct))
+            // {
+            //     var rewards = Load<Reward>("rewards.json");
+            //     Stamp(rewards, now);
+            //     await context.Rewards.AddRangeAsync(rewards, ct);
+            //     await context.SaveChangesAsync(ct);
+            // }
+
             if (!await context.Vocabulary.AnyAsync(ct))
             {
                 var vocab = Load<Vocabulary>("vocabularies.json");
