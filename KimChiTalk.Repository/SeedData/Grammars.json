@@ -278,5 +278,495 @@
     "Title": "A/V-(으)면 — Nếu",
     "Explanation": "Nêu điều kiện hoặc giả định. Gốc kết thúc bằng nguyên âm hoặc ㄹ dùng -면, kết thúc bằng phụ âm khác dùng -으면.",
     "Example": "고통이 심하면 병원에 가세요. → Nếu đau nhiều thì hãy đến bệnh viện.\n괴로우면 말하세요. → Nếu thấy khổ sở thì hãy nói ra."
+  },
+  {
+    "Id": "ddeecfe7-c0c8-5af0-b225-b9a8a16e3dde",
+    "LessonId": "4d149c1e-7be5-4cd4-9d8c-1dcfb7ca8d61",
+    "Title": "A/V-아/어 보이다 — Trông có vẻ",
+    "Explanation": "Gắn sau gốc tính từ để diễn tả ấn tượng dựa trên quan sát bề ngoài, nghĩa \"trông ~, có vẻ ~\". Khác với -(으)ㄴ 것 같다 ở chỗ -아/어 보이다 dựa hẳn vào cái nhìn thấy được.",
+    "Example": "걱정스러워 보여요. → Trông có vẻ lo lắng.\n겁나 보여요. → Trông sợ hãi."
+  },
+  {
+    "Id": "c342603b-568b-5d67-a5c2-05a1ea682696",
+    "LessonId": "4d149c1e-7be5-4cd4-9d8c-1dcfb7ca8d61",
+    "Title": "V-(으)ㄹ까 봐 — Sợ rằng, e là",
+    "Explanation": "Diễn tả nỗi lo về điều xấu có thể xảy ra, làm lý do cho hành động ở vế sau. Vế sau thường là hành động đề phòng.",
+    "Example": "고민할까 봐 말 안 했어요. → Sợ bạn ấy lo nên tôi không nói.\n겁낼까 봐 걱정돼요. → Tôi lo là cậu ấy sẽ sợ."
+  },
+  {
+    "Id": "6e82a9f9-e145-56d4-b1af-dfef43da31b5",
+    "LessonId": "0f09c264-36ba-420a-9974-50d6c795e737",
+    "Title": "N에서 N까지 — Từ đâu đến đâu",
+    "Explanation": "Chỉ khoảng cách địa lý: 에서 là điểm xuất phát, 까지 là điểm đến. Phân biệt với 부터...까지 dùng cho thời gian.",
+    "Example": "강원도에서 경기도까지 멀어요. → Từ Gangwon đến Gyeonggi thì xa.\n김포공항에서 서울까지 한 시간 걸려요. → Từ sân bay Gimpo đến Seoul mất một tiếng."
+  },
+  {
+    "Id": "789c3ad0-4c10-5f16-8df2-a4fa9a6e586a",
+    "LessonId": "0f09c264-36ba-420a-9974-50d6c795e737",
+    "Title": "N(이)나 — Hoặc / khoảng chừng",
+    "Explanation": "Có hai nghĩa: nối hai danh từ để chọn lựa (\"hoặc\"), hoặc gắn sau số lượng để nhấn mạnh mức nhiều (\"những, tận\"). Danh từ kết thúc bằng phụ âm dùng 이나, nguyên âm dùng 나.",
+    "Example": "경상도나 광주에 가고 싶어요. → Tôi muốn đi Gyeongsang hoặc Gwangju.\n세 시간이나 기다렸어요. → Tôi đã đợi tận ba tiếng."
+  },
+  {
+    "Id": "0d113ec9-4197-5808-af06-cda033886fc3",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "Title": "N에 대해서 — Về, đối với",
+    "Explanation": "Nêu chủ đề của hành động nói, viết, suy nghĩ. Dạng định ngữ là N에 대한 + danh từ. Trang trọng hơn có thể dùng N에 관해서.",
+    "Example": "가뭄에 대해서 이야기했어요. → Chúng tôi đã nói về hạn hán.\n가스 사고에 대한 뉴스예요. → Là tin tức về tai nạn khí ga."
+  },
+  {
+    "Id": "e560e82d-6aaa-50af-9e95-b585b73e7ca7",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "Title": "V-는 데(에) — Dùng để, trong việc",
+    "Explanation": "Nêu mục đích hoặc lĩnh vực áp dụng, thường đi với 필요하다, 좋다, 도움이 되다. Chú ý viết cách 데 với động từ.",
+    "Example": "가습기는 건조함을 막는 데 좋아요. → Máy tạo ẩm tốt trong việc chống khô.\n가루를 만드는 데 시간이 걸려요. → Làm bột thì mất thời gian."
+  },
+  {
+    "Id": "6e2b97e3-db51-5910-9095-8a3d3bd1d55f",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "Title": "N에 비해서 — So với",
+    "Explanation": "Dùng để so sánh hai đối tượng, nghĩa \"so với N thì\". Dạng rút gọn là N에 비해. Dạng định ngữ: N에 비한.",
+    "Example": "작년에 비해서 경기가 좋아요. → So với năm ngoái thì kinh tế tốt hơn.\n경력에 비해 겸손해요. → So với kinh nghiệm thì anh ấy khiêm tốn."
+  },
+  {
+    "Id": "a9ab8d6f-b8f1-5a47-b71a-c9a683f3015c",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "Title": "A/V-(으)ㄴ/는 반면에 — Trong khi đó, ngược lại",
+    "Explanation": "Nối hai mệnh đề có nội dung trái ngược nhau về cùng một chủ thể. Động từ dùng -는 반면에, tính từ dùng -(으)ㄴ 반면에.",
+    "Example": "경고를 자주 하는 반면에 벌은 안 줘요. → Tuy hay cảnh cáo nhưng lại không phạt.\n결합은 쉬운 반면에 분리는 어려워요. → Ghép thì dễ, ngược lại tách thì khó."
+  },
+  {
+    "Id": "36cdf35d-c99a-5235-ac5f-3058dd4f6fe8",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "Title": "N을/를 위해서 — Vì, để",
+    "Explanation": "Nêu mục đích hoặc đối tượng được hưởng lợi. Sau động từ dùng V-기 위해서. Dạng định ngữ: N을/를 위한.",
+    "Example": "공동의 이익을 위해서 일해요. → Chúng tôi làm việc vì lợi ích chung.\n공급을 늘리기 위해서 노력해요. → Chúng tôi nỗ lực để tăng nguồn cung."
+  },
+  {
+    "Id": "246950f8-ffd2-5217-a5d8-728340ed2808",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "Title": "V-도록 — Để, sao cho",
+    "Explanation": "Nêu mục đích hoặc mức độ mà hành động hướng tới, nghĩa \"sao cho ~, để ~\". Cũng dùng khi nhắc nhở: V-도록 하세요.",
+    "Example": "공과금을 잊지 않도록 메모하세요. → Hãy ghi chú để không quên tiền điện nước.\n모두 알 수 있도록 공식으로 발표했어요. → Đã công bố chính thức để mọi người đều biết."
+  },
+  {
+    "Id": "73176517-badb-5dc0-be0f-e7dcd6a425fa",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "Title": "N(으)로 인해서 — Do, bởi",
+    "Explanation": "Nêu nguyên nhân một cách trang trọng, thường dùng trong tin tức và văn viết. Dạng định ngữ: N(으)로 인한 + danh từ.",
+    "Example": "국제결혼으로 인해서 문화가 다양해졌어요. → Do kết hôn quốc tế mà văn hóa trở nên đa dạng.\n사고로 인한 피해가 커요. → Thiệt hại do tai nạn gây ra rất lớn."
+  },
+  {
+    "Id": "b7e2398f-11bc-5089-aa96-77ce5d8326bd",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "Title": "N에 따라서 — Theo, tùy vào",
+    "Explanation": "Diễn tả sự thay đổi phụ thuộc vào tiêu chí nào đó. Khi nêu nguồn thông tin thì dùng N에 따르면 (\"theo như\").",
+    "Example": "국회의 결정에 따라서 법이 바뀌어요. → Luật thay đổi theo quyết định của quốc hội.\n국어 실력에 따라 반을 나눠요. → Chia lớp tùy theo năng lực quốc ngữ."
+  },
+  {
+    "Id": "317d1c22-d5bd-590a-b53c-02a82e725bdc",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
+    "Title": "N뿐만 아니라 — Không những ... mà còn",
+    "Explanation": "Bổ sung thêm thông tin, nghĩa \"không chỉ N mà còn\". Sau động từ/tính từ dùng -(으)ㄹ 뿐만 아니라.",
+    "Example": "기술뿐만 아니라 기록도 좋아요. → Không chỉ kỹ thuật mà thành tích cũng tốt.\n기부할 뿐만 아니라 직접 도와요. → Không chỉ quyên góp mà còn trực tiếp giúp đỡ."
+  },
+  {
+    "Id": "d381fe43-5f4c-51dc-8385-bba096a1f3e8",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
+    "Title": "A/V-(으)ㄴ/는 데다가 — Hơn nữa, thêm vào đó",
+    "Explanation": "Cộng dồn hai đặc điểm cùng chiều (cùng tốt hoặc cùng xấu). Động từ dùng -는 데다가, tính từ dùng -(으)ㄴ 데다가.",
+    "Example": "기술자인 데다가 기운도 좋아요. → Vừa là kỹ thuật viên lại còn khỏe.\n기록이 좋은 데다가 성실해요. → Thành tích tốt mà lại còn chăm chỉ."
+  },
+  {
+    "Id": "ea7cfdb9-c872-52ab-a8a8-860477c2be60",
+    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "Title": "V-아/어 주다 — Làm giúp cho ai",
+    "Explanation": "Diễn tả hành động làm vì lợi ích người khác. Khi đối tượng là người trên phải dùng V-아/어 드리다.",
+    "Example": "가정주부를 도와줬어요. → Tôi đã giúp người nội trợ.\n어머니께 요리해 드렸어요. → Tôi đã nấu ăn cho mẹ."
+  },
+  {
+    "Id": "3feb2427-8bf8-50ad-850b-45d0dc7677ee",
+    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "Title": "V-게 하다 — Bắt / khiến ai làm gì",
+    "Explanation": "Cấu trúc sai khiến, nghĩa \"làm cho, khiến cho ai đó ~\". Đối tượng bị sai khiến gắn 을/를 hoặc 에게.",
+    "Example": "가입자를 기다리게 했어요. → Đã bắt người đăng ký phải chờ.\n가정을 걱정하게 했어요. → Đã khiến gia đình phải lo lắng."
+  },
+  {
+    "Id": "4ae64560-ace6-5e48-b0e8-ce56e1e04938",
+    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "Title": "V-(으)ㄴ 적이 있다/없다 — Đã từng / chưa từng",
+    "Explanation": "Diễn tả kinh nghiệm trong quá khứ. Thường kết hợp thành V-아/어 본 적이 있다 để nhấn mạnh việc đã thử.",
+    "Example": "권투를 배운 적이 있어요. → Tôi đã từng học quyền anh.\n곰을 본 적이 없어요. → Tôi chưa từng thấy con gấu."
+  },
+  {
+    "Id": "df559172-0ed3-5130-a411-dfadd70a3598",
+    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "Title": "V-아/어 보다 — Thử làm",
+    "Explanation": "Diễn tả việc thử thực hiện một hành động. Dạng mệnh lệnh V-아/어 보세요 dùng để gợi ý, khuyên nên thử.",
+    "Example": "골목길로 가 보세요. → Hãy thử đi theo con hẻm.\n그림책을 읽어 봤어요. → Tôi đã thử đọc sách tranh."
+  },
+  {
+    "Id": "1154b76a-5474-55d8-8292-9d27a82d9224",
+    "LessonId": "e1065344-1f3d-4044-9afd-6de46482650a",
+    "Title": "반말 — Thể thân mật (không kính ngữ)",
+    "Explanation": "Dùng giữa bạn bè cùng tuổi hoặc với người nhỏ tuổi thân thiết. Cách tạo: bỏ 요 khỏi đuôi -아요/어요 (먹어요 → 먹어); danh từ dùng -(이)야 thay cho 이에요/예요.",
+    "Example": "그녀는 내 친구야. → Cô ấy là bạn tôi.\n그대, 어디 가? → Này, đi đâu đấy?"
+  },
+  {
+    "Id": "f7864560-4b83-5145-9987-de6151639df3",
+    "LessonId": "e1065344-1f3d-4044-9afd-6de46482650a",
+    "Title": "그다지 / 별로 + phủ định — Không ... lắm",
+    "Explanation": "Trạng từ mức độ bắt buộc đi kèm phủ định ở vế sau, nghĩa \"không ~ lắm\". Nếu vế sau không phủ định thì câu sai ngữ pháp.",
+    "Example": "그다지 어렵지 않아요. → Không khó lắm.\n별로 안 좋아해요. → Tôi không thích lắm."
+  },
+  {
+    "Id": "50cad252-4b59-5fae-b045-4cc365162263",
+    "LessonId": "ea8671ec-0c1e-4758-84f9-33e99279dc85",
+    "Title": "V-고 있다 — Đang làm (tiếp diễn)",
+    "Explanation": "Diễn tả hành động đang diễn ra tại thời điểm nói. Với người trên dùng kính ngữ V-고 계시다.",
+    "Example": "공기를 마시고 있어요. → Tôi đang hít thở không khí.\n지금 개방하고 있어요. → Hiện đang mở cửa."
+  },
+  {
+    "Id": "c2bdab18-8657-5bb0-8b15-25703587db65",
+    "LessonId": "ea8671ec-0c1e-4758-84f9-33e99279dc85",
+    "Title": "V-아/어 있다 — Trạng thái duy trì sau hành động",
+    "Explanation": "Diễn tả kết quả của hành động vẫn còn được giữ nguyên. Chỉ dùng với nội động từ (앉다, 서다, 열리다...), không dùng với ngoại động từ.",
+    "Example": "문이 열려 있어요. → Cửa đang ở trạng thái mở.\n의자에 앉아 있어요. → Đang ngồi trên ghế."
+  },
+  {
+    "Id": "974f7613-1d47-5f00-bd35-ddc721b3cf26",
+    "LessonId": "9bffc0db-c3d4-4132-81ac-b275dfb37866",
+    "Title": "Thể bị động 이/히/리/기",
+    "Explanation": "Một số ngoại động từ tạo bị động bằng cách chèn 이, 히, 리, 기 vào gốc: 보다→보이다 (được nhìn thấy), 닫다→닫히다 (bị đóng), 열다→열리다 (được mở), 안다→안기다. Chủ ngữ của câu bị động gắn 이/가.",
+    "Example": "감옥 문이 닫혔어요. → Cửa nhà tù đã bị đóng.\n가짜가 아닌 것이 보여요. → Nhìn thấy rõ là đồ thật."
+  },
+  {
+    "Id": "2fc5f804-27d4-5ba1-946c-d9476414c348",
+    "LessonId": "9bffc0db-c3d4-4132-81ac-b275dfb37866",
+    "Title": "V-아/어 놓다 / 두다 — Làm sẵn rồi để đó",
+    "Explanation": "Diễn tả việc hoàn tất hành động rồi giữ nguyên kết quả cho mục đích về sau. 놓다 nhấn vào kết quả, 두다 nhấn vào khoảng thời gian duy trì.",
+    "Example": "결혼식장을 예약해 놓았어요. → Tôi đã đặt sẵn sảnh cưới.\n가사를 적어 뒀어요. → Tôi đã chép sẵn lời bài hát."
+  },
+  {
+    "Id": "eb4d33c8-75b2-5a8c-bf19-877cc3dca30a",
+    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "Title": "N만큼 — Bằng, ngang với",
+    "Explanation": "So sánh ngang bằng về mức độ. Sau động từ/tính từ dùng -(으)ㄹ 만큼 với nghĩa \"đến mức\".",
+    "Example": "가치관이 나만큼 중요해요. → Giá trị quan quan trọng ngang với tôi.\n각오할 만큼 어려워요. → Khó đến mức phải chuẩn bị tinh thần."
+  },
+  {
+    "Id": "91edca66-7785-565c-ae94-8c66f9e67930",
+    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "Title": "N 정도 — Khoảng, cỡ",
+    "Explanation": "Gắn sau số lượng để chỉ mức xấp xỉ. Cũng dùng với nghĩa \"mức độ\": 이 정도 (mức này), 어느 정도 (mức nào đó).",
+    "Example": "간접적으로 반 정도 도왔어요. → Tôi đã giúp gián tiếp khoảng một nửa.\n어느 정도 가치가 있어요. → Có giá trị ở một mức độ nào đó."
+  },
+  {
+    "Id": "324f3160-e5a4-5720-b854-02d56b2b6b20",
+    "LessonId": "8fba85f1-d694-4a68-a949-48a98e52c527",
+    "Title": "V-(으)ㄴ 지 — Từ khi ... đã được",
+    "Explanation": "Đếm khoảng thời gian trôi qua kể từ khi hành động xảy ra, vế sau thường có 되다 hoặc 지나다. Lưu ý viết cách 지.",
+    "Example": "한국어를 배운 지 일 년 됐어요. → Tôi học tiếng Hàn được một năm rồi.\n국경일이 지난 지 오래됐어요. → Ngày quốc lễ đã qua lâu rồi."
+  },
+  {
+    "Id": "cae546b9-4cab-59c3-b00d-21fd5c561581",
+    "LessonId": "8fba85f1-d694-4a68-a949-48a98e52c527",
+    "Title": "V-는 동안 — Trong lúc, suốt thời gian",
+    "Explanation": "Chỉ khoảng thời gian mà hành động ở vế sau diễn ra song song. Sau danh từ dùng N 동안.",
+    "Example": "그늘에서 쉬는 동안 비가 왔어요. → Trong lúc nghỉ dưới bóng râm thì trời mưa.\n방학 동안 여행했어요. → Tôi đã đi du lịch suốt kỳ nghỉ."
+  },
+  {
+    "Id": "e207f037-f98e-5b72-9ea2-653d74e965f6",
+    "LessonId": "ffa3ffa2-f5e1-48c9-aba8-7fd1db6bd4d7",
+    "Title": "A/V-(으)ㄹ 것 같다 — Chắc là sẽ (phỏng đoán)",
+    "Explanation": "Phỏng đoán về việc chưa xảy ra hoặc chưa xác nhận. So với -(으)ㄴ/는 것 같다 (phỏng đoán hiện tại/quá khứ), dạng này hướng về tương lai.",
+    "Example": "내일은 갤 것 같아요. → Ngày mai chắc trời sẽ hửng.\n강수량이 많을 것 같아요. → Lượng mưa chắc sẽ nhiều."
+  },
+  {
+    "Id": "7b7e2534-b1f7-5dc2-9a1b-e8771bc9c631",
+    "LessonId": "ffa3ffa2-f5e1-48c9-aba8-7fd1db6bd4d7",
+    "Title": "-겠- — Ý chí và phỏng đoán",
+    "Explanation": "Chèn vào trước đuôi câu. Với ngôi thứ nhất mang nghĩa ý chí (\"tôi sẽ\"), với ngôi thứ ba mang nghĩa phỏng đoán tức thời (\"chắc là\").",
+    "Example": "고구마를 심겠어요. → Tôi sẽ trồng khoai lang.\n개나리가 예쁘겠어요. → Hoa khai forsythia chắc đẹp lắm."
+  },
+  {
+    "Id": "07af5583-1d30-562a-934a-c1863430653d",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
+    "Title": "A/V-(으)ㄹ수록 — Càng ... càng",
+    "Explanation": "Diễn tả mức độ tăng dần song song. Thường dùng đầy đủ dạng -(으)면 -(으)ㄹ수록 để nhấn mạnh.",
+    "Example": "갈수록 어려워져요. → Càng ngày càng khó.\n보면 볼수록 좋아요. → Càng xem càng thích."
+  },
+  {
+    "Id": "510c370a-d1c3-5b17-9dc9-e9c6014cd5ea",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
+    "Title": "아무리 A/V-아/어도 — Dù có ... đi nữa",
+    "Explanation": "Nhượng bộ mạnh, nghĩa \"cho dù ~ thế nào đi nữa thì\". 아무리 đứng đầu vế, đuôi -아/어도 gắn ở cuối vế đó.",
+    "Example": "아무리 거꾸로 해도 결국 같아요. → Dù có làm ngược lại thì cuối cùng vẫn vậy.\n아무리 감히 말해도 안 들어요. → Dù có mạnh dạn nói thì cũng không nghe."
+  },
+  {
+    "Id": "fe4a2173-c36f-5089-8bb1-e956c1f39ebd",
+    "LessonId": "ebaf5db7-e403-42a5-86ea-e2f686ed0247",
+    "Title": "A-아/어지다 — Trở nên",
+    "Explanation": "Gắn sau gốc tính từ để diễn tả sự biến đổi trạng thái theo thời gian, nghĩa \"trở nên ~ hơn\".",
+    "Example": "가난해졌어요. → Đã trở nên nghèo đi.\n구세대 문화가 약해졌어요. → Văn hóa thế hệ cũ đã yếu đi."
+  },
+  {
+    "Id": "9eb20916-7221-5ab8-8d56-08a153c84c8f",
+    "LessonId": "ebaf5db7-e403-42a5-86ea-e2f686ed0247",
+    "Title": "얼마나 A/V-(으)ㄴ지 모르다 — Không biết là ... đến mức nào",
+    "Explanation": "Cấu trúc nhấn mạnh cảm thán về mức độ, nghĩa \"~ biết bao nhiêu\". Động từ dùng -는지, tính từ dùng -(으)ㄴ지.",
+    "Example": "얼마나 가난한지 몰라요. → Không biết nghèo đến mức nào.\n얼마나 강조하는지 몰라요. → Nhấn mạnh không biết bao nhiêu lần."
+  },
+  {
+    "Id": "b7650ae4-8779-5f40-83a5-58cb2334ba15",
+    "LessonId": "a4a7dddf-d683-40d4-bbc8-4c618d5b0912",
+    "Title": "Bất quy tắc ㅂ",
+    "Explanation": "Tính từ/động từ có gốc kết thúc bằng ㅂ (가렵다, 간지럽다, 춥다, 덥다) khi gặp nguyên âm thì ㅂ đổi thành 우: 가렵다 + 아요 → 가려워요; 가렵다 + (으)ㄴ → 가려운. Ngoại lệ: 좁다, 입다 là quy tắc.",
+    "Example": "등이 가려워요. → Lưng bị ngứa.\n간지러운 느낌이에요. → Là cảm giác nhồn nhột."
+  },
+  {
+    "Id": "5b3f07ce-110e-5b44-a76c-beec3b68eb35",
+    "LessonId": "a4a7dddf-d683-40d4-bbc8-4c618d5b0912",
+    "Title": "A/V-(으)ㄴ/는 편이다 — Thuộc dạng, thiên về",
+    "Explanation": "Đánh giá nhẹ nhàng thay vì khẳng định tuyệt đối, nghĩa \"thuộc loại khá ~\". Động từ dùng -는 편이다, tính từ dùng -(으)ㄴ 편이다.",
+    "Example": "간편한 편이에요. → Thuộc dạng khá tiện lợi.\n가능한 편이에요. → Thuộc dạng có thể làm được."
+  },
+  {
+    "Id": "f8f1d846-56a5-53e6-8826-61022387f528",
+    "LessonId": "6015f4da-70f1-41f8-9ce8-4849ddc2e4f7",
+    "Title": "Hậu tố -적(的) — Mang tính",
+    "Explanation": "Gắn sau danh từ Hán-Hàn tạo tính chất: 객관적 (khách quan), 경제적 (mang tính kinh tế), 구체적 (cụ thể). Bổ nghĩa danh từ thì thêm 인 (객관적인 사실), bổ nghĩa động từ thì thêm 으로 (구체적으로 설명하다).",
+    "Example": "객관적인 자료예요. → Là tài liệu mang tính khách quan.\n구체적으로 말해 주세요. → Hãy nói một cách cụ thể."
+  },
+  {
+    "Id": "6a958e7a-8f5a-583f-b995-9660844370d6",
+    "LessonId": "6015f4da-70f1-41f8-9ce8-4849ddc2e4f7",
+    "Title": "각 / 매 + N — Mỗi, từng",
+    "Explanation": "각 nhấn vào từng cá thể riêng biệt (각 나라 — từng quốc gia), 매 nhấn vào tính lặp lại đều đặn, thường về thời gian (매일, 매주, 매년).",
+    "Example": "각 개인의 의견이 달라요. → Ý kiến của từng cá nhân khác nhau.\n매주 감동적인 이야기를 들어요. → Mỗi tuần tôi nghe một câu chuyện cảm động."
+  },
+  {
+    "Id": "9c707807-567e-51b3-8b0e-8edc51dbc423",
+    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "Title": "N을/를 따라(서) — Dọc theo, đi theo",
+    "Explanation": "Chỉ hướng di chuyển men theo một đường/vật thể, hoặc hành động bắt chước theo ai đó.",
+    "Example": "가로등을 따라 걸었어요. → Tôi đi bộ dọc theo hàng đèn đường.\n선생님을 따라 하세요. → Hãy làm theo thầy giáo."
+  },
+  {
+    "Id": "389b5d56-5b69-5614-9b88-0cc25bc4e4da",
+    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "Title": "V-(으)ㄴ 채(로) — Giữ nguyên trạng thái mà",
+    "Explanation": "Diễn tả việc thực hiện hành động trong khi vẫn giữ nguyên một trạng thái trước đó, thường mang sắc thái bất thường.",
+    "Example": "가로막은 채로 서 있어요. → Cứ đứng chắn ngang như vậy.\n신발을 신은 채 들어왔어요. → Đi vào mà vẫn nguyên giày."
+  },
+  {
+    "Id": "8745ed3c-05a6-504d-a174-28ec2a6df690",
+    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "Title": "V-거나 — Hoặc (nối động từ)",
+    "Explanation": "Nối hai hành động để lựa chọn. Phân biệt với N(이)나 dùng cho danh từ, và -든지 mang nghĩa \"bất kể cái nào\".",
+    "Example": "가스레인지로 굽거나 삶아요. → Nướng bằng bếp ga hoặc luộc.\n가만히 있거나 나가세요. → Hãy ngồi yên hoặc đi ra."
+  },
+  {
+    "Id": "3db00c6f-8337-5a45-bcbb-a8543bdbce26",
+    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "Title": "V-기 전에 / V-(으)ㄴ 후에 — Trước khi / sau khi",
+    "Explanation": "Nêu trình tự thời gian. -기 전에 luôn giữ nguyên gốc động từ; -(으)ㄴ 후에 dùng dạng quá khứ định ngữ. Sau danh từ dùng N 전에 / N 후에.",
+    "Example": "먹기 전에 손을 씻어요. → Rửa tay trước khi ăn.\n각국을 여행한 후에 돌아왔어요. → Sau khi du lịch các nước thì tôi về."
+  },
+  {
+    "Id": "b756d5e2-cf23-5713-85f2-18a87536c52c",
+    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
+    "Title": "V-기로 하다 — Quyết định làm",
+    "Explanation": "Diễn tả quyết định hoặc lời hứa. Thường dùng ở thì quá khứ -기로 했다 dù nói về kế hoạch tương lai.",
+    "Example": "귀국하기로 했어요. → Tôi đã quyết định về nước.\n굶지 않기로 했어요. → Tôi quyết định sẽ không nhịn đói."
+  },
+  {
+    "Id": "64e49dae-fe26-53a4-880b-b76bee4173d2",
+    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
+    "Title": "V-(으)ㄹ 뻔하다 — Suýt nữa thì",
+    "Explanation": "Diễn tả việc xấu suýt xảy ra nhưng cuối cùng không xảy ra. Luôn dùng ở dạng quá khứ -(으)ㄹ 뻔했다.",
+    "Example": "그네에서 떨어질 뻔했어요. → Suýt ngã khỏi xích đu.\n굶을 뻔했어요. → Suýt thì phải nhịn đói."
+  },
+  {
+    "Id": "bd5acaf6-e537-5f0d-9496-ac52ef57bf75",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
+    "Title": "Thể sai khiến 이/히/리/기/우",
+    "Explanation": "Chèn vào gốc động từ để tạo nghĩa \"làm cho ~\": 먹다→먹이다 (cho ăn), 앉다→앉히다 (cho ngồi), 살다→살리다 (cứu sống), 웃다→웃기다 (chọc cười), 자다→재우다 (ru ngủ).",
+    "Example": "아이를 재웠어요. → Tôi đã ru bé ngủ.\n가라앉히려고 노력했어요. → Tôi đã cố làm lắng xuống."
+  },
+  {
+    "Id": "31a2b633-5ce3-5448-9094-b07e2eb635e9",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
+    "Title": "V-게 되다 — Trở nên, rốt cuộc thì",
+    "Explanation": "Diễn tả kết quả xảy đến do hoàn cảnh bên ngoài chứ không do ý chí chủ thể, nghĩa \"cuối cùng thì ~\".",
+    "Example": "가꾸게 됐어요. → Rốt cuộc tôi lại đi chăm sóc nó.\n가리게 됐어요. → Cuối cùng thì phải che lại."
+  },
+  {
+    "Id": "9ceac5c5-1948-5e50-996b-0464292e0a64",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
+    "Title": "V-(으)ㄹ 줄 알다/모르다 — Biết / không biết cách",
+    "Explanation": "Diễn tả năng lực đã học được. Khác với -(으)ㄹ 수 있다 (khả năng do hoàn cảnh cho phép).",
+    "Example": "곱할 줄 알아요. → Tôi biết cách nhân.\n관찰할 줄 몰라요. → Tôi không biết cách quan sát."
+  },
+  {
+    "Id": "86c5acdb-40e3-5829-b756-c417e5e61b10",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
+    "Title": "V-아/어 버리다 — Làm mất rồi, làm dứt luôn",
+    "Explanation": "Diễn tả hành động đã hoàn tất trọn vẹn, kèm cảm xúc tiếc nuối hoặc nhẹ nhõm của người nói.",
+    "Example": "다 먹어 버렸어요. → Đã ăn sạch mất rồi.\n관련 자료를 지워 버렸어요. → Đã xóa mất tài liệu liên quan."
+  },
+  {
+    "Id": "b066d34d-f8ae-5da9-a84b-deced0468c41",
+    "LessonId": "75ddea7d-8c89-4a2f-a617-dd91a6a370b3",
+    "Title": "Kính ngữ chủ thể — 께서 / -(으)시-",
+    "Explanation": "Nâng chủ ngữ là người trên: trợ từ 이/가 đổi thành 께서, động từ chèn -(으)시-. Một số động từ có dạng kính ngữ riêng: 있다→계시다, 먹다→드시다, 자다→주무시다.",
+    "Example": "귀하께서 오셨어요. → Quý vị đã đến.\n선생님께서 교시를 알려 주셨어요. → Thầy đã cho biết tiết học."
+  },
+  {
+    "Id": "79583a6f-a304-5fa7-ac3c-852eb38abc8d",
+    "LessonId": "75ddea7d-8c89-4a2f-a617-dd91a6a370b3",
+    "Title": "Kính ngữ khách thể — 께 / 드리다",
+    "Explanation": "Nâng đối tượng nhận hành động: 에게 đổi thành 께, và dùng 드리다 thay 주다, 여쭈다 thay 묻다.",
+    "Example": "귀하께 말씀드렸어요. → Tôi đã thưa với quý vị.\n선생님께 여쭤봤어요. → Tôi đã hỏi thầy."
+  },
+  {
+    "Id": "919b477d-335d-52d4-ad37-c162b1a1eb3b",
+    "LessonId": "684014c9-c798-4842-a1b9-5079b98baef8",
+    "Title": "N에 따르면 — Theo như (nguồn tin)",
+    "Explanation": "Trích dẫn nguồn thông tin, dùng nhiều trong báo chí và văn viết học thuật. Vế sau thường kết thúc bằng -다고 하다.",
+    "Example": "경제학 연구에 따르면 상황이 개선됐다고 해요. → Theo nghiên cứu kinh tế học, tình hình đã được cải thiện.\n보도에 따르면 광장이 개방된다고 합니다. → Theo tin đưa, quảng trường sẽ được mở cửa."
+  },
+  {
+    "Id": "b01a5704-aa9f-51a5-84d3-920e172c3d7c",
+    "LessonId": "684014c9-c798-4842-a1b9-5079b98baef8",
+    "Title": "V-고자 하다 — Nhằm, với mong muốn",
+    "Explanation": "Nêu ý định hoặc mục đích với sắc thái trang trọng, dùng trong văn bản chính thức và bài phát biểu. Tương đương -(으)려고 하다 nhưng formal hơn.",
+    "Example": "제도를 개선하고자 합니다. → Chúng tôi mong muốn cải thiện chế độ.\n건조한 환경을 바꾸고자 노력합니다. → Chúng tôi nỗ lực nhằm thay đổi môi trường khô hạn."
+  },
+  {
+    "Id": "037a244c-6beb-5841-b77d-7c315a06f73e",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
+    "Title": "N(이)라는 — Được gọi là, mang tên",
+    "Explanation": "Định danh hoặc trích dẫn tên gọi, nghĩa \"cái gọi là N\". Rút gọn từ N(이)라고 하는.",
+    "Example": "가상 현실이라는 개념이에요. → Là khái niệm gọi là thực tế ảo.\n감수성이라는 말을 자주 써요. → Người ta hay dùng từ \"độ nhạy cảm\"."
+  },
+  {
+    "Id": "8e2fc342-3d72-591a-bbd8-ec1f6ae04ebe",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
+    "Title": "A/V-(으)ㄴ/는 셈이다 — Coi như là",
+    "Explanation": "Đánh giá tổng kết, nghĩa \"tính ra thì coi như ~\". Dùng khi kết quả gần đúng với nhận định dù không chính xác tuyệt đối.",
+    "Example": "가르침을 다 받은 셈이에요. → Coi như đã được dạy hết rồi.\n거의 끝난 셈이에요. → Coi như đã xong."
+  },
+  {
+    "Id": "64e782ca-49bc-5c7c-88c3-1077b661802c",
+    "LessonId": "2dd8d259-422f-4071-8de7-5545afb14897",
+    "Title": "A/V-(으)ㄴ/는 만큼 — Vì ... nên tương xứng",
+    "Explanation": "Nêu lý do đồng thời hàm ý mức độ tương ứng giữa hai vế, nghĩa \"vì ~ đến mức đó nên\".",
+    "Example": "개개인이 노력한 만큼 결과가 나와요. → Từng cá nhân nỗ lực bao nhiêu thì kết quả ra bấy nhiêu.\n강변이 넓은 만큼 사람도 많아요. → Bờ sông rộng bao nhiêu thì người đông bấy nhiêu."
+  },
+  {
+    "Id": "d2650bac-a4ba-5439-b40f-0e85e78cbc05",
+    "LessonId": "2dd8d259-422f-4071-8de7-5545afb14897",
+    "Title": "A/V-기 마련이다 — Tất yếu, lẽ đương nhiên",
+    "Explanation": "Diễn tả quy luật hiển nhiên không thể tránh khỏi. Có thể thay bằng -는 법이다 với sắc thái tương tự.",
+    "Example": "각기 생각이 다르기 마련이에요. → Mỗi người suy nghĩ khác nhau là chuyện đương nhiên.\n가구는 오래되면 낡기 마련이에요. → Đồ nội thất để lâu thì tất yếu sẽ cũ."
+  },
+  {
+    "Id": "49954286-af3b-5193-acf8-45a0b39369c7",
+    "LessonId": "4963314e-8221-4f0b-ac91-9f1fe2efe038",
+    "Title": "N에 달하다 — Lên tới, đạt tới",
+    "Explanation": "Diễn tả con số đạt tới mức nào đó, dùng trong thống kê và báo cáo. Dạng định ngữ: N에 달하는 + danh từ.",
+    "Example": "거액에 달하는 손해예요. → Là thiệt hại lên tới số tiền lớn.\n감독 수가 백 명에 달해요. → Số giám sát lên tới một trăm người."
+  },
+  {
+    "Id": "56a95509-9560-5c34-97a6-c756b660694a",
+    "LessonId": "4963314e-8221-4f0b-ac91-9f1fe2efe038",
+    "Title": "A/V-(으)ㄹ 정도로 — Đến mức",
+    "Explanation": "Chỉ mức độ của hành động/trạng thái ở vế sau. Dạng danh từ hóa: -(으)ㄹ 정도이다.",
+    "Example": "거대할 정도로 커졌어요. → Đã lớn đến mức khổng lồ.\n간접 피해가 놀랄 정도로 컸어요. → Thiệt hại gián tiếp lớn đến mức đáng kinh ngạc."
+  },
+  {
+    "Id": "51e5f50f-813d-5bc0-879a-9c09b84cacfd",
+    "LessonId": "6b28324a-f59c-49f1-9087-03d50d413d6f",
+    "Title": "A/V-(으)ㄴ/는 가운데 — Trong bối cảnh, giữa lúc",
+    "Explanation": "Nêu bối cảnh mà sự việc ở vế sau diễn ra, dùng nhiều trong tin tức. Sau danh từ dùng N 가운데.",
+    "Example": "비가 내리는 가운데 행사가 열렸어요. → Sự kiện diễn ra giữa lúc trời mưa.\n골짜기에 안개가 낀 가운데 출발했어요. → Chúng tôi khởi hành trong lúc thung lũng đầy sương."
+  },
+  {
+    "Id": "e1350b89-2dfb-5649-b99e-914c86651d26",
+    "LessonId": "6b28324a-f59c-49f1-9087-03d50d413d6f",
+    "Title": "N(으)로 인한 — Do ... gây ra (định ngữ)",
+    "Explanation": "Dạng định ngữ của N(으)로 인해서, đứng trước danh từ để chỉ nguyên nhân, đặc trưng văn viết.",
+    "Example": "과거로 인한 문제예요. → Là vấn đề do quá khứ gây ra.\n가뭄으로 인한 피해가 큽니다. → Thiệt hại do hạn hán gây ra rất lớn."
+  },
+  {
+    "Id": "4034b967-e557-50b5-b3ee-5bec5f870d4c",
+    "LessonId": "dd31b585-bea0-4a23-8ffd-5328163f2bb0",
+    "Title": "가령 / 이를테면 — Chẳng hạn như, ví dụ",
+    "Explanation": "Trạng từ dẫn ví dụ minh họa, đứng đầu câu hoặc đầu mệnh đề. Thường đi kèm 등, 같은 것 ở cuối.",
+    "Example": "가령 이런 경우가 있어요. → Chẳng hạn có trường hợp như thế này.\n이를테면 거듭 확인하는 습관이에요. → Ví dụ như thói quen kiểm tra đi kiểm tra lại."
+  },
+  {
+    "Id": "4bec2633-ddff-5015-aa77-54f4e8760265",
+    "LessonId": "dd31b585-bea0-4a23-8ffd-5328163f2bb0",
+    "Title": "따라서 / 그리하여 — Do đó, vì vậy",
+    "Explanation": "Liên từ nối câu chỉ kết quả logic, dùng trong văn viết. 따라서 nhấn vào suy luận, 그리하여 nhấn vào diễn tiến sự việc.",
+    "Example": "따라서 공연히 걱정할 필요가 없습니다. → Do đó không cần lo lắng vô ích.\n그리하여 그때그때 대응했습니다. → Vì vậy chúng tôi đã ứng phó theo từng thời điểm."
+  },
+  {
+    "Id": "69335bdf-2af1-5a74-86c2-b94aa5fd1643",
+    "LessonId": "7aad1513-28f2-4da1-b1c7-d033c763d8c5",
+    "Title": "A/V-(으)ㅁ에도 불구하고 — Mặc dù ... nhưng vẫn",
+    "Explanation": "Nhượng bộ trang trọng, mạnh hơn -지만 và -는데도. Sau danh từ dùng N에도 불구하고.",
+    "Example": "감소했음에도 불구하고 여전히 많아요. → Mặc dù đã giảm nhưng vẫn còn nhiều.\n악천후에도 불구하고 관광버스가 출발했어요. → Bất chấp thời tiết xấu, xe du lịch vẫn khởi hành."
+  },
+  {
+    "Id": "c42bd67c-88be-5ec4-8ec0-583196344835",
+    "LessonId": "7aad1513-28f2-4da1-b1c7-d033c763d8c5",
+    "Title": "V-는 한 — Chừng nào còn, miễn là",
+    "Explanation": "Nêu điều kiện tiên quyết duy trì, nghĩa \"chừng nào còn ~ thì\". Thường gặp: 내가 아는 한 (theo như tôi biết).",
+    "Example": "걷기를 계속하는 한 건강해요. → Chừng nào còn đi bộ thì còn khỏe.\n내가 아는 한 결과적으로 문제없어요. → Theo tôi biết thì rốt cuộc không có vấn đề gì."
+  },
+  {
+    "Id": "48bd35a0-f464-5907-be8c-ab81f39a17d2",
+    "LessonId": "ef23a4ea-47ed-4cd8-bf55-b8e6138a15de",
+    "Title": "V-(으)ㄹ 수밖에 없다 — Không còn cách nào khác ngoài",
+    "Explanation": "Diễn tả việc buộc phải làm vì không còn lựa chọn. Sau tính từ mang nghĩa \"tất nhiên phải như vậy\".",
+    "Example": "곤란할 수밖에 없어요. → Không thể không khó xử.\n강화할 수밖에 없었어요. → Không còn cách nào khác ngoài tăng cường."
+  },
+  {
+    "Id": "6d5d9ef3-4966-59e4-a19c-941617bbc47a",
+    "LessonId": "ef23a4ea-47ed-4cd8-bf55-b8e6138a15de",
+    "Title": "V-기 십상이다 — Rất dễ dẫn tới (điều xấu)",
+    "Explanation": "Cảnh báo về hậu quả tiêu cực dễ xảy ra. Chỉ dùng cho việc không mong muốn.",
+    "Example": "골치 아프기 십상이에요. → Rất dễ dẫn tới đau đầu.\n강력히 반대하기 십상이에요. → Rất dễ dẫn đến việc phản đối mạnh mẽ."
+  },
+  {
+    "Id": "9c032c11-cd93-5f50-a98a-9f7928b6a4b5",
+    "LessonId": "28c5e21f-5ab2-43c6-a1fa-b27bac4e6764",
+    "Title": "N되다 / N시키다 — Bị động và sai khiến Hán-Hàn",
+    "Explanation": "Danh từ Hán-Hàn + 하다 là chủ động (감소하다 — giảm), + 되다 là bị động/tự thân (감소되다 — bị giảm), + 시키다 là sai khiến (감소시키다 — làm cho giảm). Phân biệt đúng ba dạng này là điểm khó của trình độ cao.",
+    "Example": "비용이 감소되었어요. → Chi phí đã được giảm.\n비용을 감소시켰어요. → Đã làm cho chi phí giảm xuống."
+  },
+  {
+    "Id": "10e162a4-c3c8-50b1-b7e1-c7c6addf5c5d",
+    "LessonId": "28c5e21f-5ab2-43c6-a1fa-b27bac4e6764",
+    "Title": "V-아/어지다 và V-게 하다 — Phân biệt hai hướng biến đổi",
+    "Explanation": "-아/어지다 diễn tả sự biến đổi tự thân, không có tác nhân rõ ràng (가능해지다 — trở nên khả thi). -게 하다 luôn có chủ thể tác động lên đối tượng khác.",
+    "Example": "가입이 가능해졌어요. → Việc đăng ký đã trở nên khả thi.\n가입하게 했어요. → Đã khiến người ta phải đăng ký."
+  },
+  {
+    "Id": "ae0c29ce-deae-50af-8896-a81beedde621",
+    "LessonId": "b5b05246-0a88-4913-b2c8-6258fba2ee95",
+    "Title": "A/V-(으)ㄴ/는 법이다 — Lẽ thường là, vốn dĩ",
+    "Explanation": "Khẳng định quy luật hiển nhiên của sự đời, mang giọng điệu đúc kết. Gần nghĩa -기 마련이다 nhưng trang trọng và dứt khoát hơn.",
+    "Example": "노력하면 강력해지는 법이에요. → Cứ nỗ lực thì tất sẽ mạnh lên.\n개방하면 변화가 오는 법입니다. → Đã mở cửa thì lẽ thường sẽ có thay đổi."
+  },
+  {
+    "Id": "92b49cd3-7845-50d3-b911-4977d0c48358",
+    "LessonId": "b5b05246-0a88-4913-b2c8-6258fba2ee95",
+    "Title": "Tiền tố Hán-Hàn 재- / 개- / 강-",
+    "Explanation": "Tiền tố tạo từ mới: 재- (tái, làm lại) như 재개방; 개- (cải, đổi mới) như 개국, 개방; 강- (cường, mạnh) như 강력하다, 강렬하다. Nắm tiền tố giúp đoán nghĩa từ Hán-Hàn chưa gặp.",
+    "Example": "강렬한 인상을 받았어요. → Tôi đã có ấn tượng mạnh mẽ.\n개국 이후 개방되었습니다. → Kể từ khi lập quốc thì đã được mở cửa."
   }
 ]
