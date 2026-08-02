@@ -1,0 +1,50 @@
+[
+  {
+    "Id": "4bde4334-8861-5daa-96b8-0b202e4cd097",
+    "Title": "Nửa chặng Sơ cấp",
+    "Message": "Bạn đã đi được nửa chặng đường Sơ cấp rồi! Những viên gạch đầu tiên bao giờ cũng nặng nhất — cứ giữ nhịp này nhé.",
+    "ImageUrl": "/images/rewards/beginner-half.png",
+    "Level": "Beginner",
+    "MilestoneType": "HalfLevel"
+  },
+  {
+    "Id": "9fd0ebb2-805f-54c8-8b5f-5aea21988c9a",
+    "Title": "Hoàn thành Sơ cấp",
+    "Message": "Trọn vẹn cấp Sơ cấp! Giờ bạn đã đọc được Hangeul, chào hỏi và kể về bản thân bằng tiếng Hàn. Trung cấp đang mở khóa chờ bạn.",
+    "ImageUrl": "/images/rewards/beginner-full.png",
+    "Level": "Beginner",
+    "MilestoneType": "FullLevel"
+  },
+  {
+    "Id": "04d85e2b-3967-5ca8-871d-6d4750a3c484",
+    "Title": "Nửa chặng Trung cấp",
+    "Message": "Nửa chặng Trung cấp đã qua! Câu tiếng Hàn của bạn đang dài và tự nhiên dần lên mỗi ngày.",
+    "ImageUrl": "/images/rewards/intermediate-half.png",
+    "Level": "Intermediate",
+    "MilestoneType": "HalfLevel"
+  },
+  {
+    "Id": "510cbe95-637e-54eb-b791-d5a6490e8b43",
+    "Title": "Hoàn thành Trung cấp",
+    "Message": "Xong cấp Trung cấp! Đủ vốn để xem phim Hàn bớt phụ đề và trò chuyện thoải mái rồi đấy. Cao cấp đã mở khóa.",
+    "ImageUrl": "/images/rewards/intermediate-full.png",
+    "Level": "Intermediate",
+    "MilestoneType": "FullLevel"
+  },
+  {
+    "Id": "1d8ef18c-80c8-5b35-a619-1b8a9686809e",
+    "Title": "Nửa chặng Cao cấp",
+    "Message": "Nửa chặng Cao cấp! Đây là quãng khó nhất mà bạn vẫn đang đi đều — thật sự đáng nể.",
+    "ImageUrl": "/images/rewards/advanced-half.png",
+    "Level": "Advanced",
+    "MilestoneType": "HalfLevel"
+  },
+  {
+    "Id": "330bef82-7b36-5046-8d72-6c6256489c33",
+    "Title": "Chinh phục Cao cấp",
+    "Message": "Bạn đã hoàn thành toàn bộ KimChiTalk! Từ con số không đến đọc hiểu văn viết học thuật — hành trình này là của riêng bạn. 축하합니다!",
+    "ImageUrl": "/images/rewards/advanced-full.png",
+    "Level": "Advanced",
+    "MilestoneType": "FullLevel"
+  }
+]
