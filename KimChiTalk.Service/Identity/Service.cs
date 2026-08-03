@@ -1,3 +1,6 @@
+using System.Security.Claims;
+using System.Security.Cryptography;
+using System.Text;
 using KimChiTalk.Repository.Entity;
 using KimChiTalk.Service.JWTService;
 using Microsoft.EntityFrameworkCore;
@@ -8,6 +11,9 @@ namespace KimChiTalk.Service.Identity;
 using KimChiTalk.Repository;
 public class Service : IService
 {
+    private const string AccessTokenType = "access";
+    private const string TokenTypeClaim = "TokenType";
+    
     private readonly AppDbContext _dbContext;
     private readonly JwtOptions _jwtOptions;
     private readonly JWTService.IService _jwtService;
@@ -61,5 +67,30 @@ public class Service : IService
             RefreshToken = refreshToken,
             RefreshTokenExpiresAtUtc = refreshTokenExpiresAtUtc
         };
+    }
+
+    private async Task<string> BuildAccessTokenAsync(Repository.Entity.User user)
+    {
+        var claims = new List<Claim>
+        {
+            new("UserId", user.Id.ToString()),
+            new("Email", user.Email),
+            new("Name", user.Name),
+            new("Role", user.Role),
+            new(TokenTypeClaim, AccessTokenType),
+            new
+
+        };
+        return null;
+    }
+    private static string GenerateRefreshToken()
+    {
+        return Convert.ToBase64String(RandomNumberGenerator.GetBytes(64));
+    }
+
+    private static string HashRefreshToken(string refreshToken)
+    {
+        var bytes = SHA256.HashData(Encoding.UTF8.GetBytes(refreshToken));
+        return Convert.ToBase64String(bytes);
     }
 }
