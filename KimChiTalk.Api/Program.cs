@@ -15,6 +15,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+ConfigureValidatedOptions(builder.Services, builder.Configuration, builder.Environment);
+
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(
         builder.Configuration.GetConnectionString("DefaultConnection")
@@ -53,3 +55,66 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+static void ConfigureValidatedOptions(IServiceCollection services, IConfiguration configuration, IHostEnvironment environment)
+{
+    services.AddOptions<JwtService.JwtOptions>()
+        .Bind(configuration.GetSection(nameof(JwtService.JwtOptions)));
+
+    // services.AddOptions<CloudinaryService.CloudinaryOptions>()
+    //     .Bind(configuration.GetSection(nameof(CloudinaryService.CloudinaryOptions)));
+    //
+    // services.Configure<MailServiceOptions>(
+    //     configuration.GetSection("MailOptions"));
+
+    if (environment.IsDevelopment())
+    {
+        return;
+    }
+
+    // services.AddOptions<MailServiceOptions>()
+    //     .ValidateDataAnnotations()
+    //     .Validate(options =>
+    //             HasConfiguredValue(options.Mail)
+    //             && HasConfiguredValue(options.DisplayName)
+    //             && HasConfiguredValue(options.ApiKey),
+    //         "MailOptions must be configured with secure non-placeholder values.")
+    //     .ValidateOnStart();
+
+    services.AddOptions<JwtService.JwtOptions>()
+        .ValidateDataAnnotations()
+        .Validate(options =>
+                HasConfiguredValue(options.SecretKey)
+                && HasConfiguredValue(options.Issuer)
+                && HasConfiguredValue(options.Audience)
+                && options.ExpireMinutes > 0
+                && options.RefreshTokenExpireDays > 0,
+            "JwtOptions must be configured with secure non-placeholder values.")
+        .ValidateOnStart();
+
+    // services.AddOptions<CloudinaryService.CloudinaryOptions>()
+    //     .ValidateDataAnnotations()
+    //     .Validate(options =>
+    //             HasConfiguredValue(options.CloudName)
+    //             && HasConfiguredValue(options.ApiKey)
+    //             && HasConfiguredValue(options.ApiSecret),
+    //         "CloudinaryOptions must be configured with secure non-placeholder values.")
+    //     .ValidateOnStart();
+}
+
+static bool HasConfiguredValue(string? value)
+{
+    return !string.IsNullOrWhiteSpace(value) && !HasPlaceholder(value);
+}
+
+static bool HasPlaceholder(string? value)
+{
+    if (string.IsNullOrWhiteSpace(value))
+    {
+        return true;
+    }
+
+    return value.Contains("__SET", StringComparison.OrdinalIgnoreCase)
+           || value.Contains("CHANGE_ME", StringComparison.OrdinalIgnoreCase)
+           || value.Contains("PLACEHOLDER", StringComparison.OrdinalIgnoreCase);
+}
