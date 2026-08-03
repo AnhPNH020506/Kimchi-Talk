@@ -36,6 +36,7 @@ public class AppDbContext : DbContext
     public DbSet<Reward> Rewards { get; set; }
     public DbSet<UserGrammar> UserGrammars { get; set; }
     public DbSet<AdminMessage> AdminMessages { get; set; }
+    public DbSet<UserRefreshToken> UserRefreshTokens { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
