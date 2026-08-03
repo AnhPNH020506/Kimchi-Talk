@@ -23094,5 +23094,1741 @@
     "Content": "Cấu trúc \"재- / 개- / 강-\" mang nghĩa gì?",
     "QuestionType": "Grammar",
     "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "c05d2faf-9647-5d44-aee6-c21d43e0338b",
+    "LessonId": "5f719033-8948-49c6-9b1c-a70e0da9b58c",
+    "GrammarId": "7ea3da94-7536-5f10-942b-28c2b5d95a0e",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi là học sinh.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "aef4e4d8-3af0-57c4-b7a5-3ee9c7a6d1f6",
+    "LessonId": "5f719033-8948-49c6-9b1c-a70e0da9b58c",
+    "GrammarId": "7ea3da94-7536-5f10-942b-28c2b5d95a0e",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"교실은 넓어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "882592aa-8b1c-5bd4-a3eb-cfd7f4292eaf",
+    "LessonId": "5f719033-8948-49c6-9b1c-a70e0da9b58c",
+    "GrammarId": "26ce6f8e-cfc3-50d3-bfb8-0439ac0de135",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi là giáo viên.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "3339d741-fef7-5b8a-8cfd-1970423eaeaa",
+    "LessonId": "5f719033-8948-49c6-9b1c-a70e0da9b58c",
+    "GrammarId": "26ce6f8e-cfc3-50d3-bfb8-0439ac0de135",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"이것은 기말시험이에요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "4585c3b4-9cce-57fa-b467-f8f07c1ccd6f",
+    "LessonId": "71aed010-44ca-4125-a0bf-0d684affb031",
+    "GrammarId": "2930bb43-96d0-518d-bae1-12ac21af26c4",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi uống thuốc.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "aa29b222-43a4-5eeb-9156-bd919e04997c",
+    "LessonId": "71aed010-44ca-4125-a0bf-0d684affb031",
+    "GrammarId": "12869d6c-a4dc-574f-91c6-0b347274498f",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Cái này không phải thuốc cảm.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "843ba508-5dfd-5225-9523-6d8704eb1459",
+    "LessonId": "71aed010-44ca-4125-a0bf-0d684affb031",
+    "GrammarId": "12869d6c-a4dc-574f-91c6-0b347274498f",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"저는 의사가 아니에요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "c334a64b-fbb7-517a-9885-f097503ee980",
+    "LessonId": "902bd8be-46b9-4606-8c84-c83b1851966d",
+    "GrammarId": "0ca416a2-cc0e-5db7-ad3b-909f2ccf7703",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi có nhiều nỗi lo.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "d18c0a61-0c3f-5f4b-a2ca-26f24c66ed9b",
+    "LessonId": "902bd8be-46b9-4606-8c84-c83b1851966d",
+    "GrammarId": "0ca416a2-cc0e-5db7-ad3b-909f2ccf7703",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"아기가 귀여워요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "2196853d-45bd-5f9d-91fb-ba1c7adcad8a",
+    "LessonId": "902bd8be-46b9-4606-8c84-c83b1851966d",
+    "GrammarId": "f781ce60-2b57-5b41-a520-db31587e2410",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi không lo lắng.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "54121906-21b6-5449-afeb-be5fec67e62f",
+    "LessonId": "902bd8be-46b9-4606-8c84-c83b1851966d",
+    "GrammarId": "f781ce60-2b57-5b41-a520-db31587e2410",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"귀찮지 않아요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "a3daa675-59d8-526d-a534-39683bddebf3",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "GrammarId": "31904350-8b74-5d39-a5e5-38cd0ce36957",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi đã mua cặp.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "99291310-763a-51ea-abaf-e71f2aaadf83",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "GrammarId": "31904350-8b74-5d39-a5e5-38cd0ce36957",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"가수를 좋아해요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "eeeabba5-542e-5c54-b2ed-72f34a9a48ed",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "GrammarId": "0198cc63-3d66-5222-93dc-4d04db69beae",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Cái cặp này giá đắt.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "4c2c1a2e-ad8a-55d6-a179-d0f797fbec92",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "GrammarId": "0198cc63-3d66-5222-93dc-4d04db69beae",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"저 사람은 가수예요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "26284c06-c232-5867-a07c-41a6d7e4c33d",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
+    "GrammarId": "e86f6817-dd8d-54b9-ad45-f117a1f8203e",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Khách du lịch cũng đông.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "96702d73-7c62-5749-9a9d-c80fe3454e9d",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
+    "GrammarId": "e86f6817-dd8d-54b9-ad45-f117a1f8203e",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"공책도 주세요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "2999e5af-872e-5481-8600-3ec6625d1eca",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
+    "GrammarId": "f87ec2a0-8990-5dc8-80de-1cc9394d6bb1",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Mối quan tâm của tôi là tiếng Hàn.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "aef1d272-bbad-5335-a0fa-7509bab10de5",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
+    "GrammarId": "f87ec2a0-8990-5dc8-80de-1cc9394d6bb1",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"교수의 연구실이에요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "d46c5536-5ac4-5a5b-9b4c-5f0545ae6cf7",
+    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "GrammarId": "4bd62e02-22a6-5fa7-b8b6-57d806d7bbd0",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi đã mang đồ nội thất và cặp tới.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "2e253c82-d965-50cf-a256-edb890ecf42c",
+    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "GrammarId": "4bd62e02-22a6-5fa7-b8b6-57d806d7bbd0",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"가족과 같이 가요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "0caacd57-4126-5568-a454-c1ce7930b8a5",
+    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "GrammarId": "4c9b7dea-1001-56ae-8bd3-c0d8bf25dba0",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Hôm nay tôi không học.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "fc981d94-bc6e-5c12-9062-96e2aaef6ce4",
+    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "GrammarId": "4c9b7dea-1001-56ae-8bd3-c0d8bf25dba0",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"안 가져가요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "e4b31a17-749d-5ae7-aac8-4f6f53e3461f",
+    "LessonId": "918c686b-aea1-4658-8467-e4a0af482178",
+    "GrammarId": "d01f4b7a-b045-5859-b917-25ea877f1185",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi chỉ ăn canh kimchi thôi.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "870502c3-3d23-5a71-9957-08f5b580938f",
+    "LessonId": "918c686b-aea1-4658-8467-e4a0af482178",
+    "GrammarId": "d01f4b7a-b045-5859-b917-25ea877f1185",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"글만 읽어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "3a2ce0bf-146d-5e88-9422-bd66dc20caeb",
+    "LessonId": "918c686b-aea1-4658-8467-e4a0af482178",
+    "GrammarId": "60c4861d-21e5-5800-a25b-16db95a993ab",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi muốn đi theo con đường đó.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "a64fc2d6-dc5b-5189-a0a0-7c5bfe8b015a",
+    "LessonId": "918c686b-aea1-4658-8467-e4a0af482178",
+    "GrammarId": "60c4861d-21e5-5800-a25b-16db95a993ab",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"김치찌개를 먹고 싶어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "9816da18-fd1b-5d9c-a15b-fe787dfe6d22",
+    "LessonId": "894bd7ad-1c9d-4393-9735-3715c818ba93",
+    "GrammarId": "4cc79db5-8654-527f-8922-4c29c37a6d45",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Đừng nói dối.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "425dfca1-d6fe-53bf-8428-5013b8bfec04",
+    "LessonId": "894bd7ad-1c9d-4393-9735-3715c818ba93",
+    "GrammarId": "4cc79db5-8654-527f-8922-4c29c37a6d45",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"게임을 해요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "d2caf17d-f842-5f3b-ae6b-1fcc009e8bdf",
+    "LessonId": "894bd7ad-1c9d-4393-9735-3715c818ba93",
+    "GrammarId": "414c7134-b1bc-518e-880b-dc18ae6665fe",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi viết chữ rồi chơi game.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "0bd6e2ee-5b64-5d42-b869-65b84513aaca",
+    "LessonId": "894bd7ad-1c9d-4393-9735-3715c818ba93",
+    "GrammarId": "414c7134-b1bc-518e-880b-dc18ae6665fe",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"구경하고 사진을 찍어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "357417ed-c5c6-58c2-a984-abd16770418d",
+    "LessonId": "70e7309c-7fcb-48ef-a22a-aecc8b57fee9",
+    "GrammarId": "3752f634-5935-5ff9-af6f-38e96081a048",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Cửa hàng ở trong tòa nhà.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "4e201aaf-15aa-50ac-af75-3204ecb1f21d",
+    "LessonId": "70e7309c-7fcb-48ef-a22a-aecc8b57fee9",
+    "GrammarId": "3752f634-5935-5ff9-af6f-38e96081a048",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"근처에 경찰서가 없어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "7a530ef6-8eca-5517-bacd-e7db096ec74e",
+    "LessonId": "70e7309c-7fcb-48ef-a22a-aecc8b57fee9",
+    "GrammarId": "ae7cacc0-e0a5-5b3b-bc61-d1a05bd4b2c6",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi xem phim ở rạp.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "29658655-0b5f-526f-9f38-0193e24ad191",
+    "LessonId": "70e7309c-7fcb-48ef-a22a-aecc8b57fee9",
+    "GrammarId": "ae7cacc0-e0a5-5b3b-bc61-d1a05bd4b2c6",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"거실에서 쉬어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "6c79f35e-e390-5985-aa23-7cfe610d384b",
+    "LessonId": "338075fd-99bb-4fe7-bf44-640f1cef2c1f",
+    "GrammarId": "56357ff2-4bcc-54fe-837d-a2cc869e8d88",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Cho tôi ba quả táo.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "a992490c-244b-5c71-be43-eb78f93da7ad",
+    "LessonId": "338075fd-99bb-4fe7-bf44-640f1cef2c1f",
+    "GrammarId": "56357ff2-4bcc-54fe-837d-a2cc869e8d88",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"학생 두 명이 있어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "c8f2978a-f290-5826-86d9-6dbb64fda03d",
+    "LessonId": "338075fd-99bb-4fe7-bf44-640f1cef2c1f",
+    "GrammarId": "6de35094-b85b-5579-87d8-2d3340e8e20b",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi vẽ đường nét dày.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "f2d0f2cc-24c6-5eda-afa1-527e5e506127",
+    "LessonId": "338075fd-99bb-4fe7-bf44-640f1cef2c1f",
+    "GrammarId": "6de35094-b85b-5579-87d8-2d3340e8e20b",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"가벼운 가방이에요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "f3832a84-5307-542f-ac48-a1b499d365a7",
+    "LessonId": "1af5b5d6-ede1-4e7c-939b-9c0f8bdad23a",
+    "GrammarId": "c65c6ad0-dc32-59f4-8e65-d8288c13ff53",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tháng chín mùa thu đến.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "7250b683-3595-5545-9446-e7025b47a08a",
+    "LessonId": "1af5b5d6-ede1-4e7c-939b-9c0f8bdad23a",
+    "GrammarId": "c65c6ad0-dc32-59f4-8e65-d8288c13ff53",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"공휴일에 쉬어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "b7147104-cec4-5d33-8d43-096cc4107c93",
+    "LessonId": "1af5b5d6-ede1-4e7c-939b-9c0f8bdad23a",
+    "GrammarId": "a3988021-6e0e-5d49-81a3-f375bbbf794a",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi học từ 1 giờ đến 3 giờ.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "9b5486f1-260b-50db-9428-964734861eb4",
+    "LessonId": "1af5b5d6-ede1-4e7c-939b-9c0f8bdad23a",
+    "GrammarId": "a3988021-6e0e-5d49-81a3-f375bbbf794a",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"구월부터 십일월까지 가을이에요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "08099ed4-38dc-5ae8-b4bb-ad306d58f98b",
+    "LessonId": "79cabd7d-83e3-4320-bb24-78e581d87453",
+    "GrammarId": "d1d75895-aaab-5f8b-9dac-fffcd592f5ed",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi đổ vào cho đầy.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "39be07d4-aec0-5bd9-9608-230193aca4cd",
+    "LessonId": "79cabd7d-83e3-4320-bb24-78e581d87453",
+    "GrammarId": "d1d75895-aaab-5f8b-9dac-fffcd592f5ed",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"깨끗하게 청소해요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "4fc77e93-0f4c-5c6a-bf39-192faed52101",
+    "LessonId": "79cabd7d-83e3-4320-bb24-78e581d87453",
+    "GrammarId": "1a405a9d-0217-5fd1-8b1d-fda9253e1e06",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Đến quá đột ngột.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "410d0f36-c3fc-5817-8ccb-0ccbf778b0ae",
+    "LessonId": "79cabd7d-83e3-4320-bb24-78e581d87453",
+    "GrammarId": "1a405a9d-0217-5fd1-8b1d-fda9253e1e06",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"조금 계속 기다려요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "915d09e8-ac88-578c-8e0a-437be9df572e",
+    "LessonId": "a4c81b67-a1e6-457c-806e-db105f77da83",
+    "GrammarId": "bdf503f1-d830-542a-a889-7609ac580065",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Là người như vậy.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "8fa662b9-8b89-5340-b605-2e1d64ebec98",
+    "LessonId": "a4c81b67-a1e6-457c-806e-db105f77da83",
+    "GrammarId": "ba35b931-69ad-54db-8967-b8fdfc8ad8f2",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"깨끗하죠?.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "56d30f92-9494-5653-bd2a-c8c1a7c0658a",
+    "LessonId": "6fc00419-1d75-4e9e-8770-4bd956553449",
+    "GrammarId": "0cba8d4c-8e8c-5bf0-bf15-b1527e089e05",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Thật sự cảm ơn.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "06e89e66-b207-57df-896f-e991790a2b98",
+    "LessonId": "6fc00419-1d75-4e9e-8770-4bd956553449",
+    "GrammarId": "0cba8d4c-8e8c-5bf0-bf15-b1527e089e05",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"간단해요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "a1f38c26-e917-5724-97c7-74be2b57c293",
+    "LessonId": "6fc00419-1d75-4e9e-8770-4bd956553449",
+    "GrammarId": "6ab2b2b7-c48a-595e-8ff4-b7a7d982a6d7",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Vừa đơn giản vừa mạnh.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "922b1327-ce41-5eea-95b7-9e375d7a5bce",
+    "LessonId": "6fc00419-1d75-4e9e-8770-4bd956553449",
+    "GrammarId": "6ab2b2b7-c48a-595e-8ff4-b7a7d982a6d7",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"게으르고 느려요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "b1c85903-9ed4-529f-921b-998e35f2ddc8",
+    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
+    "GrammarId": "c553741e-61d7-5d17-8077-6d58c6bb5feb",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi đi đến trường.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "53bd6fd8-113f-5139-b3b1-39def3ec1cf4",
+    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
+    "GrammarId": "c553741e-61d7-5d17-8077-6d58c6bb5feb",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"거기에 가까워요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "ad5f96b8-7f53-5175-92f1-ff7ccf6557f6",
+    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
+    "GrammarId": "81ccdc8f-9bfc-5a84-9952-c175fa9d9302",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi chuyển sang đi tàu điện ngầm.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "c6108dd1-6ee1-5d90-b5f1-6daf4da54aa2",
+    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
+    "GrammarId": "81ccdc8f-9bfc-5a84-9952-c175fa9d9302",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"이쪽으로 가세요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "05287042-fe2c-559d-83be-8a1fafa570c5",
+    "LessonId": "10c5de2f-e85b-4944-bcca-ba0fa12cbe6f",
+    "GrammarId": "f80947d9-1925-52cc-90ef-911f70472c57",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Mời bạn dùng đồ ăn vặt.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "93ca814a-ba16-5b3c-b86a-a04384669da6",
+    "LessonId": "10c5de2f-e85b-4944-bcca-ba0fa12cbe6f",
+    "GrammarId": "f80947d9-1925-52cc-90ef-911f70472c57",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"여기 앉으세요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "d8d36963-cd59-5927-bae9-48ef3c68c17e",
+    "LessonId": "10c5de2f-e85b-4944-bcca-ba0fa12cbe6f",
+    "GrammarId": "5db8a513-313d-5abd-b037-6ed64053dba0",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Cho tôi một chai nước tương.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "ed05efa0-20aa-53d8-97a1-546bca25a7e4",
+    "LessonId": "10c5de2f-e85b-4944-bcca-ba0fa12cbe6f",
+    "GrammarId": "5db8a513-313d-5abd-b037-6ed64053dba0",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"갈비 주세요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "80ea8c39-25fa-51ad-8a73-ffa5d0d5b240",
+    "LessonId": "8c7be511-46d1-4e46-879d-bfd295171b09",
+    "GrammarId": "9d2966de-8d68-5139-bb29-49739d1c1a46",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi đã dạy tiếng Hàn.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "5e634dd0-e717-576e-a7cc-222f3c17a617",
+    "LessonId": "8c7be511-46d1-4e46-879d-bfd295171b09",
+    "GrammarId": "9d2966de-8d68-5139-bb29-49739d1c1a46",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"옷을 갈아입었어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "3b39996e-bfd8-51c5-a148-f9516cd727d0",
+    "LessonId": "8c7be511-46d1-4e46-879d-bfd295171b09",
+    "GrammarId": "27919903-53aa-5dd7-8734-73f36b16077d",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Ngày mai tôi sẽ dạy.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "4214a646-b9f6-55a7-9ffb-772cf609feb5",
+    "LessonId": "8c7be511-46d1-4e46-879d-bfd295171b09",
+    "GrammarId": "27919903-53aa-5dd7-8734-73f36b16077d",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"가방을 가질 거예요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "814cf3da-f3e2-5e05-8aa0-c6abd7cb6a7c",
+    "LessonId": "caa9dc19-b472-4888-9590-23b5a585559e",
+    "GrammarId": "a6641277-6a4c-5cc4-a319-9c5adfff596a",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi đi tham quan Gyeongbokgung.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "7cb2d3c0-10ea-52b4-9e54-c2c3b28ea2d7",
+    "LessonId": "caa9dc19-b472-4888-9590-23b5a585559e",
+    "GrammarId": "a6641277-6a4c-5cc4-a319-9c5adfff596a",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"감자를 사러 왔어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "fe685de2-9963-5a8d-a0c5-4ef0b7f5ec30",
+    "LessonId": "caa9dc19-b472-4888-9590-23b5a585559e",
+    "GrammarId": "e084b9e6-19e6-5538-baa2-1a14dabc0496",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi đã mua khoai tây nhưng chưa ăn.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "95ad7066-099f-5423-95cc-f40ef31d68cc",
+    "LessonId": "caa9dc19-b472-4888-9590-23b5a585559e",
+    "GrammarId": "e084b9e6-19e6-5538-baa2-1a14dabc0496",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"경주는 멀지만 좋아요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "3842b830-c504-509b-8582-81bae3d8c6ec",
+    "LessonId": "e4ac0098-b443-4a0d-ad5d-dd24930595dc",
+    "GrammarId": "46459f48-621c-5045-8110-b9131da88ffb",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Vì khả năng thấp nên tôi đã bỏ cuộc.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "a4a2d41d-a6f4-57f0-b87a-f36ba9a07b75",
+    "LessonId": "e4ac0098-b443-4a0d-ad5d-dd24930595dc",
+    "GrammarId": "46459f48-621c-5045-8110-b9131da88ffb",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"간섭 때문에 힘들어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "e4d3a170-5037-5efd-914e-f62d8369c4cb",
+    "LessonId": "e4ac0098-b443-4a0d-ad5d-dd24930595dc",
+    "GrammarId": "bdbecc3b-da5e-5078-b831-4a16d925c498",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Có vẻ đã được cải thiện.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "61defa14-9739-5545-9355-e3c5d0d23773",
+    "LessonId": "e4ac0098-b443-4a0d-ad5d-dd24930595dc",
+    "GrammarId": "bdbecc3b-da5e-5078-b831-4a16d925c498",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"간절한 것 같아요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "d762c97f-fcc0-5a1f-9ec1-ca41d4848a45",
+    "LessonId": "764c970f-7227-4e7d-ba2f-36f08628a089",
+    "GrammarId": "6f4bb80b-d073-5651-9580-ad5f7ff49a5a",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi phải được chăm sóc y tế.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "9c7b3d3e-5e80-5386-836b-4cf520474d46",
+    "LessonId": "764c970f-7227-4e7d-ba2f-36f08628a089",
+    "GrammarId": "6f4bb80b-d073-5651-9580-ad5f7ff49a5a",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"약을 먹어야 돼요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "3d93e734-1af2-5c27-9cbc-9b81047813ac",
+    "LessonId": "764c970f-7227-4e7d-ba2f-36f08628a089",
+    "GrammarId": "90a5b187-533f-553c-916b-5a4c0f4ef53e",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Nếu đau nhiều thì hãy đến bệnh viện.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "a1c1c9dc-8994-54e6-b604-3fc7aae4b4bf",
+    "LessonId": "764c970f-7227-4e7d-ba2f-36f08628a089",
+    "GrammarId": "90a5b187-533f-553c-916b-5a4c0f4ef53e",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"괴로우면 말하세요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "fe96d1f9-a034-59bf-be30-b5f2585217b6",
+    "LessonId": "4d149c1e-7be5-4cd4-9d8c-1dcfb7ca8d61",
+    "GrammarId": "ddeecfe7-c0c8-5af0-b225-b9a8a16e3dde",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Trông có vẻ lo lắng.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "901f0220-e5b0-5d30-bd77-a8115411406c",
+    "LessonId": "4d149c1e-7be5-4cd4-9d8c-1dcfb7ca8d61",
+    "GrammarId": "ddeecfe7-c0c8-5af0-b225-b9a8a16e3dde",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"겁나 보여요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "c1d53a1c-6444-565a-b72d-4b161710ad70",
+    "LessonId": "4d149c1e-7be5-4cd4-9d8c-1dcfb7ca8d61",
+    "GrammarId": "c342603b-568b-5d67-a5c2-05a1ea682696",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Sợ bạn ấy lo nên tôi không nói.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "57951cf2-d321-5d9f-857c-eff26f5098ae",
+    "LessonId": "4d149c1e-7be5-4cd4-9d8c-1dcfb7ca8d61",
+    "GrammarId": "c342603b-568b-5d67-a5c2-05a1ea682696",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"겁낼까 봐 걱정돼요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "3517a286-024c-5a96-bdbf-c0a36a4bb78b",
+    "LessonId": "0f09c264-36ba-420a-9974-50d6c795e737",
+    "GrammarId": "6e82a9f9-e145-56d4-b1af-dfef43da31b5",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Từ sân bay Gimpo đến Seoul mất một tiếng.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "43c4ffb4-0ab2-59b5-ae41-be1cae57d1c8",
+    "LessonId": "0f09c264-36ba-420a-9974-50d6c795e737",
+    "GrammarId": "6e82a9f9-e145-56d4-b1af-dfef43da31b5",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"강원도에서 경기도까지 멀어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "e2076f98-b000-5075-b2ab-0377ee37fd19",
+    "LessonId": "0f09c264-36ba-420a-9974-50d6c795e737",
+    "GrammarId": "789c3ad0-4c10-5f16-8df2-a4fa9a6e586a",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi muốn đi Gyeongsang hoặc Gwangju.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "0b19c80f-aaad-50a8-82f1-cea76c26abf4",
+    "LessonId": "0f09c264-36ba-420a-9974-50d6c795e737",
+    "GrammarId": "789c3ad0-4c10-5f16-8df2-a4fa9a6e586a",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"세 시간이나 기다렸어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "fb299ff9-3801-583f-a7db-73ac8bc89502",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "GrammarId": "0d113ec9-4197-5808-af06-cda033886fc3",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Là tin tức về tai nạn khí ga.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "706342a5-449e-51b7-8fbf-fae45dcadc6d",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "GrammarId": "0d113ec9-4197-5808-af06-cda033886fc3",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"가뭄에 대해서 이야기했어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "c830b582-3d2b-5fea-8eb4-d079a2be8087",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "GrammarId": "e560e82d-6aaa-50af-9e95-b585b73e7ca7",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Máy tạo ẩm tốt trong việc chống khô.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "056262fc-e932-5eff-bec0-7de6d4055e5c",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "GrammarId": "e560e82d-6aaa-50af-9e95-b585b73e7ca7",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"가루를 만드는 데 시간이 걸려요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "9b48dc09-bb73-54fe-a559-0ea80c0d8750",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "GrammarId": "6e2b97e3-db51-5910-9095-8a3d3bd1d55f",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"So với năm ngoái thì kinh tế tốt hơn.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "3492ed82-4fab-5534-a691-c30f881caf43",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "GrammarId": "6e2b97e3-db51-5910-9095-8a3d3bd1d55f",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"경력에 비해 겸손해요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "ce0f05df-4b15-5618-8b38-e183a82fa24c",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "GrammarId": "a9ab8d6f-b8f1-5a47-b71a-c9a683f3015c",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tuy hay cảnh cáo nhưng lại không phạt.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "13d8fad1-d155-5ed9-b408-af179f334c36",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "GrammarId": "a9ab8d6f-b8f1-5a47-b71a-c9a683f3015c",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"결합은 쉬운 반면에 분리는 어려워요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "35f2b6a3-89e8-5aee-ad47-3d55a4bbc9e2",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "GrammarId": "36cdf35d-c99a-5235-ac5f-3058dd4f6fe8",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Chúng tôi làm việc vì lợi ích chung.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "8e18e21b-3cd3-56dc-8b36-888e0ff8c7e1",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "GrammarId": "36cdf35d-c99a-5235-ac5f-3058dd4f6fe8",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"공급을 늘리기 위해서 노력해요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "a90a35d0-1d4e-57f5-a605-20fb1ac97a6b",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "GrammarId": "246950f8-ffd2-5217-a5d8-728340ed2808",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Đã công bố chính thức để mọi người đều biết.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "ad2e30fd-d9a5-5542-a3b2-d8b0049e0dc3",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "GrammarId": "246950f8-ffd2-5217-a5d8-728340ed2808",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"공과금을 잊지 않도록 메모하세요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "39445026-81d2-5402-800d-574a0091f58b",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "GrammarId": "73176517-badb-5dc0-be0f-e7dcd6a425fa",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Do kết hôn quốc tế mà văn hóa trở nên đa dạng.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "54ae6d6e-798e-5440-bd78-f6ba422f6702",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "GrammarId": "73176517-badb-5dc0-be0f-e7dcd6a425fa",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"사고로 인한 피해가 커요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "392db70b-a153-5cc8-a677-be01c1299326",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "GrammarId": "b7e2398f-11bc-5089-aa96-77ce5d8326bd",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Luật thay đổi theo quyết định của quốc hội.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "8d19825c-49ed-5c30-9192-da312f8e2286",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "GrammarId": "b7e2398f-11bc-5089-aa96-77ce5d8326bd",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"국어 실력에 따라 반을 나눠요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "e2adec7e-5dcd-537b-a40d-6bc78abdaea4",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
+    "GrammarId": "317d1c22-d5bd-590a-b53c-02a82e725bdc",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Không chỉ quyên góp mà còn trực tiếp giúp đỡ.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "2834d950-e96e-5b96-904a-f9e884f08e39",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
+    "GrammarId": "317d1c22-d5bd-590a-b53c-02a82e725bdc",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"기술뿐만 아니라 기록도 좋아요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "f0f7677a-e078-509e-abc3-fbbdd48aae26",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
+    "GrammarId": "d381fe43-5f4c-51dc-8385-bba096a1f3e8",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Vừa là kỹ thuật viên lại còn khỏe.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "7310d13f-b334-57bc-a921-5361db8bce26",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
+    "GrammarId": "d381fe43-5f4c-51dc-8385-bba096a1f3e8",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"기록이 좋은 데다가 성실해요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "733b43f0-e084-5e9c-897d-2042eba5c5e5",
+    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "GrammarId": "ea7cfdb9-c872-52ab-a8a8-860477c2be60",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi đã nấu ăn cho mẹ.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "bbc107d3-f0ed-5385-b7b4-e4ddc62ee37e",
+    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "GrammarId": "ea7cfdb9-c872-52ab-a8a8-860477c2be60",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"가정주부를 도와줬어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "31337b61-228f-5206-87f6-d3bf21d4c421",
+    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "GrammarId": "3feb2427-8bf8-50ad-850b-45d0dc7677ee",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Đã bắt người đăng ký phải chờ.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "b81f0633-c92c-5a80-a828-3dab8094ce61",
+    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "GrammarId": "3feb2427-8bf8-50ad-850b-45d0dc7677ee",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"가정을 걱정하게 했어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "ea0b149b-487e-5334-a787-c51a853cb753",
+    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "GrammarId": "4ae64560-ace6-5e48-b0e8-ce56e1e04938",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi đã từng học quyền anh.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "494cfaad-140f-541b-be30-ce49e9c95ced",
+    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "GrammarId": "4ae64560-ace6-5e48-b0e8-ce56e1e04938",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"곰을 본 적이 없어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "4501b3e7-160a-52ac-9569-999cb08c6d07",
+    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "GrammarId": "df559172-0ed3-5130-a411-dfadd70a3598",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Hãy thử đi theo con hẻm.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "5c553446-68ec-59b9-bbff-a673616b3861",
+    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "GrammarId": "df559172-0ed3-5130-a411-dfadd70a3598",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"그림책을 읽어 봤어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "af8e590f-c560-505e-ba27-ecc6bd565bd5",
+    "LessonId": "e1065344-1f3d-4044-9afd-6de46482650a",
+    "GrammarId": "1154b76a-5474-55d8-8292-9d27a82d9224",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Cô ấy là bạn tôi.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "68d73f31-cfa0-5401-8ef5-fb621cda42e1",
+    "LessonId": "e1065344-1f3d-4044-9afd-6de46482650a",
+    "GrammarId": "1154b76a-5474-55d8-8292-9d27a82d9224",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"그대, 어디 가?.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "cf1c3401-8649-5dd4-a13c-62f38b537b34",
+    "LessonId": "e1065344-1f3d-4044-9afd-6de46482650a",
+    "GrammarId": "f7864560-4b83-5145-9987-de6151639df3",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Không khó lắm.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "f235fd75-7efd-5e6e-926f-40c355a8d938",
+    "LessonId": "e1065344-1f3d-4044-9afd-6de46482650a",
+    "GrammarId": "f7864560-4b83-5145-9987-de6151639df3",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"별로 안 좋아해요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "db2f0f54-7ee3-51c2-aadd-60605aa3114f",
+    "LessonId": "ea8671ec-0c1e-4758-84f9-33e99279dc85",
+    "GrammarId": "50cad252-4b59-5fae-b045-4cc365162263",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi đang hít thở không khí.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "bff6ce5e-303e-5a91-836c-bb43c5d528b2",
+    "LessonId": "ea8671ec-0c1e-4758-84f9-33e99279dc85",
+    "GrammarId": "50cad252-4b59-5fae-b045-4cc365162263",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"지금 개방하고 있어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "a47962d8-a449-5d99-a58f-ffd44c8ce893",
+    "LessonId": "ea8671ec-0c1e-4758-84f9-33e99279dc85",
+    "GrammarId": "c2bdab18-8657-5bb0-8b15-25703587db65",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Cửa đang ở trạng thái mở.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "a9a19a6c-5ee3-5609-aa23-8a74fb235f51",
+    "LessonId": "ea8671ec-0c1e-4758-84f9-33e99279dc85",
+    "GrammarId": "c2bdab18-8657-5bb0-8b15-25703587db65",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"의자에 앉아 있어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "c8e08704-93ba-5549-ae7c-47688788685d",
+    "LessonId": "9bffc0db-c3d4-4132-81ac-b275dfb37866",
+    "GrammarId": "974f7613-1d47-5f00-bd35-ddc721b3cf26",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Nhìn thấy rõ là đồ thật.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "cbfda0d8-681d-5bd7-b0c0-dbdd046292a4",
+    "LessonId": "9bffc0db-c3d4-4132-81ac-b275dfb37866",
+    "GrammarId": "974f7613-1d47-5f00-bd35-ddc721b3cf26",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"감옥 문이 닫혔어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "69a145a9-fd14-5714-9381-0fd4f1487302",
+    "LessonId": "9bffc0db-c3d4-4132-81ac-b275dfb37866",
+    "GrammarId": "2fc5f804-27d4-5ba1-946c-d9476414c348",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi đã đặt sẵn sảnh cưới.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "a45be094-32e5-50e4-8a96-564fdbe55bfe",
+    "LessonId": "9bffc0db-c3d4-4132-81ac-b275dfb37866",
+    "GrammarId": "2fc5f804-27d4-5ba1-946c-d9476414c348",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"가사를 적어 뒀어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "c65b4904-5ea8-5ab1-9517-0098a8f8e149",
+    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "GrammarId": "eb4d33c8-75b2-5a8c-bf19-877cc3dca30a",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Giá trị quan quan trọng ngang với tôi.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "1638f518-ce77-548f-8832-3d4b26a6eb4d",
+    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "GrammarId": "eb4d33c8-75b2-5a8c-bf19-877cc3dca30a",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"각오할 만큼 어려워요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "15dcb177-e1d3-51fd-b752-e6127e53beae",
+    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "GrammarId": "91edca66-7785-565c-ae94-8c66f9e67930",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi đã giúp gián tiếp khoảng một nửa.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "a167aeda-726d-5a90-bf57-c40f4412a7b7",
+    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "GrammarId": "91edca66-7785-565c-ae94-8c66f9e67930",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"어느 정도 가치가 있어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "1c41ad34-e2a9-5415-8d18-67a92d4fc8a1",
+    "LessonId": "8fba85f1-d694-4a68-a949-48a98e52c527",
+    "GrammarId": "324f3160-e5a4-5720-b854-02d56b2b6b20",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi học tiếng Hàn được một năm rồi.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "fac6ea9e-db66-532d-aa2c-f091b5567b07",
+    "LessonId": "8fba85f1-d694-4a68-a949-48a98e52c527",
+    "GrammarId": "324f3160-e5a4-5720-b854-02d56b2b6b20",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"국경일이 지난 지 오래됐어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "f57bced1-351d-5173-a77b-62bfb6eb2d72",
+    "LessonId": "8fba85f1-d694-4a68-a949-48a98e52c527",
+    "GrammarId": "cae546b9-4cab-59c3-b00d-21fd5c561581",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Trong lúc nghỉ dưới bóng râm thì trời mưa.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "ce8f434e-19c0-5faa-b489-c5ba8fe47f12",
+    "LessonId": "8fba85f1-d694-4a68-a949-48a98e52c527",
+    "GrammarId": "cae546b9-4cab-59c3-b00d-21fd5c561581",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"방학 동안 여행했어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "f8b62fa6-d71a-5b97-b311-e8a7d8465dd8",
+    "LessonId": "ffa3ffa2-f5e1-48c9-aba8-7fd1db6bd4d7",
+    "GrammarId": "e207f037-f98e-5b72-9ea2-653d74e965f6",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Ngày mai chắc trời sẽ hửng.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "c03fd876-24a4-5e58-8a1c-942c9af25c9e",
+    "LessonId": "ffa3ffa2-f5e1-48c9-aba8-7fd1db6bd4d7",
+    "GrammarId": "e207f037-f98e-5b72-9ea2-653d74e965f6",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"강수량이 많을 것 같아요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "a35cd999-f9cf-5e1f-959f-98c3cb867436",
+    "LessonId": "ffa3ffa2-f5e1-48c9-aba8-7fd1db6bd4d7",
+    "GrammarId": "7b7e2534-b1f7-5dc2-9a1b-e8771bc9c631",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi sẽ trồng khoai lang.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "5d21a8c1-06bb-54f8-9c11-a5b9ff93d848",
+    "LessonId": "ffa3ffa2-f5e1-48c9-aba8-7fd1db6bd4d7",
+    "GrammarId": "7b7e2534-b1f7-5dc2-9a1b-e8771bc9c631",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"개나리가 예쁘겠어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "075958dd-e750-539d-8da6-22eafc0334d9",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
+    "GrammarId": "07af5583-1d30-562a-934a-c1863430653d",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Càng xem càng thích.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "8dac5388-e537-52cd-9be1-9a02b212ac35",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
+    "GrammarId": "07af5583-1d30-562a-934a-c1863430653d",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"갈수록 어려워져요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "4d607a58-5421-532c-9642-40c035e0c04e",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
+    "GrammarId": "510c370a-d1c3-5b17-9dc9-e9c6014cd5ea",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Dù có làm ngược lại thì cuối cùng vẫn vậy.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "1c7e06f3-0125-5358-b5ba-46ff3783bc75",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
+    "GrammarId": "510c370a-d1c3-5b17-9dc9-e9c6014cd5ea",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"아무리 감히 말해도 안 들어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "ad4674a0-a499-5d35-959d-7b301912bb39",
+    "LessonId": "ebaf5db7-e403-42a5-86ea-e2f686ed0247",
+    "GrammarId": "fe4a2173-c36f-5089-8bb1-e956c1f39ebd",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Văn hóa thế hệ cũ đã yếu đi.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "8bcd3fdf-bbc1-5ed7-ad25-a583767d16c2",
+    "LessonId": "ebaf5db7-e403-42a5-86ea-e2f686ed0247",
+    "GrammarId": "fe4a2173-c36f-5089-8bb1-e956c1f39ebd",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"가난해졌어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "504a5f80-0e32-57ab-a45c-bb3d0a45bf21",
+    "LessonId": "ebaf5db7-e403-42a5-86ea-e2f686ed0247",
+    "GrammarId": "9eb20916-7221-5ab8-8d56-08a153c84c8f",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Không biết nghèo đến mức nào.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "9aed487e-8403-5099-988a-3faad237249a",
+    "LessonId": "ebaf5db7-e403-42a5-86ea-e2f686ed0247",
+    "GrammarId": "9eb20916-7221-5ab8-8d56-08a153c84c8f",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"얼마나 강조하는지 몰라요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "8cbd3caa-b781-527f-af88-5824f041f95a",
+    "LessonId": "a4a7dddf-d683-40d4-bbc8-4c618d5b0912",
+    "GrammarId": "b7650ae4-8779-5f40-83a5-58cb2334ba15",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Lưng bị ngứa.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "9a1a408f-8ddf-54e7-a75b-24e5379a6d06",
+    "LessonId": "a4a7dddf-d683-40d4-bbc8-4c618d5b0912",
+    "GrammarId": "b7650ae4-8779-5f40-83a5-58cb2334ba15",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"간지러운 느낌이에요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "0c27aa63-b29e-50d3-af0e-18fdaa9bd37e",
+    "LessonId": "a4a7dddf-d683-40d4-bbc8-4c618d5b0912",
+    "GrammarId": "5b3f07ce-110e-5b44-a76c-beec3b68eb35",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Thuộc dạng khá tiện lợi.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "6528a50b-3761-5b96-92f0-af7d019e1018",
+    "LessonId": "a4a7dddf-d683-40d4-bbc8-4c618d5b0912",
+    "GrammarId": "5b3f07ce-110e-5b44-a76c-beec3b68eb35",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"가능한 편이에요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "e1bc7125-1d2e-5c86-8c07-17a92879a518",
+    "LessonId": "6015f4da-70f1-41f8-9ce8-4849ddc2e4f7",
+    "GrammarId": "f8f1d846-56a5-53e6-8826-61022387f528",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Hãy nói một cách cụ thể.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "b6cb0e0c-6190-525a-90d5-aeb35c319090",
+    "LessonId": "6015f4da-70f1-41f8-9ce8-4849ddc2e4f7",
+    "GrammarId": "f8f1d846-56a5-53e6-8826-61022387f528",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"객관적인 자료예요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "6f58664a-5fa3-5140-9b59-7390212644f2",
+    "LessonId": "6015f4da-70f1-41f8-9ce8-4849ddc2e4f7",
+    "GrammarId": "6a958e7a-8f5a-583f-b995-9660844370d6",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Ý kiến của từng cá nhân khác nhau.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "8e396a96-052e-52af-94ba-028823e56aab",
+    "LessonId": "6015f4da-70f1-41f8-9ce8-4849ddc2e4f7",
+    "GrammarId": "6a958e7a-8f5a-583f-b995-9660844370d6",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"매주 감동적인 이야기를 들어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "33f3c84d-198c-56ff-86f8-c80d0bdeda59",
+    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "GrammarId": "9c707807-567e-51b3-8b0e-8edc51dbc423",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi đi bộ dọc theo hàng đèn đường.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "c9d4fbd8-4576-5c51-9808-3b9e68ba84ae",
+    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "GrammarId": "9c707807-567e-51b3-8b0e-8edc51dbc423",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"선생님을 따라 하세요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "95a0569b-2a74-5600-85e4-26ad667b1e07",
+    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "GrammarId": "389b5d56-5b69-5614-9b88-0cc25bc4e4da",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Cứ đứng chắn ngang như vậy.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "59506479-2cbd-5b11-ab85-25294ee2b48e",
+    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "GrammarId": "389b5d56-5b69-5614-9b88-0cc25bc4e4da",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"신발을 신은 채 들어왔어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "ecbf89e2-8eb5-53b3-8143-838edfa0b55d",
+    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "GrammarId": "8745ed3c-05a6-504d-a174-28ec2a6df690",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Nướng bằng bếp ga hoặc luộc.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "bd55a00b-85a1-5987-b0e8-3bfcf3bc6293",
+    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "GrammarId": "8745ed3c-05a6-504d-a174-28ec2a6df690",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"가만히 있거나 나가세요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "fb639473-8864-5454-9e47-c09c65debf58",
+    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "GrammarId": "3db00c6f-8337-5a45-bcbb-a8543bdbce26",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Rửa tay trước khi ăn.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "168c6f97-5ca3-5002-8e0a-d4abaf2560fc",
+    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "GrammarId": "3db00c6f-8337-5a45-bcbb-a8543bdbce26",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"각국을 여행한 후에 돌아왔어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "d8ba8b6c-4a90-5fa3-a8ad-1a466bff2075",
+    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
+    "GrammarId": "b756d5e2-cf23-5713-85f2-18a87536c52c",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi quyết định sẽ không nhịn đói.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "480e4688-b130-5599-aca7-681702bc404a",
+    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
+    "GrammarId": "b756d5e2-cf23-5713-85f2-18a87536c52c",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"귀국하기로 했어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "11f58c4b-cef7-5e4c-85df-b1b6b6598f79",
+    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
+    "GrammarId": "64e49dae-fe26-53a4-880b-b76bee4173d2",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Suýt ngã khỏi xích đu.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "460a0237-9d8d-54ce-9024-a199e6cc9a16",
+    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
+    "GrammarId": "64e49dae-fe26-53a4-880b-b76bee4173d2",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"굶을 뻔했어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "26799f85-d0c3-5438-aae6-699abf45999e",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
+    "GrammarId": "bd5acaf6-e537-5f0d-9496-ac52ef57bf75",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi đã ru bé ngủ.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "96c23fbd-c539-58d5-8e35-8cceeb5d083f",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
+    "GrammarId": "bd5acaf6-e537-5f0d-9496-ac52ef57bf75",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"가라앉히려고 노력했어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "b649fc42-6f1c-52d4-846a-50ecc71c5063",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
+    "GrammarId": "31a2b633-5ce3-5448-9094-b07e2eb635e9",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Rốt cuộc tôi lại đi chăm sóc nó.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "288859d2-8535-5206-ba5f-3d4ff787254a",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
+    "GrammarId": "31a2b633-5ce3-5448-9094-b07e2eb635e9",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"가리게 됐어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "05994f9f-19a9-5558-abb4-a561646429de",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
+    "GrammarId": "9ceac5c5-1948-5e50-996b-0464292e0a64",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi biết cách nhân.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "68dff0b9-3bb7-5f78-8ce8-bd95dc90d4c0",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
+    "GrammarId": "9ceac5c5-1948-5e50-996b-0464292e0a64",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"관찰할 줄 몰라요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "174114fa-3a32-50f6-a804-1d8bfa641506",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
+    "GrammarId": "86c5acdb-40e3-5829-b756-c417e5e61b10",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Đã xóa mất tài liệu liên quan.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "4d49845d-ff19-525a-bd40-c6622943596a",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
+    "GrammarId": "86c5acdb-40e3-5829-b756-c417e5e61b10",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"다 먹어 버렸어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "534c4a7a-6ee5-5592-aa16-e73feb2caf4c",
+    "LessonId": "75ddea7d-8c89-4a2f-a617-dd91a6a370b3",
+    "GrammarId": "b066d34d-f8ae-5da9-a84b-deced0468c41",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Thầy đã cho biết tiết học.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "4d5234eb-7969-56cd-a337-5e22ea1bf395",
+    "LessonId": "75ddea7d-8c89-4a2f-a617-dd91a6a370b3",
+    "GrammarId": "b066d34d-f8ae-5da9-a84b-deced0468c41",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"귀하께서 오셨어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "95b9aa0f-7063-5617-80a0-80d37748135f",
+    "LessonId": "75ddea7d-8c89-4a2f-a617-dd91a6a370b3",
+    "GrammarId": "79583a6f-a304-5fa7-ac3c-852eb38abc8d",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi đã thưa với quý vị.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "687fbb3d-9b43-5173-a5d0-7b9d583809c7",
+    "LessonId": "75ddea7d-8c89-4a2f-a617-dd91a6a370b3",
+    "GrammarId": "79583a6f-a304-5fa7-ac3c-852eb38abc8d",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"선생님께 여쭤봤어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "ffb2fd22-521f-5fec-93ef-e9a7ee5389db",
+    "LessonId": "684014c9-c798-4842-a1b9-5079b98baef8",
+    "GrammarId": "919b477d-335d-52d4-ad37-c162b1a1eb3b",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Theo nghiên cứu kinh tế học, tình hình đã được cải thiện.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "c82cb595-95e6-5a2a-82e4-172a27354d9d",
+    "LessonId": "684014c9-c798-4842-a1b9-5079b98baef8",
+    "GrammarId": "919b477d-335d-52d4-ad37-c162b1a1eb3b",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"보도에 따르면 광장이 개방된다고 합니다.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "def4639c-fbf0-52a9-a8dc-58a08ab94b1f",
+    "LessonId": "684014c9-c798-4842-a1b9-5079b98baef8",
+    "GrammarId": "b01a5704-aa9f-51a5-84d3-920e172c3d7c",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Chúng tôi nỗ lực nhằm thay đổi môi trường khô hạn.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "9ed76851-05c4-5794-9776-47bb5ad8c33e",
+    "LessonId": "684014c9-c798-4842-a1b9-5079b98baef8",
+    "GrammarId": "b01a5704-aa9f-51a5-84d3-920e172c3d7c",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"제도를 개선하고자 합니다.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "74d94841-7636-5f0b-a02f-a1634d1c393a",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
+    "GrammarId": "037a244c-6beb-5841-b77d-7c315a06f73e",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Người ta hay dùng từ \"độ nhạy cảm\".\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "0511d229-d492-531d-bcaf-bdfe7aeaebd0",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
+    "GrammarId": "037a244c-6beb-5841-b77d-7c315a06f73e",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"가상 현실이라는 개념이에요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "265ef401-28e2-50bc-91fd-607ad6c4679b",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
+    "GrammarId": "8e2fc342-3d72-591a-bbd8-ec1f6ae04ebe",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Coi như đã được dạy hết rồi.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "99944bed-5702-5d38-9d24-d2f7c7d5ad87",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
+    "GrammarId": "8e2fc342-3d72-591a-bbd8-ec1f6ae04ebe",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"거의 끝난 셈이에요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "a061e7a6-718b-5ac0-984b-73b4238d179c",
+    "LessonId": "2dd8d259-422f-4071-8de7-5545afb14897",
+    "GrammarId": "64e782ca-49bc-5c7c-88c3-1077b661802c",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Từng cá nhân nỗ lực bao nhiêu thì kết quả ra bấy nhiêu.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "b786891a-b212-59e5-ab2d-6d89ab4dbf8e",
+    "LessonId": "2dd8d259-422f-4071-8de7-5545afb14897",
+    "GrammarId": "64e782ca-49bc-5c7c-88c3-1077b661802c",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"강변이 넓은 만큼 사람도 많아요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "3b607093-e3c3-5a6e-b9be-80c07166c9b7",
+    "LessonId": "2dd8d259-422f-4071-8de7-5545afb14897",
+    "GrammarId": "d2650bac-a4ba-5439-b40f-0e85e78cbc05",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Mỗi người suy nghĩ khác nhau là chuyện đương nhiên.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "66c98dd8-cd19-5856-91ad-6270decee4ad",
+    "LessonId": "2dd8d259-422f-4071-8de7-5545afb14897",
+    "GrammarId": "d2650bac-a4ba-5439-b40f-0e85e78cbc05",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"가구는 오래되면 낡기 마련이에요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "5b547776-286e-5836-9f9a-8d7f228441b8",
+    "LessonId": "4963314e-8221-4f0b-ac91-9f1fe2efe038",
+    "GrammarId": "49954286-af3b-5193-acf8-45a0b39369c7",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Số giám sát lên tới một trăm người.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "7341dd1b-616d-5750-9068-24b2adf7cfb7",
+    "LessonId": "4963314e-8221-4f0b-ac91-9f1fe2efe038",
+    "GrammarId": "49954286-af3b-5193-acf8-45a0b39369c7",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"거액에 달하는 손해예요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "4a04d20c-bf74-5a53-853f-4f475424cbe9",
+    "LessonId": "4963314e-8221-4f0b-ac91-9f1fe2efe038",
+    "GrammarId": "56a95509-9560-5c34-97a6-c756b660694a",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Thiệt hại gián tiếp lớn đến mức đáng kinh ngạc.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "52c34ac8-e462-51c5-b0da-f7fd674bd6db",
+    "LessonId": "4963314e-8221-4f0b-ac91-9f1fe2efe038",
+    "GrammarId": "56a95509-9560-5c34-97a6-c756b660694a",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"거대할 정도로 커졌어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "9ffd3a62-402e-58c1-bbc7-ceb0e497d12b",
+    "LessonId": "6b28324a-f59c-49f1-9087-03d50d413d6f",
+    "GrammarId": "51e5f50f-813d-5bc0-879a-9c09b84cacfd",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Sự kiện diễn ra giữa lúc trời mưa.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "a73bdf09-0383-5b38-897f-e7d60056f793",
+    "LessonId": "6b28324a-f59c-49f1-9087-03d50d413d6f",
+    "GrammarId": "51e5f50f-813d-5bc0-879a-9c09b84cacfd",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"골짜기에 안개가 낀 가운데 출발했어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "f060def0-286c-537b-b857-e3bb7c89e963",
+    "LessonId": "6b28324a-f59c-49f1-9087-03d50d413d6f",
+    "GrammarId": "e1350b89-2dfb-5649-b99e-914c86651d26",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Thiệt hại do hạn hán gây ra rất lớn.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "d8f3cad6-1314-562c-a2a1-2a8cfc7c4fa0",
+    "LessonId": "6b28324a-f59c-49f1-9087-03d50d413d6f",
+    "GrammarId": "e1350b89-2dfb-5649-b99e-914c86651d26",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"과거로 인한 문제예요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "7c08c3e1-0811-5b0b-961c-bfc2c4b56dc8",
+    "LessonId": "dd31b585-bea0-4a23-8ffd-5328163f2bb0",
+    "GrammarId": "4034b967-e557-50b5-b3ee-5bec5f870d4c",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Chẳng hạn có trường hợp như thế này.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "d8058883-0702-5f3d-b9ac-9b07c0369c42",
+    "LessonId": "dd31b585-bea0-4a23-8ffd-5328163f2bb0",
+    "GrammarId": "4034b967-e557-50b5-b3ee-5bec5f870d4c",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"이를테면 거듭 확인하는 습관이에요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "3e318b97-79fe-5b28-82b4-1e48f32f3aa3",
+    "LessonId": "dd31b585-bea0-4a23-8ffd-5328163f2bb0",
+    "GrammarId": "4bec2633-ddff-5015-aa77-54f4e8760265",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Do đó không cần lo lắng vô ích.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "e1fb93c0-7d10-5721-b548-40dee5d5a78f",
+    "LessonId": "dd31b585-bea0-4a23-8ffd-5328163f2bb0",
+    "GrammarId": "4bec2633-ddff-5015-aa77-54f4e8760265",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"그리하여 그때그때 대응했습니다.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "c9cebaa0-1aad-5358-8f64-f39e56b67110",
+    "LessonId": "7aad1513-28f2-4da1-b1c7-d033c763d8c5",
+    "GrammarId": "69335bdf-2af1-5a74-86c2-b94aa5fd1643",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Mặc dù đã giảm nhưng vẫn còn nhiều.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "0eb73490-8e00-5c59-8ba0-7eb96985dda8",
+    "LessonId": "7aad1513-28f2-4da1-b1c7-d033c763d8c5",
+    "GrammarId": "69335bdf-2af1-5a74-86c2-b94aa5fd1643",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"악천후에도 불구하고 관광버스가 출발했어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "46b42ad0-03ec-530f-a850-63daf83d1bb7",
+    "LessonId": "7aad1513-28f2-4da1-b1c7-d033c763d8c5",
+    "GrammarId": "c42bd67c-88be-5ec4-8ec0-583196344835",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Theo tôi biết thì rốt cuộc không có vấn đề gì.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "07a1ee39-6573-5338-be85-9a89c4ad9ba8",
+    "LessonId": "7aad1513-28f2-4da1-b1c7-d033c763d8c5",
+    "GrammarId": "c42bd67c-88be-5ec4-8ec0-583196344835",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"걷기를 계속하는 한 건강해요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "0bd270be-0a02-5cec-91b8-af5ea0c5f0e5",
+    "LessonId": "ef23a4ea-47ed-4cd8-bf55-b8e6138a15de",
+    "GrammarId": "48bd35a0-f464-5907-be8c-ab81f39a17d2",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Không thể không khó xử.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "dc2a0924-945b-548e-a2dd-4ae181cd1b89",
+    "LessonId": "ef23a4ea-47ed-4cd8-bf55-b8e6138a15de",
+    "GrammarId": "48bd35a0-f464-5907-be8c-ab81f39a17d2",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"강화할 수밖에 없었어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "06f335fe-b4df-5f30-9bf4-50aff8c75ed2",
+    "LessonId": "ef23a4ea-47ed-4cd8-bf55-b8e6138a15de",
+    "GrammarId": "6d5d9ef3-4966-59e4-a19c-941617bbc47a",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Rất dễ dẫn tới đau đầu.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "68bccad6-2165-5d57-bc3e-42a262171578",
+    "LessonId": "ef23a4ea-47ed-4cd8-bf55-b8e6138a15de",
+    "GrammarId": "6d5d9ef3-4966-59e4-a19c-941617bbc47a",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"강력히 반대하기 십상이에요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "98b0e119-0b81-54e7-9316-4ef02f8a7366",
+    "LessonId": "28c5e21f-5ab2-43c6-a1fa-b27bac4e6764",
+    "GrammarId": "9c032c11-cd93-5f50-a98a-9f7928b6a4b5",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Chi phí đã được giảm.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "9609c0a9-fa8f-581c-9ff5-7bc2dc3236a0",
+    "LessonId": "28c5e21f-5ab2-43c6-a1fa-b27bac4e6764",
+    "GrammarId": "9c032c11-cd93-5f50-a98a-9f7928b6a4b5",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"비용을 감소시켰어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "2c024dc7-9541-5e02-aa05-17da64a48b7c",
+    "LessonId": "28c5e21f-5ab2-43c6-a1fa-b27bac4e6764",
+    "GrammarId": "10e162a4-c3c8-50b1-b7e1-c7c6addf5c5d",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Việc đăng ký đã trở nên khả thi.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "bc7651d0-9655-5643-978d-f45cb5efe9ea",
+    "LessonId": "28c5e21f-5ab2-43c6-a1fa-b27bac4e6764",
+    "GrammarId": "10e162a4-c3c8-50b1-b7e1-c7c6addf5c5d",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"가입하게 했어요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "cee651cc-9228-5dde-a3f1-d5fd4007270e",
+    "LessonId": "b5b05246-0a88-4913-b2c8-6258fba2ee95",
+    "GrammarId": "ae0c29ce-deae-50af-8896-a81beedde621",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Đã mở cửa thì lẽ thường sẽ có thay đổi.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
+  },
+  {
+    "Id": "2e28588e-8a97-5a47-be1f-62333b96ffc3",
+    "LessonId": "b5b05246-0a88-4913-b2c8-6258fba2ee95",
+    "GrammarId": "ae0c29ce-deae-50af-8896-a81beedde621",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"노력하면 강력해지는 법이에요.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "c90ca529-573c-59ac-9cbf-b12ce5346a81",
+    "LessonId": "b5b05246-0a88-4913-b2c8-6258fba2ee95",
+    "GrammarId": "92b49cd3-7845-50d3-b911-4977d0c48358",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Hàn đúng: \"Tôi đã có ấn tượng mạnh mẽ.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "FinalTest"
+  },
+  {
+    "Id": "f552b010-1b35-5267-bc19-e085495041ff",
+    "LessonId": "b5b05246-0a88-4913-b2c8-6258fba2ee95",
+    "GrammarId": "92b49cd3-7845-50d3-b911-4977d0c48358",
+    "Content": "Sắp xếp các từ sau thành câu tiếng Việt đúng: \"개국 이후 개방되었습니다.\"",
+    "QuestionType": "SentenceTranslation",
+    "QuestionStage": "Practice"
   }
 ]
