@@ -7,7 +7,8 @@ using LessonService = KimChiTalk.Service.Lesson;
 using QuestionService = KimChiTalk.Service.Question;
 using UserService = KimChiTalk.Service.User;
 using VocabularyService = KimChiTalk.Service.Vocabulary;
-
+using IdentityService = KimChiTalk.Service.Identity;
+using JwtService = KimChiTalk.Service.JWTService;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
@@ -26,7 +27,8 @@ builder.Services.AddScoped<UserService.IService, UserService.Service>();
 builder.Services.AddScoped<CourseService.IService, CourseService.Service>();
 builder.Services.AddScoped<LessonService.IService, LessonService.Service>();
 builder.Services.AddScoped<VocabularyService.IService, VocabularyService.Service>();
-
+builder.Services.AddScoped<IdentityService.IService, IdentityService.Service>();
+builder.Services.AddScoped<JwtService.IService, JwtService.Service>();
 var app = builder.Build();
 
 // ── Tạo DB + apply migration + seed 14.390 record ─────────────────

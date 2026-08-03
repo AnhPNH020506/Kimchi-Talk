@@ -113,11 +113,7 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\C#\\Project_Learning_Korean\\KimChiTalk\\KimChiTalk.Service\\KimChiTalk.Service.csproj": {
-                "projectPath": "C:\\C#\\Project_Learning_Korean\\KimChiTalk\\KimChiTalk.Service\\KimChiTalk.Service.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -195,7 +191,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\C#\\Project_Learning_Korean\\KimChiTalk\\KimChiTalk.Repository\\KimChiTalk.Repository.csproj": {
+                "projectPath": "C:\\C#\\Project_Learning_Korean\\KimChiTalk\\KimChiTalk.Repository\\KimChiTalk.Repository.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -213,6 +213,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
             "CloudinaryDotNet": {
               "target": "Package",
               "version": "[1.28.0, )"
