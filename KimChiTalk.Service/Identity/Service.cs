@@ -1,3 +1,4 @@
+using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
@@ -76,9 +77,11 @@ public class Service : IService
             new("UserId", user.Id.ToString()),
             new("Email", user.Email),
             new("Name", user.Name),
-            new("Role", user.Role),
+            new("Role", user.Role.ToString()),
             new(TokenTypeClaim, AccessTokenType),
-            new
+            new(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+            new(ClaimTypes.Role, user.Role.ToString()),
+            new(ClaimTypes.Expired, DateTimeOffset.UtcNow.AddMinutes(_jwtOptions.ExpireMinutes).ToString())
 
         };
         return null;
