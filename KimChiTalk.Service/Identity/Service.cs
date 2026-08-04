@@ -2,66 +2,76 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
+using KimChiTalk.Repository;
 using KimChiTalk.Repository.Entity;
 using KimChiTalk.Service.JWTService;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
-using Org.BouncyCastle.Crypto.Generators;
 
 namespace KimChiTalk.Service.Identity;
-using KimChiTalk.Repository;
+
 public class Service : IService
 {
     private const string AccessTokenType = "access";
     private const string TokenTypeClaim = "TokenType";
-    
+
     private readonly AppDbContext _dbContext;
     private readonly JwtOptions _jwtOptions;
     private readonly JWTService.IService _jwtService;
-    public Service(AppDbContext dbContext, IOptions<JwtOptions> jwtOptions,
+
+    public Service(
+        AppDbContext dbContext,
+        IOptions<JwtOptions> jwtOptions,
         JWTService.IService jwtService)
     {
         _dbContext = dbContext;
         _jwtOptions = jwtOptions.Value;
         _jwtService = jwtService;
     }
+
     public async Task<Response.IdentityResponse> LoginRequest(Request.LoginRequest request)
     {
-        var user = await _dbContext.Users.FirstOrDefaultAsync(u => u.Email == request.Email);
-        if (user == null)
+        // Chuan hoa email: PostgreSQL so sanh chuoi CO phan biet hoa thuong,
+        // khong chuan hoa thi "Abc@gmail.com" va "abc@gmail.com" thanh 2 tai khoan khac nhau.
+        var email = request.Email.Trim().ToLowerInvariant();
+
+        var user = await _dbContext.Users
+            .FirstOrDefaultAsync(u => u.Email == email && !u.IsDeleted);
+
+        // Gop 2 truong hop lam 1 thong bao: neu tach rieng "User not found" va
+        // "Invalid password" thi ke tan cong do duoc email nao da dang ky trong he thong.
+        if (user is null || !BCrypt.Net.BCrypt.Verify(request.Password, user.HashshedPassword))
         {
-            throw new KeyNotFoundException("User not found");
+            throw new UnauthorizedAccessException("Email hoặc mật khẩu không đúng");
         }
 
-        if (!BCrypt.Net.BCrypt.Verify(request.Password, user.HashshedPassword))
-        {
-            throw new UnauthorizedAccessException("Invalid password");
-        }
-         return await BuildTokenPairAsync(user);
+        return await BuildTokenPairAsync(user);
     }
 
-    private async Task<Response.IdentityResponse> BuildTokenPairAsync(Repository.Entity.User user,
-        UserRefreshToken? tokenToRevoke = null)
+    private async Task<Response.IdentityResponse> BuildTokenPairAsync(
+        Repository.Entity.User user, UserRefreshToken? tokenToRevoke = null)
     {
-        var accessToken = await BuildAccessTokenAsync(user);
+        var accessToken = BuildAccessToken(user);
         var refreshToken = GenerateRefreshToken();
-        var refreshTokenhash = HashRefreshToken(refreshToken);
+        var refreshTokenHash = HashRefreshToken(refreshToken);
         var refreshTokenExpiresAtUtc = DateTimeOffset.UtcNow.AddDays(_jwtOptions.RefreshTokenExpireDays);
 
-        if (tokenToRevoke != null)
+        if (tokenToRevoke is not null)
         {
-            tokenToRevoke.RevokedAtUtc = DateTime.UtcNow;
-            tokenToRevoke.ReplacedByTokenHash = refreshTokenhash;
+            tokenToRevoke.RevokedAtUtc = DateTimeOffset.UtcNow;
+            tokenToRevoke.ReplacedByTokenHash = refreshTokenHash;
         }
 
         _dbContext.UserRefreshTokens.Add(new UserRefreshToken
         {
             Id = Guid.NewGuid(),
             UserId = user.Id,
-            TokenHash = refreshTokenhash,
+            TokenHash = refreshTokenHash,
             ExpiresAtUtc = refreshTokenExpiresAtUtc
         });
+
         await _dbContext.SaveChangesAsync();
+
         return new Response.IdentityResponse
         {
             AccessToken = accessToken,
@@ -70,30 +80,30 @@ public class Service : IService
         };
     }
 
-    private async Task<string> BuildAccessTokenAsync(Repository.Entity.User user)
+    private string BuildAccessToken(Repository.Entity.User user)
     {
         var claims = new List<Claim>
         {
+            new(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
             new("UserId", user.Id.ToString()),
-            new("Email", user.Email),
+            new(JwtRegisteredClaimNames.Email, user.Email),
             new("Name", user.Name),
-            new("Role", user.Role.ToString()),
-            new(TokenTypeClaim, AccessTokenType),
-            new(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+            // ClaimTypes.Role la claim duy nhat ma [Authorize(Roles = "...")] doc.
             new(ClaimTypes.Role, user.Role.ToString()),
-            new(ClaimTypes.Expired, DateTimeOffset.UtcNow.AddMinutes(_jwtOptions.ExpireMinutes).ToString())
-
+            // Phan biet access token voi refresh token, tranh dung lan.
+            new(TokenTypeClaim, AccessTokenType),
+            // Id duy nhat cua token - dung khi can thu hoi (blacklist) luc logout.
+            new(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
         };
-        return null;
+
+        // KHONG them ClaimTypes.Expired: JwtBearer khong doc claim nay.
+        // Han thuc su nam o claim "exp", do JwtService set qua tham so expires.
+        return _jwtService.GenerateAccessToken(claims);
     }
+
     private static string GenerateRefreshToken()
-    {
-        return Convert.ToBase64String(RandomNumberGenerator.GetBytes(64));
-    }
+        => Convert.ToBase64String(RandomNumberGenerator.GetBytes(64));
 
     private static string HashRefreshToken(string refreshToken)
-    {
-        var bytes = SHA256.HashData(Encoding.UTF8.GetBytes(refreshToken));
-        return Convert.ToBase64String(bytes);
-    }
+        => Convert.ToBase64String(SHA256.HashData(Encoding.UTF8.GetBytes(refreshToken)));
 }
