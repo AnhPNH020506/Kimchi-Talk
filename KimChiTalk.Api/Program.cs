@@ -1,3 +1,4 @@
+using KimChiTalk.Extensions;
 using KimChiTalk.Repository;
 using Microsoft.EntityFrameworkCore;
 
@@ -22,6 +23,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>
         builder.Configuration.GetConnectionString("DefaultConnection")
     )
 );
+
+builder.Services.AddJwtServices(builder.Configuration);
+builder.Services.AddSwaggerServices();
 
 builder.Services.AddScoped<AnswerService.IService, AnswerService.Service>();
 builder.Services.AddScoped<QuestionService.IService, QuestionService.Service>();
