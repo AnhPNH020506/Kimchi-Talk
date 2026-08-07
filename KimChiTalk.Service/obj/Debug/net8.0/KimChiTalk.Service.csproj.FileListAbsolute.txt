@@ -11,3 +11,6 @@ C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Service\obj\Debug\net8.0\ref
 C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Service\obj\Debug\net8.0\KimChiTalk.Service.pdb
 C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Service\obj\Debug\net8.0\ref\KimChiTalk.Service.dll
 C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Service\obj\Debug\net8.0\KimChiTalk.Service.sourcelink.json
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Service\bin\Debug\net8.0\KimChiTalk.Repository.dll
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Service\bin\Debug\net8.0\KimChiTalk.Repository.pdb
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Service\obj\Debug\net8.0\KimChiTa.35225D2B.Up2Date

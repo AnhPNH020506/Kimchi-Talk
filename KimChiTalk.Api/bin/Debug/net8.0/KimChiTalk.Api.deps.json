@@ -19,6 +19,14 @@
           "KimChiTalk.Api.dll": {}
         }
       },
+      "BCrypt.Net-Next/4.2.0": {
+        "runtime": {
+          "lib/netstandard2.1/BCrypt-Net-Next.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
       "BouncyCastle.Cryptography/2.6.2": {
         "runtime": {
           "lib/net6.0/BouncyCastle.Cryptography.dll": {
@@ -1228,7 +1236,6 @@
       },
       "KimChiTalk.Repository/1.0.0": {
         "dependencies": {
-          "KimChiTalk.Service": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.0",
           "Microsoft.EntityFrameworkCore.Relational": "8.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.0"
@@ -1242,7 +1249,9 @@
       },
       "KimChiTalk.Service/1.0.0": {
         "dependencies": {
+          "BCrypt.Net-Next": "4.2.0",
           "CloudinaryDotNet": "1.28.0",
+          "KimChiTalk.Repository": "1.0.0",
           "MailKit": "4.15.1",
           "Microsoft.AspNetCore.Http": "2.3.9",
           "Microsoft.Extensions.Configuration.Binder": "10.0.1",
@@ -1264,6 +1273,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "BCrypt.Net-Next/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gwLD2KfCuwQesP17aVh4h6lpiMPEVt5Lbpndo0ej903hNUUTtyxt3ARdDjmuydBRTAUICc7OVKVbaOvc6SQYXA==",
+      "path": "bcrypt.net-next/4.2.0",
+      "hashPath": "bcrypt.net-next.4.2.0.nupkg.sha512"
     },
     "BouncyCastle.Cryptography/2.6.2": {
       "type": "package",

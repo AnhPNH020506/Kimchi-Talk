@@ -131,3 +131,4 @@ C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Api\bin\Debug\net8.0\runtime
 C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Api\bin\Debug\net8.0\KimChiTalk.Service.dll
 C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Api\bin\Debug\net8.0\KimChiTalk.Service.pdb
 C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Api\obj\Debug\net8.0\KimChiTalk.Api.sourcelink.json
+C:\C#\Project_Learning_Korean\KimChiTalk\KimChiTalk.Api\bin\Debug\net8.0\BCrypt-Net-Next.dll
