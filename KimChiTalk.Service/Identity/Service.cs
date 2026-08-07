@@ -81,6 +81,48 @@ public class Service : IService
         return "Đăng ký thành công";
     }
 
+    public async Task<Response.IdentityResponse> RefreshTokenRequest(Request.RefreshTokenRequest request)
+    {
+        if (string.IsNullOrWhiteSpace(request.RefreshToken) || string.IsNullOrWhiteSpace(request.AccessToken))
+        {
+            throw new UnauthorizedAccessException("AccessToken and RefreshToken are required");
+        }
+        var principal = _jwtService.ValidateToken(request.AccessToken, validateLifetime: false);
+        if (principal == null)
+        {
+            throw new UnauthorizedAccessException("Invalid access token");
+            
+        }
+        var tokenType =  principal.Claims.FirstOrDefault(c => c.Type == TokenTypeClaim)?.Value;
+        if(!string.Equals(tokenType, AccessTokenType, StringComparison.OrdinalIgnoreCase))
+        {
+            throw new UnauthorizedAccessException("Invalid token type");
+            
+        }
+        if(principal.Claims.All(c => c.Type != JwtRegisteredClaimNames.Exp))
+        {
+            throw new UnauthorizedAccessException("Access token expiry is missing");
+            
+        }
+        var userIdvalue = principal.Claims.FirstOrDefault(x => x.Type == "UserId" )?.Value;
+        if(!Guid.TryParse(userIdvalue, out var userIdGuid))
+        {
+            throw new UnauthorizedAccessException("Invalid access token subject");
+            
+        }
+        var refreshTokenHash =  HashRefreshToken(request.RefreshToken);
+        var refreshToken = await _dbContext.UserRefreshTokens.Include(x => x.User).FirstOrDefaultAsync(x => x.UserId == userIdGuid && x.TokenHash == refreshTokenHash);
+       var now = DateTimeOffset.UtcNow;
+       if (refreshToken == null || refreshToken.RevokedAtUtc.HasValue || refreshToken.ExpiresAtUtc <= now
+           || !refreshToken.User.IsActive)
+       {
+           throw new UnauthorizedAccessException("Invalid refresh token");
+       }
+       return await BuildTokenPairAsync(refreshToken.User, refreshToken);
+
+
+    }
+
     private async Task<Response.IdentityResponse> BuildTokenPairAsync(
         Repository.Entity.User user, UserRefreshToken? tokenToRevoke = null)
     {

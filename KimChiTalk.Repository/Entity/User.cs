@@ -7,6 +7,7 @@ public class User:BaseEntity<Guid>, IAuditableEntity
     public required string Name { get; set; }
     public required string Email { get; set; }
     public required string HashshedPassword { get; set; }
+    public bool IsActive { get; set; } = true;
     public UserRole Role { get; set; }
     
     public ICollection<UserCourse> UserCourses { get; set; } = new List<UserCourse>();
