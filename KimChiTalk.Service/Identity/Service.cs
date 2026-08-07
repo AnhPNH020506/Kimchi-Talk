@@ -48,6 +48,32 @@ public class Service : IService
         return await BuildTokenPairAsync(user);
     }
 
+    public async Task<string> Register(Request.RegisterRequest request)
+    {
+        if (!System.Net.Mail.MailAddress.TryCreate(request.Email, out _))
+        {
+            throw new Exception("Invalid email format");
+        }
+        var isExistEmail = await _dbContext.Users.AnyAsync(u => u.Email == request.Email);
+        if (isExistEmail)
+        {
+            throw new Exception("Email already exists");
+        }
+        
+        var hashedPassword = BCrypt.Net.BCrypt.HashPassword(request.Password);
+        var user = new Repository.Entity.User
+        {
+            Email = request.Email,
+            Name = request.FullName,
+            HashshedPassword = hashedPassword,
+            Role = UserRole.Customer,
+        };
+        _dbContext.Users.Add(user);
+        await _dbContext.SaveChangesAsync();
+        return "Registered Successfully";
+
+    }
+
     private async Task<Response.IdentityResponse> BuildTokenPairAsync(
         Repository.Entity.User user, UserRefreshToken? tokenToRevoke = null)
     {
