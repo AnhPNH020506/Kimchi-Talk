@@ -1,4 +1,5 @@
 using KimChiTalk.Extensions;
+using KimChiTalk.Middlewares;
 using KimChiTalk.Repository;
 using Microsoft.EntityFrameworkCore;
 
@@ -55,6 +56,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseAuthentication();
 app.UseAuthorization();
+app.UseMiddleware<ExceptionMiddleware>();
 
 app.MapControllers();
 

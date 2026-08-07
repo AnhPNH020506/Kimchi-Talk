@@ -72,7 +72,7 @@ public class Service : IService
             Email = email,
             Name = request.FullName.Trim(),
             HashshedPassword = BCrypt.Net.BCrypt.HashPassword(request.Password),
-            Role = UserRole.Customer
+            
         };
 
         _dbContext.Users.Add(user);
