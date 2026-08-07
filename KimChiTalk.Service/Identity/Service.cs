@@ -50,28 +50,35 @@ public class Service : IService
 
     public async Task<string> Register(Request.RegisterRequest request)
     {
-        if (!System.Net.Mail.MailAddress.TryCreate(request.Email, out _))
+        if (string.IsNullOrWhiteSpace(request.Email) ||
+            !System.Net.Mail.MailAddress.TryCreate(request.Email.Trim(), out _))
         {
-            throw new Exception("Invalid email format");
+            throw new ArgumentException("Email không hợp lệ");
         }
-        var isExistEmail = await _dbContext.Users.AnyAsync(u => u.Email == request.Email);
+
+        
+        var email = request.Email.Trim().ToLowerInvariant();
+        
+        var isExistEmail = await _dbContext.Users
+            .AnyAsync(u => u.Email == email && !u.IsDeleted);
+
         if (isExistEmail)
         {
-            throw new Exception("Email already exists");
+            throw new InvalidOperationException("Email đã được sử dụng");
         }
-        
-        var hashedPassword = BCrypt.Net.BCrypt.HashPassword(request.Password);
+
         var user = new Repository.Entity.User
         {
-            Email = request.Email,
-            Name = request.FullName,
-            HashshedPassword = hashedPassword,
-            Role = UserRole.Customer,
+            Email = email,
+            Name = request.FullName.Trim(),
+            HashshedPassword = BCrypt.Net.BCrypt.HashPassword(request.Password),
+            Role = UserRole.Customer
         };
+
         _dbContext.Users.Add(user);
         await _dbContext.SaveChangesAsync();
-        return "Registered Successfully";
 
+        return "Đăng ký thành công";
     }
 
     private async Task<Response.IdentityResponse> BuildTokenPairAsync(
