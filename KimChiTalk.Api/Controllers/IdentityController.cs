@@ -27,4 +27,11 @@ public class IdentityController: ControllerBase
         var result = await _identityService.Register(request);
         return Ok(ApiResponseFactory.SuccessResponse(result, "Register Successful", HttpContext.TraceIdentifier));
     }
+
+    [HttpPost("refresh-token")]
+    public async Task<IActionResult> refreshToken([FromBody] Request.RefreshTokenRequest request)
+    {
+        var result = await _identityService.RefreshTokenRequest(request);
+        return Ok(ApiResponseFactory.SuccessResponse(result,  "RefreshToken Successful", HttpContext.TraceIdentifier));
+    }
 }
