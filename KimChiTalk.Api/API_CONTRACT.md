@@ -257,5 +257,37 @@ RegisterUserRequest {
   role: string;
 }
 ```
+## 1. Course
+API :  GET 
+Path: `/api/v1/course`
+Output:
+status: 200
+[
+{
+"id": "11111111-1111-1111-1111-111111111111",
+"title": "Beginner",
+"description": "Introductory Korean Language Course",
+"level": "Beginner",
+"order": 1,
+"isEnrolled": false
+},
+{
+"id": "22222222-2222-2222-2222-222222222222",
+"title": "Intermediate",
+"description": "Intermediate Korean Language Course",
+"level": "Intermediate",
+"order": 2,
+"isEnrolled": false
+},
+{
+"id": "33333333-3333-3333-3333-333333333333",
+"title": "Advanced",
+"description": "Advanced Korean Language Course",
+"level": "Advanced",
+"order": 3,
+"isEnrolled": false
+}
+]
+
 
 ---
