@@ -181,3 +181,81 @@ string // "Bảo bối đã đăng ký khóa học thành công"
 - Route `POST /api/v1/course` hiện đang dùng `courseId` qua query string,
   chưa theo REST convention `/courses/{courseId}/enroll`. Cân nhắc đổi
   route sau nếu muốn nhất quán hơn.
+
+## 1. AUTH
+
+### Login
+
+```http
+POST /api/v1/auth/login
+```
+
+#### Request
+
+```ts
+LoginRequest {
+  email: string;
+  password: string;
+}
+```
+
+#### Response data
+
+```ts
+IdentityResponse {
+  accessToken: string;
+  refreshToken: string;
+  refreshTokenExpiresAtUtc: string;
+}
+```
+
+### Refresh token
+
+```http
+POST /api/v1/auth/refresh-token
+```
+
+#### Request
+
+```ts
+RefreshTokenRequest {
+  accessToken: string;
+  refreshToken: string;
+}
+```
+
+#### Notes
+
+- Does not require `Authorization` header.
+- The access token may be expired, but the refresh token must match the stored active DB record.
+- Refresh rotates tokens: store the returned `refreshToken` and discard the old one.
+
+#### Response data
+
+```ts
+IdentityResponse {
+  accessToken: string;
+  refreshToken: string;
+  refreshTokenExpiresAtUtc: string;
+}
+```
+
+### Register
+
+```http
+POST /api/v1/auth/register
+```
+
+#### Request
+
+```ts
+RegisterUserRequest {
+  email: string;
+  password: string;
+  phoneNumber: string;
+  fullName: string;
+  role: string;
+}
+```
+
+---
