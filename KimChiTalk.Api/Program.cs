@@ -1,5 +1,6 @@
 using KimChiTalk.Extensions;
 using KimChiTalk.Middlewares;
+using KimChiTalk.Options;
 using KimChiTalk.Repository;
 using Microsoft.EntityFrameworkCore;
 
@@ -36,6 +37,26 @@ builder.Services.AddScoped<LessonService.IService, LessonService.Service>();
 builder.Services.AddScoped<VocabularyService.IService, VocabularyService.Service>();
 builder.Services.AddScoped<IdentityService.IService, IdentityService.Service>();
 builder.Services.AddScoped<JwtService.IService, JwtService.Service>();
+builder.Services.AddCors(options =>
+{
+    var corsOptions = builder.Configuration
+        .GetSection(CorsOptions.SectionName)
+        .Get<CorsOptions>() ?? new CorsOptions();
+
+    options.AddPolicy("AllowFrontend", policy =>
+    {
+        if (corsOptions.AllowedOrigins.Length == 0)
+        {
+            return;
+        }
+
+        policy
+            .WithOrigins(corsOptions.AllowedOrigins)
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+            .AllowCredentials();
+    });
+});
 var app = builder.Build();
 
 // ── Tạo DB + apply migration + seed 14.390 record ─────────────────
