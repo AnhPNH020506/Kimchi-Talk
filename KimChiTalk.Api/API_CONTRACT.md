@@ -288,6 +288,36 @@ status: 200
 "isEnrolled": false
 }
 ]
+### EnrollCourse
+```http
+POST `/api/v1/course`
+```
+
+#### Request
+{
+"email": "string",
+"password": "string"
+#### Response data
+
+}
+Status : 400
+{
+    "Success": false,
+    "Message": "Bảo bối à em đã đăng kí khóa học này rùi mòo",
+    "Data": null,
+    "Errors": {
+    "code": "bad_request",
+}
+Status: 400
+{
+    "Success": false,
+    "Message": "Bảo bối phải hoàn thành khóa học \"Beginner\" trước khi đăng ký khóa học này aaaaa",
+    "Data": null,
+    "Errors": {
+    "code": "bad_request",
+    "TraceId": "0HNNM637RRC4F:00000005",
+    "TimestampUtc": "2026-08-09T16:13:45.9745863Z"
+}
 
 
 ---
