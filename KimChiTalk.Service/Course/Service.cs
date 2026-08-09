@@ -63,7 +63,7 @@ public class Service: IService
             var isPreviousCompleted = lessonIds.Count > 0 && lessonIds.Count == completedCount;
             if (!isPreviousCompleted)
             {
-                throw new InvalidOperationException($"Bảo bối phải hoàn thành khóa học \"{findPreviousLevel.Title}\" trước khi đăng ký khóa học này");
+                throw new InvalidOperationException($"Bảo bối phải hoàn thành khóa học \"{findPreviousLevel.Title}\" trước khi đăng ký khóa học này aaaaa");
             }
             
         }
