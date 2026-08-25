@@ -1,9 +1,40 @@
+using KimChiTalk.Repository;
+using Microsoft.EntityFrameworkCore;
+
 namespace KimChiTalk.Service.Lesson;
 
 public class Service: IService
 {
-    public Task<List<Response.GetLessonsResponse>> GetLessons(Guid userId, Guid courseId)
+    private readonly AppDbContext _dbContext;
+    public Service(AppDbContext dbContext)
     {
-        throw new NotImplementedException();
+        _dbContext = dbContext;
+    }
+    
+    public async Task<List<Response.GetLessonsResponse>> GetLessons(Guid userId, Guid courseId)
+    {
+        var lessons = await _dbContext.Lessons.Where(l => l.CourseId == courseId).OrderBy(l => l.Order).ToListAsync();
+        var completedLessonIds = new HashSet<Guid>();
+        var completedLesson = await _dbContext.UserProgresses.Where(x => x.Completed && x.UserId == userId).Select(x => x.LessonId ).ToListAsync();
+        completedLessonIds = completedLesson.ToHashSet();
+        var result = new List<Response.GetLessonsResponse>();
+        var previousCompleted = true;
+        foreach (var lesson in lessons)
+        {
+            var isCompleted = false;
+            var isUnlocked = false;
+            result.Add(new Response.GetLessonsResponse()
+            {
+                Id = lesson.Id,
+                Order = lesson.Order,
+                Title = lesson.Title,
+                IsCompleted = isCompleted,
+                IsUnlocked = isUnlocked,
+            });
+            previousCompleted = true;
+        }
+        return result;
+
+
     }
 }
