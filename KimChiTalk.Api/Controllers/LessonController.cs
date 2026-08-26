@@ -1,4 +1,6 @@
+using KimChiTalk.Extensions;
 using KimChiTalk.Service.Lesson;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KimChiTalk.Controllers;
@@ -13,15 +15,16 @@ public class LessonController: ControllerBase
     }
 
     [HttpGet]
-    public async Task<IActionResult> GetLessons( Guid lessonId)
+    [Authorize(Policy = JwtExtensions.CustomerPolicy)]
+    public async Task<IActionResult> GetLessons( Guid courseId)
     {
         var userId = GetCurrentUserId();
-        var result = await _lessonService.GetLessons(userId, lessonId);
+        var result = await _lessonService.GetLessons(userId!.Value, courseId);
         return Ok(result);
     }
-    private Guid GetCurrentUserId()
+    private Guid? GetCurrentUserId()
     {
         var value = User.Claims.FirstOrDefault(c => c.Type == "UserId")?.Value;
-        return value == null ? Guid.Empty : Guid.Parse(value);
+        return Guid.TryParse(value, out var id) ? id : null;
     }
 }

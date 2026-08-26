@@ -14,9 +14,11 @@ public class Service: IService
     public async Task<List<Response.GetLessonsResponse>> GetLessons(Guid userId, Guid courseId)
     {
         var lessons = await _dbContext.Lessons.Where(l => l.CourseId == courseId).OrderBy(l => l.Order).ToListAsync();
-        var completedLessonIds = new HashSet<Guid>();
-        var completedLesson = await _dbContext.UserProgresses.Where(x => x.Completed && x.UserId == userId).Select(x => x.LessonId ).ToListAsync();
-        completedLessonIds = completedLesson.ToHashSet();
+        var completedLessonIds = (await _dbContext.UserProgresses
+            .Where(x => x.Completed && x.UserId == userId)
+            .Select(x => x.LessonId)
+            .ToListAsync())
+            .ToHashSet();
         var result = new List<Response.GetLessonsResponse>();
         var previousCompleted = true;
         foreach (var lesson in lessons)
