@@ -1,4 +1,6 @@
+using KimChiTalk.Extensions;
 using KimChiTalk.Service.Grammar;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KimChiTalk.Controllers;
@@ -13,6 +15,7 @@ public class GrammarController: ControllerBase
     }
 
     [HttpGet]
+    [Authorize(Policy = JwtExtensions.CustomerPolicy)]
     public async Task<IActionResult> GetGrammars(Guid lessonId)
     {
         var userId = GetCurrentUserId();
