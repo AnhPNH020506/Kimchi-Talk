@@ -2,7 +2,7 @@ namespace KimChiTalk.Service.Vocabulary;
 
 public class Response
 {
-    public class GetVocabularies
+    public class GetVocabulariesResponse
     {
         public Guid Id { get; set; }
         public required string Word { get; set; }
