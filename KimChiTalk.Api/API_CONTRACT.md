@@ -321,12 +321,44 @@ Status: 400
 
 
 ---
-## 1. Lesson
+## 2. Lesson
 API :  GET
 Path: `/api/v1/lesson`
 
 status: 200
+Input:
+CourseId: Guid
 Output: 
 {
-string
+[
+{
+"id": Guid,
+"title": string,
+"order": int,
+"isUnlocked": bool,
+"isCompleted": bool
+}
+]
+}
+
+## 2. Lesson
+API :  GET
+Path: `/api/v1/lesson`
+
+status: 200
+Input:
+LessonId : Guid
+Output:
+{
+[
+{
+"id": Guid,
+"word": string,
+"level": string,
+"type": string,
+"meaningVietnamese": string,
+"isLearned": bool,
+"isFavorite": bool
+}
+]
 }
