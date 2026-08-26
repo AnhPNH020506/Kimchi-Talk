@@ -321,3 +321,12 @@ Status: 400
 
 
 ---
+## 1. Lesson
+API :  GET
+Path: `/api/v1/lesson`
+
+status: 200
+Output: 
+{
+string
+}
