@@ -21,8 +21,8 @@ public class Service: IService
         var previousCompleted = true;
         foreach (var lesson in lessons)
         {
-            var isCompleted = false;
-            var isUnlocked = false;
+            var isCompleted = completedLessonIds.Contains(lesson.Id);
+            var isUnlocked = previousCompleted;
             result.Add(new Response.GetLessonsResponse()
             {
                 Id = lesson.Id,
@@ -31,7 +31,7 @@ public class Service: IService
                 IsCompleted = isCompleted,
                 IsUnlocked = isUnlocked,
             });
-            previousCompleted = true;
+            previousCompleted = isCompleted;
         }
         return result;
 
