@@ -341,7 +341,7 @@ Output:
 ]
 }
 
-## 2. Lesson
+## 3. Vocabulary
 API :  GET
 Path: `/api/v1/lesson`
 
@@ -359,6 +359,25 @@ Output:
 "meaningVietnamese": string,
 "isLearned": bool,
 "isFavorite": bool
+}
+]
+}
+## 3=4. Grammar
+API :  GET
+Path: `/api/v1/Grammar`
+
+status: 200
+Input:
+LessonId : Guid
+Output:
+{
+[
+{
+"id": Guid,
+"title": string,
+"explanation": string,
+"example": string,
+"isLearned": bool
 }
 ]
 }
