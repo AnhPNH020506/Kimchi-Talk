@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace KimChiTalk.Controllers;
 [ApiController]
-[Route("api/v1/vocabulary")]
+[Route("api/v1/grammar")]
 public class GrammarController: ControllerBase
 {
     private readonly IService _grammarService;
