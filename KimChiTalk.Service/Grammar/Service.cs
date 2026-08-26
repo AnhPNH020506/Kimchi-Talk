@@ -1,0 +1,36 @@
+using KimChiTalk.Repository;
+using KimChiTalk.Repository.Entity;
+using Microsoft.EntityFrameworkCore;
+
+namespace KimChiTalk.Service.Grammar;
+
+public class Service : IService
+{
+    private readonly AppDbContext _dbContext;
+    public Service(AppDbContext dbContext)
+    {
+        _dbContext = dbContext;
+    }
+    
+    public async Task<List<Response.GetGrammarResponse>> GetGrammars(Guid userId, Guid lessonId)
+    {
+        var grammars = await _dbContext.Grammars.Where(g => g.LessonId == lessonId).ToListAsync();
+        var userGrammars = await _dbContext.UserGrammars.Where(u => u.UserId == userId).ToListAsync();
+        var userGrammarMap = userGrammars.ToDictionary(u => u.GrammarId);
+        var result = new List<Response.GetGrammarResponse>();
+        foreach (var grammar in grammars)
+        {
+            userGrammarMap.TryGetValue(grammar.Id, out var userGrammar);
+            var isLearned = userGrammar ?.IsLearned ?? false;
+            result.Add(new Response.GetGrammarResponse
+            {
+                Id = grammar.Id,
+                Title = grammar.Title,
+                Explanation = grammar.Explanation,
+                Example = grammar.Example,
+                IsLearned = isLearned,
+            });
+        }
+        return result;
+    }
+}
