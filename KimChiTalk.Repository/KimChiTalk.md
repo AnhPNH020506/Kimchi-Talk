@@ -89,6 +89,8 @@
 | BR-17 | **Không làm** bài kiểm tra xếp lớp (placement test) — đã loại bỏ khỏi scope |
 | BR-18 | **Không làm** Admin CRUD Reward ở v1 (xem BR-12) |
 | BR-19 | **Không làm** tích hợp AI / API ngoài |
+| BR-31 | **Không làm** chấm điểm real-time từng câu kiểu Duolingo (chọn phát báo đúng/sai ngay) ở v1 — lý do: cần thêm entity mới lưu "User đã trả lời đúng Question nào" để BE tự theo dõi tiến độ FinalTest qua nhiều lần gọi API (không thể tin FE tự báo hoàn thành). v1 dùng cách nộp bài theo lượt: Customer làm hết cả lượt (Practice hoặc FinalTest) → submit 1 lần cả danh sách câu trả lời → BE chấm hàng loạt, trả kết quả |
+| BR-32 | **Không thêm** `VocabularyId` trực tiếp trên `Question` ở v1 (đánh đổi: cần migration + script gán lại `VocabularyId` cho ~2667 câu `VocabularyMeaning` đã seed). Hệ quả: khi câu `VocabularyMeaning` trong FinalTest bị sai, hệ thống chỉ nhắc lại **toàn bộ Vocabulary của Lesson** đó (gọi lại `GetVocabularies`), không xác định được chính xác 1 từ bị sai. Ngược lại, câu `Grammar`/`SentenceTranslation` sai thì nhắc đúng 1 Grammar cụ thể (đã có sẵn `GrammarId` trên Question) |
 
 ---
 
