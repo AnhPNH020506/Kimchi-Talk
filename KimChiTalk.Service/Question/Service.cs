@@ -35,4 +35,20 @@ public class Service: IService
         return result;
 
     }
+
+    public async Task<Response.SubmitQuestionResponse> SubmitQuestions(Request.SubmitQuestionRequest request, Guid userId)
+    {
+        var questionIds = request.Answers.Select(x => x.QuestionId).ToList();
+        var answers = await _context.Answers.Where(a => questionIds.Contains(a.QuestionId)).ToListAsync();
+        var answerQuestion = answers.GroupBy(a => a.QuestionId).ToDictionary(g => g.Key, g => g.ToList());
+        var result = new Response.SubmitQuestionResponse
+        {
+            Questions = null
+        };
+        foreach (var submitted in request.Answers)
+        {
+            
+        }
+        return result;
+    }
 }
