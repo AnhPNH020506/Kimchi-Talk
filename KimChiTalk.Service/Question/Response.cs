@@ -17,4 +17,16 @@ public class Response
         public required string Content { get; set; }
         
     }
+    public class SubmitQuestionResponse
+    {
+       public required List<SubmitQuestionResult> Questions { get; set; }
+       public bool IsPassed { get; set; }
+        
+    }
+    public class SubmitQuestionResult
+    {
+        public Guid QuestionId { get; set; }
+        public Guid? GrammarId { get; set; }
+        public bool IsCorrect { get; set; }
+    }
 }
