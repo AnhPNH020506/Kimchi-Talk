@@ -362,7 +362,7 @@ Output:
 }
 ]
 }
-## 3=4. Grammar
+## 4. Grammar
 API :  GET
 Path: `/api/v1/Grammar`
 
@@ -381,3 +381,26 @@ Output:
 }
 ]
 }
+## 5. Question
+API :  GET
+Path: `/api/v1/question`
+
+status: 200
+Input:
+LessonId : Guid
+questionStage: int
+Output:
+[
+{
+"id": Guid
+"content": string,
+"type": enum,
+"answers": [
+{
+"id": Guid,
+"content": string
+}
+]
+}
+]
+
