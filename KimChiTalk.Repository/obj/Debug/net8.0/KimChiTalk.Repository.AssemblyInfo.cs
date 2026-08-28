@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KimChiTalk.Repository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d4c69d14d426f926f20afc278c99afbd882102a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce266f91162f98ae3a934083acc14ace85fe6ef3")]
 [assembly: System.Reflection.AssemblyProductAttribute("KimChiTalk.Repository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KimChiTalk.Repository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
