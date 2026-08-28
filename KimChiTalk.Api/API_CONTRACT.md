@@ -403,4 +403,33 @@ Output:
 ]
 }
 ]
+Customer summit answer
+API :  Post
+Path: `/api/v1/question`
+
+status: 200
+Input:
+{
+"lessonId": Guid",
+"questionStage": enum,
+"answers": [
+{
+"questionId": Guid,
+"selectedAnswerIds": [
+Guid
+]
+}
+]
+}
+Output:
+{
+"questions": [
+{
+"questionId": Guid,
+"grammarId": null,
+"isCorrect": bool
+}
+],
+"isPassed": false
+}
 
