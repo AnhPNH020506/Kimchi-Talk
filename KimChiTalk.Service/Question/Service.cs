@@ -41,13 +41,29 @@ public class Service: IService
         var questionIds = request.Answers.Select(x => x.QuestionId).ToList();
         var answers = await _context.Answers.Where(a => questionIds.Contains(a.QuestionId)).ToListAsync();
         var answerQuestion = answers.GroupBy(a => a.QuestionId).ToDictionary(g => g.Key, g => g.ToList());
+        var grammarsQuestion = await _context.Questions.Where(q => questionIds.Contains(q.Id))
+            .ToDictionaryAsync(q => q.Id, q => q.GrammarId);
         var result = new Response.SubmitQuestionResponse
         {
-            Questions = null
+            Questions = new List<Response.SubmitQuestionResult>()
         };
         foreach (var submitted in request.Answers)
         {
-            
+            var correctAnswer = answerQuestion[submitted.QuestionId]
+                .Where(a => a.IsCorrect)
+                .OrderBy(a => a.Order)
+                .Select(a => a.Id)
+                .ToList();
+            var isCorrect = correctAnswer.SequenceEqual(submitted.SelectedAnswerIds);
+            result.Questions.Add(new Response.SubmitQuestionResult()
+            {
+                QuestionId = submitted.QuestionId,
+                IsCorrect = isCorrect,
+                GrammarId = isCorrect ? null : grammarsQuestion[submitted.QuestionId]
+
+            });
+
+
         }
         return result;
     }
