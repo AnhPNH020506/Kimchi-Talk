@@ -151,6 +151,14 @@
 
 > Toàn bộ Business Rules và Use Case đã chốt xong. Bước tiếp theo: cập nhật entity + tạo migration.
 
+## 6b. Lỗi dữ liệu phát hiện lúc test — chưa sửa, rà soát 1 lượt vào cuối dự án
+
+> Các lỗi dưới đây đã xác nhận là **lỗi data seed**, không phải lỗi code/logic (đã trace kỹ code, filter đúng theo `LessonId`). Cố tình **chưa sửa ngay** để tránh xáo trộn tiến độ code hiện tại — sẽ rà soát tổng thể data 1 lượt trước khi release.
+
+| # | Vấn đề | Ghi chú |
+|---|---|---|
+| 1 | `Vocabulary` không khớp chủ đề `Lesson` | Ví dụ Lesson "Gia đình & Con người 2" (`Id: 918c686b-...`) lại có 6 từ vựng: `글`(bài viết), `글쎄`/`글쎄요`(để xem...), `기온`(nhiệt độ), `길`(đường), `김치찌개`(canh kimchi) — không liên quan chủ đề gia đình. Nghi vấn: `Vocabularies.json` được **gom nhóm theo thứ tự bảng chữ cái tiếng Hàn** (tất cả đều bắt đầu bằng "ㄱ"), rồi chia đều theo Lesson theo số lượng — chứ không soạn theo đúng chủ đề từng Lesson. Cần rà lại toàn bộ `Vocabularies.json` xem có bị lỗi tương tự ở các Lesson khác không, và gán lại đúng theo chủ đề. |
+
 ## 7. Main Flow (luồng chính của hệ thống)
 
 Đây là 4 luồng trải nghiệm cốt lõi, dùng làm thứ tự ưu tiên implement Service — thay vì làm rời rạc theo từng Entity.
