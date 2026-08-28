@@ -65,6 +65,30 @@ public class Service: IService
 
 
         }
+        var isPassed = result.Questions.All(q => q.IsCorrect);
+        result.IsPassed = isPassed;
+        if (request.QuestionStage == QuestionStage.FinalTest && isPassed)
+        {
+            var userProgresses = await _context.UserProgresses.FirstOrDefaultAsync(u =>u.UserId == userId && u.LessonId == request.LessonId);
+            if (userProgresses == null)
+            {
+                userProgresses = new UserProgress
+                {
+                    LessonId = request.LessonId,
+                    UserId = userId,
+                    Completed = false,
+                    Score = 100
+                };
+                _context.UserProgresses.Add(userProgresses);
+            }
+            else
+            {
+                userProgresses.Completed = true;
+            }
+        
+            await _context.SaveChangesAsync();
+        }
+        
         return result;
     }
 }
