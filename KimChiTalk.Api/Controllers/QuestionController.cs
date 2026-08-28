@@ -22,4 +22,22 @@ public class QuestionController: ControllerBase
         var result = await _questionService.GetQuestions(lessonId, questionStage);
         return Ok(result);
     }
+
+    [HttpPost("")]
+    [Authorize(Policy = JwtExtensions.CustomerPolicy)]
+    public async Task<IActionResult> SubmitQuestions(Request.SubmitQuestionRequest request)
+    {
+        var userId = GetCurrentUserId();
+        if (userId == null)
+            {
+            return BadRequest();
+            }
+        var result = await _questionService.SubmitQuestions(request, userId!.Value);
+        return Ok(result);
+    }
+    private Guid? GetCurrentUserId()
+    {
+        var value = User.Claims.FirstOrDefault(c => c.Type == "UserId")?.Value;
+        return Guid.TryParse(value, out var id) ? id : null;
+    }
 }
