@@ -45,4 +45,22 @@ public class VocabularyController: ControllerBase
         return NoContent();
         
     }
+
+    [HttpGet("{vocabularyId}")]
+    [Authorize(Policy = JwtExtensions.CustomerPolicy)]
+    public async Task<IActionResult> GetVocabularyById(Guid vocabularyId)
+    {
+        var userId = GetCurrentUserId();
+        if (userId == null)
+        {
+            return BadRequest();
+        }
+
+        var result = await _vocabularyService.GetVocabularyById(userId!.Value, vocabularyId);
+        if (result == null)
+        {
+            return NotFound();
+        }
+        return Ok(result);
+    }
 }

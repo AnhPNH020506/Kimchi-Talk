@@ -39,6 +39,29 @@ public class Service: IService
         return result;
     }
 
+    public async Task<Response.GetVocabulariesResponse?> GetVocabularyById(Guid userId, Guid vocabularyId)
+    {
+       var vocabulary = await _dbContext.Vocabulary.Where(v => v.Id == vocabularyId).FirstOrDefaultAsync();
+       if (vocabulary == null)
+       {
+           return null;
+       }
+       var userVocabulary = await _dbContext.UserVocabulary.Where(u => u.VocabularyId == vocabularyId && u.UserId == userId).FirstOrDefaultAsync();
+       var isLearned = userVocabulary ?.IsLearned ?? false;
+       var isFavorite = userVocabulary ?.IsFavorite ?? false;
+       var result = new Response.GetVocabulariesResponse
+       {
+           Id = vocabulary.Id,
+           Word = vocabulary.Word,
+           Level = vocabulary.Level,
+           Type = vocabulary.Type,
+           IsLearned = isLearned,
+           IsFavorite = isFavorite,
+           MeaningVietnamese = vocabulary.MeaningVietNamese
+       };
+       return result;
+    }
+
     public async Task MarkVocabularyAsLearned(Guid userId, Guid vocabularyId)
     {
         var vocabulary = await _dbContext.Vocabulary.Where(v => v.Id == vocabularyId).FirstOrDefaultAsync();
