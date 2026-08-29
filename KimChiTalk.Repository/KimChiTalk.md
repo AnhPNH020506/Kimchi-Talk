@@ -148,8 +148,11 @@
 | Chi tiết Admin gửi thư (UC-16) | ✅ Đã chốt — gửi riêng lẻ, không broadcast (BR-24) |
 | Thứ tự Lesson trong Course | ✅ Đã chốt — dùng field `Order` (BR-25) |
 | **Cập nhật entity thật trong code** | ⏳ Bước tiếp theo — sẵn sàng bắt đầu |
+| Reward/UserReward (mốc thưởng tự động) | ⏳ **Hoãn lại cuối cùng** trong Main Flow 2 (theo yêu cầu, không chặn các Main Flow khác) — code từ bước 6 (Lesson/Vocabulary/Grammar/Question/UserProgress) đã xong hoàn chỉnh |
 
 > Toàn bộ Business Rules và Use Case đã chốt xong. Bước tiếp theo: cập nhật entity + tạo migration.
+>
+> **Các thay đổi DB chạy tay (raw SQL, ngoài Migration/DbSeeder)** được ghi lại riêng tại `KimChiTalk.Repository/MANUAL_DB_CHANGES.md` — xem file đó trước khi build lại DB từ đầu hoặc deploy, để tránh thiếu/trùng dữ liệu.
 
 ## 6b. Lỗi dữ liệu phát hiện lúc test — chưa sửa, rà soát 1 lượt vào cuối dự án
 
