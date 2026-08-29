@@ -347,7 +347,7 @@ Path: `/api/v1/vocabulary`
 
 status: 200
 Input:
-LessonId : Guid
+vocabularyId : Guid
 Output:
 {
 [
@@ -370,6 +370,23 @@ status: 204
 Input:
 vocabularyId : Guid
 
+Get vocabulary by Id
+API :  GET
+Path: `/api/v1/vocabulary/{vocabularyId}`
+
+status: 200
+Input:
+vocabularyId : Guid
+Output:
+{
+"id": Guid,
+"word": string,
+"level": string,
+"type": string,
+"meaningVietnamese": string,
+"isLearned": bool,
+"isFavorite": bool
+}
 ## 4. Grammar
 API :  GET
 Path: `/api/v1/Grammar`
@@ -404,6 +421,15 @@ Output:
 "example": string,
 "isLearned": bool
 }
+
+Update field isLearned of Grammar
+API :  Patch
+Path: `/api/v1/grammar/{grammarId}`
+
+status: 200
+Input:
+gramammarId : Guid
+
 ## 5. Question
 API :  GET
 Path: `/api/v1/question`
