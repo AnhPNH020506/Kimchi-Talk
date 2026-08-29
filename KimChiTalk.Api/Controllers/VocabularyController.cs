@@ -30,4 +30,19 @@ public class VocabularyController: ControllerBase
         var value = User.Claims.FirstOrDefault(c => c.Type == "UserId")?.Value;
         return Guid.TryParse(value, out var id) ? id : null;
     }
+
+    [HttpPatch("{vocabularyId}")]
+    [Authorize(Policy = JwtExtensions.CustomerPolicy)]
+    public async Task<IActionResult> UpdateVocabularyAsLearned(Guid vocabularyId)
+    {
+        var userId = GetCurrentUserId();
+        if (userId == null)
+        {
+            return BadRequest();
+        }
+
+        await _vocabularyService.MarkVocabularyAsLearned(userId!.Value, vocabularyId);
+        return NoContent();
+        
+    }
 }

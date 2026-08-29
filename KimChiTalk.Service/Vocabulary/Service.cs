@@ -1,4 +1,5 @@
 using KimChiTalk.Repository;
+using KimChiTalk.Repository.Entity;
 using Microsoft.EntityFrameworkCore;
 
 namespace KimChiTalk.Service.Vocabulary;
@@ -36,5 +37,33 @@ public class Service: IService
             
         }
         return result;
+    }
+
+    public async Task MarkVocabularyAsLearned(Guid userId, Guid vocabularyId)
+    {
+        var vocabulary = await _dbContext.Vocabulary.Where(v => v.Id == vocabularyId).FirstOrDefaultAsync();
+        if (vocabulary == null)
+        {
+            throw new KeyNotFoundException();    
+        }
+        var userVocabulary = await _dbContext.UserVocabulary.Where(u => u.UserId == userId && u.VocabularyId == vocabularyId).FirstOrDefaultAsync();
+        if(userVocabulary == null)
+        {
+            userVocabulary = new UserVocabulary()
+            {
+                VocabularyId = vocabularyId,
+                UserId = userId,
+                IsLearned = true,
+                IsFavorite = false
+
+            };
+             _dbContext.UserVocabulary.Add(userVocabulary);
+
+        }
+        else
+        {
+            userVocabulary.IsLearned = true;
+        }
+        await _dbContext.SaveChangesAsync();
     }
 }
