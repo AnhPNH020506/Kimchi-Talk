@@ -381,6 +381,21 @@ Output:
 }
 ]
 }
+Get Grammar by Id
+API :  GET
+Path: `/api/v1/grammar/{grammarId}`
+
+status: 200
+Input:
+gramammarId : Guid
+Output:
+{
+"id": Guid,
+"title": string,
+"explanation": string,
+"example": string,
+"isLearned": bool
+}
 ## 5. Question
 API :  GET
 Path: `/api/v1/question`
@@ -432,5 +447,6 @@ Output:
 ],
 "isPassed": false
 }
+
 
 

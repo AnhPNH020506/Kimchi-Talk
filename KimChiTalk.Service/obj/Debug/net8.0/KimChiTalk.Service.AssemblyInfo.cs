@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KimChiTalk.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d738ac4d07c34f8d36a747c069e4c4c11c85ac96")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aebfc3fcaf8aae20f5e5bb888af7d3e2504e9aa9")]
 [assembly: System.Reflection.AssemblyProductAttribute("KimChiTalk.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KimChiTalk.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
