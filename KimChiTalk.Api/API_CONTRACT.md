@@ -426,10 +426,11 @@ Output:
 "questions": [
 {
 "questionId": Guid,
-"grammarId": null,
+"grammarId": Guid,
 "isCorrect": bool
 }
 ],
 "isPassed": false
 }
+
 
