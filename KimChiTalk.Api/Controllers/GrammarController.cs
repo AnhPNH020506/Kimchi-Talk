@@ -31,4 +31,17 @@ public class GrammarController: ControllerBase
         var value = User.Claims.FirstOrDefault(c => c.Type == "UserId")?.Value;
         return Guid.TryParse(value, out var id) ? id : null;
     }
+
+    [HttpGet("{grammarId}")]
+    [Authorize(Policy = JwtExtensions.CustomerPolicy)]
+    public async Task<IActionResult> GetGrammarById(Guid grammarId)
+    {
+        var user = GetCurrentUserId();
+        if (user == null)
+        {
+            return BadRequest();
+        }
+        var result = await _grammarService.GetGrammarById(user!.Value, grammarId);
+        return Ok(result);
+    }
 }

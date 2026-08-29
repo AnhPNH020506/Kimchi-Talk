@@ -33,4 +33,25 @@ public class Service : IService
         }
         return result;
     }
+
+    public async Task<Response.GetGrammarResponse?> GetGrammarById(Guid userId, Guid grammarId)
+    {
+        var grammar = await _dbContext.Grammars.Where(g => g.Id == grammarId).FirstOrDefaultAsync();
+        if (grammar == null)
+        {
+            return null;
+        }
+        var userGrammar = await _dbContext.UserGrammars.Where(u => u.UserId == userId && u.GrammarId == grammarId).FirstOrDefaultAsync();
+        var isLearned = userGrammar ?.IsLearned ?? false;
+        var result = new Response.GetGrammarResponse
+        {
+            Id = grammar.Id,
+            Title = grammar.Title,
+            Explanation = grammar.Explanation,
+            Example = grammar.Example,
+            IsLearned = isLearned,
+
+        };
+        return result;
+    }
 }

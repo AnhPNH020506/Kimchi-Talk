@@ -425,9 +425,9 @@ Output:
 {
 "questions": [
 {
-"questionId": Guid,
-"grammarId": Guid,
-"isCorrect": bool
+"questionId": "56059774-e6d0-4ff8-8d4c-14de197e3cd2",
+"grammarId": "7ea3da94-7536-5f10-942b-28c2b5d95a0e",
+"isCorrect": false
 }
 ],
 "isPassed": false
