@@ -343,7 +343,7 @@ Output:
 
 ## 3. Vocabulary
 API :  GET
-Path: `/api/v1/lesson`
+Path: `/api/v1/vocabulary`
 
 status: 200
 Input:
@@ -362,6 +362,14 @@ Output:
 }
 ]
 }
+Update status isLearned
+API :  Patch
+Path: `/api/v1/vocabulary/{vocabulary}`
+
+status: 204
+Input:
+vocabularyId : Guid
+
 ## 4. Grammar
 API :  GET
 Path: `/api/v1/Grammar`
