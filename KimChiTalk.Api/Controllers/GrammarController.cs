@@ -44,4 +44,18 @@ public class GrammarController: ControllerBase
         var result = await _grammarService.GetGrammarById(user!.Value, grammarId);
         return Ok(result);
     }
+
+    [HttpPatch("{grammarId}")]
+    [Authorize(Policy = JwtExtensions.CustomerPolicy)]
+    public async Task<IActionResult> UpdateGrammarAsLearned(Guid grammarId)
+    {
+        var userId = GetCurrentUserId();
+        if (userId == null)
+        {
+            return BadRequest();
+        }
+
+        await _grammarService.MarkGrammarAsLearned(userId!.Value, grammarId);
+        return NoContent();
+    }
 }

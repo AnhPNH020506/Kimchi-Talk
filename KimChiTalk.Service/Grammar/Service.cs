@@ -54,4 +54,31 @@ public class Service : IService
         };
         return result;
     }
+
+    public async Task MarkGrammarAsLearned(Guid userId, Guid grammarId)
+    {
+        var grammar = await _dbContext.Grammars.Where(g => g.Id == grammarId).FirstOrDefaultAsync();
+        if (grammar == null)
+        {
+            throw new KeyNotFoundException();
+        }
+        var userGrammar = await _dbContext.UserGrammars.Where(u => u.UserId == userId && u.GrammarId == grammarId).FirstOrDefaultAsync();
+        if (userGrammar == null)
+        {
+            userGrammar = new UserGrammar()
+            {
+                GrammarId = grammarId,
+                UserId = userId,
+                IsLearned = true,
+
+            };
+            _dbContext.UserGrammars.Add(userGrammar);
+        }
+        else
+        {
+            userGrammar.IsLearned = true;
+        }
+        await _dbContext.SaveChangesAsync();
+        
+    }
 }
