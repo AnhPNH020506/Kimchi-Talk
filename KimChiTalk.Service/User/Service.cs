@@ -14,7 +14,7 @@ public class Service: IService
     {
         var courseOfCustomer = await _dbContext.UserCourses.Where(u => u.UserId == userId).ToListAsync();
         var course = courseOfCustomer.Select(u => u.CourseId).ToList();
-        var lessonOfCourse = await _dbContext.Lessons.Where(l => course.Contains(l.CourseId))
+        var lessonOfCourse = await _dbContext.Lessons.Where(l => course.Contains(l.CourseId)).OrderBy(l => l.Order)
             .ToListAsync();
         var lessonIds = lessonOfCourse.Select(u => u.Id).ToList();
         var completedLesssonIds = (await _dbContext.UserProgresses.Where(x => x.Completed && x.UserId == userId && lessonIds.Contains(x.LessonId)).Select(x => x.LessonId).ToListAsync()).ToHashSet();
