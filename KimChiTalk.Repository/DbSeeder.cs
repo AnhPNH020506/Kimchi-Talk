@@ -73,6 +73,25 @@ public static class DbSeeder
                 Stamp(answers, now);
                 await BulkInsertAsync(context, answers, ct);
             }
+
+            // Tài khoản Admin để test các API dành cho Admin (Main Flow 3, 4).
+            // Đổi mật khẩu này trước khi deploy thật — chỉ dùng cho môi trường Dev.
+            if (!await context.Users.AnyAsync(u => u.Role == "Admin", ct))
+            {
+                var admin = new User
+                {
+                    Id = Guid.NewGuid(),
+                    Name = "Admin",
+                    Email = "admin@kimchitalk.com",
+                    HashshedPassword = BCrypt.Net.BCrypt.HashPassword("Admin@123"),
+                    Role = "Admin",
+                    IsActive = true,
+                    CreatedAt = now,
+                    UpdatedAt = now
+                };
+                await context.Users.AddAsync(admin, ct);
+                await context.SaveChangesAsync(ct);
+            }
         }
         finally
         {
