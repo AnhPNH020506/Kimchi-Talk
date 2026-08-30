@@ -14,6 +14,7 @@ using VocabularyService = KimChiTalk.Service.Vocabulary;
 using IdentityService = KimChiTalk.Service.Identity;
 using JwtService = KimChiTalk.Service.JWTService;
 using GrammarService = KimChiTalk.Service.Grammar;
+using MessageService = KimChiTalk.Service.Message;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
@@ -40,6 +41,7 @@ builder.Services.AddScoped<VocabularyService.IService, VocabularyService.Service
 builder.Services.AddScoped<IdentityService.IService, IdentityService.Service>();
 builder.Services.AddScoped<JwtService.IService, JwtService.Service>();
 builder.Services.AddScoped<GrammarService.IService, GrammarService.Service>();
+builder.Services.AddScoped<MessageService.IService, MessageService.Service>();
 builder.Services.AddCors(options =>
 {
     var corsOptions = builder.Configuration
