@@ -1,3 +1,5 @@
+using KimChiTalk.Repository.Entity;
+
 namespace KimChiTalk.Service.User;
 
 public class Response
@@ -6,7 +8,7 @@ public class Response
     {
         public Guid CourseId {get; set;}
         public required string CourseTitle {get; set;}
-        public required string Level {get; set;}
+        public required CourseLevel Level {get; set;}
         public required List<LessonProgressResponse> Lessons {get; set;}
     }
 
