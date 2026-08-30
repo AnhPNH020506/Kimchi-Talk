@@ -481,6 +481,28 @@ Output:
 ],
 "isPassed": false
 }
+## 6. Admin
+API :  GET
+Path: `/api/v1/admin/customers/{userId}/process`
 
+status: 200
+Input:
+userId : Guid
+
+Output:
+[
+{
+"courseId": Guid",
+"courseTitle": enum,
+"level": enum,
+"lessons": [
+{
+"lessonId": Guid,
+"title": string,
+"order": int,
+"isCompleted": bool
+}
+]
+}]
 
 
