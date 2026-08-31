@@ -40,8 +40,25 @@ public class Service : IService
 
     }
 
-    public Task<List<Response.MessageResponse>> GetMessageForCustomer(Guid userId)
+    public async Task<List<Response.MessageResponse>> GetMessageForCustomer(Guid userId)
     {
-        throw new NotImplementedException();
+        var getMessage = await _context.AdminMessages.Where(a => a.UserId == userId).FirstOrDefaultAsync();
+        if (getMessage == null)
+        {
+            throw new Exception("Khong tim thay tai khoan nay");
+        }
+
+        var result = new List<Response.MessageResponse>();
+        if (result == null) throw new ArgumentNullException(nameof(result));
+        result.Add(new Response.MessageResponse()
+        {
+            MessageId = getMessage.Id,
+            UserId =  getMessage.UserId,
+            Content = getMessage.Content,
+            CreatedAt = getMessage.CreatedAt,
+            IsRead = getMessage.IsRead,
+           
+        });
+        return result;
     }
 }
