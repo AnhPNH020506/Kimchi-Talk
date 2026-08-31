@@ -42,6 +42,15 @@ public class AdminController: ControllerBase
         var value = User.Claims.FirstOrDefault(c => c.Type == "UserId")?.Value;
         return Guid.TryParse(value, out var id) ? id : null;
     }
+
+    [HttpGet("history")]
+    [Authorize(Policy = JwtExtensions.AdminPolicy)]
+    public async Task<IActionResult> GetHistory(Guid? userId)
+    {
+        var result =await _messageService.GetHistoryMessages(userId);
+        return Ok(result);
+    }
+    
    
 }
 

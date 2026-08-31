@@ -1,5 +1,6 @@
 using KimChiTalk.Repository;
 using KimChiTalk.Repository.Entity;
+using Microsoft.EntityFrameworkCore;
 
 namespace KimChiTalk.Service.Message;
 
@@ -24,9 +25,19 @@ public class Service : IService
 
     }
 
-    public Task<List<Response.MessageResponse>> GetHistoryMessages(Guid? userId)
+    public async Task<List<Response.MessageResponse>> GetHistoryMessages(Guid? userId)
     {
-        throw new NotImplementedException();
+        var historyMessages = await _context.AdminMessages.Where(m => m.UserId == userId || userId == null).FirstOrDefaultAsync();
+        var result = new List<Response.MessageResponse>();
+        if (historyMessages != null)
+            result.Add(new Response.MessageResponse()
+            {
+                UserId = historyMessages.Id,
+                Content = historyMessages.Content,
+            });
+        return result;
+
+
     }
 
     public Task<List<Response.MessageResponse>> GetMessageForCustomer(Guid userId)
