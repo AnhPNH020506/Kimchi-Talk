@@ -32,7 +32,10 @@ public class Service : IService
         if (historyMessages != null)
             result.Add(new Response.MessageResponse()
             {
+                MessageId = historyMessages.Id,
                 UserId = historyMessages.Id,
+                IsRead = historyMessages.IsRead,
+                CreatedAt = historyMessages.CreatedAt,
                 Content = historyMessages.Content,
             });
         return result;
