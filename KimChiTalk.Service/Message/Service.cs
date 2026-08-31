@@ -27,17 +27,16 @@ public class Service : IService
 
     public async Task<List<Response.MessageResponse>> GetHistoryMessages(Guid? userId)
     {
-        var historyMessages = await _context.AdminMessages.Where(m => m.UserId == userId || userId == null).FirstOrDefaultAsync();
-        var result = new List<Response.MessageResponse>();
-        if (historyMessages != null)
-            result.Add(new Response.MessageResponse()
-            {
-                MessageId = historyMessages.Id,
-                UserId = historyMessages.Id,
-                IsRead = historyMessages.IsRead,
-                CreatedAt = historyMessages.CreatedAt,
-                Content = historyMessages.Content,
-            });
+        var historyMessages = await _context.AdminMessages.Where(m => m.UserId == userId || userId == null).ToListAsync();
+        var result = historyMessages.Select(a => new Response.MessageResponse()
+        {
+            UserId = a.UserId,
+            MessageId = a.Id,
+            Content = a.Content,
+            CreatedAt = a.CreatedAt,
+            IsRead = a.IsRead,
+
+        }).ToList();
         return result;
 
 
