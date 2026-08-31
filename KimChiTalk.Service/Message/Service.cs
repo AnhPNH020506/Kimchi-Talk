@@ -56,7 +56,6 @@ public class Service : IService
         result.Add(new Response.MessageResponse()
         {
             MessageId = getMessage.Id,
-            UserId =  getMessage.UserId,
             Content = getMessage.Content,
             CreatedAt = getMessage.CreatedAt,
             IsRead = getMessage.IsRead,

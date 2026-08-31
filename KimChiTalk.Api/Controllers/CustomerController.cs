@@ -14,7 +14,7 @@ public class CustomerController:ControllerBase
         _messageService = messageService;
     }
 
-    [HttpGet]
+    [HttpGet("message")]
     [Authorize(Policy = JwtExtensions.CustomerPolicy)]
     public async Task<IActionResult> GetMessages()
     {
