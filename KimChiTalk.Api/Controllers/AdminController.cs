@@ -43,7 +43,7 @@ public class AdminController: ControllerBase
         return Guid.TryParse(value, out var id) ? id : null;
     }
 
-    [HttpGet("history")]
+    [HttpGet("history/messages")]
     [Authorize(Policy = JwtExtensions.AdminPolicy)]
     public async Task<IActionResult> GetHistory(Guid? userId)
     {

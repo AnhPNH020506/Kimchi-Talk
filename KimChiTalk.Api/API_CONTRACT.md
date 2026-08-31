@@ -504,5 +504,59 @@ Output:
 }
 ]
 }]
+Create new message
 
+API :  POST
+Path: `/api/v1/admin/messages`
+
+status: 204
+Input:
+userId : Guid
+content : string
+
+Get history message
+API :  GET
+Path: `/api/v1/admin/history/messages`
+
+status: 200
+Input:
+userId : Guid
+Output:
+[
+{
+"messageId": Guid,
+"adminId": Guid,
+"userId": Guid,
+"isRead": bool,
+"createdAt": datetime,
+"content": string
+}
+]
+
+## 7. Customer
+API :  GET
+Path: `/api/v1/customer/messages`
+
+status: 200
+Input:
+Output:
+[
+{
+"messageId": Guid,
+"adminId": Guid,
+"userId": Guid,
+"isRead": bool,
+"createdAt": datetime,
+"content": string
+}
+]
+
+Update status of message when customer read
+
+API :  PATCH
+Path: `/api/v1/customer/{messageId}`
+
+status: 200
+Input:
+messageId : Guid
 
