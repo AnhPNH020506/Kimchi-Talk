@@ -27,4 +27,18 @@ public class CustomerController:ControllerBase
         var value = User.Claims.FirstOrDefault(c => c.Type == "UserId")?.Value;
         return Guid.TryParse(value, out var id) ? id : null;
     }
+
+    [HttpPatch("{messageId}")]
+    [Authorize(Policy = JwtExtensions.CustomerPolicy)]
+    public async Task<IActionResult> UpdateMessageIsRead([FromRoute] Guid messageId)
+    {
+        var userId = GetCurrentUserId();
+        if (userId == null)
+        {
+            return BadRequest();
+        }
+
+        await _messageService.MarkMessageAsRead(userId!.Value, messageId );
+        return NoContent();
+    }
 }

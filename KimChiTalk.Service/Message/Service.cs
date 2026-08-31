@@ -64,4 +64,19 @@ public class Service : IService
         });
         return result;
     }
+
+    public async Task MarkMessageAsRead(Guid userId, Guid messageId)
+    {
+       var message = await _context.AdminMessages.Where(a => a.UserId == userId && a.Id == messageId).FirstOrDefaultAsync();
+       if (message == null)
+           {
+            throw new Exception("Khong tim thay tai khoan nay");
+           }
+       else
+       {
+           message.IsRead = true;
+       }
+
+       await _context.SaveChangesAsync();
+    }
 }
