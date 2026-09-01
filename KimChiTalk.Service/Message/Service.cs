@@ -30,6 +30,7 @@ public class Service : IService
         var historyMessages = await _context.AdminMessages.Where(m => m.UserId == userId || userId == null).ToListAsync();
         var result = historyMessages.Select(a => new Response.MessageResponse()
         {
+            AdminId = a.AdminId,
             UserId = a.UserId,
             MessageId = a.Id,
             Content = a.Content,
@@ -44,37 +45,34 @@ public class Service : IService
 
     public async Task<List<Response.MessageResponse>> GetMessageForCustomer(Guid userId)
     {
-        var getMessage = await _context.AdminMessages.Where(a => a.UserId == userId).FirstOrDefaultAsync();
-        if (getMessage == null)
-        {
-            throw new Exception("Khong tim thay tai khoan nay");
-        }
+        var messages = await _context.AdminMessages.Where(a => a.UserId == userId).ToListAsync();
 
-        var result = new List<Response.MessageResponse>();
-        if (result == null) throw new ArgumentNullException(nameof(result));
-        result.Add(new Response.MessageResponse()
-        {
+        var result = messages.Select(getMessage => new Response.MessageResponse()
+        {   
             MessageId = getMessage.Id,
+            AdminId = getMessage.AdminId,
+            UserId = getMessage.UserId,
             Content = getMessage.Content,
             CreatedAt = getMessage.CreatedAt,
             IsRead = getMessage.IsRead,
            
-        });
+        }).ToList();
         return result;
     }
 
-    public async Task MarkMessageAsRead(Guid userId, Guid messageId)
+    public async Task<bool> MarkMessageAsRead(Guid userId, Guid messageId)
     {
        var message = await _context.AdminMessages.Where(a => a.UserId == userId && a.Id == messageId).FirstOrDefaultAsync();
        if (message == null)
-           {
-            throw new Exception("Khong tim thay tai khoan nay");
-           }
+       {
+           return false;
+       }
        else
        {
            message.IsRead = true;
        }
 
        await _context.SaveChangesAsync();
+       return true;
     }
 }
