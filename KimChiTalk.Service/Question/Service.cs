@@ -91,4 +91,19 @@ public class Service: IService
         
         return result;
     }
+
+    public Task CreateQuestions(Guid userId, Request.QuestionRequest request)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task DeleteQuestions(Guid userId, Guid questionId)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task UpdateQuestions(Guid userId, Guid questionId, Request.QuestionRequest request)
+    {
+        throw new NotImplementedException();
+    }
 }

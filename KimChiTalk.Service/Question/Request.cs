@@ -15,4 +15,13 @@ public class Request
         public Guid QuestionId { get; set; }
         public required List<Guid> SelectedAnswerIds { get; set; }
     }
+    public class QuestionRequest
+    {
+        public Guid LessonId { get; set; }
+        public Guid GrammarId { get; set; }
+        public QuestionStage QuestionStage { get; set; }
+        public required string Content { get; set; }
+        public QuestionType QuestionType { get; set; }
+        
+    }
 }

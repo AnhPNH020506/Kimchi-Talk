@@ -81,5 +81,19 @@ public class Service: IService
 
 
     }
-    
+
+    public Task CreateCourse(Guid userId, Request.CourseRequest request)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task UpdateCourse(Guid userId, Guid courseId, Request.CourseRequest request)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task DeleteCourse(Guid userId, Guid courseId)
+    {
+        throw new NotImplementedException();
+    }
 }

@@ -89,4 +89,19 @@ public class Service: IService
         }
         await _dbContext.SaveChangesAsync();
     }
+
+    public Task CreateVocabulary(Guid userId, Request.VocabularyRequest request)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task UpdateVocabulary(Guid userId, Guid courseId, Request.VocabularyRequest request)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task DeleteVocabulary(Guid userId, Guid courseId, Guid id)
+    {
+        throw new NotImplementedException();
+    }
 }
