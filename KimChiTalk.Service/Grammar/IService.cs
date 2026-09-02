@@ -6,6 +6,6 @@ public interface IService
     public Task<Response.GetGrammarResponse?> GetGrammarById(Guid userId, Guid grammarId);
     public Task MarkGrammarAsLearned(Guid userId, Guid grammarId);
     public Task CreateGrammar(Guid adminId, Request.GrammarRequest request);
-    public Task DeleteGrammar(Guid userId, Guid grammarId);
-    public Task UpdateGrammar(Guid userId, Guid grammarId, Request.GrammarRequest request);
+    public Task DeleteGrammar(Guid adminId, Guid grammarId);
+    public Task UpdateGrammar(Guid adminId, Guid grammarId, Request.GrammarRequest request);
 }

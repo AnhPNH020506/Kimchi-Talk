@@ -100,7 +100,7 @@ public class Service: IService
         throw new NotImplementedException();
     }
 
-    public Task DeleteVocabulary(Guid adminId, Guid vocabularyId, Guid id)
+    public Task DeleteVocabulary(Guid adminId, Guid vocabularyId)
     {
         throw new NotImplementedException();
     }

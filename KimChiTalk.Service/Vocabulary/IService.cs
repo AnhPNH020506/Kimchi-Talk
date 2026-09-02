@@ -8,6 +8,6 @@ public interface IService
     public Task MarkVocabularyAsLearned(Guid userId, Guid vocabularyId);
     public Task CreateVocabulary(Guid adminId, Request.VocabularyRequest request);
     public Task UpdateVocabulary(Guid adminId, Guid vocabularyId, Request.VocabularyRequest request);
-    public Task DeleteVocabulary(Guid adminId, Guid vocabularyId, Guid id);
+    public Task DeleteVocabulary(Guid adminId, Guid vocabularyId);
 
 }
