@@ -40,17 +40,17 @@ public class Service: IService
 
     }
 
-    public Task CreateLesson(Guid userId, Request.LessonRequest request)
+    public Task CreateLesson(Guid adminId, Request.LessonRequest request)
     {
         throw new NotImplementedException();
     }
 
-    public Task DeleteLesson(Guid userId, Guid lessonId)
+    public Task DeleteLesson(Guid adminId, Guid lessonId)
     {
         throw new NotImplementedException();
     }
 
-    public Task UpdateLesson(Guid userId, Request.LessonRequest request, Guid lessonId)
+    public Task UpdateLesson(Guid adminId, Request.LessonRequest request, Guid lessonId)
     {
         throw new NotImplementedException();
     }

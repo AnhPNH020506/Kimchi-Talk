@@ -18,10 +18,18 @@ public class Request
     public class QuestionRequest
     {
         public Guid LessonId { get; set; }
-        public Guid GrammarId { get; set; }
+        public Guid? GrammarId { get; set; }
         public QuestionStage QuestionStage { get; set; }
         public required string Content { get; set; }
         public QuestionType QuestionType { get; set; }
+        public List<AnswerRequest> SelectAnswer { get; set; }
         
+    }
+    public class AnswerRequest
+    {
+        public Guid QuestionId { get; set; }
+        public QuestionStage QuestionStage { get; set; }
+        public required string Content { get; set; }
+        public int? Order { get; set; }
     }
 }

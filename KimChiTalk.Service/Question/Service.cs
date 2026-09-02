@@ -92,17 +92,17 @@ public class Service: IService
         return result;
     }
 
-    public Task CreateQuestions(Guid userId, Request.QuestionRequest request)
+    public Task CreateQuestions(Guid adminId, Request.QuestionRequest request)
     {
         throw new NotImplementedException();
     }
 
-    public Task DeleteQuestions(Guid userId, Guid questionId)
+    public Task DeleteQuestions(Guid adminId, Guid questionId)
     {
         throw new NotImplementedException();
     }
 
-    public Task UpdateQuestions(Guid userId, Guid questionId, Request.QuestionRequest request)
+    public Task UpdateQuestions(Guid adminId, Guid questionId, Request.QuestionRequest request)
     {
         throw new NotImplementedException();
     }

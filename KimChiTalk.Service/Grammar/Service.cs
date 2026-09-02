@@ -81,4 +81,19 @@ public class Service : IService
         await _dbContext.SaveChangesAsync();
         
     }
+
+    public Task CreateGrammar(Guid adminId, Request.GrammarRequest request)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task DeleteGrammar(Guid userId, Guid grammarId)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task UpdateGrammar(Guid userId, Guid grammarId, Request.GrammarRequest request)
+    {
+        throw new NotImplementedException();
+    }
 }

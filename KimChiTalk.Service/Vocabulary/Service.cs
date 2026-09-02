@@ -90,17 +90,17 @@ public class Service: IService
         await _dbContext.SaveChangesAsync();
     }
 
-    public Task CreateVocabulary(Guid userId, Request.VocabularyRequest request)
+    public Task CreateVocabulary(Guid adminId, Request.VocabularyRequest request)
     {
         throw new NotImplementedException();
     }
 
-    public Task UpdateVocabulary(Guid userId, Guid courseId, Request.VocabularyRequest request)
+    public Task UpdateVocabulary(Guid adminId, Guid vocabularyId, Request.VocabularyRequest request)
     {
         throw new NotImplementedException();
     }
 
-    public Task DeleteVocabulary(Guid userId, Guid courseId, Guid id)
+    public Task DeleteVocabulary(Guid adminId, Guid vocabularyId, Guid id)
     {
         throw new NotImplementedException();
     }
