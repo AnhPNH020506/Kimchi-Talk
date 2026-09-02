@@ -1,4 +1,5 @@
 using KimChiTalk.Extensions;
+using KimChiTalk.Repository.Entity;
 using KimChiTalk.Service.Vocabulary;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -63,4 +64,49 @@ public class VocabularyController: ControllerBase
         }
         return Ok(result);
     }
+
+    [HttpPost]
+    [Authorize(Policy = JwtExtensions.AdminPolicy)]
+    public async Task<IActionResult> CreateVocabulary(Request.VocabularyRequest request)
+    {
+        var adminId = GetCurrentUserId();
+        if (adminId == null)
+
+        {
+            return BadRequest();
+        }
+
+        await _vocabularyService.CreateVocabulary(adminId.Value, request);
+        return NoContent();
+    }
+
+    [HttpDelete("{vocabularyId}")]
+    [Authorize(Policy = JwtExtensions.AdminPolicy)]
+    public async Task<IActionResult> DeleteVocabulary(Guid vocabularyId)
+    {
+        var adminId = GetCurrentUserId();
+        if (adminId == null)
+
+        {
+            return BadRequest();
+        }
+        await _vocabularyService.DeleteVocabulary(adminId.Value, vocabularyId);
+        return NoContent();
+    }
+
+    [HttpPatch("{vocabularyId}")]
+    [Authorize(Policy = JwtExtensions.AdminPolicy)]
+    public async Task<IActionResult> UpdateVocabulary(Guid vocabularyId, Request.VocabularyRequest request)
+    {
+        var adminId = GetCurrentUserId();
+        if (adminId == null)
+
+        {
+            return BadRequest();
+        }
+        await _vocabularyService.UpdateVocabulary(adminId.Value, vocabularyId, request);
+        return NoContent();
+    }
+    
+    
 }

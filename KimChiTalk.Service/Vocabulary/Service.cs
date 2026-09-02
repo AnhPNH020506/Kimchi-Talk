@@ -90,18 +90,52 @@ public class Service: IService
         await _dbContext.SaveChangesAsync();
     }
 
-    public Task CreateVocabulary(Guid adminId, Request.VocabularyRequest request)
+    public async Task CreateVocabulary(Guid adminId, Request.VocabularyRequest request)
     {
-        throw new NotImplementedException();
+        var vocabulary = new Repository.Entity.Vocabulary
+        {
+            LessonId =  request.LessonId,
+            Id = Guid.NewGuid(),
+            Word = request.Word,
+            Level = request.Level,
+            Type = request.Type,
+            MeaningVietNamese = request.MeaningVietnamese,
+            
+        };
+        _dbContext.Vocabulary.Add(vocabulary);
+        await _dbContext.SaveChangesAsync();
     }
 
-    public Task UpdateVocabulary(Guid adminId, Guid vocabularyId, Request.VocabularyRequest request)
+    public async Task UpdateVocabulary(Guid adminId, Guid vocabularyId, Request.VocabularyRequest request)
     {
-        throw new NotImplementedException();
+       var  vocabulary = _dbContext.Vocabulary.Where(v => v.Id == vocabularyId).FirstOrDefault();
+       if (vocabulary == null)
+           {
+           throw new KeyNotFoundException();
+           }
+
+           vocabulary = new Repository.Entity.Vocabulary
+           {
+               LessonId = request.LessonId,
+               Id = vocabularyId,
+               Word = request.Word,
+               Level = request.Level,
+               Type = request.Type,
+               MeaningVietNamese = request.MeaningVietnamese,
+
+           };
+           _dbContext.Vocabulary.Update(vocabulary);
+           await _dbContext.SaveChangesAsync();
     }
 
-    public Task DeleteVocabulary(Guid adminId, Guid vocabularyId)
+    public async Task DeleteVocabulary(Guid adminId, Guid vocabularyId)
     {
-        throw new NotImplementedException();
+        var vocabulary = _dbContext.Vocabulary.Where(v => v.Id == vocabularyId).FirstOrDefault();
+        if (vocabulary == null)
+            {
+            throw new KeyNotFoundException();
+            }
+        _dbContext.Vocabulary.Remove(vocabulary);
+        await _dbContext.SaveChangesAsync();
     }
 }
