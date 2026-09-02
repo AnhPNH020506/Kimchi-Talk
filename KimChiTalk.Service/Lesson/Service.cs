@@ -40,18 +40,47 @@ public class Service: IService
 
     }
 
-    public Task CreateLesson(Guid adminId, Request.LessonRequest request)
+    public async Task CreateLesson(Guid adminId, Request.LessonRequest request)
     {
-        throw new NotImplementedException();
+        var result = new Repository.Entity.Lesson
+        {
+            CourseId = request.CourseId,
+            Id = Guid.NewGuid(),
+            Title = request.Title,
+            Order = request.Order,
+        };
+        _dbContext.Lessons.Add(result);
+        await _dbContext.SaveChangesAsync();
+
     }
 
-    public Task DeleteLesson(Guid adminId, Guid lessonId)
+    public async Task DeleteLesson(Guid adminId, Guid lessonId)
     {
-        throw new NotImplementedException();
+        var lesson = await  _dbContext.Lessons.Where(l => l.Id == lessonId).FirstOrDefaultAsync();
+        if (lesson == null)
+        {
+            throw new Exception("Lesson Không tồn tại. Vui lòng nhập lại!");
+        }
+        _dbContext.Lessons.Remove(lesson);
+        await _dbContext.SaveChangesAsync();
     }
 
-    public Task UpdateLesson(Guid adminId, Request.LessonRequest request, Guid lessonId)
+    public async Task UpdateLesson(Guid adminId, Request.LessonRequest request, Guid lessonId)
     {
-        throw new NotImplementedException();
+        var lesson = await  _dbContext.Lessons.Where(l => l.Id == lessonId).FirstOrDefaultAsync();
+        if (lesson == null)
+        {
+            throw new Exception("Lesson Không tồn tại. Vui lòng nhập lại!");
+        }
+
+        lesson = new Repository.Entity.Lesson
+        {
+            Id = lessonId,
+            Title = request.Title,
+            Order = request.Order,
+
+        };
+        _dbContext.Lessons.Update(lesson);
+        await _dbContext.SaveChangesAsync();
     }
 }
