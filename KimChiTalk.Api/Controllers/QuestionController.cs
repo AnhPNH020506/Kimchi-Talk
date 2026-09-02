@@ -40,4 +40,43 @@ public class QuestionController: ControllerBase
         var value = User.Claims.FirstOrDefault(c => c.Type == "UserId")?.Value;
         return Guid.TryParse(value, out var id) ? id : null;
     }
+
+    [HttpPost]
+    [Authorize(Policy = JwtExtensions.AdminPolicy)]
+    public async Task<IActionResult> CreaeQuestion(Request.QuestionRequest request)
+    {
+        var adminId = GetCurrentUserId();
+        if (adminId == null)
+        {
+            return BadRequest();
+        }
+        await _questionService.CreateQuestions(adminId!.Value, request);
+        return NoContent();
+    }
+
+    [HttpPatch("{questionId}")]
+    [Authorize(Policy = JwtExtensions.AdminPolicy)]
+    public async Task<IActionResult> UpdateQuestion(Guid questionId, Request.QuestionRequest request)
+    {
+        var adminId = GetCurrentUserId();
+        if (adminId == null)
+        {
+            return BadRequest();
+        }
+        await _questionService.UpdateQuestions(adminId.Value, questionId, request);
+        return NoContent();
+    }
+
+    [HttpDelete("{questionId}")]
+    [Authorize(Policy = JwtExtensions.AdminPolicy)]
+    public async Task<IActionResult> DeleteQuestion(Guid questionId)
+    {
+        var adminId = GetCurrentUserId();
+        if (adminId == null)
+        {
+            return BadRequest();
+        }
+        await _questionService.DeleteQuestions(adminId.Value, questionId);
+        return NoContent();
+    }
 }
