@@ -82,18 +82,49 @@ public class Service : IService
         
     }
 
-    public Task CreateGrammar(Guid adminId, Request.GrammarRequest request)
+    public async Task CreateGrammar(Guid adminId, Request.GrammarRequest request)
     {
-        throw new NotImplementedException();
+        var grammar = new Repository.Entity.Grammar
+        {
+            LessonId = request.LessonId,
+            Id = Guid.NewGuid(),
+            Title = request.Title,
+            Explanation = request.Explanation,
+            Example = request.Example,
+        };
+        _dbContext.Grammars.Add(grammar);
+        await _dbContext.SaveChangesAsync();
     }
 
-    public Task DeleteGrammar(Guid userId, Guid grammarId)
+    public async Task DeleteGrammar(Guid userId, Guid grammarId)
     {
-        throw new NotImplementedException();
+       var grammar = _dbContext.Grammars.Where(g => g.Id == grammarId).FirstOrDefaultAsync();
+       if (grammar == null)
+           {
+           throw new KeyNotFoundException();
+           }
+       _dbContext.Remove(grammar);
+       await _dbContext.SaveChangesAsync();
     }
 
-    public Task UpdateGrammar(Guid userId, Guid grammarId, Request.GrammarRequest request)
+    public async Task UpdateGrammar(Guid userId, Guid grammarId, Request.GrammarRequest request)
     {
-        throw new NotImplementedException();
+        var grammar = await _dbContext.Grammars.Where(g => g.Id == grammarId).FirstOrDefaultAsync();
+        if (grammar == null)
+        {
+            throw new KeyNotFoundException();
+        }
+
+        grammar = new Repository.Entity.Grammar
+        {
+            LessonId = request.LessonId,
+            Id = grammarId,
+            Title = request.Title,
+            Explanation = request.Explanation,
+            Example = request.Example,
+        };
+        _dbContext.Grammars.Update(grammar);
+        await _dbContext.SaveChangesAsync();
+
     }
 }

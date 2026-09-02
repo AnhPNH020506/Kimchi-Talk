@@ -58,4 +58,44 @@ public class GrammarController: ControllerBase
         await _grammarService.MarkGrammarAsLearned(userId!.Value, grammarId);
         return NoContent();
     }
+
+    [HttpPost]
+    [Authorize(Policy = JwtExtensions.AdminPolicy)]
+    public async Task<IActionResult> CreateGrammar(Request.GrammarRequest request)
+    {
+        var adminId = GetCurrentUserId();
+        if (adminId == null)
+        {
+            return BadRequest();
+        }
+        await _grammarService.CreateGrammar(adminId.Value, request);
+        return NoContent();
+    }
+
+    [HttpPatch("{grammarId}")]
+    [Authorize(Policy = JwtExtensions.AdminPolicy)]
+    public async Task<IActionResult> UpdateGrammar(Guid grammarId, Request.GrammarRequest request)
+    {
+        var adminId = GetCurrentUserId();
+        if (adminId == null)
+        {
+            return BadRequest();
+        }
+        await _grammarService.UpdateGrammar(adminId.Value, grammarId, request);
+        return NoContent();
+    }
+
+    [HttpDelete("{grammarId}")]
+    [Authorize(Policy = JwtExtensions.AdminPolicy)]
+    public async Task<IActionResult> DeleteGrammar(Guid grammarId)
+    {
+        var adminId = GetCurrentUserId();
+        if (adminId == null)
+        {
+            return BadRequest();
+        }
+        await _grammarService.DeleteGrammar(adminId.Value, grammarId);
+        return NoContent();
+    }
+    
 }
