@@ -92,18 +92,53 @@ public class Service: IService
         return result;
     }
 
-    public Task CreateQuestions(Guid adminId, Request.QuestionRequest request)
+    public async Task CreateQuestions(Guid adminId, Request.QuestionRequest request)
     {
-        throw new NotImplementedException();
+        var question = new Request.QuestionRequest
+        {
+            LessonId = request.LessonId,
+            QuestionStage = request.QuestionStage,
+            GrammarId = request.GrammarId,
+            QuestionType = request.QuestionType,
+            SelectAnswer = request.SelectAnswer,
+            Content = request.Content,
+        };
+        _context.Add(question);
+        await _context.SaveChangesAsync();
+
     }
 
-    public Task DeleteQuestions(Guid adminId, Guid questionId)
+    public async Task DeleteQuestions(Guid adminId, Guid questionId)
     {
-        throw new NotImplementedException();
+        var question =  _context.Questions.FirstOrDefault(q => q.Id == questionId);
+        if (question == null)
+        {
+            throw new InvalidOperationException($"Question with id {questionId} does not exist");
+        }
+        _context.Remove(question);
+        await _context.SaveChangesAsync();
     }
 
     public Task UpdateQuestions(Guid adminId, Guid questionId, Request.QuestionRequest request)
     {
-        throw new NotImplementedException();
+        var question =  _context.Questions.FirstOrDefault(q => q.Id == questionId);
+        if (question == null)
+        {
+            throw new InvalidOperationException($"Question with id {questionId} does not exist");
+        }
+
+        question = new Repository.Entity.Question
+        {
+            LessonId = request.LessonId,
+            QuestionStage = request.QuestionStage,
+            GrammarId = request.GrammarId,
+            QuestionType = request.QuestionType,
+            Answers = request.SelectAnswer,
+            Id = questionId,
+            Content = request.Content,
+
+        };
+        _context.Update(question);
+        return _context.SaveChangesAsync();
     }
 }
