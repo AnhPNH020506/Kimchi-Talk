@@ -82,18 +82,49 @@ public class Service: IService
 
     }
 
-    public Task CreateCourse(Guid adminId, Request.CourseRequest request)
+    public async Task CreateCourse(Guid adminId, Request.CourseRequest request)
     {
-        throw new NotImplementedException();
+        var course = new Repository.Entity.Course
+        {
+            Id = Guid.NewGuid(),
+            Title = request.Title,
+            Description = request.Description,
+            Level = request.Level,
+            Order = request.Order,
+
+        };
+        _dbContext.Courses.Add(course);
+        await _dbContext.SaveChangesAsync();
+        
     }
 
-    public Task UpdateCourse(Guid adminId, Guid courseId, Request.CourseRequest request)
+    public async Task UpdateCourse(Guid adminId, Guid courseId, Request.CourseRequest request)
     {
-        throw new NotImplementedException();
+       var course = await _dbContext.Courses.FirstOrDefaultAsync(c => c.Id == courseId);
+       if (course == null)
+       {
+           throw new Exception("Course này không có trong hệ thống. Vui lòng thử lại!");
+       }
+
+       course = new Repository.Entity.Course()
+       {
+           Id = courseId,
+           Title = request.Title,
+           Description = request.Description,
+           Level = request.Level,
+           Order = request.Order,
+
+       };
     }
 
-    public Task DeleteCourse(Guid adminId, Guid courseId)
+    public async Task DeleteCourse(Guid adminId, Guid courseId)
     {
-        throw new NotImplementedException();
+        var course = await _dbContext.Courses.FirstOrDefaultAsync(c => c.Id == courseId);
+        if (course == null)
+        {
+            throw new Exception("Course này không có trong hệ thống. Vui lòng thử lại!");
+        }
+        _dbContext.Courses.Remove(course);
+        await _dbContext.SaveChangesAsync();
     }
 }
