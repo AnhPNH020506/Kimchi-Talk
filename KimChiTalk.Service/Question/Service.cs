@@ -76,7 +76,7 @@ public class Service: IService
                 {
                     LessonId = request.LessonId,
                     UserId = userId,
-                    Completed = false,
+                    Completed = true,
                     Score = 100
                 };
                 _context.UserProgresses.Add(userProgresses);
