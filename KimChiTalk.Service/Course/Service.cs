@@ -106,15 +106,13 @@ public class Service: IService
            throw new Exception("Course này không có trong hệ thống. Vui lòng thử lại!");
        }
 
-       course = new Repository.Entity.Course()
-       {
-           Id = courseId,
-           Title = request.Title,
-           Description = request.Description,
-           Level = request.Level,
-           Order = request.Order,
 
-       };
+       course.Title = request.Title;
+       course.Description = request.Description;
+       course.Level = request.Level;
+       course.Order = request.Order;
+       
+       await _dbContext.SaveChangesAsync();
     }
 
     public async Task DeleteCourse(Guid adminId, Guid courseId)

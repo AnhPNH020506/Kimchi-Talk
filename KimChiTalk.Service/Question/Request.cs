@@ -22,14 +22,13 @@ public class Request
         public QuestionStage QuestionStage { get; set; }
         public required string Content { get; set; }
         public QuestionType QuestionType { get; set; }
-        public ICollection<Repository.Entity.Answer> SelectAnswer { get; set; }
+        public required List<AnswerRequest> Answers { get; set; }
         
     }
     public class AnswerRequest
     {
-        public Guid QuestionId { get; set; }
-        public QuestionStage QuestionStage { get; set; }
         public required string Content { get; set; }
         public int? Order { get; set; }
+        public bool IsCorrect { get; set; }
     }
 }

@@ -23,7 +23,7 @@ public class CourseController : ControllerBase
         return Ok(result);
     }
 
-    [HttpPost()]
+    [HttpPost("{courseId}/enroll")]
     [Authorize(Policy = JwtExtensions.CustomerPolicy)]
     public async Task<IActionResult> EnrollCourse(Guid courseId)
     {

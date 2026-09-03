@@ -57,7 +57,7 @@ public class LessonController: ControllerBase
         
     }
 
-    [HttpDelete]
+    [HttpDelete("{lessonId}")]
     [Authorize(Policy = JwtExtensions.AdminPolicy)]
     public async Task<IActionResult> DeleteLesson(Guid lessonId)
     {

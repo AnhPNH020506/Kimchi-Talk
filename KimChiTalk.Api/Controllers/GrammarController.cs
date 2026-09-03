@@ -72,7 +72,7 @@ public class GrammarController: ControllerBase
         return NoContent();
     }
 
-    [HttpPatch("{grammarId}")]
+    [HttpPatch("{grammarId}/admin")]
     [Authorize(Policy = JwtExtensions.AdminPolicy)]
     public async Task<IActionResult> UpdateGrammar(Guid grammarId, Request.GrammarRequest request)
     {

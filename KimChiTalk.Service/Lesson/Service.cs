@@ -42,6 +42,11 @@ public class Service: IService
 
     public async Task CreateLesson(Guid adminId, Request.LessonRequest request)
     {
+        var courseId = await _dbContext.Courses.AnyAsync(c => c.Id == request.CourseId);
+        if (!courseId)
+        {
+            throw new Exception("CourseId này không tồn tại. Vui lòng kiểm tra lại!");
+        }
         var result = new Repository.Entity.Lesson
         {
             CourseId = request.CourseId,
@@ -67,19 +72,23 @@ public class Service: IService
 
     public async Task UpdateLesson(Guid adminId, Request.LessonRequest request, Guid lessonId)
     {
+        var courseId = await _dbContext.Courses.AnyAsync(c => c.Id == request.CourseId);
+        if (!courseId)
+        {
+            throw new Exception("CourseId này không tồn tại. Vui lòng kiểm tra lại!");
+        }
         var lesson = await  _dbContext.Lessons.Where(l => l.Id == lessonId).FirstOrDefaultAsync();
         if (lesson == null)
         {
             throw new Exception("Lesson Không tồn tại. Vui lòng nhập lại!");
         }
 
-        lesson = new Repository.Entity.Lesson
-        {
-            Id = lessonId,
-            Title = request.Title,
-            Order = request.Order,
 
-        };
+
+        lesson.Title = request.Title;
+        lesson.CourseId = request.CourseId;
+        lesson.Order = request.Order;
+                
         _dbContext.Lessons.Update(lesson);
         await _dbContext.SaveChangesAsync();
     }

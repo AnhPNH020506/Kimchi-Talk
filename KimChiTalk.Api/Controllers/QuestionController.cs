@@ -41,9 +41,9 @@ public class QuestionController: ControllerBase
         return Guid.TryParse(value, out var id) ? id : null;
     }
 
-    [HttpPost]
+    [HttpPost("create")]
     [Authorize(Policy = JwtExtensions.AdminPolicy)]
-    public async Task<IActionResult> CreaeQuestion(Request.QuestionRequest request)
+    public async Task<IActionResult> CreateQuestion(Request.QuestionRequest request)
     {
         var adminId = GetCurrentUserId();
         if (adminId == null)

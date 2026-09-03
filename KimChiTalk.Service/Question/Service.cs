@@ -94,51 +94,69 @@ public class Service: IService
 
     public async Task CreateQuestions(Guid adminId, Request.QuestionRequest request)
     {
-        var question = new Request.QuestionRequest
+        var lesson =await _context.Lessons.AnyAsync(l => l.Id == request.LessonId);
+        if (!lesson)
         {
+            throw new InvalidOperationException($"Lesson with id {request.LessonId} does not exist");
+        }
+        var question = new Repository.Entity.Question
+        {
+            Id = Guid.NewGuid(),
             LessonId = request.LessonId,
             QuestionStage = request.QuestionStage,
             GrammarId = request.GrammarId,
             QuestionType = request.QuestionType,
-            SelectAnswer = request.SelectAnswer,
             Content = request.Content,
         };
+        var answer = request.Answers.Select(a => new Repository.Entity.Answer
+        {
+            Id = Guid.NewGuid(),
+            QuestionId = question.Id,
+            IsCorrect = a.IsCorrect,
+            Order = a.Order,
+            Content = a.Content,
+        }).ToList();
+        
         _context.Add(question);
+        _context.AddRange(answer);
         await _context.SaveChangesAsync();
 
     }
 
     public async Task DeleteQuestions(Guid adminId, Guid questionId)
     {
-        var question =  _context.Questions.FirstOrDefault(q => q.Id == questionId);
+        var question = await  _context.Questions.FirstOrDefaultAsync(q => q.Id == questionId);
         if (question == null)
         {
             throw new InvalidOperationException($"Question with id {questionId} does not exist");
         }
+        var answer = await _context.Answers.Where(a => a.QuestionId == questionId).ToListAsync();
         _context.Remove(question);
+        _context.RemoveRange(answer);
         await _context.SaveChangesAsync();
     }
 
-    public Task UpdateQuestions(Guid adminId, Guid questionId, Request.QuestionRequest request)
+    public async Task UpdateQuestions(Guid adminId, Guid questionId, Request.QuestionRequest request)
     {
-        var question =  _context.Questions.FirstOrDefault(q => q.Id == questionId);
+        var question = await  _context.Questions.FirstOrDefaultAsync(q => q.Id == questionId);
         if (question == null)
         {
             throw new InvalidOperationException($"Question with id {questionId} does not exist");
         }
-
-        question = new Repository.Entity.Question
+        var lesson =await _context.Lessons.AnyAsync(l => l.Id == request.LessonId);
+        if (!lesson)
         {
-            LessonId = request.LessonId,
-            QuestionStage = request.QuestionStage,
-            GrammarId = request.GrammarId,
-            QuestionType = request.QuestionType,
-            Answers = request.SelectAnswer,
-            Id = questionId,
-            Content = request.Content,
+            throw new InvalidOperationException($"Lesson with id {request.LessonId} does not exist");
+        }
+        
 
-        };
-        _context.Update(question);
-        return _context.SaveChangesAsync();
+
+        question.LessonId = request.LessonId;
+        question.QuestionStage = request.QuestionStage;
+        question.GrammarId = request.GrammarId;
+        question.QuestionType = request.QuestionType;
+        question.Content = request.Content;
+        
+       await _context.SaveChangesAsync();
     }
 }

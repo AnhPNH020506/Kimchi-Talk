@@ -94,7 +94,7 @@ public class VocabularyController: ControllerBase
         return NoContent();
     }
 
-    [HttpPatch("{vocabularyId}")]
+    [HttpPatch("{vocabularyId}/admin")]
     [Authorize(Policy = JwtExtensions.AdminPolicy)]
     public async Task<IActionResult> UpdateVocabulary(Guid vocabularyId, Request.VocabularyRequest request)
     {

@@ -84,6 +84,11 @@ public class Service : IService
 
     public async Task CreateGrammar(Guid adminId, Request.GrammarRequest request)
     {
+        var lesson =await _dbContext.Lessons.AnyAsync(l => l.Id == request.LessonId);
+        if (!lesson)
+        {
+            throw new InvalidOperationException($"Lesson with id {request.LessonId} does not exist");
+        }
         var grammar = new Repository.Entity.Grammar
         {
             LessonId = request.LessonId,
@@ -96,9 +101,9 @@ public class Service : IService
         await _dbContext.SaveChangesAsync();
     }
 
-    public async Task DeleteGrammar(Guid userId, Guid grammarId)
+    public async Task DeleteGrammar(Guid adminId, Guid grammarId)
     {
-       var grammar = _dbContext.Grammars.Where(g => g.Id == grammarId).FirstOrDefaultAsync();
+       var grammar = await _dbContext.Grammars.Where(g => g.Id == grammarId).FirstOrDefaultAsync();
        if (grammar == null)
            {
            throw new KeyNotFoundException();
@@ -107,23 +112,25 @@ public class Service : IService
        await _dbContext.SaveChangesAsync();
     }
 
-    public async Task UpdateGrammar(Guid userId, Guid grammarId, Request.GrammarRequest request)
+    public async Task UpdateGrammar(Guid adminId, Guid grammarId, Request.GrammarRequest request)
     {
+        var lesson =await _dbContext.Lessons.AnyAsync(l => l.Id == request.LessonId);
+        if (!lesson)
+        {
+            throw new InvalidOperationException($"Lesson with id {request.LessonId} does not exist");
+        }
         var grammar = await _dbContext.Grammars.Where(g => g.Id == grammarId).FirstOrDefaultAsync();
         if (grammar == null)
         {
             throw new KeyNotFoundException();
         }
 
-        grammar = new Repository.Entity.Grammar
-        {
-            LessonId = request.LessonId,
-            Id = grammarId,
-            Title = request.Title,
-            Explanation = request.Explanation,
-            Example = request.Example,
-        };
-        _dbContext.Grammars.Update(grammar);
+
+        grammar.LessonId = request.LessonId;
+        grammar.Title = request.Title;
+        grammar.Explanation = request.Explanation;
+        grammar.Example = request.Example;
+      
         await _dbContext.SaveChangesAsync();
 
     }
