@@ -319,6 +319,44 @@ Status: 400
     "TimestampUtc": "2026-08-09T16:13:45.9745863Z"
 }
 
+CRUD course
+Create
+API :  POST
+Path: `/api/v1/course`
+
+status: 200
+Input:
+{
+"title": "test1",
+"description": "test1",
+"level": 4,
+"order": 4
+}
+
+Update course
+
+API :  PATCH
+Path: `/api/v1/course/{courseId}`
+
+status: 200
+Input:
+courseId : Guid
+{
+"title": "string",
+"description": "string",
+"level": 5,
+"order": 5
+}
+
+Delete course
+
+API :  DELETE
+Path: `/api/v1/course/{courseId}`
+
+status: 200
+Input:
+courseId : Guid
+
 
 ---
 ## 2. Lesson
@@ -340,6 +378,43 @@ Output:
 }
 ]
 }
+
+CRUD lesson 
+
+Create lesson
+API :  POST
+Path: `/api/v1/lesson`
+
+status: 200
+Input:
+{
+"courseId": "8b76fab8-d142-4353-b593-2d4d6381fd57",
+"title": "string",
+"order": 4
+}
+
+Update lesson
+
+API :  PUT
+Path: `/api/v1/lesson/{lessonId}`
+
+status: 200
+Input:
+lessonId : Guid
+{
+"courseId": "8b76fab8-d142-4353-b593-2d4d6381fd57",
+"title": "string",
+"order": 4
+}
+
+Delete lesson
+
+API :  DELETE
+Path: `/api/v1/lesson/{lessonId}`
+
+status: 200
+Input:
+lessonId : Guid
 
 ## 3. Vocabulary
 API :  GET
@@ -387,6 +462,48 @@ Output:
 "isLearned": bool,
 "isFavorite": bool
 }
+
+CRUD vocabulary
+
+Create vocabulary
+API :  POST
+Path: `/api/v1/vocabulary`
+
+status: 200
+Input:
+{
+"lessonId": Guid,
+"word": "string",
+"level": "string",
+"type": "string",
+"meaningVietnamese": "string"
+}
+
+Update vocabulary
+
+API :  PATCH
+Path: `/api/v1/vocabulary/{vocabularyId}/admin`
+
+status: 200
+Input:
+vocabularyId: Guid
+{
+"lessonId": Guid,
+"word": "string",
+"level": "string",
+"type": "string",
+"meaningVietnamese": "string"
+}
+
+DELETE vocabulary
+
+API :  DELETE
+Path: `/api/v1/vocabulary/{vocabularyId}`
+
+status: 200
+Input:
+vocabularyId: Guid
+
 ## 4. Grammar
 API :  GET
 Path: `/api/v1/Grammar`
@@ -429,6 +546,43 @@ Path: `/api/v1/grammar/{grammarId}`
 status: 200
 Input:
 gramammarId : Guid
+
+CRUD grammar
+
+Create grammar
+
+API :  POST
+Path: `/api/v1/grammar`
+status: 200
+Input:
+{
+"lessonId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+"title": "string",
+"explanation": "string",
+"example": "string"
+} 
+
+Update grammar
+
+API :  PATCH
+Path: `/api/v1/grammar/{grammarId}/admin`
+status: 200
+Input:
+grammarId: Guid
+{
+"lessonId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+"title": "string",
+"explanation": "string",
+"example": "string"
+}
+
+DELETE grammar
+
+API :  DELETE
+Path: `/api/v1/grammar/{grammarId}`
+status: 200
+Input:
+grammarId: Guid
 
 ## 5. Question
 API :  GET
@@ -481,6 +635,75 @@ Output:
 ],
 "isPassed": false
 }
+
+CRUD question
+
+Create question
+API :  Post
+Path: `/api/v1/question/create`
+
+status: 200
+Input:
+{
+"lessonId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+"grammarId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+"questionStage": 0,
+"content": "string",
+"questionType": 0,
+"answers": [
+{
+"content": "string",
+"order": 0,
+"isCorrect": true
+}
+]
+}
+
+Update question
+
+API :  PATCH
+Path: `/api/v1/question/{questionId}`
+
+status: 200
+Input:
+questionId: Guid
+{
+"lessonId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+"grammarId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+"questionStage": 0,
+"content": "string",
+"questionType": 0,
+"answers": [
+{
+"content": "string",
+"order": 0,
+"isCorrect": true
+}
+]
+}
+
+Delete grammar
+API :  DELETE
+Path: `/api/v1/question/{questionId}`
+
+status: 200
+Input:
+questionId: Guid
+{
+"lessonId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+"grammarId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+"questionStage": 0,
+"content": "string",
+"questionType": 0,
+"answers": [
+{
+"content": "string",
+"order": 0,
+"isCorrect": true
+}
+]
+}
+
 ## 6. Admin
 API :  GET
 Path: `/api/v1/admin/customers/{userId}/process`
