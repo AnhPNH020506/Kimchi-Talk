@@ -84,6 +84,24 @@ public class Service: IService
 
     public async Task CreateCourse(Guid adminId, Request.CourseRequest request)
     {
+        if (!Enum.IsDefined(typeof(CourseLevel), request.Level))
+        {
+            throw new InvalidOperationException("Level không hợp lệ.");
+        }
+
+        var levelExists = await _dbContext.Courses.AnyAsync(c => c.Level == request.Level);
+        if (levelExists)
+        {
+            throw new InvalidOperationException($"Đã tồn tại Course cho Level {request.Level}.");
+        }
+        var orderExistsInSameLevel = await _dbContext.Courses
+            .AnyAsync(c => c.Level == request.Level && c.Order == request.Order);
+        if (orderExistsInSameLevel)
+        {
+            throw new InvalidOperationException($"Order {request.Order} đã tồn tại trong Level {request.Level}.");
+        }
+
+        var now = DateTimeOffset.UtcNow;
         var course = new Repository.Entity.Course
         {
             Id = Guid.NewGuid(),
@@ -91,6 +109,8 @@ public class Service: IService
             Description = request.Description,
             Level = request.Level,
             Order = request.Order,
+            CreatedAt = now,
+            UpdatedAt = now,
 
         };
         _dbContext.Courses.Add(course);
@@ -100,6 +120,19 @@ public class Service: IService
 
     public async Task UpdateCourse(Guid adminId, Guid courseId, Request.CourseRequest request)
     {
+        if (!Enum.IsDefined(typeof(CourseLevel), request.Level))
+        {
+            throw new InvalidOperationException("Level không hợp lệ.");
+        }
+
+        var levelExists = await _dbContext.Courses.AnyAsync(c => c.Level == request.Level);
+        if (levelExists)
+        {
+            throw new InvalidOperationException($"Đã tồn tại Course cho Level {request.Level}.");
+        }
+        var orderExistsInSameLevel = await _dbContext.Courses
+            .AnyAsync(c => c.Level == request.Level && c.Order == request.Order && c.Id != courseId);
+        var now = DateTimeOffset.UtcNow;
        var course = await _dbContext.Courses.FirstOrDefaultAsync(c => c.Id == courseId);
        if (course == null)
        {
@@ -111,6 +144,8 @@ public class Service: IService
        course.Description = request.Description;
        course.Level = request.Level;
        course.Order = request.Order;
+       course.UpdatedAt = now;
+       course.CreatedAt = now;
        
        await _dbContext.SaveChangesAsync();
     }

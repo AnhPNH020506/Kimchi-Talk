@@ -47,6 +47,12 @@ public class Service: IService
         {
             throw new Exception("CourseId này không tồn tại. Vui lòng kiểm tra lại!");
         }
+        var orderExistsInSameCourse = await _dbContext.Lessons
+            .AnyAsync(l => l.CourseId == request.CourseId && l.Order == request.Order);
+        if (orderExistsInSameCourse)
+        {
+            throw new InvalidOperationException($"Order {request.Order} đã tồn tại trong Course này.");
+        }
         var result = new Repository.Entity.Lesson
         {
             CourseId = request.CourseId,
@@ -61,6 +67,7 @@ public class Service: IService
 
     public async Task DeleteLesson(Guid adminId, Guid lessonId)
     {
+        
         var lesson = await  _dbContext.Lessons.Where(l => l.Id == lessonId).FirstOrDefaultAsync();
         if (lesson == null)
         {
@@ -72,6 +79,8 @@ public class Service: IService
 
     public async Task UpdateLesson(Guid adminId, Request.LessonRequest request, Guid lessonId)
     {
+        var orderExistsInSameCourse = await _dbContext.Lessons
+            .AnyAsync(l => l.CourseId == request.CourseId && l.Order == request.Order && l.Id != lessonId);
         var courseId = await _dbContext.Courses.AnyAsync(c => c.Id == request.CourseId);
         if (!courseId)
         {

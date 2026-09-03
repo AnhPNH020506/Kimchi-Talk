@@ -94,6 +94,10 @@ public class Service: IService
 
     public async Task CreateQuestions(Guid adminId, Request.QuestionRequest request)
     {
+        if (!Enum.IsDefined(typeof(QuestionType), request.QuestionType))
+            throw new InvalidOperationException("QuestionType không hợp lệ.");
+        if (!Enum.IsDefined(typeof(QuestionStage), request.QuestionStage))
+            throw new InvalidOperationException("QuestionStage không hợp lệ.");
         var lesson =await _context.Lessons.AnyAsync(l => l.Id == request.LessonId);
         if (!lesson)
         {
@@ -138,6 +142,10 @@ public class Service: IService
 
     public async Task UpdateQuestions(Guid adminId, Guid questionId, Request.QuestionRequest request)
     {
+        if (!Enum.IsDefined(typeof(QuestionType), request.QuestionType))
+            throw new InvalidOperationException("QuestionType không hợp lệ.");
+        if (!Enum.IsDefined(typeof(QuestionStage), request.QuestionStage))
+            throw new InvalidOperationException("QuestionStage không hợp lệ.");
         var question = await  _context.Questions.FirstOrDefaultAsync(q => q.Id == questionId);
         if (question == null)
         {
