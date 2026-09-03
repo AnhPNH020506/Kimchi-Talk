@@ -161,6 +161,7 @@
 | # | Vấn đề | Ghi chú |
 |---|---|---|
 | 1 | `Vocabulary` không khớp chủ đề `Lesson` | Ví dụ Lesson "Gia đình & Con người 2" (`Id: 918c686b-...`) lại có 6 từ vựng: `글`(bài viết), `글쎄`/`글쎄요`(để xem...), `기온`(nhiệt độ), `길`(đường), `김치찌개`(canh kimchi) — không liên quan chủ đề gia đình. Nghi vấn: `Vocabularies.json` được **gom nhóm theo thứ tự bảng chữ cái tiếng Hàn** (tất cả đều bắt đầu bằng "ㄱ"), rồi chia đều theo Lesson theo số lượng — chứ không soạn theo đúng chủ đề từng Lesson. Cần rà lại toàn bộ `Vocabularies.json` xem có bị lỗi tương tự ở các Lesson khác không, và gán lại đúng theo chủ đề. |
+---------------------------------------> Đã resolve xong <------------------------------------------
 
 ## 7. Main Flow (luồng chính của hệ thống)
 
@@ -220,3 +221,7 @@ BR-06 định nghĩa Lesson `Completed` = xem hết Vocabulary + đọc hết Gr
 | 2 | Spaced Repetition (lặp lại ngắt quãng kiểu Anki) cho ôn tập Vocabulary/Grammar | Cần entity mới lưu lịch sử đúng/sai từng lần ôn + thuật toán tính lịch lặp lại. Phức tạp, để sau khi Main Flow 2-5 ổn định |
 | 3 | Chấm điểm real-time từng câu kiểu Duolingo (xem BR-31) | Cần entity tracking "User đã đúng Question nào" |
 | 4 | `VocabularyId` trực tiếp trên `Question` (xem BR-32) | Cần migration + script gán lại ~2667 câu `VocabularyMeaning` đã seed |
+
+## 9. Vấn đề còn lại 
+1. Reward/UserReward
+2. IsFavorite field
