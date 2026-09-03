@@ -100,7 +100,7 @@
   {
     "Id": "da5a2d39-b758-4f12-bf04-bc46c1f98ee9",
     "QuestionId": "eb7f35b5-1401-4c7a-9c97-1b7e126ec625",
-    "Content": "sự đánh đập",
+    "Content": "giá cả",
     "IsCorrect": true,
     "Order": null
   },
@@ -184,7 +184,7 @@
   {
     "Id": "5c7f51af-13a1-450d-bdcb-27fe90feb7c8",
     "QuestionId": "805b3d5f-046b-420e-84b0-a1e68973374c",
-    "Content": "hộ gia đình",
+    "Content": "đồ đạc",
     "IsCorrect": true,
     "Order": null
   },
@@ -1521,7 +1521,7 @@
   {
     "Id": "943e6ec8-6abd-4ce6-80cc-cfa07bb0e7ca",
     "QuestionId": "54a56ebc-d362-4ebe-8f0a-e975cd6fa6aa",
-    "Content": "người chủ gia đình",
+    "Content": "nhất",
     "IsCorrect": true,
     "Order": null
   },
@@ -5707,7 +5707,7 @@
   {
     "Id": "ed4db1b1-6686-4028-ab89-deb71392a31a",
     "QuestionId": "46fe72bf-3592-4b5b-8af7-f33babb4e58d",
-    "Content": "tan",
+    "Content": "đi bộ",
     "IsCorrect": true,
     "Order": null
   },
@@ -8556,7 +8556,7 @@
   {
     "Id": "c5e8b233-c05c-44a9-b5d2-626b03053032",
     "QuestionId": "084b7fee-e3e3-4fb3-a7db-6b934e011a63",
-    "Content": "cổ",
+    "Content": "cái đầu (trong cử chỉ gật/lắc đầu)",
     "IsCorrect": true,
     "Order": null
   },
@@ -10306,7 +10306,7 @@
   {
     "Id": "9adb7299-2a5a-40b2-adaa-f84be22d807a",
     "QuestionId": "a1059cee-51cb-482c-b7c3-f1b0ddceaead",
-    "Content": "công nhân",
+    "Content": "công viên",
     "IsCorrect": true,
     "Order": null
   },
@@ -10824,7 +10824,7 @@
   {
     "Id": "c94499a3-bffb-4b21-b8b4-fa4549e268ed",
     "QuestionId": "9aebcb63-27d8-407e-8add-a09a8c1f9c45",
-    "Content": "khoa cử",
+    "Content": "quá khứ",
     "IsCorrect": true,
     "Order": null
   },
@@ -11069,7 +11069,7 @@
   {
     "Id": "82b0ce95-464d-4590-bbfa-47d62c493d16",
     "QuestionId": "ee35e3e7-fa46-4d79-9b0b-13aac7ad8eaf",
-    "Content": "giới quan chức",
+    "Content": "quan hệ",
     "IsCorrect": true,
     "Order": null
   },
@@ -11902,7 +11902,7 @@
   {
     "Id": "8bc73be1-ac97-44f2-a681-6275175b8bb1",
     "QuestionId": "0d10fcbb-2df3-4f32-995a-404860f7dbfd",
-    "Content": "tòa nhà ở trường",
+    "Content": "giáo viên",
     "IsCorrect": true,
     "Order": null
   },
@@ -12000,7 +12000,7 @@
   {
     "Id": "c1442c49-9df5-419c-b572-67963b8a812d",
     "QuestionId": "7a3eece9-7315-4aaa-9399-25f53fdf84da",
-    "Content": "việc giảng dạy",
+    "Content": "giáo sư",
     "IsCorrect": true,
     "Order": null
   },
@@ -12679,7 +12679,7 @@
   {
     "Id": "224a1175-21e4-4bc0-ad27-33c2303d0896",
     "QuestionId": "ea0b4b38-d126-445e-9464-0e10573093a5",
-    "Content": "từ ghép",
+    "Content": "chín",
     "IsCorrect": true,
     "Order": null
   },
@@ -17775,7 +17775,7 @@
   {
     "Id": "5399e19e-74fe-44bb-ad85-86b2efd4861c",
     "QuestionId": "f8e24232-2ac0-4c0c-aedb-8380c9b47b82",
-    "Content": "và",
+    "Content": "cấp",
     "IsCorrect": true,
     "Order": null
   },
@@ -17922,7 +17922,7 @@
   {
     "Id": "b7d60faa-0181-4301-b6df-d84b8f32aa81",
     "QuestionId": "5ceed9db-7f58-44fc-8cbf-3e323f782204",
-    "Content": "then chốt",
+    "Content": "thời gian",
     "IsCorrect": true,
     "Order": null
   },
@@ -27771,7 +27771,7 @@
   {
     "Id": "f7832b87-173e-4bb1-bed5-34800c3bcaf2",
     "QuestionId": "e31d685d-75fb-4519-85e6-313f6cfba90a",
-    "Content": "độ bền",
+    "Content": "cường độ",
     "IsCorrect": true,
     "Order": null
   },
@@ -35996,7 +35996,7 @@
   {
     "Id": "28ea86c6-6321-4aed-a5a3-09e88267110f",
     "QuestionId": "830d471e-fb5c-499e-833a-7793ec53059e",
-    "Content": "đạo lý",
+    "Content": "trường hợp",
     "IsCorrect": true,
     "Order": null
   },
@@ -39650,7 +39650,7 @@
   {
     "Id": "78b26f29-c9eb-429b-a0f2-afae9b9a1d9f",
     "QuestionId": "d72c51a5-d189-4861-a510-f18880f40c37",
-    "Content": "tố cáo",
+    "Content": "thơm bùi",
     "IsCorrect": true,
     "Order": null
   },
@@ -39832,7 +39832,7 @@
   {
     "Id": "30b4a88f-62ba-418a-bedf-5221ec12bf5b",
     "QuestionId": "612f0fb6-cffd-40dd-843f-b5392800af23",
-    "Content": "고속도로",
+    "Content": "đường cao tốc",
     "IsCorrect": true,
     "Order": null
   },
@@ -44347,7 +44347,7 @@
   {
     "Id": "7ff9020a-acd2-4863-9408-8589c34bd848",
     "QuestionId": "ce18f48a-f033-4154-8025-2d2726c8551c",
-    "Content": "sự công bố",
+    "Content": "nỗi sợ hãi",
     "IsCorrect": true,
     "Order": null
   },
@@ -45264,7 +45264,7 @@
   {
     "Id": "3d6fc5c8-7f60-424d-975b-592aed0c9e1c",
     "QuestionId": "ec8a98df-d2fa-4a8f-ac3f-cd8868949707",
-    "Content": "trưởng khoa",
+    "Content": "trưởng phòng",
     "IsCorrect": true,
     "Order": null
   },
@@ -45439,7 +45439,7 @@
   {
     "Id": "d18263bb-d440-48c7-a335-29f26aa738d6",
     "QuestionId": "4bf40bab-814f-45f2-94cf-5d0582876a5f",
-    "Content": "bài toán",
+    "Content": "bài tập",
     "IsCorrect": true,
     "Order": null
   },
@@ -51893,7 +51893,7 @@
   {
     "Id": "aaefaa2e-e188-4255-9c23-ce4c4a35fb79",
     "QuestionId": "4a6395dd-4954-4de7-8863-a5af30856f87",
-    "Content": "국회의원",
+    "Content": "nghị sĩ quốc hội",
     "IsCorrect": true,
     "Order": null
   },
@@ -52586,7 +52586,7 @@
   {
     "Id": "62c367a9-534f-43c7-adb2-279ae447c4b2",
     "QuestionId": "e91675de-f4b1-400e-b60e-a0da7b063318",
-    "Content": "móng chân",
+    "Content": "gót giày",
     "IsCorrect": true,
     "Order": null
   },
@@ -55379,7 +55379,7 @@
   {
     "Id": "51d82c07-70c6-45c5-bb38-19f7cd5a761b",
     "QuestionId": "1d4cb3c6-6f75-47a9-ae1e-0c9b1e244896",
-    "Content": "그려지다",
+    "Content": "được vẽ ra",
     "IsCorrect": true,
     "Order": null
   },
@@ -62519,7 +62519,7 @@
   {
     "Id": "b6998690-af36-4f61-a76e-156fc87172e8",
     "QuestionId": "fb96541f-241f-4c09-a5e4-c9e8d75e4f7d",
-    "Content": "tai dài",
+    "Content": "tay dài",
     "IsCorrect": true,
     "Order": null
   },
@@ -62757,7 +62757,7 @@
   {
     "Id": "6f23d852-e4df-4cf2-97af-604102331165",
     "QuestionId": "17003804-678f-4f9f-848b-ff2a7137933d",
-    "Content": "김포공항",
+    "Content": "sân bay Gimpo",
     "IsCorrect": true,
     "Order": null
   },
@@ -64241,7 +64241,7 @@
   {
     "Id": "f7cd7f2a-94a1-4204-a438-65ebf9422088",
     "QuestionId": "10dde08c-fcaa-43e3-94c6-daeb252ebbe4",
-    "Content": "가능해지다",
+    "Content": "trở nên khả thi",
     "IsCorrect": true,
     "Order": null
   },
@@ -64822,7 +64822,7 @@
   {
     "Id": "875c5073-b25a-4cc8-b47d-dea09f836671",
     "QuestionId": "754b16a9-58f3-4acf-8ce5-b7bdb335f732",
-    "Content": "가정교사",
+    "Content": "gia sư",
     "IsCorrect": true,
     "Order": null
   },
@@ -72144,7 +72144,7 @@
   {
     "Id": "e3b94ada-ef21-40af-9f2c-1a2ab1559fd3",
     "QuestionId": "a261aa74-dc7b-477b-9d61-98cc87a96e7c",
-    "Content": "mang tính cục bộ",
+    "Content": "mang tính quốc tế",
     "IsCorrect": true,
     "Order": null
   },
@@ -72641,7 +72641,7 @@
   {
     "Id": "35ca0d5d-393a-4b7b-bec8-3bd2a34b3219",
     "QuestionId": "bfb301b6-3709-4ed7-bbe6-f44adfb4502c",
-    "Content": "그놈",
+    "Content": "thằng đó",
     "IsCorrect": true,
     "Order": null
   },
@@ -72774,7 +72774,7 @@
   {
     "Id": "0d12066d-292d-48de-ae1d-fd046876c7cf",
     "QuestionId": "117d9675-d35d-4bd0-829f-8e0a3bc5f55b",
-    "Content": "그리하여야",
+    "Content": "phải như vậy thì",
     "IsCorrect": true,
     "Order": null
   },
@@ -73537,7 +73537,7 @@
   {
     "Id": "b7d2f903-515e-47b4-9527-87cb54387fb9",
     "QuestionId": "74b74345-f167-4835-9b57-951de0cec1a7",
-    "Content": "그제서야",
+    "Content": "mãi đến lúc đó mới",
     "IsCorrect": true,
     "Order": null
   },

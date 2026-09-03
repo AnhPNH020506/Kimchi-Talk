@@ -1,7 +1,7 @@
 [
   {
     "Id": "46a4e085-5b21-42f2-863a-75ce93e8ad7b",
-    "LessonId": "70e7309c-7fcb-48ef-a22a-aecc8b57fee9",
+    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
     "Word": "가게",
     "Level": "Beginner",
     "Type": "Noun",
@@ -9,23 +9,23 @@
   },
   {
     "Id": "a836093e-cbdc-4040-97e4-5e5f497a1643",
-    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "LessonId": "338075fd-99bb-4fe7-bf44-640f1cef2c1f",
     "Word": "가격",
     "Level": "Beginner",
     "Type": "Noun",
-    "MeaningVietNamese": "sự đánh đập, sự ra đòn"
+    "MeaningVietNamese": "giá cả, giá tiền"
   },
   {
     "Id": "4dc109ea-5531-4841-9da4-253010b2d6f7",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "70e7309c-7fcb-48ef-a22a-aecc8b57fee9",
     "Word": "가구",
     "Level": "Beginner",
     "Type": "Noun",
-    "MeaningVietNamese": "hộ gia đình"
+    "MeaningVietNamese": "đồ đạc, đồ nội thất"
   },
   {
     "Id": "da71dc6d-3edb-42b3-b85a-072e33ed1b4a",
-    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
+    "LessonId": "a4c81b67-a1e6-457c-806e-db105f77da83",
     "Word": "가깝다",
     "Level": "Beginner",
     "Type": "Adjective",
@@ -33,7 +33,7 @@
   },
   {
     "Id": "caaf7fd3-48ad-43cb-9837-b934293909c4",
-    "LessonId": "1af5b5d6-ede1-4e7c-939b-9c0f8bdad23a",
+    "LessonId": "79cabd7d-83e3-4320-bb24-78e581d87453",
     "Word": "가끔",
     "Level": "Beginner",
     "Type": "Adverb",
@@ -41,7 +41,7 @@
   },
   {
     "Id": "87d08da0-7648-4121-8fec-f457237bb4dc",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "6fc00419-1d75-4e9e-8770-4bd956553449",
     "Word": "가늘다",
     "Level": "Beginner",
     "Type": "Adjective",
@@ -49,7 +49,7 @@
   },
   {
     "Id": "57322e04-b2e6-4d94-9915-a1fe44282df0",
-    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
+    "LessonId": "8c7be511-46d1-4e46-879d-bfd295171b09",
     "Word": "가다",
     "Level": "Beginner",
     "Type": "Verb",
@@ -57,7 +57,7 @@
   },
   {
     "Id": "2a8fc5d7-5393-44b6-b408-b1125d79e28b",
-    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
+    "LessonId": "8c7be511-46d1-4e46-879d-bfd295171b09",
     "Word": "가다",
     "Level": "Beginner",
     "Type": "Auxiliary",
@@ -89,7 +89,7 @@
   },
   {
     "Id": "2d0790d7-acbf-49e8-a5f1-272ae7123a70",
-    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "LessonId": "70e7309c-7fcb-48ef-a22a-aecc8b57fee9",
     "Word": "가방",
     "Level": "Beginner",
     "Type": "Noun",
@@ -97,7 +97,7 @@
   },
   {
     "Id": "99cab041-761b-42a6-ba75-eed578354f46",
-    "LessonId": "338075fd-99bb-4fe7-bf44-640f1cef2c1f",
+    "LessonId": "a4c81b67-a1e6-457c-806e-db105f77da83",
     "Word": "가볍다",
     "Level": "Beginner",
     "Type": "Adjective",
@@ -113,7 +113,7 @@
   },
   {
     "Id": "92d6fd4d-d3d1-4bad-b0d8-59c1df3c2683",
-    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "LessonId": "71aed010-44ca-4125-a0bf-0d684affb031",
     "Word": "가슴",
     "Level": "Beginner",
     "Type": "Noun",
@@ -121,7 +121,7 @@
   },
   {
     "Id": "cf6e2f71-2f22-4f38-9ff2-deabe7d3e91c",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "902bd8be-46b9-4606-8c84-c83b1851966d",
     "Word": "가요",
     "Level": "Beginner",
     "Type": "Noun",
@@ -129,7 +129,7 @@
   },
   {
     "Id": "c3cea89f-0db0-4a0d-ac37-692eca7e9428",
-    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "가운데",
     "Level": "Beginner",
     "Type": "Noun",
@@ -137,7 +137,7 @@
   },
   {
     "Id": "18b1221a-2803-4b7c-86f0-a0df86149019",
-    "LessonId": "10c5de2f-e85b-4944-bcca-ba0fa12cbe6f",
+    "LessonId": "70e7309c-7fcb-48ef-a22a-aecc8b57fee9",
     "Word": "가위",
     "Level": "Beginner",
     "Type": "Noun",
@@ -145,7 +145,7 @@
   },
   {
     "Id": "3e3a1191-b5d9-4e16-9ac4-39ff6d1694f1",
-    "LessonId": "1af5b5d6-ede1-4e7c-939b-9c0f8bdad23a",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "가을",
     "Level": "Beginner",
     "Type": "Noun",
@@ -153,15 +153,15 @@
   },
   {
     "Id": "edb3fc14-91ea-4c74-bc1c-37b6deae1246",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "79cabd7d-83e3-4320-bb24-78e581d87453",
     "Word": "가장",
     "Level": "Beginner",
     "Type": "Adverb",
-    "MeaningVietNamese": "người chủ gia đình"
+    "MeaningVietNamese": "nhất, hơn cả"
   },
   {
     "Id": "db0630a8-fd06-4c4b-9963-8f5f95504305",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "8c7be511-46d1-4e46-879d-bfd295171b09",
     "Word": "가져가다",
     "Level": "Beginner",
     "Type": "Verb",
@@ -169,7 +169,7 @@
   },
   {
     "Id": "41240b1e-8b82-4c66-93bb-f8aaba2e3c86",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "8c7be511-46d1-4e46-879d-bfd295171b09",
     "Word": "가져오다",
     "Level": "Beginner",
     "Type": "Verb",
@@ -185,7 +185,7 @@
   },
   {
     "Id": "8d59a7c8-87b5-4dca-9c5b-55f6a304d9b6",
-    "LessonId": "caa9dc19-b472-4888-9590-23b5a585559e",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "가지",
     "Level": "Beginner",
     "Type": "Dependent Noun",
@@ -201,7 +201,7 @@
   },
   {
     "Id": "6726801f-1a4b-4f35-b302-967058b6be3d",
-    "LessonId": "caa9dc19-b472-4888-9590-23b5a585559e",
+    "LessonId": "8c7be511-46d1-4e46-879d-bfd295171b09",
     "Word": "가지다",
     "Level": "Beginner",
     "Type": "Auxiliary",
@@ -233,7 +233,7 @@
   },
   {
     "Id": "62ee4d4a-6d32-4028-bd48-8a5eb148cb1d",
-    "LessonId": "10c5de2f-e85b-4944-bcca-ba0fa12cbe6f",
+    "LessonId": "79cabd7d-83e3-4320-bb24-78e581d87453",
     "Word": "간단히",
     "Level": "Beginner",
     "Type": "Adverb",
@@ -257,7 +257,7 @@
   },
   {
     "Id": "6922733d-76a0-4f6e-b18b-fbae79b34586",
-    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "LessonId": "71aed010-44ca-4125-a0bf-0d684affb031",
     "Word": "간호사",
     "Level": "Beginner",
     "Type": "Noun",
@@ -273,7 +273,7 @@
   },
   {
     "Id": "88364184-2943-4a9b-bbe8-3fc06c4c1ccb",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "10c5de2f-e85b-4944-bcca-ba0fa12cbe6f",
     "Word": "갈비탕",
     "Level": "Beginner",
     "Type": "Noun",
@@ -281,7 +281,7 @@
   },
   {
     "Id": "8fdf516a-d020-4c67-8125-a142337b224f",
-    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "갈색",
     "Level": "Beginner",
     "Type": "Noun",
@@ -289,7 +289,7 @@
   },
   {
     "Id": "716eacec-4b87-4209-9754-b8d915a056ac",
-    "LessonId": "8c7be511-46d1-4e46-879d-bfd295171b09",
+    "LessonId": "894bd7ad-1c9d-4393-9735-3715c818ba93",
     "Word": "갈아입다",
     "Level": "Beginner",
     "Type": "Verb",
@@ -297,7 +297,7 @@
   },
   {
     "Id": "fffd78a2-3853-428c-ba30-e56b37502df5",
-    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
+    "LessonId": "8c7be511-46d1-4e46-879d-bfd295171b09",
     "Word": "갈아타다",
     "Level": "Beginner",
     "Type": "Verb",
@@ -345,7 +345,7 @@
   },
   {
     "Id": "7ee5146f-f140-430c-8fb8-287114cbe224",
-    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "LessonId": "902bd8be-46b9-4606-8c84-c83b1851966d",
     "Word": "감사",
     "Level": "Beginner",
     "Type": "Noun",
@@ -353,7 +353,7 @@
   },
   {
     "Id": "9ce428c4-f902-410f-8ff0-f7a40bce21f1",
-    "LessonId": "8c7be511-46d1-4e46-879d-bfd295171b09",
+    "LessonId": "902bd8be-46b9-4606-8c84-c83b1851966d",
     "Word": "감사하다",
     "Level": "Beginner",
     "Type": "Verb",
@@ -361,7 +361,7 @@
   },
   {
     "Id": "01a367a6-5183-4604-a8de-99ea5f158ecc",
-    "LessonId": "6fc00419-1d75-4e9e-8770-4bd956553449",
+    "LessonId": "902bd8be-46b9-4606-8c84-c83b1851966d",
     "Word": "감사하다",
     "Level": "Beginner",
     "Type": "Adjective",
@@ -369,7 +369,7 @@
   },
   {
     "Id": "2bb217ab-d404-47f5-a37a-0bf14246095b",
-    "LessonId": "caa9dc19-b472-4888-9590-23b5a585559e",
+    "LessonId": "10c5de2f-e85b-4944-bcca-ba0fa12cbe6f",
     "Word": "감자",
     "Level": "Beginner",
     "Type": "Noun",
@@ -393,7 +393,7 @@
   },
   {
     "Id": "5a743d0f-f946-49bc-9927-9c6e6604315e",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "강",
     "Level": "Beginner",
     "Type": "Noun",
@@ -401,7 +401,7 @@
   },
   {
     "Id": "f705758f-36e1-4a41-a965-a8cbca4fa01d",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "강아지",
     "Level": "Beginner",
     "Type": "Noun",
@@ -409,7 +409,7 @@
   },
   {
     "Id": "10a6d6ec-3f68-436b-8f32-a3ed05635a9a",
-    "LessonId": "6fc00419-1d75-4e9e-8770-4bd956553449",
+    "LessonId": "a4c81b67-a1e6-457c-806e-db105f77da83",
     "Word": "강하다",
     "Level": "Beginner",
     "Type": "Adjective",
@@ -449,7 +449,7 @@
   },
   {
     "Id": "8b3b55ff-8780-4843-88de-e68b65b69ab4",
-    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "개",
     "Level": "Beginner",
     "Type": "Noun",
@@ -457,7 +457,7 @@
   },
   {
     "Id": "f841225d-e5f1-4df0-bd5f-269b4be6b04d",
-    "LessonId": "caa9dc19-b472-4888-9590-23b5a585559e",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "개",
     "Level": "Beginner",
     "Type": "Dependent Noun",
@@ -465,7 +465,7 @@
   },
   {
     "Id": "6d404997-c5f4-4f4d-b47d-1a4b5af3cdb0",
-    "LessonId": "1af5b5d6-ede1-4e7c-939b-9c0f8bdad23a",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "개월",
     "Level": "Beginner",
     "Type": "Dependent Noun",
@@ -473,7 +473,7 @@
   },
   {
     "Id": "d84bcfde-c8df-4fdb-96d4-83bb24cc1217",
-    "LessonId": "10c5de2f-e85b-4944-bcca-ba0fa12cbe6f",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "거",
     "Level": "Beginner",
     "Type": "Pronoun",
@@ -481,7 +481,7 @@
   },
   {
     "Id": "e1fed213-22a3-464f-9516-f7b52ac831d3",
-    "LessonId": "10c5de2f-e85b-4944-bcca-ba0fa12cbe6f",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "거",
     "Level": "Beginner",
     "Type": "Dependent Noun",
@@ -489,7 +489,7 @@
   },
   {
     "Id": "c34d7840-5b14-4cc2-8c5e-27a49495052c",
-    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "거기",
     "Level": "Beginner",
     "Type": "Pronoun",
@@ -497,7 +497,7 @@
   },
   {
     "Id": "f5186090-28db-4969-ad27-e9cbce66aaf0",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
     "Word": "거리",
     "Level": "Beginner",
     "Type": "Noun",
@@ -505,7 +505,7 @@
   },
   {
     "Id": "47638797-aab2-4925-8402-5de653762734",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
     "Word": "거리",
     "Level": "Beginner",
     "Type": "Noun",
@@ -521,7 +521,7 @@
   },
   {
     "Id": "fbf89b35-db52-4877-bbd1-b6eda1021235",
-    "LessonId": "10c5de2f-e85b-4944-bcca-ba0fa12cbe6f",
+    "LessonId": "70e7309c-7fcb-48ef-a22a-aecc8b57fee9",
     "Word": "거울",
     "Level": "Beginner",
     "Type": "Noun",
@@ -529,7 +529,7 @@
   },
   {
     "Id": "d59140ce-e64f-458c-a954-99d2ca18bb2f",
-    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "거의",
     "Level": "Beginner",
     "Type": "Noun",
@@ -537,7 +537,7 @@
   },
   {
     "Id": "d4ad1b64-670e-4635-9fa8-33d354e2e28f",
-    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
+    "LessonId": "79cabd7d-83e3-4320-bb24-78e581d87453",
     "Word": "거의",
     "Level": "Beginner",
     "Type": "Adverb",
@@ -545,7 +545,7 @@
   },
   {
     "Id": "b57c2127-9fab-4b20-af00-43e94ca4e56d",
-    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "LessonId": "902bd8be-46b9-4606-8c84-c83b1851966d",
     "Word": "거절",
     "Level": "Beginner",
     "Type": "Noun",
@@ -553,7 +553,7 @@
   },
   {
     "Id": "5a1cbd0f-9be6-4cc1-83f2-70af032f78ae",
-    "LessonId": "894bd7ad-1c9d-4393-9735-3715c818ba93",
+    "LessonId": "902bd8be-46b9-4606-8c84-c83b1851966d",
     "Word": "거짓말",
     "Level": "Beginner",
     "Type": "Noun",
@@ -561,7 +561,7 @@
   },
   {
     "Id": "de635822-03b6-4413-b573-5521428a1dfc",
-    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "LessonId": "902bd8be-46b9-4606-8c84-c83b1851966d",
     "Word": "걱정",
     "Level": "Beginner",
     "Type": "Noun",
@@ -593,7 +593,7 @@
   },
   {
     "Id": "27528b5f-bc9a-4211-9da0-662abd17ad27",
-    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
+    "LessonId": "8c7be511-46d1-4e46-879d-bfd295171b09",
     "Word": "건너가다",
     "Level": "Beginner",
     "Type": "Verb",
@@ -609,7 +609,7 @@
   },
   {
     "Id": "55886ea0-794c-408a-8dc5-e7a1670bf9cf",
-    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "건너편",
     "Level": "Beginner",
     "Type": "Noun",
@@ -617,7 +617,7 @@
   },
   {
     "Id": "e0c4e511-8555-49b6-8814-451c9c7cda73",
-    "LessonId": "70e7309c-7fcb-48ef-a22a-aecc8b57fee9",
+    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
     "Word": "건물",
     "Level": "Beginner",
     "Type": "Noun",
@@ -629,7 +629,7 @@
     "Word": "걷다",
     "Level": "Beginner",
     "Type": "Verb",
-    "MeaningVietNamese": "tan"
+    "MeaningVietNamese": "đi bộ"
   },
   {
     "Id": "e34a0916-52db-4585-b0e3-4847985b260f",
@@ -649,7 +649,7 @@
   },
   {
     "Id": "d5201cdc-88db-46d2-8fed-77bf9d0558c9",
-    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
+    "LessonId": "8c7be511-46d1-4e46-879d-bfd295171b09",
     "Word": "걸어가다",
     "Level": "Beginner",
     "Type": "Verb",
@@ -657,7 +657,7 @@
   },
   {
     "Id": "c914b270-ec57-4ae9-bd2f-9c38a33905b5",
-    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
+    "LessonId": "8c7be511-46d1-4e46-879d-bfd295171b09",
     "Word": "걸어오다",
     "Level": "Beginner",
     "Type": "Verb",
@@ -673,7 +673,7 @@
   },
   {
     "Id": "211ceb6f-cf45-4752-8bd3-f52b88e390aa",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "검사",
     "Level": "Beginner",
     "Type": "Noun",
@@ -689,7 +689,7 @@
   },
   {
     "Id": "bce0799b-6653-4db0-b4c6-e12958608f7c",
-    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "검정",
     "Level": "Beginner",
     "Type": "Noun",
@@ -697,7 +697,7 @@
   },
   {
     "Id": "d95765e6-f701-441b-b32c-7d598ddb1726",
-    "LessonId": "10c5de2f-e85b-4944-bcca-ba0fa12cbe6f",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "것",
     "Level": "Beginner",
     "Type": "Dependent Noun",
@@ -705,7 +705,7 @@
   },
   {
     "Id": "490147c9-2120-4fd5-b4f0-db25e6f868a7",
-    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "겉",
     "Level": "Beginner",
     "Type": "Noun",
@@ -713,7 +713,7 @@
   },
   {
     "Id": "5ce2f7cf-e3ab-44d1-b17f-d05eabb4b820",
-    "LessonId": "6fc00419-1d75-4e9e-8770-4bd956553449",
+    "LessonId": "902bd8be-46b9-4606-8c84-c83b1851966d",
     "Word": "게으르다",
     "Level": "Beginner",
     "Type": "Adjective",
@@ -721,7 +721,7 @@
   },
   {
     "Id": "6bd241dd-5083-4961-8b4e-63f20e54a825",
-    "LessonId": "894bd7ad-1c9d-4393-9735-3715c818ba93",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "게임",
     "Level": "Beginner",
     "Type": "Noun",
@@ -729,7 +729,7 @@
   },
   {
     "Id": "bdd1e884-5ee8-4bac-9ac2-2dd2a000f0e8",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "겨울",
     "Level": "Beginner",
     "Type": "Noun",
@@ -745,7 +745,7 @@
   },
   {
     "Id": "27f178e1-3211-45f7-ac53-86ba1133ecf0",
-    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "결석",
     "Level": "Beginner",
     "Type": "Noun",
@@ -753,7 +753,7 @@
   },
   {
     "Id": "dd085f7a-ce81-4bc9-82b1-239985800a85",
-    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "LessonId": "902bd8be-46b9-4606-8c84-c83b1851966d",
     "Word": "결심",
     "Level": "Beginner",
     "Type": "Noun",
@@ -769,7 +769,7 @@
   },
   {
     "Id": "8dffa73d-43af-4ae7-9a26-9a43b51c7094",
-    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "LessonId": "918c686b-aea1-4658-8467-e4a0af482178",
     "Word": "결혼",
     "Level": "Beginner",
     "Type": "Noun",
@@ -777,7 +777,7 @@
   },
   {
     "Id": "d3e938d6-b91e-4f2e-adbd-2bb256c6a3e1",
-    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
     "Word": "결혼식",
     "Level": "Beginner",
     "Type": "Noun",
@@ -785,7 +785,7 @@
   },
   {
     "Id": "b95b7657-5b69-46dc-9e22-dec22b56419b",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "918c686b-aea1-4658-8467-e4a0af482178",
     "Word": "결혼하다",
     "Level": "Beginner",
     "Type": "Verb",
@@ -793,7 +793,7 @@
   },
   {
     "Id": "cdfad4b6-9f52-4ad4-8a86-73f99bc67720",
-    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "경기",
     "Level": "Beginner",
     "Type": "Noun",
@@ -801,7 +801,7 @@
   },
   {
     "Id": "88edeb0f-9901-41f0-9c79-eb2be704a07d",
-    "LessonId": "caa9dc19-b472-4888-9590-23b5a585559e",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "경복궁",
     "Level": "Beginner",
     "Type": "Proper Noun",
@@ -809,7 +809,7 @@
   },
   {
     "Id": "72cf485b-ce59-4c91-baa6-38d1ffff33ca",
-    "LessonId": "caa9dc19-b472-4888-9590-23b5a585559e",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "경주",
     "Level": "Beginner",
     "Type": "Proper Noun",
@@ -817,7 +817,7 @@
   },
   {
     "Id": "ff0c656f-1c84-4f1a-a8ed-014662adac34",
-    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
     "Word": "경찰",
     "Level": "Beginner",
     "Type": "Noun",
@@ -825,7 +825,7 @@
   },
   {
     "Id": "72edef32-3be9-4b54-9267-6656688d3f96",
-    "LessonId": "70e7309c-7fcb-48ef-a22a-aecc8b57fee9",
+    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
     "Word": "경찰서",
     "Level": "Beginner",
     "Type": "Noun",
@@ -841,7 +841,7 @@
   },
   {
     "Id": "71308806-ea22-4df8-83cf-7595e8b843c1",
-    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "경험",
     "Level": "Beginner",
     "Type": "Noun",
@@ -849,7 +849,7 @@
   },
   {
     "Id": "3ce19573-1cac-47d6-b2b7-7037a8584398",
-    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "LessonId": "70e7309c-7fcb-48ef-a22a-aecc8b57fee9",
     "Word": "계단",
     "Level": "Beginner",
     "Type": "Noun",
@@ -857,7 +857,7 @@
   },
   {
     "Id": "d061570d-46bf-4952-8ece-6b20cbce8920",
-    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "LessonId": "10c5de2f-e85b-4944-bcca-ba0fa12cbe6f",
     "Word": "계란",
     "Level": "Beginner",
     "Type": "Noun",
@@ -873,7 +873,7 @@
   },
   {
     "Id": "a0371ce5-d755-44c5-b3f2-c11fc19f4ec9",
-    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "계속",
     "Level": "Beginner",
     "Type": "Noun",
@@ -889,7 +889,7 @@
   },
   {
     "Id": "3e8260b8-3888-4705-a402-6372d738f4e2",
-    "LessonId": "338075fd-99bb-4fe7-bf44-640f1cef2c1f",
+    "LessonId": "8c7be511-46d1-4e46-879d-bfd295171b09",
     "Word": "계시다",
     "Level": "Beginner",
     "Type": "Verb",
@@ -897,7 +897,7 @@
   },
   {
     "Id": "36b08b29-e147-44c5-aebd-eb6153ab6fba",
-    "LessonId": "338075fd-99bb-4fe7-bf44-640f1cef2c1f",
+    "LessonId": "8c7be511-46d1-4e46-879d-bfd295171b09",
     "Word": "계시다",
     "Level": "Beginner",
     "Type": "Auxiliary",
@@ -905,7 +905,7 @@
   },
   {
     "Id": "28b698f7-6785-488c-b9d2-ae0719196334",
-    "LessonId": "1af5b5d6-ede1-4e7c-939b-9c0f8bdad23a",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "계절",
     "Level": "Beginner",
     "Type": "Noun",
@@ -913,7 +913,7 @@
   },
   {
     "Id": "57104bc9-fc14-4f16-99f7-cb995a671d26",
-    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "계획",
     "Level": "Beginner",
     "Type": "Noun",
@@ -921,11 +921,11 @@
   },
   {
     "Id": "19d0ff2d-8551-4ad4-ab1e-fc7857ffa9fe",
-    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "LessonId": "71aed010-44ca-4125-a0bf-0d684affb031",
     "Word": "고개",
     "Level": "Beginner",
     "Type": "Noun",
-    "MeaningVietNamese": "cổ, gáy"
+    "MeaningVietNamese": "cái đầu (trong cử chỉ gật/lắc đầu); con dốc, đèo"
   },
   {
     "Id": "22c08416-d922-47ec-b10b-9323c07027e3",
@@ -937,7 +937,7 @@
   },
   {
     "Id": "828ca9b4-9b6f-40f1-8d85-6c775e941642",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "5f719033-8948-49c6-9b1c-a70e0da9b58c",
     "Word": "고등학교",
     "Level": "Beginner",
     "Type": "Noun",
@@ -945,7 +945,7 @@
   },
   {
     "Id": "5decd6ec-d1ce-4eba-b896-3f25ebe34918",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "5f719033-8948-49c6-9b1c-a70e0da9b58c",
     "Word": "고등학생",
     "Level": "Beginner",
     "Type": "Noun",
@@ -961,7 +961,7 @@
   },
   {
     "Id": "8565534e-6a3b-4ef7-9de3-efa939fd1c7a",
-    "LessonId": "6fc00419-1d75-4e9e-8770-4bd956553449",
+    "LessonId": "902bd8be-46b9-4606-8c84-c83b1851966d",
     "Word": "고맙다",
     "Level": "Beginner",
     "Type": "Adjective",
@@ -993,7 +993,7 @@
   },
   {
     "Id": "d1f42f09-08c4-40d9-afd5-b16d9c66bbf4",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "고양이",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1001,7 +1001,7 @@
   },
   {
     "Id": "9e059080-773e-464c-9051-b7daf6c392b4",
-    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
     "Word": "고장",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1009,7 +1009,7 @@
   },
   {
     "Id": "3fdb717e-f5bc-4125-89ba-a5e8ca4d9811",
-    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "LessonId": "10c5de2f-e85b-4944-bcca-ba0fa12cbe6f",
     "Word": "고추장",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1033,7 +1033,7 @@
   },
   {
     "Id": "9f62eef1-2d57-463e-94d4-812cad766016",
-    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
+    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
     "Word": "고향",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1041,7 +1041,7 @@
   },
   {
     "Id": "13ebca3f-a69b-44bf-944b-16453367ca46",
-    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
+    "LessonId": "79cabd7d-83e3-4320-bb24-78e581d87453",
     "Word": "곧",
     "Level": "Beginner",
     "Type": "Adverb",
@@ -1049,7 +1049,7 @@
   },
   {
     "Id": "018e10cd-74a8-41c7-a865-357f7eb861d3",
-    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "곳",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1057,7 +1057,7 @@
   },
   {
     "Id": "4d796795-3513-4eff-ad79-308799f089d7",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "공",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1065,7 +1065,7 @@
   },
   {
     "Id": "c1d970c8-47fa-4b02-8a40-a046e638e2bd",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "5f719033-8948-49c6-9b1c-a70e0da9b58c",
     "Word": "공무원",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1089,15 +1089,15 @@
   },
   {
     "Id": "6477e266-eaf7-4e6c-a61f-cdb289248412",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
     "Word": "공원",
     "Level": "Beginner",
     "Type": "Noun",
-    "MeaningVietNamese": "công nhân"
+    "MeaningVietNamese": "công viên"
   },
   {
     "Id": "80d355e9-b88e-4293-aa05-02a0921b1947",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "공장",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1113,7 +1113,7 @@
   },
   {
     "Id": "6b324afc-92c3-41e1-bf24-2f4ccbbf2387",
-    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
+    "LessonId": "5f719033-8948-49c6-9b1c-a70e0da9b58c",
     "Word": "공책",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1137,11 +1137,11 @@
   },
   {
     "Id": "be504cb1-ceac-416c-b974-c7f9a0b1932b",
-    "LessonId": "caa9dc19-b472-4888-9590-23b5a585559e",
+    "LessonId": "1af5b5d6-ede1-4e7c-939b-9c0f8bdad23a",
     "Word": "과거",
     "Level": "Beginner",
     "Type": "Noun",
-    "MeaningVietNamese": "khoa cử"
+    "MeaningVietNamese": "quá khứ"
   },
   {
     "Id": "221f7ace-416f-4ffa-b6d4-2110ad7ad703",
@@ -1161,15 +1161,15 @@
   },
   {
     "Id": "db39dfe5-6eec-4176-990c-676a2b53e64b",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "관계",
     "Level": "Beginner",
     "Type": "Noun",
-    "MeaningVietNamese": "giới quan chức, giới công chức"
+    "MeaningVietNamese": "quan hệ, mối quan hệ"
   },
   {
     "Id": "9ad2e956-d2cd-4778-9435-e4feea00317f",
-    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
+    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
     "Word": "관광",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1177,7 +1177,7 @@
   },
   {
     "Id": "d2531224-6489-4e6b-b56f-a27281711f0a",
-    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
+    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
     "Word": "관광객",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1193,7 +1193,7 @@
   },
   {
     "Id": "a7efd0f8-25bc-481c-8a50-a34f33de3a6c",
-    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "관심",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1201,7 +1201,7 @@
   },
   {
     "Id": "e04d0a08-4887-4d3d-b4e2-7e5b44a145b6",
-    "LessonId": "10c5de2f-e85b-4944-bcca-ba0fa12cbe6f",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "광고",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1209,7 +1209,7 @@
   },
   {
     "Id": "5ef6761c-d647-454b-9263-1da60545cd04",
-    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "광주",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1217,7 +1217,7 @@
   },
   {
     "Id": "ed94cb3c-8edd-4381-92b8-3b22cbb3874e",
-    "LessonId": "6fc00419-1d75-4e9e-8770-4bd956553449",
+    "LessonId": "a4c81b67-a1e6-457c-806e-db105f77da83",
     "Word": "괜찮다",
     "Level": "Beginner",
     "Type": "Adjective",
@@ -1225,7 +1225,7 @@
   },
   {
     "Id": "d1a3c3e2-161c-4a9b-a765-6cbd0fa8607c",
-    "LessonId": "902bd8be-46b9-4606-8c84-c83b1851966d",
+    "LessonId": "71aed010-44ca-4125-a0bf-0d684affb031",
     "Word": "괴로워하다",
     "Level": "Beginner",
     "Type": "Verb",
@@ -1233,7 +1233,7 @@
   },
   {
     "Id": "b1e6dae1-e174-47b6-8c85-029b670c6c08",
-    "LessonId": "caa9dc19-b472-4888-9590-23b5a585559e",
+    "LessonId": "5f719033-8948-49c6-9b1c-a70e0da9b58c",
     "Word": "교과서",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1245,15 +1245,15 @@
     "Word": "교사",
     "Level": "Beginner",
     "Type": "Noun",
-    "MeaningVietNamese": "tòa nhà ở trường"
+    "MeaningVietNamese": "giáo viên"
   },
   {
     "Id": "84ec938c-8df4-45fc-b03b-cdcdd66bda83",
-    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
+    "LessonId": "5f719033-8948-49c6-9b1c-a70e0da9b58c",
     "Word": "교수",
     "Level": "Beginner",
     "Type": "Noun",
-    "MeaningVietNamese": "việc giảng dạy"
+    "MeaningVietNamese": "giáo sư"
   },
   {
     "Id": "3debe94d-734f-485c-ac47-1a76ad6af1c2",
@@ -1265,7 +1265,7 @@
   },
   {
     "Id": "769bb32b-97a3-4e4f-92af-7f045772c518",
-    "LessonId": "338075fd-99bb-4fe7-bf44-640f1cef2c1f",
+    "LessonId": "5f719033-8948-49c6-9b1c-a70e0da9b58c",
     "Word": "교육",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1273,7 +1273,7 @@
   },
   {
     "Id": "029cfd61-b489-4e4c-bd76-3f6e8e465d0d",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
     "Word": "교통",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1281,7 +1281,7 @@
   },
   {
     "Id": "1b1c1ef4-fc1f-4e01-9590-6ce593fb769f",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
     "Word": "교통비",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1289,7 +1289,7 @@
   },
   {
     "Id": "745ca68e-83e0-4ce8-8fdb-5a5b9bd720fe",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
     "Word": "교통사고",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1305,7 +1305,7 @@
   },
   {
     "Id": "e798c89f-d497-4f3c-b1c5-7ccd33cc5358",
-    "LessonId": "70e7309c-7fcb-48ef-a22a-aecc8b57fee9",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "교회",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1317,19 +1317,19 @@
     "Word": "구",
     "Level": "Beginner",
     "Type": "Determiner",
-    "MeaningVietNamese": "từ ghép, cụm từ, mệnh đề"
+    "MeaningVietNamese": "chín, số 9"
   },
   {
     "Id": "f90f37f8-2692-4ab8-a0cb-54cde3adde16",
-    "LessonId": "caa9dc19-b472-4888-9590-23b5a585559e",
+    "LessonId": "338075fd-99bb-4fe7-bf44-640f1cef2c1f",
     "Word": "구",
     "Level": "Beginner",
     "Type": "Numeral",
-    "MeaningVietNamese": "từ ghép, cụm từ, mệnh đề"
+    "MeaningVietNamese": "chín, số 9"
   },
   {
     "Id": "1ac59f9f-67da-45e2-8c64-4fa1b08de86e",
-    "LessonId": "894bd7ad-1c9d-4393-9735-3715c818ba93",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "구경",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1337,7 +1337,7 @@
   },
   {
     "Id": "7c6d7ce3-3781-44cd-bf80-40ecd320ae54",
-    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "구두",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1345,7 +1345,7 @@
   },
   {
     "Id": "8b323504-17be-4490-81d0-68d7cd9f6c68",
-    "LessonId": "caa9dc19-b472-4888-9590-23b5a585559e",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "구름",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1361,7 +1361,7 @@
   },
   {
     "Id": "b05e2f4d-3e3b-4b58-ba80-beaea9b35be9",
-    "LessonId": "caa9dc19-b472-4888-9590-23b5a585559e",
+    "LessonId": "338075fd-99bb-4fe7-bf44-640f1cef2c1f",
     "Word": "구십",
     "Level": "Beginner",
     "Type": "Numeral",
@@ -1377,7 +1377,7 @@
   },
   {
     "Id": "6912755e-8a8d-4d4d-b40a-b2ffe916dc78",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "10c5de2f-e85b-4944-bcca-ba0fa12cbe6f",
     "Word": "국",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1385,7 +1385,7 @@
   },
   {
     "Id": "5f932802-cfb8-4ecb-bb4f-8a698ac31c91",
-    "LessonId": "10c5de2f-e85b-4944-bcca-ba0fa12cbe6f",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "국내",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1393,7 +1393,7 @@
   },
   {
     "Id": "508b27f9-be51-4abe-8ae1-59bc4ce37461",
-    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
+    "LessonId": "10c5de2f-e85b-4944-bcca-ba0fa12cbe6f",
     "Word": "국수",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1409,7 +1409,7 @@
   },
   {
     "Id": "ff8948bf-d8c5-4fa8-9dbe-dfc510339a3e",
-    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "국제",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1425,7 +1425,7 @@
   },
   {
     "Id": "a51f7222-985e-4a20-82c6-17db5fc81dbc",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "8c7be511-46d1-4e46-879d-bfd295171b09",
     "Word": "굳다",
     "Level": "Beginner",
     "Type": "Verb",
@@ -1433,7 +1433,7 @@
   },
   {
     "Id": "2ec45826-a124-4174-85bc-d620b50ecc03",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "6fc00419-1d75-4e9e-8770-4bd956553449",
     "Word": "굳다",
     "Level": "Beginner",
     "Type": "Adjective",
@@ -1441,7 +1441,7 @@
   },
   {
     "Id": "513ea4b9-096f-455a-9326-55e1a60b4b36",
-    "LessonId": "338075fd-99bb-4fe7-bf44-640f1cef2c1f",
+    "LessonId": "a4c81b67-a1e6-457c-806e-db105f77da83",
     "Word": "굵다",
     "Level": "Beginner",
     "Type": "Adjective",
@@ -1449,7 +1449,7 @@
   },
   {
     "Id": "7ebe85d6-c682-436e-afd0-811358cb1c0d",
-    "LessonId": "8c7be511-46d1-4e46-879d-bfd295171b09",
+    "LessonId": "10c5de2f-e85b-4944-bcca-ba0fa12cbe6f",
     "Word": "굽다",
     "Level": "Beginner",
     "Type": "Verb",
@@ -1457,7 +1457,7 @@
   },
   {
     "Id": "97211386-3cce-4b1d-8537-e9d2754ad9b7",
-    "LessonId": "6fc00419-1d75-4e9e-8770-4bd956553449",
+    "LessonId": "902bd8be-46b9-4606-8c84-c83b1851966d",
     "Word": "궁금하다",
     "Level": "Beginner",
     "Type": "Adjective",
@@ -1465,7 +1465,7 @@
   },
   {
     "Id": "982c4959-8e91-49ee-a779-5785e2b1d6a0",
-    "LessonId": "caa9dc19-b472-4888-9590-23b5a585559e",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "권",
     "Level": "Beginner",
     "Type": "Dependent Noun",
@@ -1481,7 +1481,7 @@
   },
   {
     "Id": "1c1791e1-2070-4205-a905-228df09487cf",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "71aed010-44ca-4125-a0bf-0d684affb031",
     "Word": "귀걸이",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1497,7 +1497,7 @@
   },
   {
     "Id": "a24b6d95-35a4-40e5-8a2e-2d3a5e7cad9b",
-    "LessonId": "a4c81b67-a1e6-457c-806e-db105f77da83",
+    "LessonId": "902bd8be-46b9-4606-8c84-c83b1851966d",
     "Word": "귀엽다",
     "Level": "Beginner",
     "Type": "Adjective",
@@ -1521,7 +1521,7 @@
   },
   {
     "Id": "4fcb4e7b-7478-46b4-944f-9616f2e5c856",
-    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "귤",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1529,7 +1529,7 @@
   },
   {
     "Id": "a4bf413e-f3e3-42ae-8c46-661c33f8ca2c",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "caa9dc19-b472-4888-9590-23b5a585559e",
     "Word": "그",
     "Level": "Beginner",
     "Type": "Determiner",
@@ -1537,7 +1537,7 @@
   },
   {
     "Id": "616d0662-03c7-4362-b093-514c411f7eee",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "그",
     "Level": "Beginner",
     "Type": "Pronoun",
@@ -1545,7 +1545,7 @@
   },
   {
     "Id": "1dde4a81-6b0a-4b69-9208-0c81de34c09d",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "caa9dc19-b472-4888-9590-23b5a585559e",
     "Word": "그",
     "Level": "Beginner",
     "Type": "Interjection",
@@ -1553,7 +1553,7 @@
   },
   {
     "Id": "0330b00b-2cee-4797-a619-1eec83686bbe",
-    "LessonId": "10c5de2f-e85b-4944-bcca-ba0fa12cbe6f",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "그거",
     "Level": "Beginner",
     "Type": "Pronoun",
@@ -1561,7 +1561,7 @@
   },
   {
     "Id": "f3130d98-9d41-4169-8c11-6e5d51e8549e",
-    "LessonId": "10c5de2f-e85b-4944-bcca-ba0fa12cbe6f",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "그것",
     "Level": "Beginner",
     "Type": "Pronoun",
@@ -1569,7 +1569,7 @@
   },
   {
     "Id": "e7a8b470-a894-46a9-946c-eba207f35364",
-    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "그곳",
     "Level": "Beginner",
     "Type": "Pronoun",
@@ -1577,7 +1577,7 @@
   },
   {
     "Id": "23baf643-2818-4496-a6c5-5effa6c37e3c",
-    "LessonId": "1af5b5d6-ede1-4e7c-939b-9c0f8bdad23a",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "그날",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1609,7 +1609,7 @@
   },
   {
     "Id": "27767f15-1b63-49e1-ab41-ffa010a0733b",
-    "LessonId": "1af5b5d6-ede1-4e7c-939b-9c0f8bdad23a",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "그때",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1713,7 +1713,7 @@
   },
   {
     "Id": "e6221bf1-0c3e-491b-b965-14914e7b42d1",
-    "LessonId": "a4c81b67-a1e6-457c-806e-db105f77da83",
+    "LessonId": "6fc00419-1d75-4e9e-8770-4bd956553449",
     "Word": "그렇다",
     "Level": "Beginner",
     "Type": "Adjective",
@@ -1745,7 +1745,7 @@
   },
   {
     "Id": "a086e63d-79ab-45a5-a021-a4a9d327de10",
-    "LessonId": "8c7be511-46d1-4e46-879d-bfd295171b09",
+    "LessonId": "902bd8be-46b9-4606-8c84-c83b1851966d",
     "Word": "그리다",
     "Level": "Beginner",
     "Type": "Verb",
@@ -1753,7 +1753,7 @@
   },
   {
     "Id": "417094ff-4a4d-45f8-b347-f8e8290882a6",
-    "LessonId": "a08893fc-a436-4a85-bc5f-c1ffad35d1e8",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "그림",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1761,7 +1761,7 @@
   },
   {
     "Id": "e7a0e214-6013-4458-a60d-75b055d6f54b",
-    "LessonId": "6fc00419-1d75-4e9e-8770-4bd956553449",
+    "LessonId": "902bd8be-46b9-4606-8c84-c83b1851966d",
     "Word": "그립다",
     "Level": "Beginner",
     "Type": "Adjective",
@@ -1785,7 +1785,7 @@
   },
   {
     "Id": "940f5176-43a5-4528-82f0-183ec99dcd68",
-    "LessonId": "10c5de2f-e85b-4944-bcca-ba0fa12cbe6f",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "그분",
     "Level": "Beginner",
     "Type": "Pronoun",
@@ -1793,7 +1793,7 @@
   },
   {
     "Id": "e20671be-7e96-4c89-a681-428936de43d7",
-    "LessonId": "1af5b5d6-ede1-4e7c-939b-9c0f8bdad23a",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "그저께",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1801,7 +1801,7 @@
   },
   {
     "Id": "910ebca1-c851-4e61-b0a7-782068f1e9f7",
-    "LessonId": "1af5b5d6-ede1-4e7c-939b-9c0f8bdad23a",
+    "LessonId": "79cabd7d-83e3-4320-bb24-78e581d87453",
     "Word": "그저께",
     "Level": "Beginner",
     "Type": "Adverb",
@@ -1809,7 +1809,7 @@
   },
   {
     "Id": "e11e10aa-e0d6-410f-add2-c368cc158ac4",
-    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "그쪽",
     "Level": "Beginner",
     "Type": "Pronoun",
@@ -1825,7 +1825,7 @@
   },
   {
     "Id": "117f69dd-9a2f-43df-8b71-0cd4b56b94d6",
-    "LessonId": "70e7309c-7fcb-48ef-a22a-aecc8b57fee9",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "극장",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1833,7 +1833,7 @@
   },
   {
     "Id": "7e079c85-5744-4bf0-ab8a-caf53293adc4",
-    "LessonId": "29f282dc-bb1b-4a7f-b8ee-afa9c3f71505",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "근처",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1841,7 +1841,7 @@
   },
   {
     "Id": "204b4fc0-149a-4600-9346-7b9dcdc5a29e",
-    "LessonId": "918c686b-aea1-4658-8467-e4a0af482178",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "글",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1849,7 +1849,7 @@
   },
   {
     "Id": "fcc2bd0d-ae6c-44ee-ad78-28bb04b09a99",
-    "LessonId": "918c686b-aea1-4658-8467-e4a0af482178",
+    "LessonId": "caa9dc19-b472-4888-9590-23b5a585559e",
     "Word": "글쎄",
     "Level": "Beginner",
     "Type": "Interjection",
@@ -1857,7 +1857,7 @@
   },
   {
     "Id": "a48df5ae-70b6-47fb-9598-c89164d7949d",
-    "LessonId": "918c686b-aea1-4658-8467-e4a0af482178",
+    "LessonId": "caa9dc19-b472-4888-9590-23b5a585559e",
     "Word": "글쎄요",
     "Level": "Beginner",
     "Type": "Interjection",
@@ -1865,7 +1865,7 @@
   },
   {
     "Id": "85f26c14-12fd-4120-a124-6149221d5699",
-    "LessonId": "894bd7ad-1c9d-4393-9735-3715c818ba93",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "글씨",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1873,7 +1873,7 @@
   },
   {
     "Id": "55c2bb8c-45e7-46be-9141-0014d5f44b0f",
-    "LessonId": "894bd7ad-1c9d-4393-9735-3715c818ba93",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "글자",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1881,7 +1881,7 @@
   },
   {
     "Id": "5778159f-2f4f-4da8-9218-2dec7645c1cb",
-    "LessonId": "a4c81b67-a1e6-457c-806e-db105f77da83",
+    "LessonId": "79cabd7d-83e3-4320-bb24-78e581d87453",
     "Word": "금방",
     "Level": "Beginner",
     "Type": "Adverb",
@@ -1889,7 +1889,7 @@
   },
   {
     "Id": "f2bbd56e-e57c-4874-8cfd-9baa057980a0",
-    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
+    "LessonId": "1af5b5d6-ede1-4e7c-939b-9c0f8bdad23a",
     "Word": "금요일",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1905,15 +1905,15 @@
   },
   {
     "Id": "63dfbd0d-9938-4deb-acf9-fb18b7ce3e0c",
-    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "급",
     "Level": "Beginner",
     "Type": "Noun",
-    "MeaningVietNamese": "và, bên cạnh"
+    "MeaningVietNamese": "cấp, hạng, bậc"
   },
   {
     "Id": "32e3ec45-402d-40f6-ad4b-f0bdf82c9644",
-    "LessonId": "6fc00419-1d75-4e9e-8770-4bd956553449",
+    "LessonId": "a4c81b67-a1e6-457c-806e-db105f77da83",
     "Word": "급하다",
     "Level": "Beginner",
     "Type": "Adjective",
@@ -1921,11 +1921,11 @@
   },
   {
     "Id": "fb65f739-e55c-46cb-b2c7-141ce0d4266a",
-    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
+    "LessonId": "1af5b5d6-ede1-4e7c-939b-9c0f8bdad23a",
     "Word": "기간",
     "Level": "Beginner",
     "Type": "Noun",
-    "MeaningVietNamese": "then chốt, trụ cột, rường cột"
+    "MeaningVietNamese": "thời gian, thời hạn, khoảng thời gian"
   },
   {
     "Id": "d2770c40-b23d-4084-adb5-fbbf26f25b9e",
@@ -1961,7 +1961,7 @@
   },
   {
     "Id": "d1923a0f-abe2-46b2-b0cd-243a8c34c2a6",
-    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
+    "LessonId": "902bd8be-46b9-4606-8c84-c83b1851966d",
     "Word": "기분",
     "Level": "Beginner",
     "Type": "Noun",
@@ -1993,7 +1993,7 @@
   },
   {
     "Id": "2edbf9f0-f29a-4663-a7fb-bf1f550ff5bd",
-    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "기숙사",
     "Level": "Beginner",
     "Type": "Noun",
@@ -2017,7 +2017,7 @@
   },
   {
     "Id": "5f08dcc0-93a9-4bd9-8844-90430a26608a",
-    "LessonId": "918c686b-aea1-4658-8467-e4a0af482178",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "기온",
     "Level": "Beginner",
     "Type": "Noun",
@@ -2025,7 +2025,7 @@
   },
   {
     "Id": "8b624893-62e4-4e6b-8596-497d362d39ec",
-    "LessonId": "70e7309c-7fcb-48ef-a22a-aecc8b57fee9",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "기자",
     "Level": "Beginner",
     "Type": "Noun",
@@ -2057,7 +2057,7 @@
   },
   {
     "Id": "b6933d08-b131-4827-9508-d20f756a6851",
-    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
+    "LessonId": "71aed010-44ca-4125-a0bf-0d684affb031",
     "Word": "기침",
     "Level": "Beginner",
     "Type": "Noun",
@@ -2065,7 +2065,7 @@
   },
   {
     "Id": "5a714159-85e7-4510-be88-1fd1284bf0ce",
-    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "기타",
     "Level": "Beginner",
     "Type": "Noun",
@@ -2081,7 +2081,7 @@
   },
   {
     "Id": "bc6d39be-734d-4ee7-b755-ca01820a37b5",
-    "LessonId": "10c5de2f-e85b-4944-bcca-ba0fa12cbe6f",
+    "LessonId": "902bd8be-46b9-4606-8c84-c83b1851966d",
     "Word": "긴장",
     "Level": "Beginner",
     "Type": "Noun",
@@ -2089,7 +2089,7 @@
   },
   {
     "Id": "6da48f4e-4ba1-438a-8bfc-9ab60c050307",
-    "LessonId": "918c686b-aea1-4658-8467-e4a0af482178",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "길",
     "Level": "Beginner",
     "Type": "Noun",
@@ -2097,7 +2097,7 @@
   },
   {
     "Id": "f52a48b8-cbbd-4036-9357-2ef47a18b382",
-    "LessonId": "338075fd-99bb-4fe7-bf44-640f1cef2c1f",
+    "LessonId": "6fc00419-1d75-4e9e-8770-4bd956553449",
     "Word": "길다",
     "Level": "Beginner",
     "Type": "Adjective",
@@ -2105,7 +2105,7 @@
   },
   {
     "Id": "7665e92c-20f7-4d49-b2f5-c87b31264911",
-    "LessonId": "1af5b5d6-ede1-4e7c-939b-9c0f8bdad23a",
+    "LessonId": "338075fd-99bb-4fe7-bf44-640f1cef2c1f",
     "Word": "길이",
     "Level": "Beginner",
     "Type": "Noun",
@@ -2113,7 +2113,7 @@
   },
   {
     "Id": "b28133fd-bdee-4208-969d-69a38db82870",
-    "LessonId": "10c5de2f-e85b-4944-bcca-ba0fa12cbe6f",
+    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
     "Word": "김",
     "Level": "Beginner",
     "Type": "Noun",
@@ -2129,7 +2129,7 @@
   },
   {
     "Id": "7b62a186-ab1a-4f94-a98a-fef06248503d",
-    "LessonId": "181df7a7-b4d5-4575-987d-87b8871692b8",
+    "LessonId": "b0a8fdb7-1a9a-40bc-8b99-d7660820f72b",
     "Word": "김치",
     "Level": "Beginner",
     "Type": "Noun",
@@ -2137,7 +2137,7 @@
   },
   {
     "Id": "407c6407-0a00-4512-a7b7-d3d5f60fe969",
-    "LessonId": "918c686b-aea1-4658-8467-e4a0af482178",
+    "LessonId": "10c5de2f-e85b-4944-bcca-ba0fa12cbe6f",
     "Word": "김치찌개",
     "Level": "Beginner",
     "Type": "Noun",
@@ -2145,7 +2145,7 @@
   },
   {
     "Id": "9d55d82f-277a-44b0-82a0-d07b92d26cff",
-    "LessonId": "6fc00419-1d75-4e9e-8770-4bd956553449",
+    "LessonId": "a4c81b67-a1e6-457c-806e-db105f77da83",
     "Word": "깊다",
     "Level": "Beginner",
     "Type": "Adjective",
@@ -2193,7 +2193,7 @@
   },
   {
     "Id": "c51d6bcc-f78a-47e3-ad7f-17ade815fd1b",
-    "LessonId": "10c5de2f-e85b-4944-bcca-ba0fa12cbe6f",
+    "LessonId": "79cabd7d-83e3-4320-bb24-78e581d87453",
     "Word": "깨끗이",
     "Level": "Beginner",
     "Type": "Adverb",
@@ -2225,7 +2225,7 @@
   },
   {
     "Id": "4beb911d-f6cd-4a9e-b938-2be269977e84",
-    "LessonId": "338075fd-99bb-4fe7-bf44-640f1cef2c1f",
+    "LessonId": "10c5de2f-e85b-4944-bcca-ba0fa12cbe6f",
     "Word": "껌",
     "Level": "Beginner",
     "Type": "Noun",
@@ -2233,7 +2233,7 @@
   },
   {
     "Id": "6a8966b7-369f-4ffb-ad68-34b00323cb84",
-    "LessonId": "a4c81b67-a1e6-457c-806e-db105f77da83",
+    "LessonId": "79cabd7d-83e3-4320-bb24-78e581d87453",
     "Word": "꼭",
     "Level": "Beginner",
     "Type": "Adverb",
@@ -2241,7 +2241,7 @@
   },
   {
     "Id": "cc28f431-d08a-4736-9212-a6644bef8acb",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
     "Word": "가까워지다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -2249,7 +2249,7 @@
   },
   {
     "Id": "d46aa8ba-6f7a-418f-88cf-36ac0980dc6d",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "가까이",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2257,7 +2257,7 @@
   },
   {
     "Id": "a0b04623-9378-4eec-8017-7827fabb72be",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
     "Word": "가까이",
     "Level": "Intermediate",
     "Type": "Adverb",
@@ -2265,7 +2265,7 @@
   },
   {
     "Id": "df443457-25d9-4eb6-8bcb-9cb5b2e4a433",
-    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
     "Word": "가꾸다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -2273,7 +2273,7 @@
   },
   {
     "Id": "a5f3ec5f-ab1c-4922-91d7-dd648426f113",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "가난",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2289,7 +2289,7 @@
   },
   {
     "Id": "f48fe003-bead-44ff-ae89-cf27011c84c5",
-    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "가능",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2297,7 +2297,7 @@
   },
   {
     "Id": "bea67c18-2171-4469-8b82-724f63a8f4a8",
-    "LessonId": "e4ac0098-b443-4a0d-ad5d-dd24930595dc",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "가능성",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2313,7 +2313,7 @@
   },
   {
     "Id": "91edab10-8f61-4cb3-a8ae-f24f62ef1040",
-    "LessonId": "a4a7dddf-d683-40d4-bbc8-4c618d5b0912",
+    "LessonId": "ebaf5db7-e403-42a5-86ea-e2f686ed0247",
     "Word": "가득하다",
     "Level": "Intermediate",
     "Type": "Adjective",
@@ -2345,7 +2345,7 @@
   },
   {
     "Id": "55f2b90e-8f0c-4d18-98a9-be59def897b5",
-    "LessonId": "8fba85f1-d694-4a68-a949-48a98e52c527",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "가로",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2353,7 +2353,7 @@
   },
   {
     "Id": "72b1eba6-374d-43b2-ac1c-1cfdbf27bb64",
-    "LessonId": "8fba85f1-d694-4a68-a949-48a98e52c527",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
     "Word": "가로",
     "Level": "Intermediate",
     "Type": "Adverb",
@@ -2361,7 +2361,7 @@
   },
   {
     "Id": "903c6ebf-a289-44d1-9a3f-8f2d27269487",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "가로등",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2369,7 +2369,7 @@
   },
   {
     "Id": "51989373-3cab-4e29-bd1a-441d7f2bc405",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
     "Word": "가로막다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -2377,7 +2377,7 @@
   },
   {
     "Id": "cc6511c3-500a-4ddd-b4e3-3d0ed081822d",
-    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "가루",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2393,7 +2393,7 @@
   },
   {
     "Id": "7fa840ed-1964-47f7-b177-ad8ac623cf86",
-    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
     "Word": "가리다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -2409,7 +2409,7 @@
   },
   {
     "Id": "3852a4bb-e038-495a-ada6-0c258a6c8f39",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
     "Word": "가만",
     "Level": "Intermediate",
     "Type": "Adverb",
@@ -2417,7 +2417,7 @@
   },
   {
     "Id": "5c66e769-bc4c-4eaa-a59a-cdfcf5af1f74",
-    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
     "Word": "가만있다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -2425,7 +2425,7 @@
   },
   {
     "Id": "51a70614-d3d6-47e3-bcc3-182b5af122c7",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
     "Word": "가만히",
     "Level": "Intermediate",
     "Type": "Adverb",
@@ -2433,7 +2433,7 @@
   },
   {
     "Id": "3dee5bd8-2b3e-4671-b28a-946d5b80733c",
-    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "가뭄",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2441,7 +2441,7 @@
   },
   {
     "Id": "cd954d2d-05c8-40b6-a5d2-7bae2ccc8ff1",
-    "LessonId": "9bffc0db-c3d4-4132-81ac-b275dfb37866",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "가사",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2449,7 +2449,7 @@
   },
   {
     "Id": "4069cbd0-a253-43a5-82d8-5e9dff30bf8a",
-    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "가스",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2457,7 +2457,7 @@
   },
   {
     "Id": "03304566-2576-4f10-991e-5ab6ee103683",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "가스레인지",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2465,7 +2465,7 @@
   },
   {
     "Id": "b0436d46-f3b5-4f1f-8586-cab2d1df2603",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "가슴속",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2473,7 +2473,7 @@
   },
   {
     "Id": "c735944e-f5a1-45fa-84a1-b3d7bc6f9e03",
-    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "가습기",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2481,7 +2481,7 @@
   },
   {
     "Id": "ff1198a7-8359-41d4-9d95-a49d96445de6",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "가이드",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2489,7 +2489,7 @@
   },
   {
     "Id": "85b9de84-2d47-4341-865f-96b0e20ba719",
-    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "가입",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2497,7 +2497,7 @@
   },
   {
     "Id": "2ff24714-ffe4-4a14-8eb6-160d73c04396",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "가입자",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2513,7 +2513,7 @@
   },
   {
     "Id": "3fd33806-c4d6-4fbc-ae73-f03ed14b76f6",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "가전제품",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2521,7 +2521,7 @@
   },
   {
     "Id": "09282442-5429-474e-aef8-76bdf9695941",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
     "Word": "가정",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2529,7 +2529,7 @@
   },
   {
     "Id": "44aa99c6-73cc-4b0c-a546-865256cd6789",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "e1065344-1f3d-4044-9afd-6de46482650a",
     "Word": "가정",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2545,7 +2545,7 @@
   },
   {
     "Id": "14b986b3-4961-49c2-a48d-cbb555a3848f",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
     "Word": "가져다주다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -2553,7 +2553,7 @@
   },
   {
     "Id": "b62b78d9-c775-45d5-b8cd-8f89d706c29d",
-    "LessonId": "764c970f-7227-4e7d-ba2f-36f08628a089",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "가죽",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2561,7 +2561,7 @@
   },
   {
     "Id": "e66cdcd0-a80b-4953-9e29-5ef171e3a480",
-    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "가지",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2569,7 +2569,7 @@
   },
   {
     "Id": "2a12450b-852d-4318-a81f-f17e63da80b6",
-    "LessonId": "9bffc0db-c3d4-4132-81ac-b275dfb37866",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "가짜",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2577,7 +2577,7 @@
   },
   {
     "Id": "b2609092-fb5a-4c77-a9a3-e90a7ab42937",
-    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "가치",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2585,7 +2585,7 @@
   },
   {
     "Id": "23412b19-3a81-49ba-8ed9-0d218792d8ed",
-    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "가치관",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2593,7 +2593,7 @@
   },
   {
     "Id": "f8bef673-2426-4a7f-912e-5e62ce3561e7",
-    "LessonId": "9bffc0db-c3d4-4132-81ac-b275dfb37866",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "가톨릭",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2609,7 +2609,7 @@
   },
   {
     "Id": "96c877f9-7b83-410a-89e2-01ddd1f6054e",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
     "Word": "각국",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2617,7 +2617,7 @@
   },
   {
     "Id": "174b95d8-33c7-469d-a4fb-7a50df26eaf8",
-    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "각오",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2625,7 +2625,7 @@
   },
   {
     "Id": "93201c92-34b8-4489-84db-d74d68bf3d31",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "각자",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2633,7 +2633,7 @@
   },
   {
     "Id": "7931ff53-6729-4811-a3a2-13c3123e7457",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
     "Word": "각자",
     "Level": "Intermediate",
     "Type": "Adverb",
@@ -2641,7 +2641,7 @@
   },
   {
     "Id": "b71093d1-aa9f-4cac-8712-33a3ed690f96",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "각종",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2657,7 +2657,7 @@
   },
   {
     "Id": "19181d51-98de-476d-bb57-43ff92ef0083",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
     "Word": "간",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2673,7 +2673,7 @@
   },
   {
     "Id": "9f0075e4-b624-480a-a5bc-5e8dbbda76e1",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "간격",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2681,7 +2681,7 @@
   },
   {
     "Id": "c5506b69-b88c-4bd5-b07c-67bcd599db15",
-    "LessonId": "e4ac0098-b443-4a0d-ad5d-dd24930595dc",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "간섭",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2689,7 +2689,7 @@
   },
   {
     "Id": "e3756d5b-f886-4426-a244-7abd5d5ba820",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
     "Word": "간신히",
     "Level": "Intermediate",
     "Type": "Adverb",
@@ -2697,7 +2697,7 @@
   },
   {
     "Id": "751239da-b23a-4030-a3e7-525e89e3c063",
-    "LessonId": "e4ac0098-b443-4a0d-ad5d-dd24930595dc",
+    "LessonId": "ebaf5db7-e403-42a5-86ea-e2f686ed0247",
     "Word": "간절하다",
     "Level": "Intermediate",
     "Type": "Adjective",
@@ -2705,7 +2705,7 @@
   },
   {
     "Id": "991e4c03-8a01-4fe8-ac30-c12f1027f908",
-    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "LessonId": "6015f4da-70f1-41f8-9ce8-4849ddc2e4f7",
     "Word": "간접적",
     "Level": "Intermediate",
     "Type": "Determiner",
@@ -2713,7 +2713,7 @@
   },
   {
     "Id": "8ec9bdd7-8588-4370-8469-24b7a2a2f4a4",
-    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "간접적",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2729,7 +2729,7 @@
   },
   {
     "Id": "168c28ae-7454-4196-a8bf-a7facb6ab488",
-    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "간판",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2737,7 +2737,7 @@
   },
   {
     "Id": "6217d340-0088-4d13-b52b-0c29ebc6a956",
-    "LessonId": "a4a7dddf-d683-40d4-bbc8-4c618d5b0912",
+    "LessonId": "ebaf5db7-e403-42a5-86ea-e2f686ed0247",
     "Word": "간편하다",
     "Level": "Intermediate",
     "Type": "Adjective",
@@ -2753,7 +2753,7 @@
   },
   {
     "Id": "3c02dcfb-a8a6-4419-a7b8-d0fcf7e9cf6a",
-    "LessonId": "e4ac0098-b443-4a0d-ad5d-dd24930595dc",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "간혹",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2761,7 +2761,7 @@
   },
   {
     "Id": "0775124a-2a2a-4836-b33f-3e8bc7d94e36",
-    "LessonId": "e4ac0098-b443-4a0d-ad5d-dd24930595dc",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
     "Word": "간혹",
     "Level": "Intermediate",
     "Type": "Adverb",
@@ -2769,7 +2769,7 @@
   },
   {
     "Id": "e000e84b-7a5e-454f-964e-140f50d6a60f",
-    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
     "Word": "갇히다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -2785,7 +2785,7 @@
   },
   {
     "Id": "b56707de-fe62-4ccf-acf2-ee63e33605f4",
-    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
     "Word": "갈다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -2793,7 +2793,7 @@
   },
   {
     "Id": "9cf90b9e-bc10-4ab3-a674-f1afdde04a44",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "4d149c1e-7be5-4cd4-9d8c-1dcfb7ca8d61",
     "Word": "갈등",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2809,7 +2809,7 @@
   },
   {
     "Id": "389e898c-73cd-4467-8975-f66dd3998d76",
-    "LessonId": "8fba85f1-d694-4a68-a949-48a98e52c527",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
     "Word": "갈수록",
     "Level": "Intermediate",
     "Type": "Adverb",
@@ -2817,7 +2817,7 @@
   },
   {
     "Id": "3349c91d-ea45-4236-bac8-4258cf59150b",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
     "Word": "갈증",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2825,7 +2825,7 @@
   },
   {
     "Id": "04f7f648-0cc3-469e-a7d1-47612ce1b0a8",
-    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "감각",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2841,7 +2841,7 @@
   },
   {
     "Id": "0c428fd3-b8c6-478b-84c4-3e4071630be6",
-    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "감독",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2849,7 +2849,7 @@
   },
   {
     "Id": "138153c4-66ba-4c27-8ba9-5684ee4514a4",
-    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "LessonId": "4d149c1e-7be5-4cd4-9d8c-1dcfb7ca8d61",
     "Word": "감동",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2865,7 +2865,7 @@
   },
   {
     "Id": "77b2df84-eee8-40ea-8abc-ba01d9dc6c7a",
-    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "LessonId": "4d149c1e-7be5-4cd4-9d8c-1dcfb7ca8d61",
     "Word": "감동적",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2873,7 +2873,7 @@
   },
   {
     "Id": "b31790df-04e6-4c24-8b16-f3e486601780",
-    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "감상",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2881,7 +2881,7 @@
   },
   {
     "Id": "bd9254fb-b939-4281-b559-aeb7d6821a4d",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "감상문",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2889,7 +2889,7 @@
   },
   {
     "Id": "ced2595e-2fc0-4849-90cf-ae64deb10163",
-    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
     "Word": "감상하다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -2905,7 +2905,7 @@
   },
   {
     "Id": "fc639284-42e9-467b-84dc-a3d2ac05a897",
-    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "감시",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2913,7 +2913,7 @@
   },
   {
     "Id": "4f21a010-c77d-41b5-9ccb-4c44ff95e118",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
     "Word": "감싸다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -2921,7 +2921,7 @@
   },
   {
     "Id": "d5b30076-a669-4a62-91d5-c2a0d0b80e94",
-    "LessonId": "9bffc0db-c3d4-4132-81ac-b275dfb37866",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "감옥",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2929,7 +2929,7 @@
   },
   {
     "Id": "bf15285d-fd5a-4a1b-b73d-aab4a1ca752e",
-    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "감정",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2937,7 +2937,7 @@
   },
   {
     "Id": "9fb8b534-978b-4799-bdfe-08f5dee10456",
-    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
     "Word": "감추다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -2953,7 +2953,7 @@
   },
   {
     "Id": "2861f84e-f8b7-414b-aac5-1496ea1ed976",
-    "LessonId": "a4a7dddf-d683-40d4-bbc8-4c618d5b0912",
+    "LessonId": "4d149c1e-7be5-4cd4-9d8c-1dcfb7ca8d61",
     "Word": "갑작스럽다",
     "Level": "Intermediate",
     "Type": "Adjective",
@@ -2969,7 +2969,7 @@
   },
   {
     "Id": "361891ad-a66d-4e90-9c68-8201871fe279",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "강당",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2981,11 +2981,11 @@
     "Word": "강도",
     "Level": "Intermediate",
     "Type": "Noun",
-    "MeaningVietNamese": "độ bền, độ vững chắc"
+    "MeaningVietNamese": "cường độ, mức độ mạnh"
   },
   {
     "Id": "5c541f19-2b7a-4c4a-b6a2-f570e5a6d28e",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "ffa3ffa2-f5e1-48c9-aba8-7fd1db6bd4d7",
     "Word": "강물",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -2993,7 +2993,7 @@
   },
   {
     "Id": "97bba0da-a7dd-4aba-9b53-50fa85242c23",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "강사",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3001,7 +3001,7 @@
   },
   {
     "Id": "9a54301b-2ebf-4a6c-92ce-cf36dfb9aa45",
-    "LessonId": "ffa3ffa2-f5e1-48c9-aba8-7fd1db6bd4d7",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "강수량",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3009,7 +3009,7 @@
   },
   {
     "Id": "e372f71c-415e-4ca5-8154-1797a7959d30",
-    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "강요",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3025,7 +3025,7 @@
   },
   {
     "Id": "3d66cccd-b26b-4d88-92b4-4b3a0fb514da",
-    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "LessonId": "e4ac0098-b443-4a0d-ad5d-dd24930595dc",
     "Word": "강의",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3033,7 +3033,7 @@
   },
   {
     "Id": "805b5817-e875-45f7-985f-2fe469e7bf4c",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "강의실",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3049,7 +3049,7 @@
   },
   {
     "Id": "201dd4eb-e4a0-416b-a09f-48b1dc2e8922",
-    "LessonId": "ebaf5db7-e403-42a5-86ea-e2f686ed0247",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "강조",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3057,7 +3057,7 @@
   },
   {
     "Id": "c4d83f53-f5f0-4564-82e6-e018a4cf2881",
-    "LessonId": "ebaf5db7-e403-42a5-86ea-e2f686ed0247",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
     "Word": "강조하다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -3065,7 +3065,7 @@
   },
   {
     "Id": "976e31ac-48da-4a44-8312-d9fa6bf6db67",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "갖가지",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3073,7 +3073,7 @@
   },
   {
     "Id": "dc067ca0-5aa2-4c3c-ad54-ffad03c080d9",
-    "LessonId": "75ddea7d-8c89-4a2f-a617-dd91a6a370b3",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
     "Word": "갖다",
     "Level": "Intermediate",
     "Type": "Auxiliary",
@@ -3089,7 +3089,7 @@
   },
   {
     "Id": "9c0cdb48-be6d-4bd5-b22b-422943706a41",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "개구리",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3097,7 +3097,7 @@
   },
   {
     "Id": "d878b9ea-b93d-4a23-8a10-be7f76ac3739",
-    "LessonId": "ffa3ffa2-f5e1-48c9-aba8-7fd1db6bd4d7",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "개나리",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3113,7 +3113,7 @@
   },
   {
     "Id": "0c3e4ad7-c588-4225-b051-f336ab3300ee",
-    "LessonId": "ffa3ffa2-f5e1-48c9-aba8-7fd1db6bd4d7",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
     "Word": "개다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -3121,7 +3121,7 @@
   },
   {
     "Id": "66ae2931-684b-4e04-89a9-0578b60c40fe",
-    "LessonId": "ffa3ffa2-f5e1-48c9-aba8-7fd1db6bd4d7",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
     "Word": "개다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -3129,7 +3129,7 @@
   },
   {
     "Id": "fa4dbb86-de52-4fa6-a75b-44837943e153",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "개미",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3137,7 +3137,7 @@
   },
   {
     "Id": "5056e0cb-9f30-4b84-85c6-73db4cb52417",
-    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "개발",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3145,7 +3145,7 @@
   },
   {
     "Id": "f78ce54f-b588-4813-94ca-ad4b7d6a732b",
-    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
     "Word": "개발하다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -3153,7 +3153,7 @@
   },
   {
     "Id": "2b37ecd4-9ca9-4dc9-b376-ad02c838c7d0",
-    "LessonId": "ea8671ec-0c1e-4758-84f9-33e99279dc85",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "개방",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3161,7 +3161,7 @@
   },
   {
     "Id": "6626cc17-8556-4458-8392-c0146046c0e7",
-    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "개별",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3169,7 +3169,7 @@
   },
   {
     "Id": "ae3f2a01-85d3-42f8-9165-206a7f833d11",
-    "LessonId": "e4ac0098-b443-4a0d-ad5d-dd24930595dc",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "개선",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3177,7 +3177,7 @@
   },
   {
     "Id": "2d0e5322-65b4-43af-892d-cd381c7527d7",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "개성",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3185,7 +3185,7 @@
   },
   {
     "Id": "0903209d-7d51-4bce-8a19-517a42b898b2",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "개인",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3193,7 +3193,7 @@
   },
   {
     "Id": "d89e9d66-f48d-495d-910f-97638b6ef4d2",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "6015f4da-70f1-41f8-9ce8-4849ddc2e4f7",
     "Word": "개인적",
     "Level": "Intermediate",
     "Type": "Determiner",
@@ -3201,7 +3201,7 @@
   },
   {
     "Id": "9bbfd426-a4c1-4f72-84bb-8fb34748edf5",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "개인적",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3209,7 +3209,7 @@
   },
   {
     "Id": "0dd55f86-dafb-4efe-9ad8-48c8e0e7f555",
-    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "개최",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3217,7 +3217,7 @@
   },
   {
     "Id": "4a86feb0-b80a-41d0-9601-a8eec7600e08",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "개혁",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3233,7 +3233,7 @@
   },
   {
     "Id": "43815666-1197-4f9a-bcb9-c293ee92f0c9",
-    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "객관적",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3257,7 +3257,7 @@
   },
   {
     "Id": "a35e7a67-c033-4f2b-98cf-ab2ca8962616",
-    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "거대",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3273,7 +3273,7 @@
   },
   {
     "Id": "baad7099-0823-4f94-a434-1e5ce8a63406",
-    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
     "Word": "거들다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -3281,7 +3281,7 @@
   },
   {
     "Id": "d848cdc2-21ec-4b0c-bf30-803212bface7",
-    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "거래",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3289,7 +3289,7 @@
   },
   {
     "Id": "421ffa80-ae22-46a4-b8fa-c0f6b76d3f19",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "거래처",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3297,7 +3297,7 @@
   },
   {
     "Id": "77bdd876-c1f7-41a9-b918-0a25bdc501a6",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
     "Word": "거리",
     "Level": "Intermediate",
     "Type": "Dependent Noun",
@@ -3305,7 +3305,7 @@
   },
   {
     "Id": "25cf957a-a52e-45e7-bf2f-97d24f4b283c",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "거미",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3313,7 +3313,7 @@
   },
   {
     "Id": "7da0aeee-a5c9-43f2-b2fb-8040a0e66ebd",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "거북이",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3321,7 +3321,7 @@
   },
   {
     "Id": "78f66714-25c1-4c81-84b3-740959bf43e0",
-    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "거스름돈",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3329,7 +3329,7 @@
   },
   {
     "Id": "b38a0548-9eac-40d1-b149-6406de24210b",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "거지",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3337,7 +3337,7 @@
   },
   {
     "Id": "6c544a03-99b0-4581-a331-77ce1d1e28f5",
-    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "거짓",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3385,7 +3385,7 @@
   },
   {
     "Id": "60ba2f99-77a4-4cdf-991e-0bec287ef7d1",
-    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "건너",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3393,7 +3393,7 @@
   },
   {
     "Id": "39c35ea8-d1d6-4ce9-adbf-fb6bf44d5013",
-    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
     "Word": "건너오다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -3401,7 +3401,7 @@
   },
   {
     "Id": "9a40ac5f-cb28-441c-b0ca-12d81addb37b",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "건널목",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3417,7 +3417,7 @@
   },
   {
     "Id": "681c71d3-a0b8-4f77-9dc6-20f5a1d06e2a",
-    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
     "Word": "건네주다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -3433,7 +3433,7 @@
   },
   {
     "Id": "9d5d06b0-05ce-40c2-b58f-a50f376b8ac1",
-    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "건설",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3441,7 +3441,7 @@
   },
   {
     "Id": "e69830d6-5b0d-485e-b579-05e6d797876f",
-    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "건전지",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3449,7 +3449,7 @@
   },
   {
     "Id": "95c06258-01b1-4d1e-9ca8-04b586dfa1ea",
-    "LessonId": "e4ac0098-b443-4a0d-ad5d-dd24930595dc",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "건조",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3457,7 +3457,7 @@
   },
   {
     "Id": "62364bdf-807f-4e9f-8bbb-5a820e33c429",
-    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
     "Word": "건지다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -3465,7 +3465,7 @@
   },
   {
     "Id": "608b8b09-50e8-44d1-93f7-3d530fdbd42c",
-    "LessonId": "e4ac0098-b443-4a0d-ad5d-dd24930595dc",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "건축",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3477,19 +3477,19 @@
     "Word": "걷다",
     "Level": "Intermediate",
     "Type": "Verb",
-    "MeaningVietNamese": "tan"
+    "MeaningVietNamese": "đi bộ"
   },
   {
     "Id": "6d3f6e9e-d6e0-4d4b-b448-a0e0c81ac066",
-    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
     "Word": "걷다",
     "Level": "Intermediate",
     "Type": "Verb",
-    "MeaningVietNamese": "tan"
+    "MeaningVietNamese": "đi bộ"
   },
   {
     "Id": "4c654f0d-82e6-42b1-8362-1df4dedb8a2d",
-    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "걸레",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3505,7 +3505,7 @@
   },
   {
     "Id": "a7fd0040-ed51-419e-bb9f-bc7ff42ec67d",
-    "LessonId": "a4a7dddf-d683-40d4-bbc8-4c618d5b0912",
+    "LessonId": "ebaf5db7-e403-42a5-86ea-e2f686ed0247",
     "Word": "검다",
     "Level": "Intermediate",
     "Type": "Adjective",
@@ -3513,7 +3513,7 @@
   },
   {
     "Id": "cf579932-ffe5-45b8-8c07-d18035a08d97",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "검사",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3521,7 +3521,7 @@
   },
   {
     "Id": "8eaccca9-0f10-40cf-b739-97ff66fbf2ac",
-    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "검색",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3537,7 +3537,7 @@
   },
   {
     "Id": "d21f8b8e-c632-4295-ae4f-08af6217dea2",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "검토",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3545,7 +3545,7 @@
   },
   {
     "Id": "72c182c2-871c-412b-bb1c-1d6217bb33e4",
-    "LessonId": "4d149c1e-7be5-4cd4-9d8c-1dcfb7ca8d61",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "겁",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3561,7 +3561,7 @@
   },
   {
     "Id": "96e3ce17-4738-476e-b142-e4675adaddd4",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "겉모습",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3569,7 +3569,7 @@
   },
   {
     "Id": "63a6151c-f256-497f-9537-323e881fa55b",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "겉옷",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3577,7 +3577,7 @@
   },
   {
     "Id": "dbcd9b34-051f-4a2c-811d-c6f72440b43f",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "게",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3593,7 +3593,7 @@
   },
   {
     "Id": "2cb30c81-3d34-44d2-bcbb-43a637e8d3bb",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "게시",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3601,7 +3601,7 @@
   },
   {
     "Id": "3a5d7e76-c5d9-4a43-bab5-85ea8c143033",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "게시판",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3609,7 +3609,7 @@
   },
   {
     "Id": "b1b5447d-c878-4e46-987c-aa92bfc55463",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
     "Word": "겨우",
     "Level": "Intermediate",
     "Type": "Adverb",
@@ -3617,7 +3617,7 @@
   },
   {
     "Id": "3ab0498b-90e9-4dc5-b270-01a12878eac2",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "ffa3ffa2-f5e1-48c9-aba8-7fd1db6bd4d7",
     "Word": "겨울철",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3625,7 +3625,7 @@
   },
   {
     "Id": "37e69292-fc1d-44d7-928f-110313b01e83",
-    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "격려",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3633,7 +3633,7 @@
   },
   {
     "Id": "cfa6234c-bb08-4c91-b959-5c6e65d746c6",
-    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
     "Word": "겪다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -3641,7 +3641,7 @@
   },
   {
     "Id": "c0d4e9fe-a5f4-41b6-bc40-0bcd5ae68c07",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
     "Word": "견디다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -3649,7 +3649,7 @@
   },
   {
     "Id": "6fde6706-261c-4c53-8b3a-df1a8b4fe5e7",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "견학",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3657,7 +3657,7 @@
   },
   {
     "Id": "2b736484-9ac5-411b-a8b5-45083b0b56f0",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "견해",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3665,7 +3665,7 @@
   },
   {
     "Id": "318173b7-6f75-442b-b8bc-eed0570d2f56",
-    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "결국",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3681,7 +3681,7 @@
   },
   {
     "Id": "d8409380-5ccb-4773-a485-199d1a1395b5",
-    "LessonId": "ea8671ec-0c1e-4758-84f9-33e99279dc85",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "결근",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3689,7 +3689,7 @@
   },
   {
     "Id": "2ce9b16e-7cfc-4080-81a0-5789d783e374",
-    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "결론",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3697,7 +3697,7 @@
   },
   {
     "Id": "d29b574c-875e-4935-ae1d-8b1ded5c96a4",
-    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "결승",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3705,7 +3705,7 @@
   },
   {
     "Id": "83b82084-9bd8-4a4b-bc3f-0886a84c4a70",
-    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
+    "LessonId": "4d149c1e-7be5-4cd4-9d8c-1dcfb7ca8d61",
     "Word": "결심하다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -3713,7 +3713,7 @@
   },
   {
     "Id": "ff79070e-e49a-444c-9b4f-6c7d53f7053d",
-    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
     "Word": "결정되다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -3729,7 +3729,7 @@
   },
   {
     "Id": "d39dbbcd-351d-450c-9cf4-f53484340d02",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "결제",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3753,7 +3753,7 @@
   },
   {
     "Id": "7361d407-b96d-4e4a-8a03-302d45b50228",
-    "LessonId": "9bffc0db-c3d4-4132-81ac-b275dfb37866",
+    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
     "Word": "결혼식장",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3761,7 +3761,7 @@
   },
   {
     "Id": "8882473f-db29-4ade-92b7-2601cbf3515f",
-    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "LessonId": "4d149c1e-7be5-4cd4-9d8c-1dcfb7ca8d61",
     "Word": "겸손",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3769,7 +3769,7 @@
   },
   {
     "Id": "a3da7aa7-3e91-478e-8bed-1ec340cbb112",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
     "Word": "겹치다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -3777,7 +3777,7 @@
   },
   {
     "Id": "8e411a56-3d17-479a-8440-992d867abfad",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
     "Word": "경계",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3785,7 +3785,7 @@
   },
   {
     "Id": "502f6842-57ca-4a5b-a956-bb9d8eb616f4",
-    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "경고",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3793,7 +3793,7 @@
   },
   {
     "Id": "91533595-e024-4f44-b318-ed9433546e47",
-    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "경기",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3809,7 +3809,7 @@
   },
   {
     "Id": "60cb275b-dea2-492f-816b-e7109e7934d3",
-    "LessonId": "e4ac0098-b443-4a0d-ad5d-dd24930595dc",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "경기장",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3817,7 +3817,7 @@
   },
   {
     "Id": "3bdf60f7-0dcc-4c56-8518-9671fe8aa0b8",
-    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "경력",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3833,7 +3833,7 @@
   },
   {
     "Id": "1e7e2875-2f76-411a-ab2b-baa109e6ea64",
-    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "경비",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3841,7 +3841,7 @@
   },
   {
     "Id": "7842c9f6-cb4b-4be7-81bb-14ab90e2e6bb",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "경비실",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3857,7 +3857,7 @@
   },
   {
     "Id": "cef6d6a7-e83a-4c7d-b53d-6e158300c8e2",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "e4ac0098-b443-4a0d-ad5d-dd24930595dc",
     "Word": "경영",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3865,23 +3865,23 @@
   },
   {
     "Id": "dd3e24ab-8381-4743-aba1-bf0b6b3aebfd",
-    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "경우",
     "Level": "Intermediate",
     "Type": "Noun",
-    "MeaningVietNamese": "đạo lý, sự phải đạo"
+    "MeaningVietNamese": "trường hợp"
   },
   {
     "Id": "6405da79-38fc-4607-bc49-db5c77a457d9",
-    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "경우",
     "Level": "Intermediate",
     "Type": "Noun",
-    "MeaningVietNamese": "đạo lý, sự phải đạo"
+    "MeaningVietNamese": "trường hợp"
   },
   {
     "Id": "4a881fec-a750-435b-a1f4-b1e639523f6e",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "경쟁",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3889,7 +3889,7 @@
   },
   {
     "Id": "fa56b610-0b38-427b-bdc4-f03c6743d017",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "경쟁력",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3897,7 +3897,7 @@
   },
   {
     "Id": "d396368e-162c-4e96-b6df-e9d628c9f713",
-    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "경제",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3905,7 +3905,7 @@
   },
   {
     "Id": "387faf2e-d844-48a7-8904-b6d215343e66",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "경제력",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3921,7 +3921,7 @@
   },
   {
     "Id": "67c47d72-fa89-4898-b26f-73691a36dda7",
-    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "경제적",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3937,7 +3937,7 @@
   },
   {
     "Id": "43cd58e1-ce6b-48c2-95ff-d2de498304aa",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "경향",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3953,7 +3953,7 @@
   },
   {
     "Id": "6f5d1907-323e-41ba-9aae-4ed08da04d34",
-    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "곁",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3961,7 +3961,7 @@
   },
   {
     "Id": "c3c20fda-869c-4046-9a3f-5280429844fd",
-    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "계곡",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3969,7 +3969,7 @@
   },
   {
     "Id": "73a807b9-bf23-4a64-890e-0da8c39492f0",
-    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "계기",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3985,7 +3985,7 @@
   },
   {
     "Id": "22e410e0-1e44-4029-b2e3-43dc7e1a74ed",
-    "LessonId": "9bffc0db-c3d4-4132-81ac-b275dfb37866",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "계산대",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -3993,7 +3993,7 @@
   },
   {
     "Id": "7072bc08-87c4-43d3-8a5e-44d79628f762",
-    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
     "Word": "계산하다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -4009,7 +4009,7 @@
   },
   {
     "Id": "7aecb41d-5722-47d1-a603-baf0b88e7a16",
-    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
     "Word": "계속하다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -4017,7 +4017,7 @@
   },
   {
     "Id": "fd624529-6007-4344-9838-54e5629e672b",
-    "LessonId": "9bffc0db-c3d4-4132-81ac-b275dfb37866",
+    "LessonId": "e4ac0098-b443-4a0d-ad5d-dd24930595dc",
     "Word": "계약",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4025,7 +4025,7 @@
   },
   {
     "Id": "73c6aaeb-9bce-402c-9364-8e475035cbf3",
-    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "계약금",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4033,7 +4033,7 @@
   },
   {
     "Id": "ed151a85-b309-4def-a1e6-23a471aec903",
-    "LessonId": "9bffc0db-c3d4-4132-81ac-b275dfb37866",
+    "LessonId": "e4ac0098-b443-4a0d-ad5d-dd24930595dc",
     "Word": "계약서",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4041,7 +4041,7 @@
   },
   {
     "Id": "5af647c2-b29c-43d6-9fc0-161363fdffad",
-    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "계좌",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4049,7 +4049,7 @@
   },
   {
     "Id": "8f72e7ee-6c72-4e70-a003-814a0d2b9887",
-    "LessonId": "e4ac0098-b443-4a0d-ad5d-dd24930595dc",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "계층",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4073,7 +4073,7 @@
   },
   {
     "Id": "65595baa-0707-4feb-b85a-3c14735a06b3",
-    "LessonId": "e4ac0098-b443-4a0d-ad5d-dd24930595dc",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "고교",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4081,7 +4081,7 @@
   },
   {
     "Id": "db5536bc-aa2d-4f59-8e7f-8a9172167d2b",
-    "LessonId": "ffa3ffa2-f5e1-48c9-aba8-7fd1db6bd4d7",
+    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
     "Word": "고구마",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4089,7 +4089,7 @@
   },
   {
     "Id": "dbc25f16-7d77-47e3-9ac9-4563f98546d7",
-    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "고국",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4097,7 +4097,7 @@
   },
   {
     "Id": "38a5652c-9ec3-4e91-a6f4-3c4beab3a53d",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "고궁",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4105,7 +4105,7 @@
   },
   {
     "Id": "4d6d9173-772f-4689-a819-47fa7b9c9a11",
-    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "고급",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4113,7 +4113,7 @@
   },
   {
     "Id": "6318c94e-3f78-4180-a7b0-f5c3927c8ed2",
-    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "LessonId": "a4a7dddf-d683-40d4-bbc8-4c618d5b0912",
     "Word": "고급스럽다",
     "Level": "Intermediate",
     "Type": "Adjective",
@@ -4129,7 +4129,7 @@
   },
   {
     "Id": "7526d109-1378-4604-af74-d9066dcb0e41",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "고독",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4137,7 +4137,7 @@
   },
   {
     "Id": "b52b2f8c-8cf6-4e2f-ad41-ee0cdd3ce4bf",
-    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "고등",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4145,7 +4145,7 @@
   },
   {
     "Id": "05ad9672-7a2f-4037-ab90-2643fe1b0ece",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "고등어",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4153,7 +4153,7 @@
   },
   {
     "Id": "26bbb614-6336-4356-9804-56a9ef75cab6",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "고래",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4169,7 +4169,7 @@
   },
   {
     "Id": "ce0dae4b-89f0-4813-b16d-8ab2dc98c5ec",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
     "Word": "고려하다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -4177,7 +4177,7 @@
   },
   {
     "Id": "a8d3ddbf-cfd0-43d9-8c7a-31d9ad8b5532",
-    "LessonId": "a4a7dddf-d683-40d4-bbc8-4c618d5b0912",
+    "LessonId": "ebaf5db7-e403-42a5-86ea-e2f686ed0247",
     "Word": "고르다",
     "Level": "Intermediate",
     "Type": "Adjective",
@@ -4185,7 +4185,7 @@
   },
   {
     "Id": "912ec3be-9dbd-414e-bc0c-18a2968701bd",
-    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
+    "LessonId": "4d149c1e-7be5-4cd4-9d8c-1dcfb7ca8d61",
     "Word": "고마워하다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -4193,7 +4193,7 @@
   },
   {
     "Id": "445854d2-57a1-4959-94d7-eae53c9ac5c4",
-    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
     "Word": "고모부",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4201,7 +4201,7 @@
   },
   {
     "Id": "02509815-a3de-4c73-b225-9a36da348eba",
-    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "고무",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4217,7 +4217,7 @@
   },
   {
     "Id": "68100443-86e7-4a71-8cef-07fcc555e41d",
-    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "고백",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4225,7 +4225,7 @@
   },
   {
     "Id": "ae7bb9e6-e1c6-4a70-9aef-df61f9dc4b4c",
-    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "고생",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4233,7 +4233,7 @@
   },
   {
     "Id": "98c8b38c-4cd7-4355-915d-afe11867f0af",
-    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
     "Word": "고생하다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -4241,15 +4241,15 @@
   },
   {
     "Id": "59ae1f33-44e7-4768-99bc-79a1aeeb5b3c",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "a4a7dddf-d683-40d4-bbc8-4c618d5b0912",
     "Word": "고소하다",
     "Level": "Intermediate",
     "Type": "Adjective",
-    "MeaningVietNamese": "tố cáo, kiện"
+    "MeaningVietNamese": "thơm bùi, béo ngậy (mùi vị); đáng đời, hả hê (cảm giác)"
   },
   {
     "Id": "60eaef4d-604f-4f4a-9425-2271060286f2",
-    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "고속",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4261,11 +4261,11 @@
     "Word": "고속도로",
     "Level": "Intermediate",
     "Type": "Noun",
-    "MeaningVietNamese": "고속도로"
+    "MeaningVietNamese": "đường cao tốc"
   },
   {
     "Id": "54592f30-3c9f-4066-a277-ef25914a6e81",
-    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "고요",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4273,7 +4273,7 @@
   },
   {
     "Id": "f844ca50-414c-4fd6-a695-e6cab5b0e8a8",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "고유",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4281,7 +4281,7 @@
   },
   {
     "Id": "eba765d8-ea2a-4054-8da2-502b98d99621",
-    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
     "Word": "고장",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4289,7 +4289,7 @@
   },
   {
     "Id": "ecae03c9-7b1e-4fde-ae1c-31176e81cc37",
-    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "고전",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4297,7 +4297,7 @@
   },
   {
     "Id": "b3e4d7cd-771f-44b8-b9f3-b252da80f9c6",
-    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "고정",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4313,7 +4313,7 @@
   },
   {
     "Id": "07eacb06-de83-461a-af0d-823adc70b496",
-    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "고추",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4321,7 +4321,7 @@
   },
   {
     "Id": "180b3a47-19c5-4ae0-8a71-b3482dae7c7d",
-    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "고춧가루",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4329,7 +4329,7 @@
   },
   {
     "Id": "ee26c462-37b3-4bfb-9ba7-cec6acb5929a",
-    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "고층",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4345,7 +4345,7 @@
   },
   {
     "Id": "637b8463-b779-4e1f-bc0a-9ca943e11cab",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "764c970f-7227-4e7d-ba2f-36f08628a089",
     "Word": "고통스럽다",
     "Level": "Intermediate",
     "Type": "Adjective",
@@ -4353,7 +4353,7 @@
   },
   {
     "Id": "54867f43-b123-44e2-94a7-ca6232d253df",
-    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "곡",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4369,7 +4369,7 @@
   },
   {
     "Id": "6bc04c24-2ee0-4093-b9aa-7cd26f252b2f",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "4d149c1e-7be5-4cd4-9d8c-1dcfb7ca8d61",
     "Word": "곤란",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4377,7 +4377,7 @@
   },
   {
     "Id": "73a4c24e-d4b9-41c0-bed0-4a6abe5b0040",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "ebaf5db7-e403-42a5-86ea-e2f686ed0247",
     "Word": "곧다",
     "Level": "Intermediate",
     "Type": "Adjective",
@@ -4385,7 +4385,7 @@
   },
   {
     "Id": "682b416d-d5ea-4090-ba1d-ddae3283d2f9",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
     "Word": "곧바로",
     "Level": "Intermediate",
     "Type": "Adverb",
@@ -4393,7 +4393,7 @@
   },
   {
     "Id": "7fc8c3cd-6d02-4335-9cfe-c70d576da890",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
     "Word": "곧이어",
     "Level": "Intermediate",
     "Type": "Adverb",
@@ -4401,7 +4401,7 @@
   },
   {
     "Id": "15ee239c-06ff-46fc-a06e-ac946dd5cb1f",
-    "LessonId": "ebaf5db7-e403-42a5-86ea-e2f686ed0247",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
     "Word": "곧잘",
     "Level": "Intermediate",
     "Type": "Adverb",
@@ -4417,7 +4417,7 @@
   },
   {
     "Id": "38784896-51f9-4162-bf15-f6436ccecffb",
-    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "골",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4425,7 +4425,7 @@
   },
   {
     "Id": "eb6ee63d-010c-4314-9233-a8508e7e1c8a",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
     "Word": "골고루",
     "Level": "Intermediate",
     "Type": "Adverb",
@@ -4441,7 +4441,7 @@
   },
   {
     "Id": "61d282e0-84e8-4d57-9b97-e993404a8302",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "골목",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4449,7 +4449,7 @@
   },
   {
     "Id": "fa3b4d23-d96b-4a82-867d-c0824d445043",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "골목길",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4457,7 +4457,7 @@
   },
   {
     "Id": "1cb83803-0830-451d-b2e2-1d7a58ed8fff",
-    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "골프",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4465,7 +4465,7 @@
   },
   {
     "Id": "abb3d96d-88b6-4ef3-859e-d73ca6e2a01f",
-    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "골프장",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4473,7 +4473,7 @@
   },
   {
     "Id": "238f1f69-c7f0-4760-963f-af30bcac7119",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "곰",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4481,7 +4481,7 @@
   },
   {
     "Id": "4a73c36c-b855-4e70-9c3e-1211941f445b",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "a4a7dddf-d683-40d4-bbc8-4c618d5b0912",
     "Word": "곱다",
     "Level": "Intermediate",
     "Type": "Adjective",
@@ -4489,7 +4489,7 @@
   },
   {
     "Id": "46c9dc4c-058e-4026-8ba5-0905a0151c56",
-    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
     "Word": "곱하다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -4497,7 +4497,7 @@
   },
   {
     "Id": "a9c2dcff-255f-4da6-9f38-4bf02fa133f6",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "곳곳",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4505,7 +4505,7 @@
   },
   {
     "Id": "ac526d4a-c492-49a9-bda4-46b3e1059f28",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "공",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4513,7 +4513,7 @@
   },
   {
     "Id": "a665e6c6-a841-4bb0-8cc2-1a45a1be8399",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "공간",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4521,7 +4521,7 @@
   },
   {
     "Id": "baabc16e-4355-4266-846d-c8f755d01346",
-    "LessonId": "9bffc0db-c3d4-4132-81ac-b275dfb37866",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "공감",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4529,7 +4529,7 @@
   },
   {
     "Id": "c617a7ac-ec4e-4f33-a5f4-35d1894cf476",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "공개",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4537,7 +4537,7 @@
   },
   {
     "Id": "a4e70c1a-bc21-4865-b795-07751174085c",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "공격",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4545,7 +4545,7 @@
   },
   {
     "Id": "c8d0a7af-e6d6-4e64-9d64-87fc1c37d36f",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "공공",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4553,7 +4553,7 @@
   },
   {
     "Id": "7da07362-ba94-4ad1-b295-a4958b708500",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "공공요금",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4561,7 +4561,7 @@
   },
   {
     "Id": "b808bae5-cf1d-4781-9d4a-5825aa081ea5",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "공공장소",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4577,7 +4577,7 @@
   },
   {
     "Id": "80c5582a-35d0-45b9-a893-bb9857b6595f",
-    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "공급",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4585,7 +4585,7 @@
   },
   {
     "Id": "61a7c733-4313-44ef-81e1-0c4031302665",
-    "LessonId": "ea8671ec-0c1e-4758-84f9-33e99279dc85",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "공기",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4593,7 +4593,7 @@
   },
   {
     "Id": "f8c60cfd-be97-4c1c-9fa9-66d9d6dd230f",
-    "LessonId": "ea8671ec-0c1e-4758-84f9-33e99279dc85",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "공기",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4601,7 +4601,7 @@
   },
   {
     "Id": "a57739e3-8152-4f77-8659-ab56046ff023",
-    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "공동",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4609,7 +4609,7 @@
   },
   {
     "Id": "0b741246-4db5-4165-922c-5f60f9bf8d03",
-    "LessonId": "9bffc0db-c3d4-4132-81ac-b275dfb37866",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "공동체",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4617,7 +4617,7 @@
   },
   {
     "Id": "7cca31eb-680b-40ea-99b5-5bbc1a763633",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "공사",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4625,7 +4625,7 @@
   },
   {
     "Id": "84c72152-e7b9-4981-9dae-8d0a11b4e7ed",
-    "LessonId": "a4a7dddf-d683-40d4-bbc8-4c618d5b0912",
+    "LessonId": "4d149c1e-7be5-4cd4-9d8c-1dcfb7ca8d61",
     "Word": "공손하다",
     "Level": "Intermediate",
     "Type": "Adjective",
@@ -4633,7 +4633,7 @@
   },
   {
     "Id": "c6d628dd-54f1-4547-bc2d-d1ea8eea0217",
-    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "공식",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4641,7 +4641,7 @@
   },
   {
     "Id": "c85b1294-50be-44d3-93cd-831259028cc1",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "공업",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4649,7 +4649,7 @@
   },
   {
     "Id": "4623476f-07c4-4924-a77c-cbd42eb0582b",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "공연",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4657,7 +4657,7 @@
   },
   {
     "Id": "ef81f32b-1e0d-47a4-af0e-d6490b7ec8f4",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "공연장",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4665,7 +4665,7 @@
   },
   {
     "Id": "f490f93b-0a01-46a6-8670-746f89e4c3c6",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "6015f4da-70f1-41f8-9ce8-4849ddc2e4f7",
     "Word": "공적",
     "Level": "Intermediate",
     "Type": "Determiner",
@@ -4673,7 +4673,7 @@
   },
   {
     "Id": "d3f39eee-5d92-4403-930a-774ff4093ee1",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "공적",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4681,7 +4681,7 @@
   },
   {
     "Id": "8cd80eb1-36ba-4baa-9d4c-e1727869052d",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "공주",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4689,7 +4689,7 @@
   },
   {
     "Id": "963339a3-4ae5-4b0b-a0db-f0e62902b35d",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "공중전화",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4697,7 +4697,7 @@
   },
   {
     "Id": "01f2d7fe-65bd-4434-94af-3661c1950fc8",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "공지",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4713,7 +4713,7 @@
   },
   {
     "Id": "7427d7bd-88d4-49fa-ad09-c4e81ce08700",
-    "LessonId": "9bffc0db-c3d4-4132-81ac-b275dfb37866",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "공통점",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4721,11 +4721,11 @@
   },
   {
     "Id": "41b35a47-c267-447b-9124-de30fb4ed236",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "4d149c1e-7be5-4cd4-9d8c-1dcfb7ca8d61",
     "Word": "공포",
     "Level": "Intermediate",
     "Type": "Noun",
-    "MeaningVietNamese": "sự công bố"
+    "MeaningVietNamese": "nỗi sợ hãi, sự khiếp sợ"
   },
   {
     "Id": "2c87f500-dcac-4df5-b00b-9eaea331a567",
@@ -4737,7 +4737,7 @@
   },
   {
     "Id": "c1247e27-9006-4e2a-a7e8-98491e72aca6",
-    "LessonId": "e4ac0098-b443-4a0d-ad5d-dd24930595dc",
+    "LessonId": "ffa3ffa2-f5e1-48c9-aba8-7fd1db6bd4d7",
     "Word": "공해",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4745,7 +4745,7 @@
   },
   {
     "Id": "5458f20d-88c9-461e-8c88-65187f0db501",
-    "LessonId": "ffa3ffa2-f5e1-48c9-aba8-7fd1db6bd4d7",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "과",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4753,7 +4753,7 @@
   },
   {
     "Id": "aed584d2-b8ca-441a-859d-88c76949e638",
-    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "과로",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4769,7 +4769,7 @@
   },
   {
     "Id": "e1842c14-72c1-4325-9356-b352f71b83f4",
-    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "과소비",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4785,7 +4785,7 @@
   },
   {
     "Id": "e19dcd17-3e84-4428-8fa9-e82e12d3197e",
-    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "과식",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4801,7 +4801,7 @@
   },
   {
     "Id": "5d588ef0-10b2-4b1a-b49b-a11471b0cdd5",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "과외",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4809,19 +4809,19 @@
   },
   {
     "Id": "dc27017e-e35c-4d4f-afac-a398cd61e1a5",
-    "LessonId": "ffa3ffa2-f5e1-48c9-aba8-7fd1db6bd4d7",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "과장",
     "Level": "Intermediate",
     "Type": "Noun",
-    "MeaningVietNamese": "trưởng khoa"
+    "MeaningVietNamese": "trưởng phòng, trưởng ban"
   },
   {
     "Id": "b203474c-ac10-428c-942e-45a9fc445d55",
-    "LessonId": "ffa3ffa2-f5e1-48c9-aba8-7fd1db6bd4d7",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "과장",
     "Level": "Intermediate",
     "Type": "Noun",
-    "MeaningVietNamese": "trưởng khoa"
+    "MeaningVietNamese": "trưởng phòng, trưởng ban"
   },
   {
     "Id": "6e8063b8-46c7-447f-9f2b-c44d00a737c0",
@@ -4833,15 +4833,15 @@
   },
   {
     "Id": "2cab3bd6-f56e-4606-aa0b-36d0d542ade1",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "e4ac0098-b443-4a0d-ad5d-dd24930595dc",
     "Word": "과제",
     "Level": "Intermediate",
     "Type": "Noun",
-    "MeaningVietNamese": "bài toán"
+    "MeaningVietNamese": "bài tập, nhiệm vụ, đề tài"
   },
   {
     "Id": "6ea86f4e-0e96-4471-9c5b-96b1b4e6d9c0",
-    "LessonId": "ffa3ffa2-f5e1-48c9-aba8-7fd1db6bd4d7",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "과학",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4849,7 +4849,7 @@
   },
   {
     "Id": "a752206f-0157-4a6d-bab2-04da736b66fb",
-    "LessonId": "ffa3ffa2-f5e1-48c9-aba8-7fd1db6bd4d7",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "과학자",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4857,7 +4857,7 @@
   },
   {
     "Id": "dedd592a-2cc4-4dcd-ab8c-3377c75ea3dd",
-    "LessonId": "ffa3ffa2-f5e1-48c9-aba8-7fd1db6bd4d7",
+    "LessonId": "6015f4da-70f1-41f8-9ce8-4849ddc2e4f7",
     "Word": "과학적",
     "Level": "Intermediate",
     "Type": "Determiner",
@@ -4865,7 +4865,7 @@
   },
   {
     "Id": "7c7d3bcb-3f66-4ec6-9028-eda160928006",
-    "LessonId": "ffa3ffa2-f5e1-48c9-aba8-7fd1db6bd4d7",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "과학적",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4873,7 +4873,7 @@
   },
   {
     "Id": "ae683d6f-ffc9-4f1c-a664-1d04469083f1",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "관객",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4881,7 +4881,7 @@
   },
   {
     "Id": "9d97efec-043c-4a5c-a01b-8feab3137eb2",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "ebaf5db7-e403-42a5-86ea-e2f686ed0247",
     "Word": "관계없다",
     "Level": "Intermediate",
     "Type": "Adjective",
@@ -4889,7 +4889,7 @@
   },
   {
     "Id": "75230dcc-8f40-4016-abe4-14e800a4db44",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
     "Word": "관계없이",
     "Level": "Intermediate",
     "Type": "Adverb",
@@ -4905,7 +4905,7 @@
   },
   {
     "Id": "b9f38a82-8776-41f1-8f43-91ccc1b2b51f",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "관계자",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4913,7 +4913,7 @@
   },
   {
     "Id": "96293eff-0524-418a-b384-1fda31e453e6",
-    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "관람",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4921,7 +4921,7 @@
   },
   {
     "Id": "268b53c9-4b20-4cce-bf2e-4cb61bdfb530",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
     "Word": "관람객",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4929,7 +4929,7 @@
   },
   {
     "Id": "bc4b320e-67d8-4af6-9fac-49b9b6a3724e",
-    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "관련",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4945,7 +4945,7 @@
   },
   {
     "Id": "46520e8e-6414-461e-92d6-ec828b0c1135",
-    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
     "Word": "관련하다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -4953,7 +4953,7 @@
   },
   {
     "Id": "ae90afad-8aa4-41f2-9618-b53f1c5425e5",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "관리",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4961,7 +4961,7 @@
   },
   {
     "Id": "aa82550f-20a0-4382-853e-78d5096dcb26",
-    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "관심사",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4969,7 +4969,7 @@
   },
   {
     "Id": "ad83306a-3ebe-4efe-b70f-052365a3dfc9",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "관점",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4977,7 +4977,7 @@
   },
   {
     "Id": "14f1f028-f67e-4f2b-8079-b2546e9baf68",
-    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "관찰",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -4993,7 +4993,7 @@
   },
   {
     "Id": "9bd9b185-35b5-40e7-8b0f-fae2355a08c6",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
     "Word": "관하다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -5001,7 +5001,7 @@
   },
   {
     "Id": "301597a3-8eb4-41d9-bf2a-7b18cf622228",
-    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "광경",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5017,7 +5017,7 @@
   },
   {
     "Id": "a00d97fb-6cac-4269-8e67-c3390157ed8b",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
     "Word": "괜히",
     "Level": "Intermediate",
     "Type": "Adverb",
@@ -5049,7 +5049,7 @@
   },
   {
     "Id": "2065c424-48b0-4a36-b42c-94d555cf274c",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "ebaf5db7-e403-42a5-86ea-e2f686ed0247",
     "Word": "굉장하다",
     "Level": "Intermediate",
     "Type": "Adjective",
@@ -5065,7 +5065,7 @@
   },
   {
     "Id": "f7aecb92-cd68-43a5-b78f-4bce95b06e5b",
-    "LessonId": "e4ac0098-b443-4a0d-ad5d-dd24930595dc",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "교내",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5081,7 +5081,7 @@
   },
   {
     "Id": "6633581f-45d1-48fe-a13f-e99945e77863",
-    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "교류",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5089,7 +5089,7 @@
   },
   {
     "Id": "f78b078e-346f-4899-8444-ae0fbacac16f",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "교문",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5105,7 +5105,7 @@
   },
   {
     "Id": "24510c89-362a-4a18-bd55-9a37965bf4b3",
-    "LessonId": "75ddea7d-8c89-4a2f-a617-dd91a6a370b3",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "교시",
     "Level": "Intermediate",
     "Type": "Dependent Noun",
@@ -5113,7 +5113,7 @@
   },
   {
     "Id": "1ddc04ac-d17b-4b0e-82ae-44687d469d26",
-    "LessonId": "e4ac0098-b443-4a0d-ad5d-dd24930595dc",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "교양",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5121,7 +5121,7 @@
   },
   {
     "Id": "bd948869-07a3-4ede-86dc-3dea7b45b545",
-    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "교외",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5129,7 +5129,7 @@
   },
   {
     "Id": "8506db7c-ac6a-4e67-9f6c-3a3207f8f019",
-    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "교육비",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5137,7 +5137,7 @@
   },
   {
     "Id": "09862e20-cc4a-45bd-83a1-2c8b1f404728",
-    "LessonId": "9bffc0db-c3d4-4132-81ac-b275dfb37866",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "교육자",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5145,7 +5145,7 @@
   },
   {
     "Id": "ad88e995-54fc-4f76-8a36-6fbc0a48392d",
-    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "교장",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5153,7 +5153,7 @@
   },
   {
     "Id": "808c7030-1be2-42ea-991f-a4a9e1a2ac61",
-    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "교재",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5161,7 +5161,7 @@
   },
   {
     "Id": "5e4892f7-189d-4a75-ad97-db502637304c",
-    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "교체",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5169,7 +5169,7 @@
   },
   {
     "Id": "56756ec5-e18c-4f91-a76b-e4f6740e7513",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
     "Word": "교통수단",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5177,7 +5177,7 @@
   },
   {
     "Id": "0b2ecfd1-588b-4ebd-8aef-6917fbc2bd4d",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
     "Word": "교통편",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5185,7 +5185,7 @@
   },
   {
     "Id": "b30246a6-93df-4260-a53a-3796e8d9404b",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "교포",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5193,7 +5193,7 @@
   },
   {
     "Id": "a3f0a9e7-4f05-4c7a-9ae8-e9f27e829d9a",
-    "LessonId": "e4ac0098-b443-4a0d-ad5d-dd24930595dc",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "교훈",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5201,7 +5201,7 @@
   },
   {
     "Id": "3c6d0286-835c-409f-b97b-f4aed65883ae",
-    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "구",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5209,7 +5209,7 @@
   },
   {
     "Id": "a907aa2f-e855-4317-97a4-9a98e076e52a",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "구경거리",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5225,7 +5225,7 @@
   },
   {
     "Id": "f5315746-62e5-49ca-bb2f-617ccd07f4c1",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
     "Word": "구르다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -5233,7 +5233,7 @@
   },
   {
     "Id": "5b8fb754-ada7-421a-bc7e-2d6923e5ce6c",
-    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "구매",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5241,7 +5241,7 @@
   },
   {
     "Id": "5df0ec49-bda7-4000-a1ab-71d0d6089e09",
-    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "구멍",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5257,7 +5257,7 @@
   },
   {
     "Id": "1c3147f8-acf7-493e-9516-163768c9fc4b",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
     "Word": "구부리다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -5265,7 +5265,7 @@
   },
   {
     "Id": "3b67c102-99a8-4089-81b8-ecac07ee2a8a",
-    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "구분",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5273,7 +5273,7 @@
   },
   {
     "Id": "3668addc-6818-4b72-b888-9821f17d628e",
-    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "구석",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5281,7 +5281,7 @@
   },
   {
     "Id": "c74fb9af-7723-4513-8c8f-d788312c1a71",
-    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "구성",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5289,7 +5289,7 @@
   },
   {
     "Id": "2ddfeddd-b9f6-4775-96fb-7c312609646b",
-    "LessonId": "ebaf5db7-e403-42a5-86ea-e2f686ed0247",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "구세대",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5305,7 +5305,7 @@
   },
   {
     "Id": "adeaeead-9a0a-456a-94ba-51c0186dfef1",
-    "LessonId": "a4a7dddf-d683-40d4-bbc8-4c618d5b0912",
+    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
     "Word": "구수하다",
     "Level": "Intermediate",
     "Type": "Adjective",
@@ -5313,7 +5313,7 @@
   },
   {
     "Id": "94b65dcb-c9de-4963-a155-242bfcf284b8",
-    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "구역",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5321,7 +5321,7 @@
   },
   {
     "Id": "dbf394c4-a45f-4bb6-9e9f-d203314621b6",
-    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "구입",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5329,7 +5329,7 @@
   },
   {
     "Id": "1b116d46-2bbd-4429-8fc2-d0fa8780aa89",
-    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "구조",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5337,7 +5337,7 @@
   },
   {
     "Id": "033c56b3-5f64-4566-ae96-96bfcea9bc04",
-    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "구조",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5361,7 +5361,7 @@
   },
   {
     "Id": "7a224a8a-33a7-4ce8-be59-364383a39438",
-    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "구체적",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5369,7 +5369,7 @@
   },
   {
     "Id": "abdea737-74dc-40fb-8822-81266c83d7a1",
-    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
     "Word": "구하다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -5393,7 +5393,7 @@
   },
   {
     "Id": "d914180e-6cba-47e6-9997-bc30be71ed4a",
-    "LessonId": "8fba85f1-d694-4a68-a949-48a98e52c527",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "국경일",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5401,7 +5401,7 @@
   },
   {
     "Id": "713600d0-9470-4c03-b9a6-f760e115c7c1",
-    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "국기",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5409,7 +5409,7 @@
   },
   {
     "Id": "d14b59f8-04e1-4005-90ee-e014c18641e5",
-    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "국내선",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5425,7 +5425,7 @@
   },
   {
     "Id": "dcd71f4a-1122-4e61-82e3-64224cd34627",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
     "Word": "국물",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5441,7 +5441,7 @@
   },
   {
     "Id": "e3af0219-27a5-482c-b199-fc9ce6cfd297",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "국산",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5449,7 +5449,7 @@
   },
   {
     "Id": "7ce11559-0d8c-4d07-b976-515902ab296b",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "국어",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5457,7 +5457,7 @@
   },
   {
     "Id": "3c49a6bc-9cbf-4d85-b548-bd293ad198ec",
-    "LessonId": "dea501a2-3bbd-4442-95ca-9bc0f9108b92",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "국외",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5465,7 +5465,7 @@
   },
   {
     "Id": "e54ef436-0edd-4d72-9625-c29bf5768184",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "e1065344-1f3d-4044-9afd-6de46482650a",
     "Word": "국제결혼",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5473,7 +5473,7 @@
   },
   {
     "Id": "8866e58e-0f6c-4ed4-840b-b2feef1624e3",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "국제선",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5481,7 +5481,7 @@
   },
   {
     "Id": "5d7def8a-f0f2-4570-9119-d91c54e1eb7d",
-    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "국제화",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5489,7 +5489,7 @@
   },
   {
     "Id": "e1f3000d-bd10-478b-966d-e581c8c88cef",
-    "LessonId": "ffa3ffa2-f5e1-48c9-aba8-7fd1db6bd4d7",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "국화",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5497,7 +5497,7 @@
   },
   {
     "Id": "82058b44-dcc0-43ac-9404-9320d085c0d9",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "국회",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5505,15 +5505,15 @@
   },
   {
     "Id": "cdc24efe-0b20-49ba-bd2f-c6b2c3b27850",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "국회의원",
     "Level": "Intermediate",
     "Type": "Noun",
-    "MeaningVietNamese": "국회의원"
+    "MeaningVietNamese": "nghị sĩ quốc hội, đại biểu quốc hội"
   },
   {
     "Id": "6e0448f4-4986-40fd-90a8-b610251062d1",
-    "LessonId": "75ddea7d-8c89-4a2f-a617-dd91a6a370b3",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "군",
     "Level": "Intermediate",
     "Type": "Dependent Noun",
@@ -5521,7 +5521,7 @@
   },
   {
     "Id": "02d9ef1d-19a0-4e0d-8d2d-704806b78cfc",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "군",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5537,7 +5537,7 @@
   },
   {
     "Id": "b559c079-341d-4de8-bc9d-4623c48c536e",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "군대",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5545,7 +5545,7 @@
   },
   {
     "Id": "8f98cf8b-5ac1-47b1-8bdc-d0960372b0c2",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "군데",
     "Level": "Intermediate",
     "Type": "Dependent Noun",
@@ -5553,7 +5553,7 @@
   },
   {
     "Id": "e7a07ffa-9a84-4680-98df-2a06f5268402",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "군사",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5561,7 +5561,7 @@
   },
   {
     "Id": "4b45c741-5e19-49b1-983e-662150b9166c",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
     "Word": "굳어지다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -5577,7 +5577,7 @@
   },
   {
     "Id": "8c8b60ac-9f68-4704-9bc9-90779fe4d9e1",
-    "LessonId": "0683b25d-afd3-4757-bc4d-dd9591876d73",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "굴",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5585,7 +5585,7 @@
   },
   {
     "Id": "ca32790e-4e83-4b1b-8b49-2f97784563e5",
-    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
     "Word": "굶다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -5593,15 +5593,15 @@
   },
   {
     "Id": "a53527df-a9cb-48d7-825c-e5a7bbd97523",
-    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "굽",
     "Level": "Intermediate",
     "Type": "Noun",
-    "MeaningVietNamese": "móng chân"
+    "MeaningVietNamese": "gót giày, đế giày"
   },
   {
     "Id": "7baad6af-dc2c-497a-98e1-ad9affdcf57d",
-    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
     "Word": "굽히다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -5609,7 +5609,7 @@
   },
   {
     "Id": "91d4d393-ca3d-467d-8b2a-7fffc829e4dc",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "권력",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5617,7 +5617,7 @@
   },
   {
     "Id": "8b44002c-f7cb-4e06-bd2b-c0d53e4239a9",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "권리",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5625,7 +5625,7 @@
   },
   {
     "Id": "731c48fe-7849-4cd4-ae06-53c69f7c65fb",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "권위",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5633,7 +5633,7 @@
   },
   {
     "Id": "9ba156d4-bbec-41e3-bee5-5ef347e1962d",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "권유",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5641,7 +5641,7 @@
   },
   {
     "Id": "3af87b6a-1d17-42e8-9b65-b5c4c69ac547",
-    "LessonId": "e1065344-1f3d-4044-9afd-6de46482650a",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "권투",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5657,7 +5657,7 @@
   },
   {
     "Id": "66c5c08a-bb78-4629-b05a-f23cb09d0bcb",
-    "LessonId": "9bffc0db-c3d4-4132-81ac-b275dfb37866",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "귀가",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5665,7 +5665,7 @@
   },
   {
     "Id": "bc6169a2-aefb-46b8-a655-047c846df6c8",
-    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "귀국",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5673,7 +5673,7 @@
   },
   {
     "Id": "1c35f107-53ac-4e9e-a219-a3d30f8680d8",
-    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
     "Word": "귀국하다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -5681,7 +5681,7 @@
   },
   {
     "Id": "bbac9438-c5d2-4b24-95a1-f61925b032ca",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "귀신",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5697,7 +5697,7 @@
   },
   {
     "Id": "5565578c-6106-4ad5-958e-f6c07829428d",
-    "LessonId": "75ddea7d-8c89-4a2f-a617-dd91a6a370b3",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "귀하",
     "Level": "Intermediate",
     "Type": "Pronoun",
@@ -5713,7 +5713,7 @@
   },
   {
     "Id": "cc8d2659-b24c-4601-83ca-e430d6b70299",
-    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "LessonId": "ebaf5db7-e403-42a5-86ea-e2f686ed0247",
     "Word": "귀하다",
     "Level": "Intermediate",
     "Type": "Adjective",
@@ -5721,7 +5721,7 @@
   },
   {
     "Id": "666b71a5-80c7-4d55-9c62-c7b74d417868",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "규모",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5729,7 +5729,7 @@
   },
   {
     "Id": "fe5f74d2-86f0-4365-b359-86336992c5bb",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "규정",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5745,7 +5745,7 @@
   },
   {
     "Id": "2e024dd6-6130-4b74-8b0c-b9bbaead991b",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "규칙적",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5753,7 +5753,7 @@
   },
   {
     "Id": "0159a444-2301-4935-91b0-69fad62c7bda",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "균형",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5761,7 +5761,7 @@
   },
   {
     "Id": "686cdb23-ac5c-45c6-a524-35cb4d9b15d3",
-    "LessonId": "ebaf5db7-e403-42a5-86ea-e2f686ed0247",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
     "Word": "그나마",
     "Level": "Intermediate",
     "Type": "Adverb",
@@ -5769,7 +5769,7 @@
   },
   {
     "Id": "13f41d98-9eec-4ed8-8ee4-fc56a10ec9d2",
-    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "그네",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5777,7 +5777,7 @@
   },
   {
     "Id": "932d7cda-dddb-4688-825b-157a7bf24117",
-    "LessonId": "e1065344-1f3d-4044-9afd-6de46482650a",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "그녀",
     "Level": "Intermediate",
     "Type": "Pronoun",
@@ -5785,7 +5785,7 @@
   },
   {
     "Id": "8d5c0b3f-9758-48bb-8a75-070d0a793f39",
-    "LessonId": "8fba85f1-d694-4a68-a949-48a98e52c527",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "그늘",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5793,7 +5793,7 @@
   },
   {
     "Id": "719946ad-45bb-4900-97af-1978e3efb97e",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "그다음",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5801,7 +5801,7 @@
   },
   {
     "Id": "b0941839-8fdb-4e50-b895-d3ccf7c3ab22",
-    "LessonId": "e1065344-1f3d-4044-9afd-6de46482650a",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
     "Word": "그다지",
     "Level": "Intermediate",
     "Type": "Adverb",
@@ -5809,7 +5809,7 @@
   },
   {
     "Id": "c3697d9f-a100-4ef9-91df-f2a2b2b97aaf",
-    "LessonId": "e1065344-1f3d-4044-9afd-6de46482650a",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "그대",
     "Level": "Intermediate",
     "Type": "Pronoun",
@@ -5825,7 +5825,7 @@
   },
   {
     "Id": "c9949800-29e1-4723-bff6-4185dcb9fc4a",
-    "LessonId": "9bffc0db-c3d4-4132-81ac-b275dfb37866",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "그래프",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5833,7 +5833,7 @@
   },
   {
     "Id": "3bef947e-24f9-48e1-ad83-0264d841e190",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "그램",
     "Level": "Intermediate",
     "Type": "Dependent Noun",
@@ -5841,7 +5841,7 @@
   },
   {
     "Id": "9cf02428-e956-474e-967d-c35edd73e39d",
-    "LessonId": "ea8671ec-0c1e-4758-84f9-33e99279dc85",
+    "LessonId": "75ddea7d-8c89-4a2f-a617-dd91a6a370b3",
     "Word": "그러게",
     "Level": "Intermediate",
     "Type": "Interjection",
@@ -5849,7 +5849,7 @@
   },
   {
     "Id": "69c1bef4-9a7a-4f4d-b14a-94ee213264f2",
-    "LessonId": "ea8671ec-0c1e-4758-84f9-33e99279dc85",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
     "Word": "그러게",
     "Level": "Intermediate",
     "Type": "Adverb",
@@ -5857,7 +5857,7 @@
   },
   {
     "Id": "46b30285-ba67-46a8-b101-c2765acd391b",
-    "LessonId": "ea8671ec-0c1e-4758-84f9-33e99279dc85",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
     "Word": "그러다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -5905,15 +5905,15 @@
   },
   {
     "Id": "8c4f9aab-03ed-4193-af5c-53ea3a77a3dc",
-    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
     "Word": "그려지다",
     "Level": "Intermediate",
     "Type": "Verb",
-    "MeaningVietNamese": "그려지다"
+    "MeaningVietNamese": "được vẽ ra, được miêu tả"
   },
   {
     "Id": "5e7283fa-244a-4284-b22d-e57bdfab53a2",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "그룹",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5921,7 +5921,7 @@
   },
   {
     "Id": "dcebb182-4cb9-411c-a88b-c2d7add2bac3",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
     "Word": "그리",
     "Level": "Intermediate",
     "Type": "Adverb",
@@ -5929,7 +5929,7 @@
   },
   {
     "Id": "54690f64-9c76-4f02-9820-eb116ae3a59a",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
     "Word": "그리",
     "Level": "Intermediate",
     "Type": "Adverb",
@@ -5937,7 +5937,7 @@
   },
   {
     "Id": "751dddef-5fe2-4065-a3e2-657863eec976",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "4d149c1e-7be5-4cd4-9d8c-1dcfb7ca8d61",
     "Word": "그리움",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5945,7 +5945,7 @@
   },
   {
     "Id": "3e50809c-a4ca-4d49-8ce0-006ad1ec33e3",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "그림자",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5953,7 +5953,7 @@
   },
   {
     "Id": "379d2ff0-e818-4b8a-af1e-e9e0deed7ce5",
-    "LessonId": "e1065344-1f3d-4044-9afd-6de46482650a",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "그림책",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -5977,7 +5977,7 @@
   },
   {
     "Id": "4db15637-a4d9-4cda-9950-a6794ecaa7fc",
-    "LessonId": "a4a7dddf-d683-40d4-bbc8-4c618d5b0912",
+    "LessonId": "ebaf5db7-e403-42a5-86ea-e2f686ed0247",
     "Word": "그만하다",
     "Level": "Intermediate",
     "Type": "Adjective",
@@ -6001,7 +6001,7 @@
   },
   {
     "Id": "298540d2-4aec-4bb6-9c5a-a57d174ed828",
-    "LessonId": "e1065344-1f3d-4044-9afd-6de46482650a",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
     "Word": "그저",
     "Level": "Intermediate",
     "Type": "Adverb",
@@ -6009,7 +6009,7 @@
   },
   {
     "Id": "f468a737-8fe6-4539-bf25-ca5f1a596e9a",
-    "LessonId": "8fba85f1-d694-4a68-a949-48a98e52c527",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "그제",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6017,7 +6017,7 @@
   },
   {
     "Id": "0f799991-2430-4ff3-b7fa-044435426eed",
-    "LessonId": "8fba85f1-d694-4a68-a949-48a98e52c527",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
     "Word": "그제",
     "Level": "Intermediate",
     "Type": "Adverb",
@@ -6025,7 +6025,7 @@
   },
   {
     "Id": "c9fda2e5-0deb-4556-8f75-48831ad0229e",
-    "LessonId": "8fba85f1-d694-4a68-a949-48a98e52c527",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
     "Word": "그제야",
     "Level": "Intermediate",
     "Type": "Adverb",
@@ -6033,7 +6033,7 @@
   },
   {
     "Id": "9b925e55-2244-4e88-931d-29c4e63cb5c3",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "그중",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6041,7 +6041,7 @@
   },
   {
     "Id": "02b18744-3c20-496c-a8a1-bb3ab7c77139",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
     "Word": "그토록",
     "Level": "Intermediate",
     "Type": "Adverb",
@@ -6049,7 +6049,7 @@
   },
   {
     "Id": "ab33ab8b-3015-48dd-b683-f584355ce8e1",
-    "LessonId": "8fba85f1-d694-4a68-a949-48a98e52c527",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "그해",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6057,7 +6057,7 @@
   },
   {
     "Id": "ae614ec1-b479-4b86-a48d-84c78bdba055",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "극복",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6073,7 +6073,7 @@
   },
   {
     "Id": "3373bac3-42d9-4df1-811c-d051f6b05e64",
-    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "근거",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6081,7 +6081,7 @@
   },
   {
     "Id": "72f9983f-fa22-4001-9bd0-a9f447d7478a",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "근교",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6089,7 +6089,7 @@
   },
   {
     "Id": "49fff759-c67e-4503-810c-4460a4247af8",
-    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "근대",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6105,7 +6105,7 @@
   },
   {
     "Id": "db475717-6b7c-4981-aae8-fe6ae523d355",
-    "LessonId": "75ddea7d-8c89-4a2f-a617-dd91a6a370b3",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "근래",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6113,7 +6113,7 @@
   },
   {
     "Id": "73852747-09e4-4bc2-879c-1e0a0aac10b5",
-    "LessonId": "e1065344-1f3d-4044-9afd-6de46482650a",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "근로자",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6121,7 +6121,7 @@
   },
   {
     "Id": "6c7243c0-1ff1-4f5d-a9a3-a7ea63f82c35",
-    "LessonId": "e1065344-1f3d-4044-9afd-6de46482650a",
+    "LessonId": "e4ac0098-b443-4a0d-ad5d-dd24930595dc",
     "Word": "근무",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6137,7 +6137,7 @@
   },
   {
     "Id": "4f3ba171-2a35-4326-b655-87d47742ca49",
-    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "근본",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6145,7 +6145,7 @@
   },
   {
     "Id": "eded6c85-99b9-42d3-ae5d-959d1d854111",
-    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
+    "LessonId": "6015f4da-70f1-41f8-9ce8-4849ddc2e4f7",
     "Word": "근본적",
     "Level": "Intermediate",
     "Type": "Determiner",
@@ -6153,7 +6153,7 @@
   },
   {
     "Id": "84ea1613-796b-4c94-a010-945070c97afd",
-    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "근본적",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6169,7 +6169,7 @@
   },
   {
     "Id": "97d219c0-1c3a-42a0-ba5b-7269f30ac812",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "근육",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6177,7 +6177,7 @@
   },
   {
     "Id": "21d42e04-ba20-479d-a61a-f0047f4ecdb9",
-    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "글쓰기",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6185,7 +6185,7 @@
   },
   {
     "Id": "a1ed40ac-af4b-4d4b-9d6c-2e05be3171de",
-    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
     "Word": "긁다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -6193,7 +6193,7 @@
   },
   {
     "Id": "f4b3bd24-bade-4d0a-85e2-730a0e0c7f27",
-    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "금",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6201,7 +6201,7 @@
   },
   {
     "Id": "245b3c4a-bdb2-4e6f-91e6-307a584017f0",
-    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "금",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6209,7 +6209,7 @@
   },
   {
     "Id": "56def5ce-8de1-49c6-ae48-1d2724c14227",
-    "LessonId": "8fba85f1-d694-4a68-a949-48a98e52c527",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "금년",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6217,7 +6217,7 @@
   },
   {
     "Id": "7593e53f-2125-4e08-bb18-42e25a27d569",
-    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "금액",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6225,7 +6225,7 @@
   },
   {
     "Id": "a0441f24-1072-4453-8c5d-849a1a2673dc",
-    "LessonId": "764c970f-7227-4e7d-ba2f-36f08628a089",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "금연",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6233,7 +6233,7 @@
   },
   {
     "Id": "e5708a8c-d581-489c-a554-c3f4526dbed2",
-    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "금융",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6249,7 +6249,7 @@
   },
   {
     "Id": "54716d66-0b5c-43af-8792-b2428f22e34a",
-    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
     "Word": "금하다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -6257,7 +6257,7 @@
   },
   {
     "Id": "55cd62ae-39ae-44e7-91ce-3340ce4ec234",
-    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
     "Word": "급격히",
     "Level": "Intermediate",
     "Type": "Adverb",
@@ -6265,7 +6265,7 @@
   },
   {
     "Id": "c1ebe450-d015-4dd2-8b5d-2c300213e1f9",
-    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
     "Word": "급속히",
     "Level": "Intermediate",
     "Type": "Adverb",
@@ -6273,7 +6273,7 @@
   },
   {
     "Id": "13b765a6-765d-4895-a390-b760c0a81a8d",
-    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "급증",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6281,7 +6281,7 @@
   },
   {
     "Id": "44cccf5d-ec79-40fb-89df-8f55ec2a8d9e",
-    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
+    "LessonId": "cedaacff-ea5a-491e-b22b-6aac1f5caa90",
     "Word": "급히",
     "Level": "Intermediate",
     "Type": "Adverb",
@@ -6305,7 +6305,7 @@
   },
   {
     "Id": "b99de2ce-2c19-47ef-ab23-11dda0a8509a",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "긍정적",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6313,7 +6313,7 @@
   },
   {
     "Id": "a30aa825-93e8-4ce0-bf0f-e126c3e98fb6",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "기계",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6321,7 +6321,7 @@
   },
   {
     "Id": "42185ad6-bff3-4df1-90e3-f7fb27e7ef42",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "기계",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6329,7 +6329,7 @@
   },
   {
     "Id": "b2807f73-b01b-49fd-b919-4fdbff800f39",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "기관",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6345,7 +6345,7 @@
   },
   {
     "Id": "f16edaa5-573a-4417-ad29-b776e722a9e9",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "8fba85f1-d694-4a68-a949-48a98e52c527",
     "Word": "기념",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6361,7 +6361,7 @@
   },
   {
     "Id": "038f11f0-8dc6-4a80-b2b2-7777e05cee8f",
-    "LessonId": "9bffc0db-c3d4-4132-81ac-b275dfb37866",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "기념품",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6369,7 +6369,7 @@
   },
   {
     "Id": "c9e69388-2bdb-45b2-9be0-d96669b55e41",
-    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "기능",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6377,7 +6377,7 @@
   },
   {
     "Id": "4efc6751-383d-4e29-b702-615097fa6a70",
-    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
     "Word": "기다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -6385,7 +6385,7 @@
   },
   {
     "Id": "d7e51e1f-3c0e-4778-980d-b7c58ca83cc9",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "기대",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6401,7 +6401,7 @@
   },
   {
     "Id": "b98881e1-9ef5-4d04-8cd4-fa09145572ce",
-    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
     "Word": "기대하다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -6409,7 +6409,7 @@
   },
   {
     "Id": "901251b9-696a-43a1-b40c-29eb1841ef55",
-    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "기도",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6417,7 +6417,7 @@
   },
   {
     "Id": "3327955e-ac88-4520-9fc0-409b76ce0a9b",
-    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "기독교",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6449,7 +6449,7 @@
   },
   {
     "Id": "bf5b564a-f571-4c14-a24f-8e8f0cc0b99f",
-    "LessonId": "75ddea7d-8c89-4a2f-a617-dd91a6a370b3",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "기반",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6457,7 +6457,7 @@
   },
   {
     "Id": "4b353196-883b-495e-9651-566d93c3cc88",
-    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "기본",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6465,7 +6465,7 @@
   },
   {
     "Id": "b620e8c1-12c1-4e28-97f0-34ae44f00ec5",
-    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
+    "LessonId": "6015f4da-70f1-41f8-9ce8-4849ddc2e4f7",
     "Word": "기본적",
     "Level": "Intermediate",
     "Type": "Determiner",
@@ -6473,7 +6473,7 @@
   },
   {
     "Id": "863bc7af-00ff-4833-80de-e8c1030927dd",
-    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "기본적",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6481,7 +6481,7 @@
   },
   {
     "Id": "ee546001-bd0d-44ed-990f-3583937b20f1",
-    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "기부",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6489,7 +6489,7 @@
   },
   {
     "Id": "a32fabf5-2cd6-4a2e-8d77-2703df0ee6a4",
-    "LessonId": "e1065344-1f3d-4044-9afd-6de46482650a",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "기사",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6497,7 +6497,7 @@
   },
   {
     "Id": "816e5f5e-043b-4aef-be31-c6c1dcca5674",
-    "LessonId": "e1065344-1f3d-4044-9afd-6de46482650a",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "기사",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6505,7 +6505,7 @@
   },
   {
     "Id": "9a60aa21-ed48-49df-815c-e99b82686663",
-    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "기술",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6513,7 +6513,7 @@
   },
   {
     "Id": "664c8137-82aa-481b-90f5-330ec792edd7",
-    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "기술자",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6521,7 +6521,7 @@
   },
   {
     "Id": "6cd2f9b1-74f5-4a56-ad85-f3243844517d",
-    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "기억력",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6529,7 +6529,7 @@
   },
   {
     "Id": "32c280a4-6786-4ab8-b353-9a3f0ec5bcb6",
-    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
     "Word": "기억하다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -6537,7 +6537,7 @@
   },
   {
     "Id": "e4207a02-5330-446b-9895-de147f25eaf4",
-    "LessonId": "e1065344-1f3d-4044-9afd-6de46482650a",
+    "LessonId": "e4ac0098-b443-4a0d-ad5d-dd24930595dc",
     "Word": "기업",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6545,7 +6545,7 @@
   },
   {
     "Id": "cc6a0787-522f-4dd5-9589-86c5a159bbb5",
-    "LessonId": "e1065344-1f3d-4044-9afd-6de46482650a",
+    "LessonId": "e4ac0098-b443-4a0d-ad5d-dd24930595dc",
     "Word": "기업가",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6553,7 +6553,7 @@
   },
   {
     "Id": "c3e31cdf-64da-4c87-a98b-a2f8ea6057e7",
-    "LessonId": "ea8671ec-0c1e-4758-84f9-33e99279dc85",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "기여",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6561,7 +6561,7 @@
   },
   {
     "Id": "b496c91e-9040-4f35-9d35-cd0fcf44bfb2",
-    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "기운",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6577,7 +6577,7 @@
   },
   {
     "Id": "ebbd0fd0-f31f-48c9-a9db-91b1d2506e62",
-    "LessonId": "ea8671ec-0c1e-4758-84f9-33e99279dc85",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
     "Word": "기울이다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -6585,7 +6585,7 @@
   },
   {
     "Id": "1bd9ef7b-3788-409e-a176-1cf1a1d6d7be",
-    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "기원",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6593,7 +6593,7 @@
   },
   {
     "Id": "18aadf50-787c-41f7-95cf-ff815dd9b71a",
-    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "기적",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6601,7 +6601,7 @@
   },
   {
     "Id": "d9bb11ce-48a4-4392-bba9-66a6f5f9c782",
-    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "기존",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6617,7 +6617,7 @@
   },
   {
     "Id": "4b952f6c-032a-4fef-93a9-386837f11b0f",
-    "LessonId": "ea8671ec-0c1e-4758-84f9-33e99279dc85",
+    "LessonId": "764c970f-7227-4e7d-ba2f-36f08628a089",
     "Word": "기지개",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6625,7 +6625,7 @@
   },
   {
     "Id": "d3aded67-0605-461a-87a6-9326445ad365",
-    "LessonId": "764c970f-7227-4e7d-ba2f-36f08628a089",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "기초",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6633,7 +6633,7 @@
   },
   {
     "Id": "43390ef7-198b-45ab-b731-5c1f22fb9e61",
-    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "기타",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6641,7 +6641,7 @@
   },
   {
     "Id": "95e67e62-dcff-47d0-88e1-4a9d3526185f",
-    "LessonId": "e1065344-1f3d-4044-9afd-6de46482650a",
+    "LessonId": "30bf25bb-8bb7-4617-9042-9a0435c88a05",
     "Word": "기혼",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6649,7 +6649,7 @@
   },
   {
     "Id": "17b4200a-6244-42b2-89bb-489392d7dc38",
-    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "기획",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6665,7 +6665,7 @@
   },
   {
     "Id": "5bc37f05-56a9-432c-8748-7d5e17438f61",
-    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "긴급",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6673,7 +6673,7 @@
   },
   {
     "Id": "7d170457-a7c5-411c-9592-474b3d734a6c",
-    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
+    "LessonId": "4d149c1e-7be5-4cd4-9d8c-1dcfb7ca8d61",
     "Word": "긴장하다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -6685,11 +6685,11 @@
     "Word": "긴팔",
     "Level": "Intermediate",
     "Type": "Noun",
-    "MeaningVietNamese": "tai dài, áo tay dài"
+    "MeaningVietNamese": "tay dài, áo tay dài"
   },
   {
     "Id": "74ef7b69-f270-4672-8c8c-b35c67d7a9a2",
-    "LessonId": "75ddea7d-8c89-4a2f-a617-dd91a6a370b3",
+    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
     "Word": "길가",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6697,7 +6697,7 @@
   },
   {
     "Id": "50cdb0cc-6f92-40be-a13f-d97468408cc4",
-    "LessonId": "75ddea7d-8c89-4a2f-a617-dd91a6a370b3",
+    "LessonId": "e000202b-a1f4-477b-adc3-d7e201e0130c",
     "Word": "길거리",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6705,7 +6705,7 @@
   },
   {
     "Id": "33145e04-83b1-4aa8-8950-afc40f5966bd",
-    "LessonId": "91dcd658-2c32-4c8b-9711-1c64b458b72f",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
     "Word": "길다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -6713,7 +6713,7 @@
   },
   {
     "Id": "fb53f140-fb76-4183-b4a7-456684d9eceb",
-    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
+    "LessonId": "c0489c93-10d7-43c0-a251-c776892428a8",
     "Word": "김",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6725,11 +6725,11 @@
     "Word": "김포공항",
     "Level": "Intermediate",
     "Type": "Proper Noun",
-    "MeaningVietNamese": "김포공항"
+    "MeaningVietNamese": "sân bay Gimpo"
   },
   {
     "Id": "475d1617-2461-4765-be7f-f7a0a601e416",
-    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
+    "LessonId": "2f153276-31bf-4103-a454-597fbd2ca9db",
     "Word": "깊이",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6737,7 +6737,7 @@
   },
   {
     "Id": "f8dbf939-e789-4bd3-8f84-794e00be07bc",
-    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
     "Word": "까다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -6745,7 +6745,7 @@
   },
   {
     "Id": "25d8b6b8-8fbe-4c36-bdc5-fa73d33011e1",
-    "LessonId": "a4a7dddf-d683-40d4-bbc8-4c618d5b0912",
+    "LessonId": "4d149c1e-7be5-4cd4-9d8c-1dcfb7ca8d61",
     "Word": "까다롭다",
     "Level": "Intermediate",
     "Type": "Adjective",
@@ -6753,7 +6753,7 @@
   },
   {
     "Id": "470f4f1a-c0e4-4bd5-b304-09ecd2ca6d8c",
-    "LessonId": "6eb6fe3d-3c6a-4982-a5ae-4cdb39a1d6f3",
+    "LessonId": "2b73f837-1b01-4add-83a9-c261cfa48b2d",
     "Word": "까닭",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6777,7 +6777,7 @@
   },
   {
     "Id": "26120913-3c38-4d11-b6ba-93616e45521a",
-    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
     "Word": "깔다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -6793,7 +6793,7 @@
   },
   {
     "Id": "bde5348c-3ea3-4d8b-beb9-aa73e3ba5d9a",
-    "LessonId": "8fba85f1-d694-4a68-a949-48a98e52c527",
+    "LessonId": "ebaf5db7-e403-42a5-86ea-e2f686ed0247",
     "Word": "깜깜하다",
     "Level": "Intermediate",
     "Type": "Adjective",
@@ -6801,7 +6801,7 @@
   },
   {
     "Id": "fb05cdaf-1ebc-406a-a96e-87b7970116e1",
-    "LessonId": "ffa3ffa2-f5e1-48c9-aba8-7fd1db6bd4d7",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
     "Word": "깜박하다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -6817,7 +6817,7 @@
   },
   {
     "Id": "60466bfe-be04-4585-949a-1b3e50f41c0a",
-    "LessonId": "76975282-f2d8-4670-9ba6-e1377c6f2735",
+    "LessonId": "90007d6f-ad22-4ebf-a64d-e34e5fd4f54c",
     "Word": "깨",
     "Level": "Intermediate",
     "Type": "Noun",
@@ -6833,7 +6833,7 @@
   },
   {
     "Id": "9d218363-7d74-4ee2-9c97-c1529f65caa1",
-    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
     "Word": "깨닫다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -6841,7 +6841,7 @@
   },
   {
     "Id": "de38b39c-858b-4fe7-95f8-bf6fa78b35fb",
-    "LessonId": "ea8671ec-0c1e-4758-84f9-33e99279dc85",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
     "Word": "깨뜨리다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -6849,7 +6849,7 @@
   },
   {
     "Id": "75f8a523-13fc-475b-9f91-af8cf30fe13a",
-    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
     "Word": "깨물다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -6857,7 +6857,7 @@
   },
   {
     "Id": "c8ee9dd8-b73b-40d6-a1cb-083ce238f32c",
-    "LessonId": "ea8671ec-0c1e-4758-84f9-33e99279dc85",
+    "LessonId": "4ea096c4-5b36-43bc-bf34-522adaa42239",
     "Word": "깨어나다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -6865,7 +6865,7 @@
   },
   {
     "Id": "78aa265d-6d52-4307-94f0-511c817937a9",
-    "LessonId": "ea8671ec-0c1e-4758-84f9-33e99279dc85",
+    "LessonId": "fc262ec9-9161-474c-8ebb-a53d36d8ed97",
     "Word": "깨우다",
     "Level": "Intermediate",
     "Type": "Verb",
@@ -6881,11 +6881,11 @@
   },
   {
     "Id": "2473b5c0-4c8b-4881-9640-33a90f6330bd",
-    "LessonId": "2dd8d259-422f-4071-8de7-5545afb14897",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "가구",
     "Level": "Advanced",
     "Type": "Noun",
-    "MeaningVietNamese": "hộ gia đình"
+    "MeaningVietNamese": "đồ đạc, đồ nội thất"
   },
   {
     "Id": "0cb24df4-8979-4130-89b6-50e8d3b43c4d",
@@ -6893,7 +6893,7 @@
     "Word": "가능해지다",
     "Level": "Advanced",
     "Type": "Verb",
-    "MeaningVietNamese": "가능해지다"
+    "MeaningVietNamese": "trở nên khả thi, trở nên có thể"
   },
   {
     "Id": "adf6073a-3aed-41f6-ae75-4b3ed44e023f",
@@ -6913,7 +6913,7 @@
   },
   {
     "Id": "81b86cd6-66b8-4428-8745-ecdf28e02dd9",
-    "LessonId": "6b28324a-f59c-49f1-9087-03d50d413d6f",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "가로수",
     "Level": "Advanced",
     "Type": "Noun",
@@ -6949,7 +6949,7 @@
     "Word": "가정교사",
     "Level": "Advanced",
     "Type": "Noun",
-    "MeaningVietNamese": "가정교사"
+    "MeaningVietNamese": "gia sư"
   },
   {
     "Id": "046b2ab4-5b12-4064-914a-1cbd8230c17e",
@@ -6961,7 +6961,7 @@
   },
   {
     "Id": "e50471aa-54a6-49bd-9fe4-b5667be2e162",
-    "LessonId": "2dd8d259-422f-4071-8de7-5545afb14897",
+    "LessonId": "dd31b585-bea0-4a23-8ffd-5328163f2bb0",
     "Word": "각기",
     "Level": "Advanced",
     "Type": "Adverb",
@@ -6969,7 +6969,7 @@
   },
   {
     "Id": "eb05c429-2589-47ef-842b-eecf7606648c",
-    "LessonId": "ef23a4ea-47ed-4cd8-bf55-b8e6138a15de",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "간부",
     "Level": "Advanced",
     "Type": "Noun",
@@ -6977,7 +6977,7 @@
   },
   {
     "Id": "54dc2312-8e8b-4c0c-ac34-8d1dceee4f90",
-    "LessonId": "4963314e-8221-4f0b-ac91-9f1fe2efe038",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "간접",
     "Level": "Advanced",
     "Type": "Noun",
@@ -6985,7 +6985,7 @@
   },
   {
     "Id": "9dc4302e-8b62-4524-834c-be65e258c93b",
-    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
+    "LessonId": "6b28324a-f59c-49f1-9087-03d50d413d6f",
     "Word": "감",
     "Level": "Advanced",
     "Type": "Noun",
@@ -6993,7 +6993,7 @@
   },
   {
     "Id": "a8b62fe7-bfb7-4259-9269-4b4b43fbc190",
-    "LessonId": "4963314e-8221-4f0b-ac91-9f1fe2efe038",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "감독",
     "Level": "Advanced",
     "Type": "Noun",
@@ -7009,7 +7009,7 @@
   },
   {
     "Id": "5cbbb624-0bae-41ad-ac92-da1e50e74929",
-    "LessonId": "7aad1513-28f2-4da1-b1c7-d033c763d8c5",
+    "LessonId": "28c5e21f-5ab2-43c6-a1fa-b27bac4e6764",
     "Word": "감소하다",
     "Level": "Advanced",
     "Type": "Verb",
@@ -7041,7 +7041,7 @@
   },
   {
     "Id": "114835c4-47e8-4de4-aaeb-081e6f207f36",
-    "LessonId": "2dd8d259-422f-4071-8de7-5545afb14897",
+    "LessonId": "6b28324a-f59c-49f1-9087-03d50d413d6f",
     "Word": "강남",
     "Level": "Advanced",
     "Type": "Noun",
@@ -7053,7 +7053,7 @@
     "Word": "강도",
     "Level": "Advanced",
     "Type": "Noun",
-    "MeaningVietNamese": "độ bền, độ vững chắc"
+    "MeaningVietNamese": "cường độ, mức độ mạnh"
   },
   {
     "Id": "70eeeda4-5f1d-46c3-8059-b802984c59dc",
@@ -7065,7 +7065,7 @@
   },
   {
     "Id": "4d7d8895-97c5-4c33-b32a-a2675e95f5d1",
-    "LessonId": "ef23a4ea-47ed-4cd8-bf55-b8e6138a15de",
+    "LessonId": "dd31b585-bea0-4a23-8ffd-5328163f2bb0",
     "Word": "강력히",
     "Level": "Advanced",
     "Type": "Adverb",
@@ -7081,7 +7081,7 @@
   },
   {
     "Id": "ce6d1f39-82c2-413e-a664-228622dd0c7d",
-    "LessonId": "2dd8d259-422f-4071-8de7-5545afb14897",
+    "LessonId": "6b28324a-f59c-49f1-9087-03d50d413d6f",
     "Word": "강변",
     "Level": "Advanced",
     "Type": "Noun",
@@ -7105,7 +7105,7 @@
   },
   {
     "Id": "d8631f12-73f5-4262-bf25-f048bd9b940c",
-    "LessonId": "28c5e21f-5ab2-43c6-a1fa-b27bac4e6764",
+    "LessonId": "684014c9-c798-4842-a1b9-5079b98baef8",
     "Word": "강의하다",
     "Level": "Advanced",
     "Type": "Verb",
@@ -7113,7 +7113,7 @@
   },
   {
     "Id": "0d8f0a2e-dfc0-495d-a7c0-d499f64581a1",
-    "LessonId": "ef23a4ea-47ed-4cd8-bf55-b8e6138a15de",
+    "LessonId": "28c5e21f-5ab2-43c6-a1fa-b27bac4e6764",
     "Word": "강화하다",
     "Level": "Advanced",
     "Type": "Verb",
@@ -7129,7 +7129,7 @@
   },
   {
     "Id": "09c06af6-e57b-4f78-89dd-08eb98427fa3",
-    "LessonId": "2dd8d259-422f-4071-8de7-5545afb14897",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "개개인",
     "Level": "Advanced",
     "Type": "Noun",
@@ -7137,7 +7137,7 @@
   },
   {
     "Id": "8e25ccef-6dc0-4d6c-b66b-97feac29f0c7",
-    "LessonId": "b5b05246-0a88-4913-b2c8-6258fba2ee95",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "개국",
     "Level": "Advanced",
     "Type": "Dependent Noun",
@@ -7153,7 +7153,7 @@
   },
   {
     "Id": "43f699c5-f241-408c-b9ee-5427f62950af",
-    "LessonId": "b5b05246-0a88-4913-b2c8-6258fba2ee95",
+    "LessonId": "28c5e21f-5ab2-43c6-a1fa-b27bac4e6764",
     "Word": "개방되다",
     "Level": "Advanced",
     "Type": "Verb",
@@ -7161,7 +7161,7 @@
   },
   {
     "Id": "2ab58b05-aded-4126-b9f3-d15ef18c06c0",
-    "LessonId": "b5b05246-0a88-4913-b2c8-6258fba2ee95",
+    "LessonId": "28c5e21f-5ab2-43c6-a1fa-b27bac4e6764",
     "Word": "개방하다",
     "Level": "Advanced",
     "Type": "Verb",
@@ -7169,7 +7169,7 @@
   },
   {
     "Id": "c71a2024-430b-45ba-9486-155de189970d",
-    "LessonId": "684014c9-c798-4842-a1b9-5079b98baef8",
+    "LessonId": "28c5e21f-5ab2-43c6-a1fa-b27bac4e6764",
     "Word": "개선되다",
     "Level": "Advanced",
     "Type": "Verb",
@@ -7177,7 +7177,7 @@
   },
   {
     "Id": "26f86433-83c3-406b-b743-62ced9da25ec",
-    "LessonId": "684014c9-c798-4842-a1b9-5079b98baef8",
+    "LessonId": "28c5e21f-5ab2-43c6-a1fa-b27bac4e6764",
     "Word": "개선하다",
     "Level": "Advanced",
     "Type": "Verb",
@@ -7185,7 +7185,7 @@
   },
   {
     "Id": "243b4bf2-bd05-46f4-8580-187db8f075fe",
-    "LessonId": "4963314e-8221-4f0b-ac91-9f1fe2efe038",
+    "LessonId": "b5b05246-0a88-4913-b2c8-6258fba2ee95",
     "Word": "거대하다",
     "Level": "Advanced",
     "Type": "Adjective",
@@ -7209,7 +7209,7 @@
   },
   {
     "Id": "7df0b0ba-2163-480d-9579-890b61c4ec9a",
-    "LessonId": "4963314e-8221-4f0b-ac91-9f1fe2efe038",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "거액",
     "Level": "Advanced",
     "Type": "Noun",
@@ -7225,7 +7225,7 @@
   },
   {
     "Id": "b3631f58-f93f-436a-9d58-b99d173b18a7",
-    "LessonId": "b5b05246-0a88-4913-b2c8-6258fba2ee95",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "건",
     "Level": "Advanced",
     "Type": "Dependent Noun",
@@ -7233,7 +7233,7 @@
   },
   {
     "Id": "b6bf4c45-d83e-4387-9e11-ce7783bc77ac",
-    "LessonId": "b5b05246-0a88-4913-b2c8-6258fba2ee95",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "건넌방",
     "Level": "Advanced",
     "Type": "Noun",
@@ -7265,7 +7265,7 @@
   },
   {
     "Id": "e51bc5d0-5931-40a9-bd51-4ed83b53f407",
-    "LessonId": "684014c9-c798-4842-a1b9-5079b98baef8",
+    "LessonId": "b5b05246-0a88-4913-b2c8-6258fba2ee95",
     "Word": "건조하다",
     "Level": "Advanced",
     "Type": "Adjective",
@@ -7273,7 +7273,7 @@
   },
   {
     "Id": "48887d99-482c-4af1-9341-95ec6baa8a9b",
-    "LessonId": "7aad1513-28f2-4da1-b1c7-d033c763d8c5",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "걷기",
     "Level": "Advanced",
     "Type": "Noun",
@@ -7281,7 +7281,7 @@
   },
   {
     "Id": "94d3e290-560d-49e5-acda-45a69b635845",
-    "LessonId": "6b28324a-f59c-49f1-9087-03d50d413d6f",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "겨자",
     "Level": "Advanced",
     "Type": "Noun",
@@ -7289,7 +7289,7 @@
   },
   {
     "Id": "8c6cff2e-3de8-446b-9245-1794235a570d",
-    "LessonId": "7aad1513-28f2-4da1-b1c7-d033c763d8c5",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "결과적",
     "Level": "Advanced",
     "Type": "Noun",
@@ -7313,7 +7313,7 @@
   },
   {
     "Id": "6f532c56-0e50-4f7a-acfa-530a96e96268",
-    "LessonId": "2dd8d259-422f-4071-8de7-5545afb14897",
+    "LessonId": "684014c9-c798-4842-a1b9-5079b98baef8",
     "Word": "경영하다",
     "Level": "Advanced",
     "Type": "Verb",
@@ -7321,7 +7321,7 @@
   },
   {
     "Id": "a8baaa64-2bfa-4fb7-8d5b-929391659387",
-    "LessonId": "684014c9-c798-4842-a1b9-5079b98baef8",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "경제학",
     "Level": "Advanced",
     "Type": "Noun",
@@ -7333,11 +7333,11 @@
     "Word": "고개",
     "Level": "Advanced",
     "Type": "Noun",
-    "MeaningVietNamese": "cổ, gáy"
+    "MeaningVietNamese": "cái đầu (trong cử chỉ gật/lắc đầu); con dốc, đèo"
   },
   {
     "Id": "ef02aab8-4d44-40c6-8b26-4ac890481b32",
-    "LessonId": "b5b05246-0a88-4913-b2c8-6258fba2ee95",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "고구려",
     "Level": "Advanced",
     "Type": "Proper Noun",
@@ -7345,7 +7345,7 @@
   },
   {
     "Id": "25f9eeb4-d976-4d90-bb2d-89636795dc4a",
-    "LessonId": "b5b05246-0a88-4913-b2c8-6258fba2ee95",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "고려",
     "Level": "Advanced",
     "Type": "Proper Noun",
@@ -7353,7 +7353,7 @@
   },
   {
     "Id": "c10191dd-5ed4-4d58-9ab4-fdf55c2d54b7",
-    "LessonId": "4963314e-8221-4f0b-ac91-9f1fe2efe038",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "고무신",
     "Level": "Advanced",
     "Type": "Noun",
@@ -7369,7 +7369,7 @@
   },
   {
     "Id": "40e58af7-5ba0-4446-adc6-cc8174d5ed4c",
-    "LessonId": "2dd8d259-422f-4071-8de7-5545afb14897",
+    "LessonId": "dd31b585-bea0-4a23-8ffd-5328163f2bb0",
     "Word": "고작",
     "Level": "Advanced",
     "Type": "Adverb",
@@ -7393,7 +7393,7 @@
   },
   {
     "Id": "683acb0a-939c-47d0-8013-224b168da966",
-    "LessonId": "ef23a4ea-47ed-4cd8-bf55-b8e6138a15de",
+    "LessonId": "b5b05246-0a88-4913-b2c8-6258fba2ee95",
     "Word": "곤란하다",
     "Level": "Advanced",
     "Type": "Adjective",
@@ -7401,7 +7401,7 @@
   },
   {
     "Id": "f385e393-b18b-4f30-b8d1-ee3495baef25",
-    "LessonId": "6b28324a-f59c-49f1-9087-03d50d413d6f",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "골짜기",
     "Level": "Advanced",
     "Type": "Noun",
@@ -7409,7 +7409,7 @@
   },
   {
     "Id": "45ad3a65-bd07-4100-9ddd-624314448a6b",
-    "LessonId": "ef23a4ea-47ed-4cd8-bf55-b8e6138a15de",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "골치",
     "Level": "Advanced",
     "Type": "Noun",
@@ -7417,7 +7417,7 @@
   },
   {
     "Id": "ae7bcaa7-c6c5-470c-9efc-d4369809c3c2",
-    "LessonId": "2dd8d259-422f-4071-8de7-5545afb14897",
+    "LessonId": "28c5e21f-5ab2-43c6-a1fa-b27bac4e6764",
     "Word": "공개하다",
     "Level": "Advanced",
     "Type": "Verb",
@@ -7425,7 +7425,7 @@
   },
   {
     "Id": "02622a8e-850b-47e7-940d-03d07f4908b0",
-    "LessonId": "2dd8d259-422f-4071-8de7-5545afb14897",
+    "LessonId": "28c5e21f-5ab2-43c6-a1fa-b27bac4e6764",
     "Word": "공격하다",
     "Level": "Advanced",
     "Type": "Verb",
@@ -7433,7 +7433,7 @@
   },
   {
     "Id": "b0ef6ed9-75ff-4886-a485-65e283892059",
-    "LessonId": "2dd8d259-422f-4071-8de7-5545afb14897",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "공군",
     "Level": "Advanced",
     "Type": "Noun",
@@ -7449,7 +7449,7 @@
   },
   {
     "Id": "68782ed6-9cb8-4967-90c2-eb0fb4a1b204",
-    "LessonId": "2dd8d259-422f-4071-8de7-5545afb14897",
+    "LessonId": "28c5e21f-5ab2-43c6-a1fa-b27bac4e6764",
     "Word": "공연되다",
     "Level": "Advanced",
     "Type": "Verb",
@@ -7457,7 +7457,7 @@
   },
   {
     "Id": "79ab3a5e-d3ec-45aa-bc9d-18e5f242f86f",
-    "LessonId": "2dd8d259-422f-4071-8de7-5545afb14897",
+    "LessonId": "28c5e21f-5ab2-43c6-a1fa-b27bac4e6764",
     "Word": "공연하다",
     "Level": "Advanced",
     "Type": "Verb",
@@ -7473,7 +7473,7 @@
   },
   {
     "Id": "4d8a3e74-86d4-46fc-8e66-d5c15ec7c6ed",
-    "LessonId": "2dd8d259-422f-4071-8de7-5545afb14897",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "공중",
     "Level": "Advanced",
     "Type": "Noun",
@@ -7497,7 +7497,7 @@
   },
   {
     "Id": "9e199ba9-8af4-4a71-b056-a3b1d1c19fb4",
-    "LessonId": "6b28324a-f59c-49f1-9087-03d50d413d6f",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "과",
     "Level": "Advanced",
     "Type": "Noun",
@@ -7505,11 +7505,11 @@
   },
   {
     "Id": "0a75f728-bb9b-4f55-887d-cd7d143a2b21",
-    "LessonId": "6b28324a-f59c-49f1-9087-03d50d413d6f",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "과거",
     "Level": "Advanced",
     "Type": "Noun",
-    "MeaningVietNamese": "khoa cử"
+    "MeaningVietNamese": "quá khứ"
   },
   {
     "Id": "24437aa8-1598-4967-8fce-31a8ccbfbce2",
@@ -7545,7 +7545,7 @@
   },
   {
     "Id": "d67730b0-b8e1-49db-ad36-92f1b2dd0e19",
-    "LessonId": "ef23a4ea-47ed-4cd8-bf55-b8e6138a15de",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "관리",
     "Level": "Advanced",
     "Type": "Noun",
@@ -7569,7 +7569,7 @@
   },
   {
     "Id": "b2368e95-ee84-4c22-9403-755b9b22b73c",
-    "LessonId": "684014c9-c798-4842-a1b9-5079b98baef8",
+    "LessonId": "7aad1513-28f2-4da1-b1c7-d033c763d8c5",
     "Word": "광장",
     "Level": "Advanced",
     "Type": "Noun",
@@ -7577,7 +7577,7 @@
   },
   {
     "Id": "7640c3ba-8e8e-4541-876e-e3295277652d",
-    "LessonId": "684014c9-c798-4842-a1b9-5079b98baef8",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "교직",
     "Level": "Advanced",
     "Type": "Noun",
@@ -7625,7 +7625,7 @@
   },
   {
     "Id": "2de76acf-8ea5-437d-bfe7-31179b3643e4",
-    "LessonId": "7aad1513-28f2-4da1-b1c7-d033c763d8c5",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "구석구석",
     "Level": "Advanced",
     "Type": "Noun",
@@ -7641,7 +7641,7 @@
   },
   {
     "Id": "fa6349d0-4c25-4e78-94b6-a046302e1b01",
-    "LessonId": "b5b05246-0a88-4913-b2c8-6258fba2ee95",
+    "LessonId": "28c5e21f-5ab2-43c6-a1fa-b27bac4e6764",
     "Word": "구성하다",
     "Level": "Advanced",
     "Type": "Verb",
@@ -7665,7 +7665,7 @@
   },
   {
     "Id": "1a7cc1ec-6e44-485a-b188-6db52e919791",
-    "LessonId": "4963314e-8221-4f0b-ac91-9f1fe2efe038",
+    "LessonId": "28c5e21f-5ab2-43c6-a1fa-b27bac4e6764",
     "Word": "구입하다",
     "Level": "Advanced",
     "Type": "Verb",
@@ -7689,7 +7689,7 @@
   },
   {
     "Id": "b5393cdd-5b29-4481-b1ad-f303fd5dd908",
-    "LessonId": "ef23a4ea-47ed-4cd8-bf55-b8e6138a15de",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "국내외",
     "Level": "Advanced",
     "Type": "Noun",
@@ -7697,7 +7697,7 @@
   },
   {
     "Id": "f1d04515-1803-48bb-937f-2b8549815bdd",
-    "LessonId": "4963314e-8221-4f0b-ac91-9f1fe2efe038",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "국민적",
     "Level": "Advanced",
     "Type": "Noun",
@@ -7725,7 +7725,7 @@
     "Word": "국제적",
     "Level": "Advanced",
     "Type": "Noun",
-    "MeaningVietNamese": "mang tính cục bộ"
+    "MeaningVietNamese": "mang tính quốc tế"
   },
   {
     "Id": "a765fe25-a4c0-43bb-9c9d-7d35be2c10d9",
@@ -7737,7 +7737,7 @@
   },
   {
     "Id": "f73caa6f-b4c5-416b-85f6-935b7749b2ae",
-    "LessonId": "2dd8d259-422f-4071-8de7-5545afb14897",
+    "LessonId": "28c5e21f-5ab2-43c6-a1fa-b27bac4e6764",
     "Word": "굳히다",
     "Level": "Advanced",
     "Type": "Verb",
@@ -7753,7 +7753,7 @@
   },
   {
     "Id": "87561179-7d2d-4009-bdc9-10c9f0c9023f",
-    "LessonId": "b5b05246-0a88-4913-b2c8-6258fba2ee95",
+    "LessonId": "28c5e21f-5ab2-43c6-a1fa-b27bac4e6764",
     "Word": "귀가하다",
     "Level": "Advanced",
     "Type": "Verb",
@@ -7761,7 +7761,7 @@
   },
   {
     "Id": "89933d8c-ecc1-4dff-a648-0dca52e97d2d",
-    "LessonId": "b5b05246-0a88-4913-b2c8-6258fba2ee95",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "귓속",
     "Level": "Advanced",
     "Type": "Noun",
@@ -7769,7 +7769,7 @@
   },
   {
     "Id": "972691c4-6cc8-4f2c-931f-c536963a7ac4",
-    "LessonId": "b5b05246-0a88-4913-b2c8-6258fba2ee95",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "그간",
     "Level": "Advanced",
     "Type": "Noun",
@@ -7777,11 +7777,11 @@
   },
   {
     "Id": "5182c7bf-ccb3-46ff-908b-a2f2fbd40359",
-    "LessonId": "b5b05246-0a88-4913-b2c8-6258fba2ee95",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "그놈",
     "Level": "Advanced",
     "Type": "Pronoun",
-    "MeaningVietNamese": "그놈"
+    "MeaningVietNamese": "thằng đó, gã đó, tên đó"
   },
   {
     "Id": "7a87f5c1-bfa4-4589-af29-8e4f0a40eb80",
@@ -7797,11 +7797,11 @@
     "Word": "그래야",
     "Level": "Advanced",
     "Type": "Abbreviated",
-    "MeaningVietNamese": "그리하여야"
+    "MeaningVietNamese": "phải như vậy thì, chỉ có như thế thì"
   },
   {
     "Id": "5c05fd65-6e0f-4d66-ab8f-5ee1a8cafef2",
-    "LessonId": "b5b05246-0a88-4913-b2c8-6258fba2ee95",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "그래픽",
     "Level": "Advanced",
     "Type": "Noun",
@@ -7817,7 +7817,7 @@
   },
   {
     "Id": "ec66471a-71c8-4d1e-9ade-d67b6906bcfa",
-    "LessonId": "6b28324a-f59c-49f1-9087-03d50d413d6f",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "그루",
     "Level": "Advanced",
     "Type": "Dependent Noun",
@@ -7825,7 +7825,7 @@
   },
   {
     "Id": "d71b277e-009f-4321-b3f9-177fd009ccee",
-    "LessonId": "7aad1513-28f2-4da1-b1c7-d033c763d8c5",
+    "LessonId": "dd31b585-bea0-4a23-8ffd-5328163f2bb0",
     "Word": "그리로",
     "Level": "Advanced",
     "Type": "Adverb",
@@ -7849,7 +7849,7 @@
   },
   {
     "Id": "dd6fb704-d7b8-4fbc-aa39-a6f233ff9d65",
-    "LessonId": "b5b05246-0a88-4913-b2c8-6258fba2ee95",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "그사이",
     "Level": "Advanced",
     "Type": "Noun",
@@ -7857,7 +7857,7 @@
   },
   {
     "Id": "32b49c88-4b4c-4327-a757-f802cbd03ffa",
-    "LessonId": "2dd8d259-422f-4071-8de7-5545afb14897",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "그이",
     "Level": "Advanced",
     "Type": "Pronoun",
@@ -7877,11 +7877,11 @@
     "Word": "그제서야",
     "Level": "Advanced",
     "Type": "Adverb",
-    "MeaningVietNamese": "그제서야"
+    "MeaningVietNamese": "mãi đến lúc đó mới"
   },
   {
     "Id": "1c0567a0-ffea-4dd9-99c6-7c553fa2300a",
-    "LessonId": "7aad1513-28f2-4da1-b1c7-d033c763d8c5",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "극",
     "Level": "Advanced",
     "Type": "Noun",
@@ -7897,7 +7897,7 @@
   },
   {
     "Id": "d27ba922-0fdc-4a91-b56a-649b591c63bb",
-    "LessonId": "b5b05246-0a88-4913-b2c8-6258fba2ee95",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "극작가",
     "Level": "Advanced",
     "Type": "Noun",
@@ -7905,7 +7905,7 @@
   },
   {
     "Id": "109893dc-dbda-46a1-8134-34f2e70c4ba9",
-    "LessonId": "ef23a4ea-47ed-4cd8-bf55-b8e6138a15de",
+    "LessonId": "28c5e21f-5ab2-43c6-a1fa-b27bac4e6764",
     "Word": "근거하다",
     "Level": "Advanced",
     "Type": "Verb",
@@ -7921,7 +7921,7 @@
   },
   {
     "Id": "7200f0c8-19a2-4ef0-b957-36deb4bde547",
-    "LessonId": "b5b05246-0a88-4913-b2c8-6258fba2ee95",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "근원",
     "Level": "Advanced",
     "Type": "Noun",
@@ -7929,7 +7929,7 @@
   },
   {
     "Id": "f460112f-897b-404e-b3bd-f10be7c14cb8",
-    "LessonId": "ef23a4ea-47ed-4cd8-bf55-b8e6138a15de",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "금",
     "Level": "Advanced",
     "Type": "Noun",
@@ -7937,7 +7937,7 @@
   },
   {
     "Id": "9e40cda7-ed18-4b2e-bdc0-a30984a125c9",
-    "LessonId": "6b28324a-f59c-49f1-9087-03d50d413d6f",
+    "LessonId": "d906afab-9216-4c95-80d8-9a437fab57d7",
     "Word": "금강산",
     "Level": "Advanced",
     "Type": "Proper Noun",
@@ -7961,7 +7961,7 @@
   },
   {
     "Id": "5feb02a2-ce8b-413f-a317-7598d09d7687",
-    "LessonId": "2dd8d259-422f-4071-8de7-5545afb14897",
+    "LessonId": "dd31b585-bea0-4a23-8ffd-5328163f2bb0",
     "Word": "금세",
     "Level": "Advanced",
     "Type": "Adverb",
@@ -7977,7 +7977,7 @@
   },
   {
     "Id": "42b2873b-3732-438b-9924-8b403df7b73f",
-    "LessonId": "2dd8d259-422f-4071-8de7-5545afb14897",
+    "LessonId": "28c5e21f-5ab2-43c6-a1fa-b27bac4e6764",
     "Word": "급증하다",
     "Level": "Advanced",
     "Type": "Verb",
