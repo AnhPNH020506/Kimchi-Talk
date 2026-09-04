@@ -4,7 +4,7 @@ using KimChiTalk.Options;
 using KimChiTalk.Repository;
 using KimChiTalk.Repository.Entity;
 using Microsoft.EntityFrameworkCore;
-
+using System.Text.Json.Serialization;
 using AnswerService = KimChiTalk.Service.Answer;
 using CourseService = KimChiTalk.Service.Course;
 using LessonService = KimChiTalk.Service.Lesson;
@@ -17,7 +17,13 @@ using GrammarService = KimChiTalk.Service.Grammar;
 using MessageService = KimChiTalk.Service.Message;
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.Converters.Add(
+            new JsonStringEnumConverter()
+        );
+    });
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
